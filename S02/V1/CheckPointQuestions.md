@@ -78,162 +78,172 @@ D) Both B and C
 
 **Scene 2.0**
 
-
 ---
 
-### **1. What is the primary purpose of a server in web development?**  
+### **1. What is the primary purpose of a server in web development?**
+
 A) To store only frontend files  
 B) To process client requests and send responses  
 C) To generate frontend UI  
-D) To run JavaScript code in the browser  
+D) To run JavaScript code in the browser
 
-**Correct Answer:** **B** (To process client requests and send responses)  
+**Correct Answer:** **B** (To process client requests and send responses)
 
 ---
 
-### **2. In Express.js, what method is used to define a GET route?**  
+### **2. In Express.js, what method is used to define a GET route?**
+
 A) `app.get()`  
 B) `app.post()`  
 C) `app.route()`  
-D) `app.fetch()`  
+D) `app.fetch()`
 
-**Correct Answer:** **A** (`app.get()`)  
+**Correct Answer:** **A** (`app.get()`)
 
+3. ### **Which of the following best describes the difference between a URL and a specific URL?**
 
-3. ### **Which of the following best describes the difference between a URL and a specific URL?**  
+A) A **URL** is a general format for accessing resources, while a **specific URL** points to an exact resource or endpoint.
 
-A) A **URL** is a general format for accessing resources, while a **specific URL** points to an exact resource or endpoint.  
+B) A **URL** is only used in frontend development, while a **specific URL** is used in backend APIs.
 
-B) A **URL** is only used in frontend development, while a **specific URL** is used in backend APIs.  
+C) A **URL** is the domain name, and a **specific URL** is only used for dynamic routes.
 
-C) A **URL** is the domain name, and a **specific URL** is only used for dynamic routes.  
-
-D) A **URL** is only used for GET requests, while a **specific URL** can handle all HTTP methods.  
+D) A **URL** is only used for GET requests, while a **specific URL** can handle all HTTP methods.
 
 **Correct Answer:** **A**  
-**Explanation:** A **URL** (Uniform Resource Locator) is a general format that defines web addresses (e.g., `https://example.com/api/users`), while a **specific URL** refers to a fully defined address pointing to a particular resource (e.g., `https://example.com/api/users/123`).  
+**Explanation:** A **URL** (Uniform Resource Locator) is a general format that defines web addresses (e.g., `https://example.com/api/users`), while a **specific URL** refers to a fully defined address pointing to a particular resource (e.g., `https://example.com/api/users/123`).
 
-
-
-4. ### **What is the difference between an endpoint and a route in an Express.js server?**  
+4. ### **What is the difference between an endpoint and a route in an Express.js server?**
 
 A) A route is the full URL, and an endpoint is only the base domain  
 B) A route is a specific **endpoint + HTTP method**, while an endpoint is a specific URL that responds to a request  
 C) There is no difference; both terms mean the same thing  
-D) An endpoint is only for GET requests, while a route can handle all HTTP methods  
+D) An endpoint is only for GET requests, while a route can handle all HTTP methods
 
 ✅ **Correct Answer:** **B**  
-📝 **Explanation:**  
-- A **route** in Express.js is defined by a **specific HTTP method (GET, POST, etc.) and an endpoint** (e.g., `app.get('/users')`).  
-- An **endpoint** is just the **URL path** where the server listens for requests (e.g., `/users`).  
+📝 **Explanation:**
 
+- A **route** in Express.js is defined by a **specific HTTP method (GET, POST, etc.) and an endpoint** (e.g., `app.get('/users')`).
+- An **endpoint** is just the **URL path** where the server listens for requests (e.g., `/users`).
 
-5. ### **What does the following Express route do?**  
+5. ### **What does the following Express route do?**
+
 ```js
-app.post('/login', (req, res) => {
-    res.send('Login successful');
+app.post("/login", (req, res) => {
+  res.send("Login successful");
 });
 ```
+
 A) Defines a route that handles GET requests at `/login`  
 B) Defines a route that handles POST requests at `/login`  
 C) Defines a global middleware for authentication  
-D) Sends an automatic response to all routes  
+D) Sends an automatic response to all routes
 
-**Correct Answer:** **B** (Defines a route that handles POST requests at `/login`)  
+**Correct Answer:** **B** (Defines a route that handles POST requests at `/login`)
 
 ---
 
 **Scene 2.1**
-Here are **three more MCQs** related to **server, route, Express, URL, and endpoint**:  
 
 ---
 
-1. ### **In Express.js, what happens if a request is made to a route that is not defined?**  
+1. ### **In Express.js, what happens if a request is made to a route that is not defined?**
 
 A) The request is ignored, and nothing happens  
 B) Express automatically redirects to the homepage (`/`)  
 C) The request remains unhandled
-D) The server crashes  
+D) The server crashes
 
 **Correct Answer:** **C** The request remains unhandled
 
 ---
-2. ### **What is required to create a basic Express.js server?**  
+
+2. ### **What is required to create a basic Express.js server?**
 
 A) Importing Express, creating an `app` instance, defining routes, and starting the server  
 B) Installing a database and setting up authentication  
 C) Writing only frontend HTML, CSS, and JavaScript files  
-D) Running `express --start` in the terminal  
+D) Running `express --start` in the terminal
 
-**Correct Answer:** **A** (Importing Express, creating an `app` instance, defining routes, and starting the server) 
+**Correct Answer:** **A** (Importing Express, creating an `app` instance, defining routes, and starting the server)
 
-3. ### **Which of the following best describes an Express.js route?**  
+3. ### **Which of the following best describes an Express.js route?**
 
 A) A function that handles a specific HTTP request type at a defined URL  
 B) A database query that retrieves data from the backend  
 C) A middleware function that runs before a request reaches the server  
-D) A method used to connect Express to a frontend framework  
+D) A method used to connect Express to a frontend framework
 
 **Correct Answer:** **A** (A function that handles a specific HTTP request type at a defined URL)  
-📝 **Explanation:** A **route** in Express.js defines how the server **responds to client requests** based on the HTTP method (GET, POST, etc.) and a URL pattern.  
-
+📝 **Explanation:** A **route** in Express.js defines how the server **responds to client requests** based on the HTTP method (GET, POST, etc.) and a URL pattern.
 
 ---
+
 **Scene 3.0**
 
-
-
-
-### **1. Why is an API testing tool required?**  
+### **1. Why is an API testing tool required?**
 
 A) To manually test APIs by writing code for each request  
 B) To automate API requests, validate responses, and simulate real-world scenarios  
 C) To replace backend development entirely  
-D) To generate frontend UI designs  
+D) To generate frontend UI designs
 
-**Correct Answer:** **B** (To automate API requests, validate responses, and simulate real-world scenarios)   **Explanation:** API testing tools help developers **test API endpoints, automate requests, and validate responses** efficiently without manually writing scripts for every test.  
+**Correct Answer:** **B** (To automate API requests, validate responses, and simulate real-world scenarios) **Explanation:** API testing tools help developers **test API endpoints, automate requests, and validate responses** efficiently without manually writing scripts for every test.
 
-
-
-### **2. What are the key benefits of using Postman for API testing?**  
+### **2. What are the key benefits of using Postman for API testing?**
 
 A) It allows sending HTTP requests and validating responses without writing code  
 B) It integrates with CI/CD pipelines for automated API testing  
 C) It supports collections, pre-request scripts, and test automation  
-D) All of the above  
+D) All of the above
 
 **Correct Answer:** **D** (All of the above)  
-**Explanation:** Postman provides a **user-friendly interface**, **automation capabilities**, and **integration with DevOps workflows**, making API testing efficient.  
+**Explanation:** Postman provides a **user-friendly interface**, **automation capabilities**, and **integration with DevOps workflows**, making API testing efficient.
 
 ---
 
-### **3. Which of the following is a best practice when using Postman?**  
+### **3. Which of the following is a best practice when using Postman?**
 
 A) Hardcoding API keys in every request  
 B) Organizing requests into collections
 C) Sending API requests without checking response codes  
-D) Only using Postman for manual testing without automation  
+D) Only using Postman for manual testing without automation
 
 **Correct Answer:** **B** (Organizing requests into collections)  
-**Explanation:** Using **collections**, **variables**, and **tests** improves API request organization, reusability, and automation in Postman.  
+**Explanation:** Using **collections**, **variables**, and **tests** improves API request organization, reusability, and automation in Postman.
 
 ---
 
-### **4. How does Postman act as a simulation of the frontend?**  
+### **4. How does Postman act as a simulation of the frontend?**
 
 A) It allows developers to test API responses without needing an actual frontend application  
 B) It automatically generates a full UI for APIs  
 C) It converts API responses into frontend UI components  
-D) It only works when connected to a frontend framework like React or Angular  
+D) It only works when connected to a frontend framework like React or Angular
 
 **Correct Answer:** **A** (It allows developers to test API responses without needing an actual frontend application)  
-**Explanation:** Postman **simulates frontend behavior** by sending API requests and receiving responses just as a real frontend would, allowing testing without a full UI.  
+**Explanation:** Postman **simulates frontend behavior** by sending API requests and receiving responses just as a real frontend would, allowing testing without a full UI.
 
 ---
 
+**Scene 3.1**
 
+1. **What is the purpose of using Postman Collections?**
 
- 
+   A) To group related API requests for better organization  
+   B) To write backend code for APIs  
+   C) To replace the need for API documentation  
+   D) To restrict API access to a single user
 
+   **Correct Answer:** **A** (To group related API requests for better organization)  
+   **Explanation:** **Postman Collections** allow users to **organize, save, and share API requests**, making testing more structured and efficient.
 
+2. **Which HTTP response status code indicates a successful request in Postman?**
 
+   A) 200 OK  
+   B) 404 Not Found  
+   C) 500 Internal Server Error  
+   D) 401 Unauthorized
+
+   **Correct Answer:** **A** (200 OK)  
+   **Explanation:** **A 200 OK status code** means that the request was successfully processed, and the expected response was returned.
