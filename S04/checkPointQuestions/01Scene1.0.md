@@ -78,32 +78,6 @@ D) None of the above
 
 ---
 
-### **5. How do you handle an undefined route properly in Express?**  
 
-A)  
-```javascript
-app.use("*", (req, res) => {
-  res.status(404).json({ msg: "Route not found" });
-});
-```
-B)  
-```javascript
-app.use((req, res) => {
-  res.status(404).json({ msg: "Route not found" });
-});
-```
-C)  
-```javascript
-app.get("*", (req, res) => {
-  res.status(404).json({ msg: "Route not found" });
-});
-```
-D) All of the above  
-
-✅ **Correct Answer:** D) All of the above  
-
-(Explanation: `app.use("*", ...)` and `app.get("*", ...)` work, but `app.use((req, res) => { ... })` is the most flexible since it handles all HTTP methods.)  
-
----
 
 

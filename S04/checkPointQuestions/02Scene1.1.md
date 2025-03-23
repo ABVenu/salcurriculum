@@ -1,17 +1,6 @@
 **Scene 1.1**
 
-### **1. What happens when a request is made to an undefined route in Express (without handling it)?**
-
-A) The request will be automatically redirected to `/`  
-B) It will return `Cannot GET /undefined-route`  
-C) The server will crash  
-D) Express will guess the closest available route
-
-✅ **Correct Answer:** B) It will return `Cannot GET /undefined-route`
-
----
-
-### **2. What will be the output of the following request?**
+### **1. What will be the output of the following request?**
 
 ```javascript
 // routes/userRoutes.js
@@ -44,7 +33,7 @@ D) Server will crash
 
 ---
 
-### **3. What is the best way to separate routes from `index.js`?**
+### **2. What is the best way to separate routes from `index.js`?**
 
 A) Keeping all routes inside `index.js` for better readability  
 B) Using `Express.Router()` and defining separate route files  
