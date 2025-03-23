@@ -1,98 +1,109 @@
 **Scene 1.0**
+### **1. Why is `Express.Router()` used in an Express application?**  
+A) To modularize routes and keep code organized  
+B) To replace middleware functions like `express.json()`  
+C) To make API requests faster  
+D) To automatically generate routes  
 
-### **1. In an Express.js project, where should business logic typically be placed to keep the code modular?**  
-A) Inside `server.js`  
-B) Inside `routes/` folder  
-C) Inside `controllers/` folder  
-D) Inside `views/` folder  
-
-**✅ Correct Answer:** C) Inside `controllers/` folder  
-
-**📝 Explanation:** Controllers handle business logic, while `server.js` is mainly for initializing the app and defining middlewares.  
+✅ **Correct Answer:** A) To modularize routes and keep code organized  
 
 ---
 
-### **2. If a project uses `db.json` to store data, how can we read the file synchronously in Node.js?**  
-A) `fs.readFileSync("db.json", "utf-8")`  
-B) `fs.readFile("db.json", "utf-8")`  
-C) `fs.getFile("db.json")`  
-D) `db.json.readFile()`  
+### **2. How do you define an Express router in a separate file?**  
 
-**✅ Correct Answer:** A) `fs.readFileSync("db.json", "utf-8")`  
+```javascript
+const express = require("express");
+const router = express.Router();
 
-**📝 Explanation:** `fs.readFileSync` is used for synchronous file reading, which returns the file content as a string.  
+router.get("/users", (req, res) => {
+  res.json({ msg: "User list" });
+});
 
----
+module.exports = router;
+```
 
-### **3. What is the correct way to define a route in Express.js that uses a controller function?**  
-A) `app.use('/books', getBooks())`  
-B) `app.get('/books', getBooks)`  
-C) `app.get('/books', getBooks())`  
-D) `app.get('/books', () => getBooks)`  
+How should this be used in `index.js`?  
 
-**✅ Correct Answer:** B) `app.get('/books', getBooks)`  
+A) `app.use("/", router);`  
+B) `app.use("/api", require("./routes/userRoutes"));`  
+C) `router.use("/api", require("./routes/userRoutes"));`  
+D) `app.get("/api", router);`  
 
-**📝 Explanation:** The controller function is **passed as a reference** (without parentheses), so Express can call it when the route is hit.  
-
----
-
-### **4. In an Express.js project with MVC structure, which folder should handle database interactions?**  
-A) `routes/`  
-B) `models/`  
-C) `controllers/`  
-D) `views/`  
-
-**✅ Correct Answer:** B) `models/`  
-
-**📝 Explanation:** The **models** folder is responsible for handling data-related operations, even if the database is `db.json`.  
+✅ **Correct Answer:** B) `app.use("/api", require("./routes/userRoutes"));`  
 
 ---
 
-### **5. What is the correct way to extract a **path parameter** from the route `/books/:id` in Express.js?**  
-A) `req.query.id`  
-B) `req.params.id`  
-C) `req.body.id`  
-D) `req.route.id`  
+### **3. What will be the correct URL to access the "users" route in the following setup?**  
 
-**✅ Correct Answer:** B) `req.params.id`  
+```javascript
+app.use("/api", require("./routes/userRoutes"));
+```
 
-**📝 Explanation:** Path parameters are extracted using `req.params.<parameter_name>`.  
+A) `/users`  
+B) `/api/users`  
+C) `/api`  
+D) `/userRoutes/users`  
 
----
-
-### **6. What is the correct way to extract a **query parameter** from the URL `/books?author=Paulo`?**  
-A) `req.params.author`  
-B) `req.query.author`  
-C) `req.body.author`  
-D) `req.get('author')`  
-
-**✅ Correct Answer:** B) `req.query.author`  
-
-**📝 Explanation:** Query parameters are extracted using `req.query.<parameter_name>`.  
+✅ **Correct Answer:** B) `/api/users`  
 
 ---
 
-### **7. If a client sends a request to delete a book that does not exist, what is the correct HTTP status code to return?**  
-A) `400 Bad Request`  
-B) `401 Unauthorized`  
-C) `404 Not Found`  
-D) `409 Conflict`  
+### **4. Which of the following is the correct way to define multiple routes using `Express.Router()`?**  
 
-**✅ Correct Answer:** C) `404 Not Found`  
+A)  
+```javascript
+const router = express.Router();
+router.get("/courses", (req, res) => res.send("Courses List"));
+router.post("/add", (req, res) => res.send("Add Course"));
+module.exports = router;
+```
+B)  
+```javascript
+const router = express.Router();
+router.use("/courses", (req, res) => res.send("Courses List"));
+router.post("/add", (req, res) => res.send("Add Course"));
+module.exports = router;
+```
+C)  
+```javascript
+const router = express.Router();
+router.get("/courses", (req, res) => res.send("Courses List"));
+router.post("/add", (req, res) => res.send("Add Course"));
+app.use(router);
+module.exports = router;
+```
+D) None of the above  
 
-**📝 Explanation:** When a requested resource is not available, the proper response is **404 Not Found**.  
+✅ **Correct Answer:** A) The correct way is to define multiple routes using `router.get()` and `router.post()`, then export the `router`.  
 
 ---
 
-### **8. What is the correct status code for a successful `POST` request when a new book is created?**  
-A) `200 OK`  
-B) `201 Created`  
-C) `204 No Content`  
-D) `409 Conflict`  
+### **5. How do you handle an undefined route properly in Express?**  
 
-**✅ Correct Answer:** B) `201 Created`  
+A)  
+```javascript
+app.use("*", (req, res) => {
+  res.status(404).json({ msg: "Route not found" });
+});
+```
+B)  
+```javascript
+app.use((req, res) => {
+  res.status(404).json({ msg: "Route not found" });
+});
+```
+C)  
+```javascript
+app.get("*", (req, res) => {
+  res.status(404).json({ msg: "Route not found" });
+});
+```
+D) All of the above  
 
-**📝 Explanation:** `201 Created` indicates that a new resource was successfully created.  
+✅ **Correct Answer:** D) All of the above  
+
+(Explanation: `app.use("*", ...)` and `app.get("*", ...)` work, but `app.use((req, res) => { ... })` is the most flexible since it handles all HTTP methods.)  
 
 ---
+
 
