@@ -52,17 +52,13 @@ app.use((req, res) => {
   res.status(404).json({ msg: "Route not found" });
 });
 ```
-C)  
-```javascript
-app.get("*", (req, res) => {
-  res.status(404).json({ msg: "Route not found" });
-});
-```
-D) All of the above  
+C)  All of the above  
 
-✅ **Correct Answer:** D) All of the above  
+D) None of the above  
 
-(Explanation: `app.use("*", ...)` and `app.get("*", ...)` work, but `app.use((req, res) => { ... })` is the most flexible since it handles all HTTP methods.)  
+✅ **Correct Answer:** c) All of the above  
+
+
 
 ---
 
