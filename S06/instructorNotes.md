@@ -179,6 +179,9 @@ we can use Mongoose to connect MongoDB and NodeJS, even mongodb has its own driv
 
 #### Mongoose
 
+![Mongoose](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/435b6b21-724e-424b-8ea5-bd02f30bacc9/eKJICRWRrstDxAnG.png)
+
+
 - Higher-level Abstraction: Mongoose is an Object Data Modeling (ODM) library for MongoDB. It abstracts the low-level interactions and provides a higher-level API for managing MongoDB documents in the form of JavaScript objects.
 
 - Schemas and Models: It allows you to define a schema for your data, which includes data types, validation rules, default values, and other constraints. This helps structure your data and ensures that it adheres to the defined schema.
@@ -191,7 +194,7 @@ we can use Mongoose to connect MongoDB and NodeJS, even mongodb has its own driv
 
 ### 2.2 **Installing and Using Mongoose**
 
-![mongoose](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/a5b77151-bcfe-43da-b5fe-31d258376550/SzzoqjhaKFlWeEUh.png)
+![Mongoose](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/0dff9637-f98e-4365-9324-01858cd24836/UkjKa3RxszVdjFaO.png)
 
 #### **Install Mongoose**
 
