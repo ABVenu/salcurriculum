@@ -66,13 +66,14 @@
 
 ### 1.1 **Need a Database Driver?**
 
-- **MongoDB Shell** allows direct interaction with the database but is limited to manual commands.  
-- In real-world applications, **database interactions should happen dynamically** when a client makes a request.  
-- Writing raw queries in the shell is impractical; instead, we need a way to connect **Node.js with MongoDB programmatically**.  
+- **MongoDB Shell** allows direct interaction with the database but is limited to manual commands.
+- In real-world applications, **database interactions should happen dynamically** when a client makes a request.
+- Writing raw queries in the shell is impractical; instead, we need a way to connect **Node.js with MongoDB programmatically**.
 
-### **The Role of Database Drivers**  
-- To enable seamless communication between **Node.js** and **MongoDB**, we use **driver software**.  
-- These drivers act as a **bridge** between the backend application and the database, allowing CRUD operations through function calls.  
+### **The Role of Database Drivers**
+
+- To enable seamless communication between **Node.js** and **MongoDB**, we use **driver software**.
+- These drivers act as a **bridge** between the backend application and the database, allowing CRUD operations through function calls.
 
 ### 1.2 **What Are Database Drivers Generally Called?**
 
@@ -252,11 +253,7 @@ const User = mongoose.model("User", userSchema);
 
 So, just like we deal with the refrigerator to create and consume ice creams, in Mongoose, we work with the Model to perform CRUD operations on data in the database.
 
-
-![Schema - model](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/c3fe38df-6e4b-4321-9d97-721f98644b22/VlttDKYpbZTWWaPW.png)
-
-
-
+![Schema - model](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/51795afd-42a6-4d08-95b2-1a00f141dd1f/rfyzRu33IBhvQOiH.png)
 
 #### **Perform CRUD Operations**
 
@@ -576,6 +573,7 @@ mongoose
 In Node.js, **`process`** is a global object that provides information about and control over the **current running Node.js instance**. It allows access to environment variables (`process.env`), command-line arguments, system signals, and process events.
 
 #### Updated Folder Structure for a Typical Backend Project
+
 ```
 todo-app/
 │── node_modules/
@@ -592,4 +590,5 @@ todo-app/
 │── package.json                # Project dependencies and scripts
 │── server.js                   # Entry point (sets up Express server)
 ```
+
 ---
