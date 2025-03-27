@@ -254,7 +254,9 @@ const User = mongoose.model("User", userSchema);
 
 So, just like we deal with the refrigerator to create and consume ice creams, in Mongoose, we work with the Model to perform CRUD operations on data in the database.
 
+
 ![Schema - model](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/c3fe38df-6e4b-4321-9d97-721f98644b22/VlttDKYpbZTWWaPW.png)
+
 
 
 
