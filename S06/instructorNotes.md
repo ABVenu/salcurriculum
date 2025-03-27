@@ -64,19 +64,15 @@
 
 **Scene 1.0**
 
-### 1.1 **Why Do We Need a Database Driver?**
+### 1.1 **Need a Database Driver?**
 
-- **Databases operate independently** and do not automatically connect to backend applications.
-- **Backend applications (Node.js, Python, etc.) need a connector** to send queries and retrieve data.
-- **Database drivers act as a bridge**, translating backend code into database commands.
-- **Analogy**: A driver is like a **phone network**, enabling communication between two people (backend & database).
-- **Common database drivers**:
-  - **MongoDB Driver** – Direct interaction with MongoDB
-  - **Mongoose** – Higher-level ODM for MongoDB
-  - **Sequelize** – ORM for SQL databases (MySQL, PostgreSQL)
-  - **pg (PostgreSQL Driver)** – Connects Node.js with PostgreSQL
-  - **mysql2** – Driver for MySQL
-- **Conclusion**: Since databases don’t connect automatically, a **driver is essential** to facilitate interaction.
+- **MongoDB Shell** allows direct interaction with the database but is limited to manual commands.  
+- In real-world applications, **database interactions should happen dynamically** when a client makes a request.  
+- Writing raw queries in the shell is impractical; instead, we need a way to connect **Node.js with MongoDB programmatically**.  
+
+### **The Role of Database Drivers**  
+- To enable seamless communication between **Node.js** and **MongoDB**, we use **driver software**.  
+- These drivers act as a **bridge** between the backend application and the database, allowing CRUD operations through function calls.  
 
 ### 1.2 **What Are Database Drivers Generally Called?**
 
@@ -185,6 +181,8 @@ we can use Mongoose to connect MongoDB and NodeJS, even mongodb has its own driv
 - Higher-level Abstraction: Mongoose is an Object Data Modeling (ODM) library for MongoDB. It abstracts the low-level interactions and provides a higher-level API for managing MongoDB documents in the form of JavaScript objects.
 
 - Schemas and Models: It allows you to define a schema for your data, which includes data types, validation rules, default values, and other constraints. This helps structure your data and ensures that it adheres to the defined schema.
+
+- Please Note: Why schemas are used for No-SQL??, it should be flexible right??, yes, NOSQL is flexible, but it is minimum requirement of basic structure to be defined or else it tough to run/manage the system.
 
 - Built-in Validation and Middleware: Mongoose provides built-in validation for data and supports middlewares (e.g., pre-save hooks, validation hooks) to automate processes like data validation, transformations, and other operations.
 
