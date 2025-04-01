@@ -16,7 +16,7 @@ B) A new database is created immediately.
 C) A new database is created only when you insert data into a collection.
 D) The shell exits because the database is invalid.
 
-**Answer:**C) A new database is created only when you insert data into a collection.
+**Answer:** B) A new database is created immediately.  
 
 #### **3. How do you create a new collection in MongoDB?**
 
