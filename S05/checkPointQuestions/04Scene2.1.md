@@ -7,16 +7,26 @@ B) A DBMS is required only when dealing with large-scale applications.
 C) A DBMS eliminates the need for data backups.  
 D) A DBMS is just a way to store files in folders systematically.
 
-#### **2. What is a 'Document' in MongoDB?**
+## **Answer:** A) A DBMS provides **structured storage**, ensuring efficient querying and management.
 
-A) A collection of tables stored in a database.  
-B) A single unit of data stored in a collection, similar to a row in SQL. ✅  
-C) A JSON file stored outside the database.  
-D) A configuration file used to store database settings.
+### **2. Which type of database is best suited for handling highly interconnected data, such as social networks?**
 
-#### **3. What is a Database in MongoDB?**
+A) SQL  
+B) NoSQL  
+C) None of the above  
+D) Both
 
-A) A container for collections that store documents. ✅  
-B) A collection of tables and rows.  
-C) A function that stores data temporarily.  
-D) A method for indexing data.
+**Answer:** **B) NoSQL**
+
+**Explanation:** Graph-based NoSQL databases like Neo4j are optimized for storing and querying highly interconnected data, making them ideal for social networks, recommendation systems, and fraud detection.
+
+### **3. Which database type is generally preferred for complex transactions requiring higher stability and reliability, such as in banking systems?**
+
+A) SQL  
+B) NoSQL  
+C) None of the above  
+D) Both
+
+**Answer:** **A) SQL**
+
+**Explanation:** SQL databases (like MySQL, PostgreSQL) are preferred for banking systems because they ensure ACID (Atomicity, Consistency, Isolation, Durability) compliance, which is crucial for maintaining data integrity in financial transactions.
