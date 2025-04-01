@@ -1,4 +1,5 @@
-### Learning Objectives
+### S06: Introduction to Mongoose 
+## Learning Objectives
 
 - Quick Recap of MongoDB
 - Need of softwares/drivers that connects DB & Node JS
@@ -39,7 +40,7 @@
 - 3.4 - adding timeStamps like createdAt, updatedAt - its importance
 - 3.5 - Standard Coding Practise to store mongo url in .env and imoprt them from .env, (explain the process object)
 
-### Pitfalls
+## Pitfalls
 
 **1.0**
 
@@ -60,7 +61,7 @@
 - 3.3 - Many thinks the CRUD operations is for one document at a time
 - 3.4 - .env, need, impotance and usage
 
-### Content/Pedagagoy
+## Content/Pedagagoy
 
 **Scene 1.0**
 
