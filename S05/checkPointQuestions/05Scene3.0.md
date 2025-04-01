@@ -39,7 +39,7 @@ D) You must manually create the collection before inserting documents.
 #### **5. Which of the following commands correctly inserts a document into a collection named `students`?**
 
 A) `INSERT INTO students VALUES ({ name: "John", age: 22 });`  
-B) `db.students.insert({ name: "John", age: 22 });`
+B) `db.students.insertOne({ name: "John", age: 22 });`
 C) `db.insert("students", { name: "John", age: 22 });`  
 D) `db.students.add({ name: "John", age: 22 });`
-**Answer:** B) `db.students.insert({ name: "John", age: 22 });`
+**Answer:** B) `db.students.insertOne({ name: "John", age: 22 });`
