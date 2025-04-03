@@ -1,0 +1,83 @@
+**Topic: JavaScript Fundamentals**
+- Polymorphism in JS along with an example.
+- Given an array of numbers, find the average using the reduce HOF.
+- Create a stack using JS classes.
+- What is the Temporal Dead Zone?
+- Rest and spread operators.
+- useEffect and useContext (deep explanation).
+- Find the unique elements in an array.
+- Return a function that returns ++count.
+- As an object format, it should print { "1": 1, "2": 2 }...
+- Not able to put the approach.
+- Use the map method to multiply [0,2,4,6,8] by 2 → [0,4,8,12,16].
+- What is the .iterate method?
+- Let, var, and const.
+
+**Topic: Frontend Development**
+- Inline and block elements.
+- How to change the color of a div.
+- How to center a div (Different methods)?
+- What are the types of input tags?
+- Block-level and inline element differences.
+- Explain div and span tags.
+
+**Topic: Backend Development**
+- Include endpoints for user registration, login, and logout.
+- Secure access to protected routes using JWT.
+- Proper implementation of filtering options for categories and result limits.
+- Implement a route to retrieve the balance of a specified Ethereum account.
+- Provide a GitHub repository link containing the code for the tasks.
+- Add a refresh token in the login functionality.
+
+**Topic: Database & SQL**
+- PostgreSQL?
+- Explain one-to-many and many-to-many relationships.
+- Write an SQL query to select all employees where the department is "product team."
+- Explain many-to-many table relationships.
+
+**Topic: System Design & Performance**
+- Connection pooling.
+- Project Explanation (Quality of projects).
+
+**Topic: Data Structures & Algorithms**
+- What is the time complexity of Binary Search?
+- Write a function to remove a target node from a doubly linked list.
+
+**Topic: Java**
+- Which abstract class is there in the collection framework?
+- Create, start, and run three data-shared threads in Java and explain how.
+- Difference between Runnable and Thread class.
+- What output will this code give, and why and how?
+- What is Java?
+- What is method overloading and method overriding?
+
+**Topic: Node.js & Express**
+- Previous interview experience question (since students worked on Node.js previously).
+- Most of the questions were follow-up questions on the resume and experience of the candidate.
+- She was experienced in Node.js.
+- Candidate needs to brush up on the skills.
+- Not able to answer the callback function properly.
+- Project Explanation (features and working).
+- How Netlify works (Have you implemented such types of things?).
+- In the next round, they will give an assignment where you need to show the analytics of the operation that is being performed.
+- Students were above average in Technical Knowledge.
+- Technical communication is below average compared to other candidates.
+- Incorrect answers to technical questions.
+- Poor technical communication skills.
+
+**Topic: Cloud & Deployment**
+- How Docker works (Sandeep told him that he knows Docker).
+- How Netlify works.
+
+**Topic: Problem-Solving & Aptitude**
+- Aptitude questions, puzzles, reasoning, and math.
+- Maths, distances, and directions.
+- Aptitude Questions (70%).
+
+**Topic: Interview Experience & Soft Skills**
+- After technical questions, started with questions around salary expectations.
+- If we pay 3 Lakhs to Masai, then what will be your expectations?
+- Was not sure how to handle salary expectation questions.
+- Student is confident and has sound tech knowledge.
+
+

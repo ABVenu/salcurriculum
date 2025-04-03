@@ -1,0 +1,285 @@
+Company: ** techcanopy software labs (** qa engineer)
+  - Why automation testing is important?
+
+Company: ** techcanopy software labs (** qa engineer)
+  - What is the difference between manual testing and automation testing ?
+
+Company: ** techcanopy software labs (** qa engineer)
+  - DSA questions for palindrome in Number and String ?
+
+Company: ** Cortica Web Solutions Pvt.Ltd (** FULL_STACK_ENGINEER)
+  - Difference between error and bugs
+
+Company: ** Gocodeo (** FRONTEND_ENGINEER)
+  - DSA: Given a string, find the longest no repeating substring
+
+Company: Unknown Company (Unknown Position)
+  - if you get some errors how you will resolve it from your side
+
+Company: Tracxn** (Full-Stack-mern**)
+  - You are given a string and a number(sub- string length). the string consists of *, -, and + characters, and the string's length will be the multiple of the given number. Write a function to hash the string using the below hashing algorithm:
+
+Company: Tracxn** (backend-node**)
+  - You are given a string and a number(sub- string length). the string consists of *, -, and + characters, and the string's length will be the multiple of the given number. Write a function to hash the string using the below hashing algorithm:
+
+Company: ** Vigo Retail (** FRONTEND_ENGINEER)
+  - not able to answer the output based question, not able to bebug the stopwatch app
+
+Company: ** Vigo Retail (** FRONTEND_ENGINEER)
+  - not able to answer the output based question, not able to bebug the stopwatch app,
+
+Company: ** wunderman thompson (** Associate Quality Analyst)
+  - Name all the  testing models ( waterfall, spiral, v and v and agile) and explain the agile model
+
+Company: ** wunderman thompson (** Associate Quality Analyst)
+  - white box and black box testing
+
+Company: Transelense** (Frontend-react**)
+  - Prototype and design the exact flow for OTP entry. This should include a smooth user experience and error handling.
+
+Company: ** SAS Tech Studio Pvt Ltd (** FRONTEND_ENGINEER)
+  - He was not able solve the DSA question using JS but later he tried using JAVA and solved it.
+
+Company: ** opkey (** qa engineer)
+  - differen b/w smoke and regression testing
+
+Company: ** opkey (** qa engineer)
+  - types of testing done on your projects
+
+Company: ** Donatekart (** FRONTEND_ENGINEER)
+  - *DSA:**
+
+Company: ** skillovilla (** Frontend Curriculum)
+  - DSA contest was rolled out topics include
+
+Company: ** skillovilla (** Frontend Curriculum)
+  - Searching and Sorting Algorithms
+
+Company: Neetable** (FullStack-mern**)
+  - Palindrome
+
+Company: Neetable** (FullStack-mern**)
+  - He explained well also solved the DSA problems
+
+Company: ** Coredge.io (** SDE_ONE)
+  - Given a string, find how many swaps to make the string a palindrome
+
+Company: ** skilloVilla (** FRONTEND_ENGINEER)
+  - not able to find optimize solution of the dsa question and not able to guess the output of the first output nased question
+
+Company: ** skilloVilla (** FRONTEND_ENGINEER)
+  - not able to find optimize solution of the dsa question and not able to guess the output of the first output nased question
+
+Company: ** stack wealth (** backend (nodejs))
+  - student was not able to answer the dsa questions
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Error handling for invalid requests and edge cases.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Return an error message for unauthenticated requests.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Correct error handling for unauthenticated requests.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Handle errors and edge cases gracefully.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Proper error handling and response formatting.
+
+Company: ** MyNextdeveloper (** FULL_STACK_ENGINEER)
+  - Debugging using Network Tab in any Browser
+
+Company: ** MyNextdeveloper (** FULL_STACK_ENGINEER)
+  - Was not sure around usage of Network Tab to debug.
+
+Company: ** respo financial capital (** full stack (mern))
+  - Question on DSA : Maximum value in a subarray given a windows size (Sliding Window)
+
+Company: ** respo financial capital (** full stack (mern))
+  - Good enough, communication: 6/10. According to him, the DSA question could've been solved better. He had some issues with input taking.
+
+Company: ** Karmaleen Technology Pvt Ltd (** FULL_STACK_ENGINEER)
+  - **DSA
+
+Company: ** antares tech (** full stack (mern))
+  - DSA : Remove duplicates from an array, and complexity analysis
+
+Company: ** schoolnet (** Associate Quality Analyst)
+  - what are bugs and defects?
+
+Company: Creware-Technologies** (Frontend-react**)
+  - **Platform:Code Sandbox, use Online IDE (DSA)**
+
+Company: ** Rethink Systems (** SDE_ONE)
+  - DSA : Given a string of chaaracters, find all the combinations and sort the permutations in dictionary order (whiteboarding)
+
+Company: Zee-School** (Frontend-react**)
+  - CRM Software Portal errors,
+
+Company: Zee-School** (Frontend-react**)
+  - Debugging
+
+Company: Krinay** (Software-Engineer**)
+  - Testing:
+
+Company: ** Secpod (** SDE_ONE)
+  - Given a JS Code snippet, debug the code and fix the issue
+
+Company: TrueGradient** (FullStackEngineer**)
+  - Check Palindrome
+
+Company: ** Magure Inc (** FRONTEND_ENGINEER)
+  - Matching paranthesis using stack (DSA)
+
+Company: ** Magure Inc (** FRONTEND_ENGINEER)
+  - Given a string, check if it's a pangram (DSA)
+
+Company: ** Razorpay (** Product Support Engineer)
+  - DSA: Fizz buzz Problem, Palindrome
+
+Company: Finalyca** (Frontend-mern**)
+  - Not able to implement the Search Functionality (Errors came up)
+
+Company: Spontom** (Full-Stack-mern**)
+  - Include sample credentials for testing purposes.
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - Debugging using Network Tab in any Browser
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - Was not sure around usage of Network Tab to debug.
+
+Company: Tapfin** (FullStack-mern**)
+  - You are a team lead, you have given a task and it should be complete within 7 days, on the last day you get to know there are some bugs
+
+Company: ** Ovik Finance (** FULL_STACK_ENGINEER)
+  - DSA:
+
+Company: ** Ovik Finance (** FULL_STACK_ENGINEER)
+  - Hunch:  Only Satyaprakash Singh was able to answer the DSA question. He also struggled whie solving. rest of the candidates were not able to solve te dsa question
+
+Company: ** Ovik Finance (** FULL_STACK_ENGINEER)
+  - notable to answer the basic dsa question
+
+Company: ** feelvaleo (** frontend (react js))
+  - dsa: given an array and remove duplicate.
+
+Company: ** feelvaleo (** frontend (react js))
+  - dsa:given array of objects, find the largest numbers.
+
+Company: ** hostbooks (** sdet)
+  - why you choose testing why not development ?
+
+Company: ** moneymul (** sdet)
+  - Bug life cycle
+
+Company: ** swiggy (** sdet)
+  - smoke and sanity testing difference?
+
+Company: ** swiggy (** sdet)
+  - how will you perform global testing and local testing?
+
+Company: Implevision-Technology** (Backend-node**)
+  - Given a string, Is it a Palindrome or not ?
+
+Company: ** WebMD (** backend (Java))
+  - Palindrome number
+
+Company: ** WebMD (** backend (Java))
+  - Create flow chart on drow.io for palindrome numbera approach.
+
+Company: ** WebMD (** backend (Java))
+  - Palindrome number - time complexity not able to explain well.
+
+Company: ** Belsterns (** FULL_STACK_ENGINEER)
+  - Car is travelling 57/hr incrsed by 3 km/hr to find the distance After 7 hour. Solve this question using dsa.
+
+Company: ** Moneypay (** FULL_STACK_ENGINEER)
+  - DSA: check wherther one string is the substring of another string.(without using any internal library)
+
+Company: Unknown Company (Unknown Position)
+  - suppose you have created app and given it to tester and the tester is coming up with some errors how you will debug
+
+Company: ** 50hertz (** sdet)
+  - What do you mean by non functional testing?
+
+Company: ** narayana group (** sdet)
+  - ) what is smoke testing?
+
+Company: ** narayana group (** sdet)
+  - ) what is regression testing and its types.
+
+Company: ** narayana group (** sdet)
+  - ) why we perform regression testing.
+
+Company: Perstoc** (backend-node**)
+  - Testing knowledge (if any)
+
+Company: ** Tracxn (** FULL_STACK_ENGINEER)
+  - DSA: find the 2nd largest number from an array.(only approach)
+
+Company: ** Tracxn (** FULL_STACK_ENGINEER)
+  - DSA: given 2 arrays of numbers. find the similar elements from both the array.(only approach)
+
+Company: ** kritikal solutions (** qa engineer)
+  - Types of manual testing?
+
+Company: ** SchoolLog (** FULL_STACK_ENGINEER)
+  - DSA: given a 2 string  check if both the string contain same set of characters
+
+Company: ** Narayana group (** FULL_STACK_ENGINEER)
+  - Write a function to check for palindrome and optimize it
+
+Company: ** kumori technologies (** Software Developer)
+  - Student could not solve the DSA question on leetcode. He is not too confident with his answers to output based questions as well
+
+Company: Unknown Company (Unknown Position)
+  - code snippet for class error (not remember the exact question)
+
+Company: Unknown Company (Unknown Position)
+  - question on out-of-memory error topic
+
+Company: Unknown Company (Unknown Position)
+  - faced challenge in DSA questions, code snippet questions has been solved by most of
+
+Company: ** Kapiva (** SENIOR_SOFTWARE_ENGINEER)
+  - DSA: remove duplicate from an array(optimize solution)
+
+Company: ** Kapiva (** SENIOR_SOFTWARE_ENGINEER)
+  - Not able to figure out the optimize solution of the DSA question
+
+Company: ** Kapiva (** SENIOR_SOFTWARE_ENGINEER)
+  - Not able to figure out the optimize solution of the DSA question
+
+Company: ** Skygoaltech (** FULL_STACK_ENGINEER)
+  - how you check in error  alternative
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Write and explain the Bubble Sort algorithm
+
+Company: ** impact analytics (** qa engineer)
+  - manual testing, regression testing, and exploratory testing
+
+Company: ** impact analytics (** qa engineer)
+  - difference b/w smoke and sanity testing.
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - error handling in python.
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - palindrome check
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - stack implementation push pop and error handling
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - DSA: missing intiger from 1 to n
+
+Company: ** Alphablocks (** FRONTEND_ENGINEER)
+  - he was not able to solve dsa question using optimal approach completely
+
+Company: ** Alphablocks (** FRONTEND_ENGINEER)
+  - **Platform:** Google Meet (DSA on Leetcode)
+

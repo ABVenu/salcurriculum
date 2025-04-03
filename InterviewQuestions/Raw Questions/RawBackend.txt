@@ -1,0 +1,968 @@
+Company: ** Cortica Web Solutions Pvt.Ltd (** FULL_STACK_ENGINEER)
+  - Difference between HTTP 1.0 and HTTP 2.0
+
+Company: ** Cortica Web Solutions Pvt.Ltd (** FULL_STACK_ENGINEER)
+  - What is JVM
+
+Company: ** Cortica Web Solutions Pvt.Ltd (** FULL_STACK_ENGINEER)
+  - What is JDK
+
+Company: ** Cortica Web Solutions Pvt.Ltd (** FULL_STACK_ENGINEER)
+  - What is JDBC
+
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - Authentication: token based
+
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - RESTful API?
+
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - Express? Why is it used over HTTP Methods?
+
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - Project Showcase? Is it Static or Dynamic? JSON Server?
+
+Company: EnactOn** (Backend-php**)
+  - Import the product_database.sql file in to your MySQL database (you can use phpMyAdmin).
+
+Company: EnactOn** (Backend-php**)
+  - Run npm install --force.
+
+Company: EnactOn** (Backend-php**)
+  - Start the project using npm run dev.
+
+Company: EnactOn** (Backend-php**)
+  - Access the NextJS website at http://localhost:3000.
+
+Company: EnactOn** (Backend-php**)
+  - Technical Proficiency: How effectively does the candidate utilize relevant technologies and APIs?
+
+Company: ** Slashash Tech LLP (** Fullstack MERN)
+  - For Students: Practice Databases, SQL
+
+Company: ** indicorp (** full_stack_(mern))
+  - MongoDB Queries
+
+Company: ** indicorp (** full_stack_(mern))
+  - Understanding the Aggregation Pipeline in MongoDB
+
+Company: Skyserve** (Software-Engineer**)
+  - What if you use another database
+
+Company: Skyserve** (Software-Engineer**)
+  - What if you use AWS
+
+Company: Skyserve** (Software-Engineer**)
+  - Http methods
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - What is MongoDB
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - How you have connect the Database in the project
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - Database questions from the projects
+
+Company: Fractal31** (Full-Stack-Engineer**)
+  - GCD (in Typescript)
+
+Company: Fractal31** (Full-Stack-Engineer**)
+  - Evenp Loops
+
+Company: Fractal31** (Full-Stack-Engineer**)
+  - Libraries of Node.js  provide features as File Systems, Child Prosesspes, Sockets,
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - OOPS in JS, pillars of OOPS
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Promises and the various API's like promise.each, promise.all, promise.settled etc.
+
+Company: ** Invennico TechnoLabs (** FULL_STACK_ENGINEER)
+  - npm , node, MongoDB indexing
+
+Company: ** Orion Logistics (** FULL_STACK_ENGINEER)
+  - What is Node.js?
+
+Company: Unknown Company (Unknown Position)
+  - code snippet questions, based on Java statements for loops need to guess the output
+
+Company: ** yellow owl (** full stack (mern))
+  - What is express, what is it used for ?
+
+Company: ** yellow owl (** full stack (mern))
+  - How would you create API routes in express ?
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - How you are fetching the data (from api or you have hardcoded)
+
+-------------------------------------------------------------------------------
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - How is your backend working
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - AWS Knowledge
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - Third party Authentication
+
+Company: EsolutionsFirst** (backend java**)
+  - steps for JDBC connection.
+
+Company: Just Compile LLP** (Full-Stack-mern**)
+  - How to store a string in a database in a way that's not human-readable.
+
+Company: ** Byldd (** FULL_STACK_ENGINEER)
+  - project presentation (asked questions around implementation, routes, middleware)
+
+Company: ** Vigo Retail (** FRONTEND_ENGINEER)
+  - You have call 4 apis back to back (what method you can use async-await )
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - Event loop
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - How node.js achieves concurrency?
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - You need to query the database, but isntead of using async await use other method to handle it.
+
+Company: ** newel technologies (** full stack (mean))
+  - What is Node.js? Why do we use Node.js?
+
+Company: ** newel technologies (** full stack (mean))
+  - Node.js as Single threaded
+
+Company: ** Green Catalysator (** Full-Stack-mern)
+  - How to link 2 documents in mongoDB
+
+Company: Green Catalysator** (Full-Stack-mern**)
+  - Retrieve the category list from the API endpoint: [https://dummyjson.com/products/categories](https://dummyjson.com/products/categories) through an API call.
+
+Company: Green Catalysator** (Full-Stack-mern**)
+  - Fetch the product list from the API endpoint: [https://dummyjson.com/products/category/smartphones](https://dummyjson.com/products/category/smartphones) through an API call.
+
+Company: Green Catalysator** (Full-Stack-mern**)
+  - Store the likes/dislikes based on the product ID in a local MySQL or MongoDB database using a Node.js API.
+
+Company: Pinnacle-Services** (Software-Developer**)
+  - Child processes in Node.js
+
+Company: Pinnacle-Services** (Software-Developer**)
+  - MongoDB in replica set -
+
+Company: Pinnacle-Services** (Software-Developer**)
+  - MongoDB in aggregation , What is aggregation.
+
+Company: ** Stancebeam (** FRONTEND_ENGINEER)
+  - OOPS concepts
+
+Company: ** Stancebeam (** FRONTEND_ENGINEER)
+  - What is the port number of HTTP and HTTPS
+
+Company: ** Bitviraj Technology Private Limited (** FULL_STACK_ENGINEER)
+  - what is mongodb
+
+Company: ** Bitviraj Technology Private Limited (** FULL_STACK_ENGINEER)
+  - how we intergrate mongo db with backend
+
+Company: Transelense** (Frontend-react**)
+  - *Use Typescript**
+
+Company: Transelense** (Frontend-react**)
+  - Integrate the provided backend API into your project (mock the API response)
+
+Company: Transelense** (Frontend-react**)
+  - Integration with mock API
+
+Company: ** OneBigBit (** FULL_STACK_ENGINEER)
+  - middleware
+
+Company: ** OneBigBit (** FULL_STACK_ENGINEER)
+  - question from backend (middleware)
+
+Company: ** OneBigBit (** FULL_STACK_ENGINEER)
+  - questions from backend was not answered by the company.
+
+Company: ** opkey (** qa engineer)
+  - OOP CONCEPTS -all
+
+Company: ** opkey (** qa engineer)
+  - write any java program using for loop.
+
+Company: ** Donatekart (** FRONTEND_ENGINEER)
+  - if we download anything using npm where the files are getting stored and where the version is gettion stored and if there are any sensitive info where to keep that info.
+
+Company: ** Social Sense (** FRONTEND_ENGINEER)
+  - Conext API and how it avoids prop-drilling
+
+-------------------------------------------------------------------------------
+
+Company: ** Social Sense (** FRONTEND_ENGINEER)
+  - Manage the state in ContextAPI and retrieve it in one of the components.
+
+Company: ** Social Sense (** FRONTEND_ENGINEER)
+  - Siddhesh : Performed good with theoretical part, failed to implement the ContextAPI
+
+Company: Xfinite** (graduate-engineer-trainee**)
+  - We make API request to fetch data from server so in this call what's happening in browser, server and client?
+
+Company: Xfinite** (graduate-engineer-trainee**)
+  - When user make the payment how microservices works
+
+Company: ** Just Think Technologies (** FULL_STACK_ENGINEER)
+  - What are middlewares.
+
+Company: ** Just Think Technologies (** FULL_STACK_ENGINEER)
+  - Explain Authentication, how is it different from Authorization
+
+Company: ** Just Think Technologies (** FULL_STACK_ENGINEER)
+  - What can you do to improve MongoDB query performance.
+
+Company: Quantique** (Frontend-react**)
+  - Mathematic expression Problems ( *, + , - , / ) change * -> /
+
+Company: ** Statxo (** FULL_STACK_ENGINEER)
+  - what you used in backend?
+
+Company: ** Statxo (** FULL_STACK_ENGINEER)
+  - difference between mongoDb and SQL?
+
+Company: ** skilloVilla (** FRONTEND_ENGINEER)
+  - leetcode dsa: [sort color](https://leetcode.com/problems/sort-colors/description/)
+
+Company: ** stack wealth (** backend (nodejs))
+  - https://leetcode.com/problems/set-matrix-zeroes/
+
+Company: ** stack wealth (** backend (nodejs))
+  - https://leetcode.com/problems/multiply-strings/
+
+Company: Vibencode.com** (Frontend-react**)
+  - Why you have not used Typescript on projects
+
+Company: ** aglint ai (** full_stack_(mern))
+  - Advantages of Node.js and Express
+
+Company: ** aglint ai (** full_stack_(mern))
+  - What are databases?
+
+Company: ** aglint ai (** full_stack_(mern))
+  - How to do indexing in MongoDB
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Implement JWT authentication using a Node.js framework of your choice (e.g., Express.js).
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Proper implementation of JWT authentication with token generation and verification.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Utilize Node.js and Express.js to create API routes.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Fetch data from the provided public API (`https://api.publicapis.org/entries`).
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Successful integration of API endpoints for data retrieval.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Integrate Swagger JS with your Node.js application.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Document all API endpoints, including request parameters and responses.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Proper integration of Swagger JS with the Node.js application.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Clear and comprehensive documentation of all API endpoints.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Create a new API endpoint that returns a message or data.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Implement middleware to verify JWT authentication before allowing access.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Successful implementation of middleware to verify JWT authentication.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Proper restriction of API endpoint to authenticated users only.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Functional API route to retrieve account balance.
+
+Company: ** kraftshala (** FRONTEND_ENGINEER)
+  - Use relevant APIs to fetch weather data.
+
+Company: ** respo financial capital (** full stack (mern))
+  - Difference between SQL and MongoDB, in which scenario you use what.
+-------------------------------------------------------------------------------
+
+Company: ** K{r}eeda Labs (** FRONTEND_ENGINEER)
+  - Given an API, send a POST request using fetch.
+
+Company: ** K{r}eeda Labs (** FRONTEND_ENGINEER)
+  - What is Sharding in MongoDB. (Couldn't answer)
+
+Company: ** K{r}eeda Labs (** FRONTEND_ENGINEER)
+  - CRUD opeations in MongoDB
+
+Company: ** K{r}eeda Labs (** FRONTEND_ENGINEER)
+  - AWS and Firebase (Couldn't answer)
+
+Company: ** K{r}eeda Labs (** FRONTEND_ENGINEER)
+  - Abhijith could not answer the database related questions, wasnt familiar with SQL, and could not answer questions on MongoDB as well, like Sharding and such.
+
+Company: ** K{r}eeda Labs (** FRONTEND_ENGINEER)
+  - Shivam, same here couldn't answer the database questions, no much was asked here again, student communication is weak, and answers were vague.
+
+Company: ** K{r}eeda Labs (** FULL_STACK_ENGINEER)
+  - Sharding in MongoDB
+
+Company: ** K{r}eeda Labs (** FULL_STACK_ENGINEER)
+  - Aggregation in MongoDB
+
+Company: ** K{r}eeda Labs (** FULL_STACK_ENGINEER)
+  - What are triggers in MongoDB.
+
+Company: ** K{r}eeda Labs (** FULL_STACK_ENGINEER)
+  - Interview was mostly around databases (both SQL and MongoDB). The candidate is good, but we got entirely opposite viewpoints coming from the interviewer and the candidate.
+
+Company: ** respo financial capital (** FULL_STACK_ENGINEER)
+  - array questions based on for loop
+
+Company: Hypergro** (Frontend-react**)
+  - `page` starts with 0 and you should call the API with incremented values for Pagination.
+
+Company: Hypergro** (Frontend-react**)
+  - Typescript
+
+Company: Hypergro** (Frontend-react**)
+  - `page` starts with 0 and you should call the API with incremented values for Pagination.
+
+Company: Hypergro** (Frontend-react**)
+  - Fill out this form to submit your application: [Submission Form](https://forms.gle/Xd9jfzsUjZQbBvwK7)
+
+Company: Avidus-Interactive** (Full-stack-mern**)
+  - For creating a UBER database, How you will create a Schema
+
+Company: ** schoolnet (** Associate Quality Analyst)
+  - Explain the oops concept?
+
+Company: Creware-Technologies** (Backend-node**)
+  - Event Loop
+
+Company: Creware-Technologies** (Backend-node**)
+  - 6. Why Node.js is popular
+
+Company: Creware-Technologies** (Backend-node**)
+  - Why we use Express
+
+Company: Creware-Technologies** (Backend-node**)
+  - Middlewares
+
+Company: Creware-Technologies** (Frontend-react**)
+  - How to implement Session Storage in backend
+
+Company: Creware-Technologies** (Backend-node**)
+  - Authentication and Authorization
+
+Company: Creware-Technologies** (Backend-node**)
+  - Event Loop
+
+Company: ** Rethink Systems (** SDE_ONE)
+  - Authentication, Authorization
+
+Company: ** Bosc-tech-labs (** Full-Stack-mern)
+  - What type of databases you will use in the E-commerce Project(Full stack application)
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Api fetch
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - What is Node.js? Why it is famous and why we use it.
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - How you connect to database, What type of ORM you will used?
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - CRUD operation
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - NPM Packages
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - Middlewares
+
+Company: Circle-Pe** (Software-Engineer**)
+  - Any projects in backend
+-------------------------------------------------------------------------------
+Company: Circle-Pe** (Software-Engineer**)
+  - What is the toughest thing you have done in backend
+
+Company: Krinay** (Software-Engineer**)
+  - Backend:
+
+Company: Krinay** (Software-Engineer**)
+  - Redis (bonus)
+
+Company: Krinay** (Software-Engineer**)
+  - Implement user authentication with Google Sign-In as the *only* provider. This is known as passwordless authentication and should be implemented using the NextAuth library.
+
+Company: ** Secpod (** SDE_ONE)
+  - What is Immediately Invoked Function Expression.
+
+Company: ** Secpod (** SDE_ONE)
+  - Is Node.js single threaded or multi thread, if it is single threaded, how does it handle asynchronous operations.
+
+Company: ** Secpod (** SDE_ONE)
+  - MongoDB queries
+
+Company: ** Secpod (** SDE_ONE)
+  - Aggregation in MongoDB
+
+Company: ** Secpod (** SDE_ONE)
+  - How can you improve security of Backend application.
+
+Company: ** Secpod (** SDE_ONE)
+  - What is Indexing in MongoDB
+
+Company: ** Secpod (** SDE_ONE)
+  - What is NPM, how can you identify vulnerable npm packages.
+
+Company: ** Secpod (** SDE_ONE)
+  - How will you improve API loading time.
+
+Company: ** Secpod (** SDE_ONE)
+  - How can you stress test a server.
+
+Company: ** Secpod (** SDE_ONE)
+  - What is Replication in MongoDB
+
+Company: ** Secpod (** SDE_ONE)
+  - What is Indexing in MongoDB
+
+Company: ** Secpod (** SDE_ONE)
+  - What is Sharding and Clusters in MongoDB
+
+Company: ** Secpod (** FULL_STACK_ENGINEER)
+  - candidate  is from backend and was not able to answer questions properly.
+
+Company: ** AGL - Hakuhodo (** FULL_STACK_ENGINEER)
+  - how to connect server with the database using mongoose?
+
+Company: ** solarsquare energy (** full stack (mern))
+  - What is Node.js how is it different from Vanilla JS.
+
+Company: ** solarsquare energy (** full stack (mern))
+  - What is Express.js, what is it used for ?
+
+Company: ** solarsquare energy (** full stack (mern))
+  - Explain aggregation in MongoDB.
+
+Company: ** travelopia (** frontend (react js))
+  - event loop, call stack
+
+Company: ** travelopia (** frontend (react js))
+  - graphql vs restful api
+
+Company: ** Razorpay (** Product Support Engineer)
+  - Projects (Backend heavy)
+
+Company: ** Razorpay (** Product Support Engineer)
+  - SQL: Return the names from the database whose name start with a and end with a and birthrate greater than 1999
+
+Company: ** Razorpay (** Product Support Engineer)
+  - http and https
+
+Company: ** abhiwan technology (** full_stack_(mern))
+  - What is Node.js?
+
+Company: ** abhiwan technology (** full_stack_(mern))
+  - What is middleware?
+
+Company: ** abhiwan technology (** full_stack_(mern))
+  - MongoDB aggregation
+
+Company: ** abhiwan technology (** full_stack_(mern))
+  - Why is `_id` used in MongoDB?
+
+Company: Spontom** (Full-Stack-mern**)
+  - Extend the existing Node.js server with authentication middleware (use a simple token-based authentication or any library of your choice).
+
+Company: Spontom** (Full-Stack-mern**)
+  - Create an API for user authentication (login and signup).
+
+Company: Spontom** (Full-Stack-mern**)
+  - Modify the patient API to allow CRUD operations (Create, Read, Update, Delete) for authenticated users.
+
+-------------------------------------------------------------------------------
+Company: Spontom** (Full-Stack-mern**)
+  - Ensure that only authorised users can perform CRUD operations.
+
+Company: Spontom** (Full-Stack-mern**)
+  - Add form validation for user authentication and patient details.
+
+Company: Spontom** (Full-Stack-mern**)
+  - Include error handling for API requests.
+
+Company: Spontom** (Full-Stack-mern**)
+  - Write unit tests for critical parts of your code (e.g., authentication logic, CRUD operations).
+
+Company: Tapfin** (FullStack-mern**)
+  - You have to create a OTP authentication feature,
+
+Company: ** (**)
+  - Can express the answer in better way.
+
+Company: Narayana-Group** (FullStack-mern**)
+  - Implement Search Functionality using debouncing , and simple methods, using api
+
+Company: Narayana-Group** (FullStack-mern**)
+  - Sql and No sql databases
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Explain JDBC connection.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - What is a database transaction?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - What is REST API?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - How do you identify REST API?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - How do you send a secure API?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - How do you know if an API is secure or not?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - How do you handle authentication?
+
+Company: ** Trademo (** FRONTEND_ENGINEER)
+  - how to connect your database and server in nodejs
+
+Company: ** raksha pipe (** Business_Analyst)
+  - Asked about API also
+
+Company: MoneyMul** (Frontend-react**)
+  - Databases
+
+Company: ** V2minds Software (** SOFTWARE_ENGINEER)
+  - * The assignment mainly focuses on problem solving and js OOPs.
+
+Company: ** it plus i softwares pvt ltd (** frontend (react js))
+  - Do While Loop
+
+Company: ** it plus i softwares pvt ltd (** frontend (react js))
+  - Deepsikha was not aware of Do While loop
+
+Company: ** it plus i softwares pvt ltd (** frontend (react js))
+  - Gauri only explained For Loop but the interviwer did not ask further.
+
+Company: ** Connection Loops (** FULL_STACK_ENGINEER)
+  - what are ways to make api call from fronend?
+
+Company: ** Connection Loops (** FULL_STACK_ENGINEER)
+  - what is rest API what different http methods?
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - What is Event Loop, how does it work
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - What is middleware in Express.js
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - How do we optimize MongoDB queries
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - What is aggregation in MongoDB, explain $lookup
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - Different types of modules in Node.js
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - What are different types of protocals, HTTP, HTTPS, TCP, IP etc
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - Different types of API's like REST, SOAP, GraphQL etc.
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - Explain sharding and its benefits in MongoDB.
+
+Company: Bigyellofish** (backend-node**)
+  - Node.js
+
+-------------------------------------------------------------------------------
+Company: Bigyellofish** (backend-node**)
+  - Database Connectivity (mongoDB)
+
+Company: Cnetric-Global** (backend-node**)
+  - What is Node.js
+
+Company: Cnetric-Global** (backend-node**)
+  - What is the difference between Restapi and GraphQL
+
+Company: Cnetric-Global** (backend-node**)
+  - What are the steps to create an API
+
+Company: Cnetric-Global** (backend-node**)
+  - What type of dependencies and packages you have used to create an API
+
+Company: Cnetric-Global** (backend-node**)
+  - Why we use Express
+
+Company: ** Belsterns (** FULL_STACK_ENGINEER)
+  - How to connect to MongoDB database
+
+Company: ** Belsterns (** FULL_STACK_ENGINEER)
+  - How authentication works, how do you implement it
+
+Company: ** Belsterns (** FULL_STACK_ENGINEER)
+  - Candidates were'nt able to solve the question using DSA. Other than that the discussion where on resume and projects. And some mongodb questions were also discussed, but the answers came out atfilicial and mugged up.
+
+Company: Unknown Company (Unknown Position)
+  - diff between microservices and monolithic architecture
+
+Company: Unknown Company (Unknown Position)
+  - what is oops?
+
+Company: Unknown Company (Unknown Position)
+  - what is the tomcat server
+
+Company: ** radiowala network (** full_stack_(mern))
+  - mongodb aggreation query
+
+Company: ** radiowala network (** full_stack_(mern))
+  - how to handle multiple api call using promise.
+
+Company: ** 50hertz (** sdet)
+  - What is Authentication & Authorization?
+
+Company: PTosh** (backend-node**)
+  - What is Node.js
+
+Company: PTosh** (backend-node**)
+  - What is Express
+
+Company: PTosh** (backend-node**)
+  - How you handle errors in Node.js
+
+Company: ** narayana group (** sdet)
+  - ) what is an api testing
+
+Company: ** narayana group (** sdet)
+  - )=> what are the https methods and codes?
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - What is Node.js ? Is it single threaded or multi threaded ?
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - HTTP Methods
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - Explain asynchronous and non-blocking nature of Node.js ?
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - Write a mongoDB query to retrieve the users whose age is greater than 30 ?
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - Difference between Authentication and Authorization
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - HTTP methods and status codes.
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - MongoDB query to find users whose age is greater than 30.
+
+Company: ** Amogh Buildtech Private Limited (** FULL_STACK_ENGINEER)
+  - Front or backend
+
+Company: ** Amogh Buildtech Private Limited (** FULL_STACK_ENGINEER)
+  - event loop very deep
+
+Company: ** Amogh Buildtech Private Limited (** FULL_STACK_ENGINEER)
+  - mongodb query
+
+Company: Unknown Company (Unknown Position)
+  - what are different design patterns?
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is Node.js?
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is Express.js?
+
+-------------------------------------------------------------------------------
+Company: ** narayana group (** frontend_(react_js))
+  - What is MongoDB?
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is middleware in web development?
+
+Company: ** AgentAnalytics.AI (** FULL_STACK_ENGINEER)
+  - Types of different types in TypeScript
+
+Company: ** AgentAnalytics.AI (** FULL_STACK_ENGINEER)
+  - Some backend knowledge
+
+Company: Perstoc** (backend-node**)
+  - Security concerns of Node.js
+
+Company: ** Inspekt Labs (** FRONTEND_ENGINEER)
+  - what is express.js
+
+Company: ** Inspekt Labs (** FRONTEND_ENGINEER)
+  - what is mongoDB and what is mongoDB compass
+
+Company: ** Inspekt Labs (** FRONTEND_ENGINEER)
+  - Bag of coins:- https://www.geeksforgeeks.org/puzzle-bag-of-coins/
+
+Company: ** Inspekt Labs (** FRONTEND_ENGINEER)
+  - Student was lacking in the backend knowledge
+
+Company: ** Tracxn (** FULL_STACK_ENGINEER)
+  - what is collection in mongodb?
+
+Company: ** kriscent (** backend (nodejs))
+  - What is MongoDB, how is it different from SQL ?
+
+Company: ** kriscent (** backend (nodejs))
+  - Mongoose ?
+
+Company: ** Fleapo (** SENIOR_SOFTWARE_ENGINEER)
+  - have you worked around database?
+
+Company: ** Fleapo (** SENIOR_SOFTWARE_ENGINEER)
+  - middlewares in backend?
+
+Company: ** Fleapo (** SENIOR_SOFTWARE_ENGINEER)
+  - how event loops hancdles promise?
+
+Company: Frontier-Markets** (Backend-node**)
+  - Event loop
+
+Company: Frontier-Markets** (Backend-node**)
+  - API,
+
+Company: Frontier-Markets** (Backend-node**)
+  - Middleware
+
+Company: Frontier-Markets** (Backend-node**)
+  - Diff btw relational and non-relational databases.
+
+Company: Peoplebox** (backend-node**)
+  - They prefer an internal URL Shortener rather than an external service and want to integrate it with a Slack bot.
+
+Company: Peoplebox** (backend-node**)
+  - Design a database schema for the URL Shortener.
+
+Company: Peoplebox** (backend-node**)
+  - A [Loom.com](https://www.loom.com/) video recording demonstrating the demo and working setup (showing the functionality of pasting a URL and receiving a shortened URL).
+
+Company: Mindrops** (Frontend-angular**)
+  - What is SQL and NoSQL databases
+
+Company: Mindrops** (Frontend-angular**)
+  - Which database need to use
+
+Company: ** SchoolLog (** FULL_STACK_ENGINEER)
+  - What are the different types of HTTP request ?
+
+Company: ** SchoolLog (** FULL_STACK_ENGINEER)
+  - Write a MongoDB query to find the user with the second largest age ?
+
+Company: ** Smartshiphub (** FULL_STACK_ENGINEER)
+  - Difference between Node.js and Express.js?
+
+Company: ** Smartshiphub (** FULL_STACK_ENGINEER)
+  - Create a basic server using express and implement a GET route, which returns a welcome message.
+
+Company: Eksaq** (Frontend-react**)
+  - Utilize any AI API to display a transcript of the recorded audio (assuming recordings are in English).
+
+Company: Eksaq** (Frontend-react**)
+  - Backend: Node.js
+
+Company: Eksaq** (Frontend-react**)
+  - Database: MongoDB
+
+Company: Eksaq** (Frontend-react**)
+  - [Lokesh Submission Link ] (https://github.com/lokeshchoudharyprogrammer/voice-to-track)
+
+Company: Accelgrowth Technology Pvt Ltd** (Full Stack**)
+  - The student was not good in Node.js.
+
+-------------------------------------------------------------------------------
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - Authentication: token based
+
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - RESTful API?
+
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - Express? Why is it used over HTTP Methods?
+
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - Project Showcase? Is it Static or Dynamic? JSON Server?
+
+Company: ** RuRuX (** FRONTEND_ENGINEER)
+  - how to render data when we fetch data from an api. explaination
+
+Company: ** f22 labs (** full stack (mern))
+  - event loop, closure, promises, callbacks
+
+Company: ** f22 labs (** full stack (mern))
+  - aggregation in mongoDB
+
+Company: ** f22 labs (** full stack (mern))
+  - SQL vs MongoDb
+
+Company: Netpuppy** (Frontend-Engineer**)
+  - What do you know about API Integration
+
+Company: ** accelerize360 (** data scientist (python, sql, excel))
+  - Assignment on NYC Taxi EDA database from Kaggle.
+
+Company: ** iitb (** full_stack_(mern))
+  - validate the captacha from backend
+
+Company: ** Kapiva (** SENIOR_SOFTWARE_ENGINEER)
+  - what is eventloop in nodejs?
+
+Company: ** Kapiva (** SENIOR_SOFTWARE_ENGINEER)
+  - How to add new keyin a mongoDb document(for single and for entire collection)?
+
+Company: ** Kapiva (** SENIOR_SOFTWARE_ENGINEER)
+  - asked aboutschema design in an exiting api of the candidate.
+
+Company: ** monocept (** frontend (react js))
+  - Event loop
+
+Company: ** monocept (** frontend (react js))
+  - How to create routes in express (Impressed by the answer)
+
+Company: ** monocept (** frontend (react js))
+  - Streams in Node.js
+
+Company: ** monocept (** frontend (react js))
+  - Difference between MongoDB vs SQL
+
+Company: ** monocept (** frontend (react js))
+  - What is indexes in MongoDB
+
+Company: ** monocept (** frontend (react js))
+  - Standards of MongoDB
+
+Company: ** monocept (** frontend (react js))
+  - features offered by mongoDB
+
+Company: ** monocept (** frontend (react js))
+  - What are the CRUD operations in MongoDB
+
+Company: ** monocept (** frontend (react js))
+  - What is generic type in Typescript
+
+Company: **  Madrecha Solutions (** FULL_STACK_ENGINEER)
+  - Projects - backend
+
+Company: Cloudura.ai** (Backend-python**)
+  - Database:
+
+Company: Cloudura.ai** (Backend-python**)
+  - MongoDB
+
+Company: ** Skygoaltech (** FULL_STACK_ENGINEER)
+  - form validation  in express
+
+Company: ** Skygoaltech (** FULL_STACK_ENGINEER)
+  - library for form validation in express
+
+Company: ** Skygoaltech (** FULL_STACK_ENGINEER)
+  - what is middleware
+
+Company: ** Skygoaltech (** FULL_STACK_ENGINEER)
+  - types of api
+
+Company: ** Skygoaltech (** FULL_STACK_ENGINEER)
+  - what is restful api
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Questions on For-loop with some conditons
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Basic MongoDB queries
+
+-------------------------------------------------------------------------------
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Why MongoDB
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Why we use Node.js
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - What is Express.
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Why we use Express.js
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - When we have Node.js , Why we use Express.js
+
+Company: ** ContinuServe (** backend (Java))
+  - What are the pillar of OOP.
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - explain oops concepts
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - Indexing in MongoDB
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - In SQL we can use JOINS to concatenate two tables, what is the alternative in MongoDB.
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - Aggregation in MongoDB.
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - What is transcation in MongoDB.
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - How to implement pagination support in backend.
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - Middlewares in express
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - High level backend and database questions were asked, the difficulty is on the higher side. Need a good prep to crack this round.
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - database: if person-a refer preson-b, person-a will get 500 rupees. if person-b referes to person-c, person-b will get 500 rupees and person-a will get 10%  of 500.
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - candidate struggled in the database question, Array constructor question, paranthesis to array questions
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - andidate struggled in the database question, Array constructor question, paranthesis to array questions
+
+Company: ** Alphablocks (** FRONTEND_ENGINEER)
+  - DSA Questions https://leetcode.com/problems/remove-k-digits/description/
+
+Company: Vivahit** (Frontend-react**)
+  - Did you know Typescript. Any projects you have worked on
+
+Company: Vivahit** (Frontend-react**)
+  - Node.js Proficiency
+
+Company: Vivahit** (Frontend-react**)
+  - if you want to get the live data from the server how you will do it.
+
+Company: Vivahit** (Frontend-react**)
+  - How do you handle the server if it is taking time to fetch the live data, The is the follow-up question to the above question
+
+Company: Vivahit** (Frontend-react**)
+  - Typescript  Proficiency

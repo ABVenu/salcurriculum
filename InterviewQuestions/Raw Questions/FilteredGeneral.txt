@@ -1,0 +1,3008 @@
+Company: Amplicomm** (Backend-node.js**)
+  - *
+
+Company: Amplicomm** (Backend-node.js**)
+  - 2.
+
+Company: Amplicomm** (Backend-node.js**)
+  - ### Hunch
+
+Company: Amplicomm** (Backend-node.js**)
+  - **What do you think about the candidates?**
+
+Company: Amplicomm** (Backend-node.js**)
+  - - **What may be the reason for rejections?**
+
+Company: Amplicomm** (Backend-node.js**)
+  - ---
+
+Company: Amplicomm** (Backend-node.js**)
+  - **Date:**
+
+Company: Amplicomm** (Backend-node.js**)
+  - **Duration:**
+
+Company: Amplicomm** (Backend-node.js**)
+  - **Platform:**
+
+Company: Amplicomm** (Backend-node.js**)
+  - **
+
+Company: Amplicomm** (Backend-node.js**)
+  - *
+
+Company: Amplicomm** (Backend-node.js**)
+  - 2.
+
+Company: Amplicomm** (Backend-node.js**)
+  - ### Hunch
+
+Company: Amplicomm** (Backend-node.js**)
+  - **What do you think about the candidates?**
+
+Company: Amplicomm** (Backend-node.js**)
+  - - **What may be the reason for rejections?**
+
+Company: Amplicomm** (Backend-node.js**)
+  - ---
+
+Company: Amplicomm** (Backend-node.js**)
+  - **Date:**
+
+Company: Amplicomm** (Backend-node.js**)
+  - **Duration:**
+
+Company: Amplicomm** (Backend-node.js**)
+  - **Platform:**
+
+Company: Amplicomm** (Backend-node.js**)
+  - **
+
+Company: Beyondseek** (FullStack-mern**)
+  - *
+
+Company: Beyondseek** (FullStack-mern**)
+  - 2.
+
+Company: Beyondseek** (FullStack-mern**)
+  - ### Hunch
+
+Company: Beyondseek** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Beyondseek** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Beyondseek** (FullStack-mern**)
+  - ---
+
+Company: Beyondseek** (FullStack-mern**)
+  - **Date:**
+
+Company: Beyondseek** (FullStack-mern**)
+  - **Duration:**
+
+Company: Beyondseek** (FullStack-mern**)
+  - **Platform:**
+
+Company: Beyondseek** (FullStack-mern**)
+  - **
+
+Company: EduFund** (FullStack-mern**)
+  - *
+
+Company: EduFund** (FullStack-mern**)
+  - 2.
+
+Company: EduFund** (FullStack-mern**)
+  - ### Hunch
+
+Company: EduFund** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: EduFund** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: EduFund** (FullStack-mern**)
+  - ---
+
+Company: EduFund** (FullStack-mern**)
+  - **Date:**
+
+Company: EduFund** (FullStack-mern**)
+  - **Duration:1hr**
+
+Company: EduFund** (FullStack-mern**)
+  - **Platform:Coderbyte**
+
+Company: EduFund** (FullStack-mern**)
+  - **
+
+Company: EnactOn** (Backend-php**)
+  - *
+
+Company: EnactOn** (Backend-php**)
+  - Clone the repository and navigate to the project folder.
+
+Company: EnactOn** (Backend-php**)
+  - Update the .env file with your own MySQL credentials.
+
+Company: EnactOn** (Backend-php**)
+  - Project Setup: Ensure proper project setup as per the provided instructions.
+
+Company: EnactOn** (Backend-php**)
+  - Main Section: Display a paginated list of product in the main section.
+
+Company: EnactOn** (Backend-php**)
+  - Product Sorting: Implement options for sorting products based on price, creation date (created_at), and rating.
+
+Company: EnactOn** (Backend-php**)
+  - Brand Filter: Enable product filtering by the chosen brand and emphasize the selected brands within the respective tab.
+
+Company: EnactOn** (Backend-php**)
+  - Category Filter: Allow product filtering by the selected category and highlight the chosen category within its designated tab.
+
+Company: EnactOn** (Backend-php**)
+  - Price Range Filter: Provide the ability to filter products based on the selected price range and highlight the chosen range within its dedicated tab.
+
+Company: EnactOn** (Backend-php**)
+  - Occasion Filter: Enable product filtering based on the selected occasion and highlight the chosen occasion within its specific tab.
+
+Company: EnactOn** (Backend-php**)
+  - Discount Filter: Implement product filtering based on the selected discount and highlight the chosen discount within its dedicated tab.
+
+Company: EnactOn** (Backend-php**)
+  - URL Parameters: Store all filter and sort options in the URL parameters to replicate the user's browsing state when sharing URLs.
+
+Company: EnactOn** (Backend-php**)
+  - Create Product: Allow users to crete product.
+
+Company: EnactOn** (Backend-php**)
+  - Edit Product: Allow users to modify specific product details.
+
+Company: EnactOn** (Backend-php**)
+  - Delete Product: Provide the functionality to remove a particular product from the list.
+
+Company: EnactOn** (Backend-php**)
+  - Code Repository: Push the code to a public GitHub repository.
+
+Company: EnactOn** (Backend-php**)
+  - Documentation: Provide well-documented code with a comprehensive README file.
+
+Company: EnactOn** (Backend-php**)
+  - Setup Instructions: Include clear instructions on how to set up and run the project.
+
+Company: EnactOn** (Backend-php**)
+  - Application Demo: Record a video demonstrating the application's functionality.
+
+Company: EnactOn** (Backend-php**)
+  - Code Quality: Is the code well-structured, readable, and maintainable?
+
+Company: EnactOn** (Backend-php**)
+  - Documentation: Is the codebase well-documented with clear instructions?
+
+Company: EnactOn** (Backend-php**)
+  - Delivery Quality: Does the candidate deliver all expected deliverables with high quality?
+
+Company: EnactOn** (Backend-php**)
+  - **What do you think about the candidates?**
+
+Company: EnactOn** (Backend-php**)
+  - - **What may be the reason for rejections?**
+
+Company: EnactOn** (Backend-php**)
+  - ---
+
+Company: EnactOn** (Backend-php**)
+  - **Date:**
+
+Company: EnactOn** (Backend-php**)
+  - **Duration:**
+
+Company: EnactOn** (Backend-php**)
+  - **Platform:**
+
+Company: EnactOn** (Backend-php**)
+  - **
+
+Company: ** Slashash Tech LLP (** Fullstack MERN)
+  - *
+
+Company: ** Slashash Tech LLP (** Fullstack MERN)
+  - Create a Joke generator , by using AI,
+
+Company: ** Slashash Tech LLP (** Fullstack MERN)
+  - **What do you think about the candidates?**
+
+Company: ** Slashash Tech LLP (** Fullstack MERN)
+  - - **What may be the reason for rejections?**
+
+Company: ** Slashash Tech LLP (** Fullstack MERN)
+  - ---
+
+Company: ** Slashash Tech LLP (** Fullstack MERN)
+  - For us: Talk to the company aorund SQL
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - *
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - Semantic Tags
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - Inline n block elements
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - What are the difference between States and Props ?
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - What is useRef
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - She opt out from the company due to Low Package.
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - --
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - **Date:**
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - **Duration:**
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - **Platform:**
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - **
+
+Company: ** Star Health (** BACKEND_ENGINEER)
+  - *
+
+Company: ** Star Health (** BACKEND_ENGINEER)
+  - 2.
+
+Company: ** Star Health (** BACKEND_ENGINEER)
+  - ### Hunch
+
+Company: ** Star Health (** BACKEND_ENGINEER)
+  - **What do you think about the candidates?**
+
+Company: ** Star Health (** BACKEND_ENGINEER)
+  - - **What may be the reason for rejections?**
+
+Company: ** Star Health (** BACKEND_ENGINEER)
+  - ---
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - *
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - What is Inheritance
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - **Date:2024-03-11**
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - **Duration:10min**
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - **Platform:**
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - **
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - *
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Polymorphism in JS along with example.
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Difference between "em" and "rem" measurement units.
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Given an array of numbers, find the average using the reduce HOF
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Async Await, handling promises, states of promises.
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Create stack using JS classes.
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Code Snippet based questions
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - *
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - 2.
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - ### Hunch
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - ---
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - **Date:**
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - **Duration:**
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - **Platform:**
+
+Company: Zealeye.AI-Tech-Solutions** (Backend-node**)
+  - **
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - Props
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - useEffect
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - useSelector
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - How to reuse components
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - How to change the color of a div
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - **What do you think about the candidates?**
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - Shivam is good with technical knowledge but answered incorrectly for fetch and async/await questions. However, he implemented the concepts correctly.
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - Dipanshu is average with technical skills but misses some implemented methods in live coding.
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - Technical communication is below average compared to both candidates.
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - **What may be the reason for rejections?**
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - Incorrect answers to technical questions.
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - Lack of implementation of certain methods.
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - Poor technical communication skills.
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - ### What Not to do?
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - 
+
+Company: Zarektronix** (FullStack-mern**)
+  - *
+
+Company: Zarektronix** (FullStack-mern**)
+  - 2.
+
+Company: Zarektronix** (FullStack-mern**)
+  - ### Hunch
+
+Company: Zarektronix** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Zarektronix** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Zarektronix** (FullStack-mern**)
+  - ---
+
+Company: Zarektronix** (FullStack-mern**)
+  - **Date:**
+
+Company: Zarektronix** (FullStack-mern**)
+  - **Duration:**
+
+Company: Zarektronix** (FullStack-mern**)
+  - **Platform:**
+
+Company: Zarektronix** (FullStack-mern**)
+  - **
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - *
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - Project Explanation, (features and working),
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - Is component is loading or whole page is loading
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - How netlify works (Have you implemented such type of things)
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - Have you created any User centered projects where user can upload his data and can use the features.
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - In next round they will give the assignment where you need to show the analytics of the operation that is being performed
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - **What do you think about the candidates?**
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - Students were above avg in Technical Knowledge in Comm (4/10)
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - **What may be the reason for rejections?**
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - ---
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - **Date:08/03/2024**
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - **Duration:**
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - **Platform:**
+
+Company: Allied-Medical-Limited** (FullStack-mern**  (BACKEND as per the students))
+  - **
+
+Company: EsolutionsFirst** (backend java**)
+  - when to use static keyword and when not to use.
+
+Company: EsolutionsFirst** (backend java**)
+  - which abstract class is there in collection f/w.
+
+Company: EsolutionsFirst** (backend java**)
+  - **What do you think about the candidates?**
+
+Company: EsolutionsFirst** (backend java**)
+  - answered the question which was asked.
+
+Company: EsolutionsFirst** (backend java**)
+  - not able to answer the questions on multithreading
+
+Company: EsolutionsFirst** (backend java**)
+  - not able to answer the abstract class in collection framework
+
+Company: EsolutionsFirst** (backend java**)
+  - **What may be the reason for rejections?**
+
+Company: EsolutionsFirst** (backend java**)
+  - ## Key Learnings
+
+Company: EsolutionsFirst** (backend java**)
+  - core java , projects, java reference doc.
+
+Company: EsolutionsFirst** (backend java**)
+  - ### What Not to do?
+
+Company: EsolutionsFirst** (backend java**)
+  - _(Provide insights on best practices and common pitfalls based on the debrief)_
+
+Company: Tracxn** (backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Tracxn** (backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Tracxn** (backend-node**)
+  - ---
+
+Company: Tracxn** (backend-node**)
+  - **Date:5th March**
+
+Company: Tracxn** (backend-node**)
+  - **Duration:1hr**
+
+Company: Tracxn** (backend-node**)
+  - **Platform:Like Notepad**
+
+Company: Tracxn** (backend-node**)
+  - **
+
+Company: ** Kryzen Biotech (** BACKEND_ENGINEER)
+  - *
+
+Company: ** Kryzen Biotech (** BACKEND_ENGINEER)
+  - 2.
+
+Company: ** Kryzen Biotech (** BACKEND_ENGINEER)
+  - ### Hunch
+
+Company: ** Kryzen Biotech (** BACKEND_ENGINEER)
+  - **What do you think about the candidates?**
+
+Company: ** Kryzen Biotech (** BACKEND_ENGINEER)
+  - - **What may be the reason for rejections?**
+
+Company: ** Kryzen Biotech (** BACKEND_ENGINEER)
+  - ---
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - *
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - Basics of SQL
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - Single threading
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - Callbacks, promises
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - **What do you think about the candidates?**
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - Candidate needs to brush up the skills
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - **What may be the reason for rejections?**
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - Not able to answer callback function properly.
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - No able to explain around SQL.
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - --
+
+Company: Fluid-AI** (backend-nodejs**)
+  - *
+
+Company: Fluid-AI** (backend-nodejs**)
+  - 2.
+
+Company: Fluid-AI** (backend-nodejs**)
+  - ### Hunch
+
+Company: Fluid-AI** (backend-nodejs**)
+  - **What do you think about the candidates?**
+
+Company: Fluid-AI** (backend-nodejs**)
+  - - **What may be the reason for rejections?**
+
+Company: Fluid-AI** (backend-nodejs**)
+  - ---
+
+Company: Fluid-AI** (backend-nodejs**)
+  - **Date:**
+
+Company: Fluid-AI** (backend-nodejs**)
+  - **Duration:**
+
+Company: Fluid-AI** (backend-nodejs**)
+  - **Platform:**
+
+Company: Fluid-AI** (backend-nodejs**)
+  - **
+
+Company: UBQ** (FullStack-mean**)
+  - *
+
+Company: UBQ** (FullStack-mean**)
+  - 2.
+
+Company: UBQ** (FullStack-mean**)
+  - ### Hunch
+
+Company: UBQ** (FullStack-mean**)
+  - **What do you think about the candidates?**
+
+Company: UBQ** (FullStack-mean**)
+  - - **What may be the reason for rejections?**
+
+Company: UBQ** (FullStack-mean**)
+  - ---
+
+Company: UBQ** (FullStack-mean**)
+  - **Date:**
+
+Company: UBQ** (FullStack-mean**)
+  - **Duration:1hr**
+
+Company: UBQ** (FullStack-mean**)
+  - **Platform:**
+
+Company: UBQ** (FullStack-mean**)
+  - **
+
+Company: Areness** (FullStack-mern**)
+  - *
+
+Company: Areness** (FullStack-mern**)
+  - 2.
+
+Company: Areness** (FullStack-mern**)
+  - ### Hunch
+
+Company: Areness** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Areness** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Areness** (FullStack-mern**)
+  - ---
+
+Company: Areness** (FullStack-mern**)
+  - **Date:**
+
+Company: Areness** (FullStack-mern**)
+  - **Duration:**
+
+Company: Areness** (FullStack-mern**)
+  - **Platform:**
+
+Company: Areness** (FullStack-mern**)
+  - **
+
+Company: Neetable** (FullStack-mern**)
+  - *
+
+Company: Neetable** (FullStack-mern**)
+  - useMemo, Real life examples
+
+Company: Neetable** (FullStack-mern**)
+  - useCallback, Real life examples
+
+Company: Neetable** (FullStack-mern**)
+  - Anagram checker
+
+Company: Neetable** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Neetable** (FullStack-mern**)
+  - Communication (5.5/10)
+
+Company: Neetable** (FullStack-mern**)
+  - **What may be the reason for rejections?**
+
+Company: Neetable** (FullStack-mern**)
+  - He was not able to give real life examples of useCallback.
+
+Company: Neetable** (FullStack-mern**)
+  - --
+
+Company: Neetable** (FullStack-mern**)
+  - **Date:**
+
+Company: Neetable** (FullStack-mern**)
+  - **Duration:20min/30min(g)**
+
+Company: Neetable** (FullStack-mern**)
+  - **Platform:**
+
+Company: Neetable** (FullStack-mern**)
+  - **
+
+Company: Neetable** (Backend-node**)
+  - *
+
+Company: Neetable** (Backend-node**)
+  - Introduction
+
+Company: Neetable** (Backend-node**)
+  - Tech Stack
+
+Company: Neetable** (Backend-node**)
+  - Projects
+
+Company: Neetable** (Backend-node**)
+  - Relocate to bangalore
+
+Company: Neetable** (Backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Neetable** (Backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Neetable** (Backend-node**)
+  - ---
+
+Company: Neetable** (Backend-node**)
+  - **Date:**
+
+Company: Neetable** (Backend-node**)
+  - **Duration:30min/30min(g)**
+
+Company: Neetable** (Backend-node**)
+  - **Platform:Play Code Editor**
+
+Company: Neetable** (Backend-node**)
+  - **
+
+Company: Unscript-AI** (FullStack-mern**)
+  - *
+
+Company: Unscript-AI** (FullStack-mern**)
+  - 2.
+
+Company: Unscript-AI** (FullStack-mern**)
+  - ### Hunch
+
+Company: Unscript-AI** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Unscript-AI** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Unscript-AI** (FullStack-mern**)
+  - ---
+
+Company: Unscript-AI** (FullStack-mern**)
+  - **Date:**
+
+Company: Unscript-AI** (FullStack-mern**)
+  - **Duration:15 - 30min mins/ 30min(g)**
+
+Company: Unscript-AI** (FullStack-mern**)
+  - **Platform:VS**
+
+Company: Unscript-AI** (FullStack-mern**)
+  - **
+
+Company: Idea-clan** (backend-engineer**)
+  - *
+
+Company: Idea-clan** (backend-engineer**)
+  - 2.
+
+Company: Idea-clan** (backend-engineer**)
+  - ### Hunch
+
+Company: Idea-clan** (backend-engineer**)
+  - **What do you think about the candidates?**
+
+Company: Idea-clan** (backend-engineer**)
+  - - **What may be the reason for rejections?**
+
+Company: Idea-clan** (backend-engineer**)
+  - ---
+
+Company: Idea-clan** (backend-engineer**)
+  - **Date:**
+
+Company: Idea-clan** (backend-engineer**)
+  - **Duration:**
+
+Company: Idea-clan** (backend-engineer**)
+  - **Platform:**
+
+Company: Idea-clan** (backend-engineer**)
+  - **
+
+Company: ** flam (** backend (nodejs))
+  - *
+
+Company: ** flam (** backend (nodejs))
+  - 2.
+
+Company: ** flam (** backend (nodejs))
+  - ### Hunch
+
+Company: ** flam (** backend (nodejs))
+  - **What do you think about the candidates?**
+
+Company: ** flam (** backend (nodejs))
+  - - **What may be the reason for rejections?**
+
+Company: ** flam (** backend (nodejs))
+  - ---
+
+Company: Bravura-Technologies** (FullStack-mern**)
+  - Aptitude questions , Puzzle , Reasoning, Maths
+
+Company: Bravura-Technologies** (FullStack-mern**)
+  - Conceptual
+
+Company: ** stack wealth (** backend (nodejs))
+  - *
+
+Company: ** stack wealth (** backend (nodejs))
+  - Introduction
+
+Company: ** stack wealth (** backend (nodejs))
+  - previous interview experience question (since students worked on node js in previous)
+
+Company: ** stack wealth (** backend (nodejs))
+  - situation based question as per the experience.
+
+Company: ** stack wealth (** backend (nodejs))
+  - Most of the question were follow up questions on the resume and experience of the candidate
+
+Company: ** stack wealth (** backend (nodejs))
+  - **What do you think about the candidates?**
+
+Company: ** stack wealth (** backend (nodejs))
+  - she was experienced in node.
+
+Company: ** stack wealth (** backend (nodejs))
+  - **What may be the reason for rejections?**
+
+Company: ** stack wealth (** backend (nodejs))
+  - --
+
+Company: MoneyMul** (Backend-node**)
+  - *
+
+Company: MoneyMul** (Backend-node**)
+  - 2.
+
+Company: MoneyMul** (Backend-node**)
+  - ### Hunch
+
+Company: MoneyMul** (Backend-node**)
+  - **What do you think about the candidates?**
+
+Company: MoneyMul** (Backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: MoneyMul** (Backend-node**)
+  - ---
+
+Company: MoneyMul** (Backend-node**)
+  - **Date:**
+
+Company: MoneyMul** (Backend-node**)
+  - **Duration:**
+
+Company: MoneyMul** (Backend-node**)
+  - **Platform:**
+
+Company: MoneyMul** (Backend-node**)
+  - **
+
+Company: Donna-ai** (FullStack-mern**)
+  - *
+
+Company: Donna-ai** (FullStack-mern**)
+  - Project
+
+Company: Donna-ai** (FullStack-mern**)
+  - Discussion on the Projects
+
+Company: Donna-ai** (FullStack-mern**)
+  - Showcase
+
+Company: Donna-ai** (FullStack-mern**)
+  - Goal of the Project
+
+Company: Donna-ai** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Donna-ai** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Donna-ai** (FullStack-mern**)
+  - ---
+
+Company: Donna-ai** (FullStack-mern**)
+  - **Date:2024-04-16**
+
+Company: Donna-ai** (FullStack-mern**)
+  - **Duration:30min**
+
+Company: Donna-ai** (FullStack-mern**)
+  - **Platform:**
+
+Company: Donna-ai** (FullStack-mern**)
+  - **
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - *
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Include endpoints for user registration, login, and logout.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Functional endpoints for user registration, login, and logout.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Secure access to protected routes using JWT.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Implement filtering options for data retrieval based on categories and result limits.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Proper implementation of filtering options for categories and result limits.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Utilize web3.js library to interact with the Ethereum blockchain.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Implement a route to retrieve the balance of a specified Ethereum account.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Successful integration of web3.js for Ethereum account balance retrieval.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Provide a GitHub repository link containing the code for the tasks.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Optionally, provide a hosted link (e.g., on GitHub Pages, Netlify, etc.) where the assessment can be interactively viewed.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - **What do you think about the candidates?**
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - - **What may be the reason for rejections?**
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - ## Type of Round: Technical Discussion-1 (TD-1)
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - **Date:**
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - **Duration:30min/30min(g)**
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - **Platform:**
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - **
+
+Company: quicksell** (Backend**)
+  - *
+
+Company: quicksell** (Backend**)
+  - Introduction
+
+Company: quicksell** (Backend**)
+  - Projects
+
+Company: quicksell** (Backend**)
+  - Showcase
+
+Company: quicksell** (Backend**)
+  - Functionality and working
+
+Company: quicksell** (Backend**)
+  - Add Refresh token in the Login Functionality
+
+Company: quicksell** (Backend**)
+  - He was not getting the access_token
+
+Company: quicksell** (Backend**)
+  - **What do you think about the candidates?**
+
+Company: quicksell** (Backend**)
+  - - **What may be the reason for rejections?**
+
+Company: quicksell** (Backend**)
+  - ---
+
+Company: quicksell** (Backend**)
+  - **Date:**
+
+Company: quicksell** (Backend**)
+  - **Duration:**
+
+Company: quicksell** (Backend**)
+  - **Platform:**
+
+Company: quicksell** (Backend**)
+  - **
+
+Company: Nextbill** (Backend-Engineer**)
+  - *
+
+Company: Nextbill** (Backend-Engineer**)
+  - 2.
+
+Company: Nextbill** (Backend-Engineer**)
+  - ### Hunch
+
+Company: Nextbill** (Backend-Engineer**)
+  - **What do you think about the candidates?**
+
+Company: Nextbill** (Backend-Engineer**)
+  - - **What may be the reason for rejections?**
+
+Company: Nextbill** (Backend-Engineer**)
+  - ---
+
+Company: Nextbill** (Backend-Engineer**)
+  - **Date:**
+
+Company: Nextbill** (Backend-Engineer**)
+  - **Duration:**
+
+Company: Nextbill** (Backend-Engineer**)
+  - **Platform:**
+
+Company: Nextbill** (Backend-Engineer**)
+  - **
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - *
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - Online js compiler.
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - Counter function.
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - return a fn which returns ++count.
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - wants dynamically
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - as a object format it should print. { "1" : 1, "2": 2 }..so on.
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - **What do you think about the candidates?**
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - average
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - **What may be the reason for rejections?**
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - not able to put the approach.
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - --
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - **Date:** 04/05/2024 - 4:00pm to 4:45pm
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - **Duration:** 45 mins
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - **Platform:** Virtually
+
+Company: ** DigitalPaani (** BACKEND_ENGINEER)
+  - **
+
+Company: Tezminds** (backend-python**)
+  - *
+
+Company: Tezminds** (backend-python**)
+  - 2.
+
+Company: Tezminds** (backend-python**)
+  - ### Hunch
+
+Company: Tezminds** (backend-python**)
+  - **What do you think about the candidates?**
+
+Company: Tezminds** (backend-python**)
+  - - **What may be the reason for rejections?**
+
+Company: Tezminds** (backend-python**)
+  - ---
+
+Company: Tezminds** (backend-python**)
+  - **Date:**
+
+Company: Tezminds** (backend-python**)
+  - **Duration:**
+
+Company: Tezminds** (backend-python**)
+  - **Platform:**
+
+Company: Tezminds** (backend-python**)
+  - **
+
+Company: Creware-Technologies** (Backend-node**)
+  - *
+
+Company: Creware-Technologies** (Backend-node**)
+  - Array methods
+
+Company: Creware-Technologies** (Backend-node**)
+  - [0,2,4,6,8] use map to mul by 2 [0,4,8,12,16]
+
+Company: Creware-Technologies** (Backend-node**)
+  - copy the code to filter and then tell the output for the same arr.
+
+Company: Creware-Technologies** (Backend-node**)
+  - Hoisting
+
+Company: Creware-Technologies** (Backend-node**)
+  - Closures
+
+Company: Creware-Technologies** (Backend-node**)
+  - Promises
+
+Company: Creware-Technologies** (Backend-node**)
+  - Diff methods to handle promises
+
+Company: Creware-Technologies** (Backend-node**)
+  - What is .iterate  method.
+
+Company: Creware-Technologies** (Backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Creware-Technologies** (Backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Creware-Technologies** (Backend-node**)
+  - ---
+
+Company: Creware-Technologies** (Backend-node**)
+  - **Date:09/04/24**
+
+Company: Creware-Technologies** (Backend-node**)
+  - **Duration:1hr/ 30min(G)**
+
+Company: Creware-Technologies** (Backend-node**)
+  - **Platform:Vs-Code**
+
+Company: Creware-Technologies** (Backend-node**)
+  - **
+
+Company: Creware-Technologies** (Backend-node**)
+  - *
+
+Company: Creware-Technologies** (Backend-node**)
+  - Semantic tags
+
+Company: Creware-Technologies** (Backend-node**)
+  - How to center a dive (Different methods)
+
+Company: Creware-Technologies** (Backend-node**)
+  - Hoisting
+
+Company: Creware-Technologies** (Backend-node**)
+  - Let, var and const
+
+Company: Creware-Technologies** (Backend-node**)
+  - Prototypical Inheritance
+
+Company: Creware-Technologies** (Backend-node**)
+  - Closures
+
+Company: Creware-Technologies** (Backend-node**)
+  - Promises
+
+Company: Creware-Technologies** (Backend-node**)
+  - Components
+
+Company: Creware-Technologies** (Backend-node**)
+  - useState and useEffect
+
+Company: Creware-Technologies** (Backend-node**)
+  - JWT
+
+Company: Creware-Technologies** (Backend-node**)
+  - Event Emitter
+
+Company: Creware-Technologies** (Backend-node**)
+  - Async / Await
+
+Company: Creware-Technologies** (Backend-node**)
+  - Revers the given string;
+
+Company: Creware-Technologies** (Backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Creware-Technologies** (Backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Creware-Technologies** (Backend-node**)
+  - ---
+
+Company: Creware-Technologies** (Backend-node**)
+  - **Date:**
+
+Company: Creware-Technologies** (Backend-node**)
+  - **Duration:1.5hr**
+
+Company: Creware-Technologies** (Backend-node**)
+  - **Platform:Vs-Code**
+
+Company: Creware-Technologies** (Backend-node**)
+  - **
+
+Company: ** Conitab (** Backend Nodejs)
+  - *
+
+Company: ** Conitab (** Backend Nodejs)
+  - Assignment Explanation
+
+Company: ** Conitab (** Backend Nodejs)
+  - Modification in the Assignment (Add or remove fields in the Excel Sheet)
+
+Company: ** Conitab (** Backend Nodejs)
+  - str = "1234name-suraj4321&42-age"
+
+Company: ** Conitab (** Backend Nodejs)
+  - **What do you think about the candidates?**
+
+Company: ** Conitab (** Backend Nodejs)
+  - - **What may be the reason for rejections?**
+
+Company: ** Conitab (** Backend Nodejs)
+  - ## Key Learnings
+
+Company: ** Conitab (** Backend Nodejs)
+  - ### What Not to do?
+
+Company: ** Conitab (** Backend Nodejs)
+  - _(Provide insights on best practices and common pitfalls based on the debrief)_
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - *
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Best Project you have done till now
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Showcase
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Discussion
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Head Tag
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Body Tag
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Style Tag
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Positions
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - use Cases
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Examples
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Psuedo Classes
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - vh , pixels and percentage
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Responsiveness
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Var and let and cosnt
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - What is Temporal dead zone
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - What is hoiting
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - aShync and synchroun
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - How javascirpt works asynchronously
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Array methods
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - ES6 features
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Rest and spred operators
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - useEffect
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Props Drilling
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - useContext
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - useEffect and useContext (deep explanation)
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - useContext
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Find the unique elements in the arra.
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - 2.
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - ### Hunch
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - ---
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - **Date:**
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - **Duration:20min/30min(G)**
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - **Platform:Any Code editor**
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - **
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - *
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - **What do you think about the candidates?**
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - - **What may be the reason for rejections?**
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - ---
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - **Date:04/04/2024**
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - **Duration:2hr**
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - **Platform:HackerRank**
+
+Company: SmartGig-Technologies-Private-Ltd** (Backend-Engineer**)
+  - **
+
+Company: HM-Innovance** (FullStack-mern**)
+  - *
+
+Company: HM-Innovance** (FullStack-mern**)
+  - 2.
+
+Company: HM-Innovance** (FullStack-mern**)
+  - ### Hunch
+
+Company: HM-Innovance** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: HM-Innovance** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: HM-Innovance** (FullStack-mern**)
+  - ---
+
+Company: HM-Innovance** (FullStack-mern**)
+  - **Date:**
+
+Company: HM-Innovance** (FullStack-mern**)
+  - **Duration:**
+
+Company: HM-Innovance** (FullStack-mern**)
+  - **Platform:**
+
+Company: HM-Innovance** (FullStack-mern**)
+  - **
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - *
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - 2.
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - ### Hunch
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - **What do you think about the candidates?**
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - - **What may be the reason for rejections?**
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - ---
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - **Date:**
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - **Duration:**
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - **Platform:**
+
+Company: MWB-Technologies-India-Pvt-Ltd** (Backend-Engineer**)
+  - **
+
+Company: ** Gurucool (** BACKEND_ENGINEER)
+  - *
+
+Company: ** Gurucool (** BACKEND_ENGINEER)
+  - 2.
+
+Company: ** Gurucool (** BACKEND_ENGINEER)
+  - ### Hunch
+
+Company: ** Gurucool (** BACKEND_ENGINEER)
+  - **What do you think about the candidates?**
+
+Company: ** Gurucool (** BACKEND_ENGINEER)
+  - - **What may be the reason for rejections?**
+
+Company: ** Gurucool (** BACKEND_ENGINEER)
+  - ---
+
+Company: Cashinvoice** (backend-engineer**)
+  - *
+
+Company: Cashinvoice** (backend-engineer**)
+  - 2.
+
+Company: Cashinvoice** (backend-engineer**)
+  - ### Hunch
+
+Company: Cashinvoice** (backend-engineer**)
+  - **What do you think about the candidates?**
+
+Company: Cashinvoice** (backend-engineer**)
+  - - **What may be the reason for rejections?**
+
+Company: Cashinvoice** (backend-engineer**)
+  - ---
+
+Company: Cashinvoice** (backend-engineer**)
+  - **Date:**
+
+Company: Cashinvoice** (backend-engineer**)
+  - **Duration:**
+
+Company: Cashinvoice** (backend-engineer**)
+  - **Platform:**
+
+Company: Cashinvoice** (backend-engineer**)
+  - **
+
+Company: TrueGradient** (FullStackEngineer**)
+  - *
+
+Company: TrueGradient** (FullStackEngineer**)
+  - Two sum and target value K
+
+Company: TrueGradient** (FullStackEngineer**)
+  - Remove Duplicates from an array and instead of numbers print space.
+
+Company: TrueGradient** (FullStackEngineer**)
+  - **What do you think about the candidates?**
+
+Company: TrueGradient** (FullStackEngineer**)
+  - - **What may be the reason for rejections?**
+
+Company: TrueGradient** (FullStackEngineer**)
+  - ---
+
+Company: TrueGradient** (FullStackEngineer**)
+  - **Date:10/04/2024**
+
+Company: TrueGradient** (FullStackEngineer**)
+  - **Duration:30min**
+
+Company: TrueGradient** (FullStackEngineer**)
+  - **Platform:**
+
+Company: TrueGradient** (FullStackEngineer**)
+  - **
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - *
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - 2.
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - ### Hunch
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - ---
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - **Date:**
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - **Duration:**
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - **Platform:**
+
+Company: Zota-Next-Tech** (FullStack-mern**)
+  - **
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - *
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - 2.
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - ### Hunch
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - ---
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - **Date:**
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - **Duration:**
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - **Platform:**
+
+Company: Ash-Information-Technologies** (Backend-node**)
+  - **
+
+Company: Trishta-Global** (FullStack-mern**)
+  - *
+
+Company: Trishta-Global** (FullStack-mern**)
+  - **Designation of the Interviewer:**
+
+Company: Trishta-Global** (FullStack-mern**)
+  - What are the types of Input tag
+
+Company: Trishta-Global** (FullStack-mern**)
+  - ViewPort
+
+Company: Trishta-Global** (FullStack-mern**)
+  - Block level and In-line element difference
+
+Company: Trishta-Global** (FullStack-mern**)
+  - How to define the Media Queries
+
+Company: Trishta-Global** (FullStack-mern**)
+  - Box model
+
+Company: Trishta-Global** (FullStack-mern**)
+  - Promises
+
+Company: Trishta-Global** (FullStack-mern**)
+  - Hoisting
+
+Company: Trishta-Global** (FullStack-mern**)
+  - Callback Questions
+
+Company: Trishta-Global** (FullStack-mern**)
+  - Closures
+
+Company: Trishta-Global** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Trishta-Global** (FullStack-mern**)
+  - Rahul :
+
+Company: Trishta-Global** (FullStack-mern**)
+  - **What may be the reason for rejections?**
+
+Company: Trishta-Global** (FullStack-mern**)
+  - ---
+
+Company: Trishta-Global** (FullStack-mern**)
+  - **Date:**
+
+Company: Trishta-Global** (FullStack-mern**)
+  - **Duration:**
+
+Company: Trishta-Global** (FullStack-mern**)
+  - **Platform:**
+
+Company: Trishta-Global** (FullStack-mern**)
+  - **
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - *
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - Introduction and Projects
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - useContext usecase and meaning
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - after tech questions started with questions around Salary expectations
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - Asked what is your salary expectation
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - If we pay 3 Lakhs to Masai then what will be your expectations
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - If we take care of all of the cost of living then what will be your expectations
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - Was not sure on how to handle salary expectation questions
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - --
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - **Date:**
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - **Duration:**
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - **Platform:**
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - **
+
+Company: Tapfin** (FullStack-mern**)
+  - *
+
+Company: Tapfin** (FullStack-mern**)
+  - Scenario based question :
+
+Company: Tapfin** (FullStack-mern**)
+  - Postgresql ?
+
+Company: Tapfin** (FullStack-mern**)
+  - What Tech stacks you have worked on ?
+
+Company: Tapfin** (FullStack-mern**)
+  - How docker works ( Sandeep told him that he knows docker)
+
+Company: Tapfin** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Tapfin** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Tapfin** (FullStack-mern**)
+  - ---
+
+Company: Tapfin** (FullStack-mern**)
+  - **Date:06/04/2024**
+
+Company: Tapfin** (FullStack-mern**)
+  - **Duration:30min**
+
+Company: Tapfin** (FullStack-mern**)
+  - **Platform:**
+
+Company: Tapfin** (FullStack-mern**)
+  - **
+
+Company: TurboComply** (FullStack-mern**)
+  - *
+
+Company: TurboComply** (FullStack-mern**)
+  - Output based questions (30%)
+
+Company: TurboComply** (FullStack-mern**)
+  - Aptitude Questions ( 70%)
+
+Company: TurboComply** (FullStack-mern**)
+  - Time and Distance
+
+Company: TurboComply** (FullStack-mern**)
+  - ### Hunch
+
+Company: TurboComply** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: TurboComply** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: TurboComply** (FullStack-mern**)
+  - ---
+
+Company: TurboComply** (FullStack-mern**)
+  - **Date:14/03/24**
+
+Company: TurboComply** (FullStack-mern**)
+  - **Duration:2hr**
+
+Company: TurboComply** (FullStack-mern**)
+  - **Platform:VS Code (git)**
+
+Company: TurboComply** (FullStack-mern**)
+  - **
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - *
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - how you can fetch the data from mutual funds website?
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - how you can fetch live data from share & stock market website ?
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - Mutual discussion around the background.
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - Projects
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - how to use the large data without deploying when we want it in faster manner?
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - asked to use GPT.
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - **What do you think about the candidates?**
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - Candidate was able to answer most of the questions, so was good to go for next round.
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - **What may be the reason for rejections?**
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - Not able to answer the last question where she can use GPT.
+
+Company: ** K C Investment (** BACKEND_ENGINEER)
+  - --
+
+Company: Narayana-Group** (FullStack-mern**)
+  - *
+
+Company: Narayana-Group** (FullStack-mern**)
+  - What is Binary Search
+
+Company: Narayana-Group** (FullStack-mern**)
+  - What is the Time Complexity of Binary Search
+
+Company: Narayana-Group** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Narayana-Group** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Narayana-Group** (FullStack-mern**)
+  - ---
+
+Company: Narayana-Group** (FullStack-mern**)
+  - **Date:8/03/2024**
+
+Company: Narayana-Group** (FullStack-mern**)
+  - **Duration:35min/30min(G)**
+
+Company: Narayana-Group** (FullStack-mern**)
+  - **Platform:**
+
+Company: Narayana-Group** (FullStack-mern**)
+  - **
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - *
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - 2.
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - ### Hunch
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - **What do you think about the candidates?**
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - - **What may be the reason for rejections?**
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - ---
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - **Date:**
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - **Duration:**
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - **Platform:**
+
+Company: Vista-Neotech-Private-Ltd** (Backend-Engineer**)
+  - **
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - *
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - How does a hashmap work internally?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Can you create, start, and run three data-shared threads in Java and explain how?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Could you please increase the run method and incrementing thread and print it?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - What is the difference between Runnable and Thread class?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Could you please print the counter as well for the above problem?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - What output will this code give, and why and how?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - What are the elements in a doubly linked list?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Write a function to remove a target node from the doubly linked list.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Can you write code without using the head or beginning of the node, just using node objects, and remove a target node from the doubly linked list?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Explain connection pool.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Explain commit and rollback.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Explain one-to-many and many-to-many relationships.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Give an example of one-to-many and many-to-many relationships.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Write an SQL query to select all employees where the department is "product team".
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Use a many-to-many relationship for the above question.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Explain many-to-many table.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - What are promises?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - What is async/await?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - What are callbacks?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - Explain the div and span tags.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - **What do you think about the candidates?**
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - - **What may be the reason for rejections?**
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - ---
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - **Date:**
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - **Duration:**
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - **Platform:**
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - **
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - *
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - Introduction
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - Project Explanation (Quality of projects)
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - Discussion
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - **What do you think about the candidates?**
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - - **What may be the reason for rejections?**
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - ---
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - **Date:**
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - **Duration:30min**
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - **Platform:Vs Code**
+
+Company: WaysAheadGlobal** (FullStack(mern)**)
+  - **
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - *
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - 2.
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - ### Hunch
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - ---
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - **Date:23/03/24**
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - **Duration:90mins**
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - **Platform:HackerEarth**
+
+Company: Ramco-Systems** (FullStack-mern**)
+  - **
+
+Company: Implevision-Technology** (Backend-node**)
+  - *
+
+Company: Implevision-Technology** (Backend-node**)
+  - Given an 2d array of numbers which contains credit card transaction history, return the array with transaction ID the fraudulent transaction
+
+Company: Implevision-Technology** (Backend-node**)
+  - if the amount is greater than or equal to 10000.
+
+Company: Implevision-Technology** (Backend-node**)
+  - if the credit card number is same and the transaction is made in the under 30minutes from different location.
+
+Company: Implevision-Technology** (Backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Implevision-Technology** (Backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Implevision-Technology** (Backend-node**)
+  - ---
+
+Company: Implevision-Technology** (Backend-node**)
+  - **Date:**
+
+Company: Implevision-Technology** (Backend-node**)
+  - **Duration:1hr**
+
+Company: Implevision-Technology** (Backend-node**)
+  - **Platform:**
+
+Company: Implevision-Technology** (Backend-node**)
+  - **
+
+Company: ** Saharsh Software LLP (** BACKEND_ENGINEER)
+  - *
+
+Company: ** Saharsh Software LLP (** BACKEND_ENGINEER)
+  - All the candidates rated their assignments 7 or 8 out of 10. Most of the core functionalities were implemented, but almost all had some trouble streaming data in chunks. Therefore, most of them retrieved the data in bulk instead
+
+Company: Bigyellofish** (backend-node**)
+  - *
+
+Company: Bigyellofish** (backend-node**)
+  - Salary table and Department Table and Employee table
+
+Company: Bigyellofish** (backend-node**)
+  - You need to find employee with the salary and department
+
+Company: Bigyellofish** (backend-node**)
+  - What are Promises
+
+Company: Bigyellofish** (backend-node**)
+  - Array of coins given, find the minimum no of coins needed to get the given amount
+
+Company: Bigyellofish** (backend-node**)
+  - Do you know Trees
+
+Company: Bigyellofish** (backend-node**)
+  - Graphs
+
+Company: Bigyellofish** (backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Bigyellofish** (backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Bigyellofish** (backend-node**)
+  - ---
+
+Company: Bigyellofish** (backend-node**)
+  - **Date:**
+
+Company: Bigyellofish** (backend-node**)
+  - **Duration:45min / 1hr (g)**
+
+Company: Bigyellofish** (backend-node**)
+  - **Platform:**
+
+Company: Bigyellofish** (backend-node**)
+  - **
+
+Company: ** Super.money (** backend (Java))
+  - String manipulation: find the maximum number of repeating characters in the given string.
+
+Company: ** Super.money (** backend (Java))
+  - Tree-based
+
+Company: ** WebMD (** backend (Java))
+  - String palindrom
+
+Company: ** WebMD (** backend (Java))
+  - Continuous increasing length of subarray.
+
+Company: ** WebMD (** backend (Java))
+  - Plateform - replite and google meet for 30 minutes.
+
+Company: ** WebMD (** backend (Java))
+  - **What do you think about the candidates?**
+
+Company: ** WebMD (** backend (Java))
+  - **What may be the reason of rejections?**
+
+Company: ** WebMD (** backend (Java))
+  - ## Key Learnings
+
+Company: ** WebMD (** backend (Java))
+  - ### What Not to do?
+
+Company: ** WebMD (** backend (Java))
+  - 
+
+Company: Cnetric-Global** (backend-node**)
+  - *
+
+Company: Cnetric-Global** (backend-node**)
+  - What you have done in the Gap year
+
+Company: Cnetric-Global** (backend-node**)
+  - What are promises
+
+Company: Cnetric-Global** (backend-node**)
+  - Promises
+
+Company: Cnetric-Global** (backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Cnetric-Global** (backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Cnetric-Global** (backend-node**)
+  - ---
+
+Company: Cnetric-Global** (backend-node**)
+  - **Date:**
+
+Company: Cnetric-Global** (backend-node**)
+  - **Duration:**
+
+Company: Cnetric-Global** (backend-node**)
+  - **Platform:**
+
+Company: Cnetric-Global** (backend-node**)
+  - **
+
+Company: PTosh** (backend-node**)
+  - *
+
+Company: PTosh** (backend-node**)
+  - Introduction
+
+Company: PTosh** (backend-node**)
+  - Projects Explanation
+
+Company: PTosh** (backend-node**)
+  - Challenges were in the project
+
+Company: PTosh** (backend-node**)
+  - How you handle the challenges
+
+Company: PTosh** (backend-node**)
+  - How you update yourself about tech stack
+
+Company: PTosh** (backend-node**)
+  - Comfortable for Night job
+
+Company: PTosh** (backend-node**)
+  - **What do you think about the candidates?**
+
+Company: PTosh** (backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: PTosh** (backend-node**)
+  - ---
+
+Company: PTosh** (backend-node**)
+  - **Date:**
+
+Company: PTosh** (backend-node**)
+  - **Duration:15min/30min(g)**
+
+Company: PTosh** (backend-node**)
+  - **Platform:VS code**
+
+Company: PTosh** (backend-node**)
+  - **
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - *
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - 2.
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - ### Hunch
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - ## Type of Round: Technical Discussion-1 (TD-1)
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - **Date:**
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - **Duration:30min/30min(g)**
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - **Platform:**
+
+Company: KritiKal-Solutions** (FullStack-mern**)
+  - **
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - *
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - 2.
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - ### Hunch
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - ---
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - **Date:**
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - **Duration:1hr/1hr(G)**
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - **Platform:**
+
+Company: The-matrix-labs** (FullStack-mern**)
+  - **
+
+Company: Perstoc** (backend-node**)
+  - *
+
+Company: Perstoc** (backend-node**)
+  - Promises
+
+Company: Perstoc** (backend-node**)
+  - Callback Hell
+
+Company: Perstoc** (backend-node**)
+  - Projects
+
+Company: Perstoc** (backend-node**)
+  - Experience/ Internship (if any)
+
+Company: Perstoc** (backend-node**)
+  - Salary Expectation
+
+Company: Perstoc** (backend-node**)
+  - Routing
+
+Company: Perstoc** (backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Perstoc** (backend-node**)
+  - Students were good in Technical Knowledge and communication
+
+Company: Perstoc** (backend-node**)
+  - **What may be the reason for rejections?**
+
+Company: Perstoc** (backend-node**)
+  - ---
+
+Company: Perstoc** (backend-node**)
+  - **Date:2024-02-27**
+
+Company: Perstoc** (backend-node**)
+  - **Duration:20min**
+
+Company: Perstoc** (backend-node**)
+  - **Platform:**
+
+Company: Perstoc** (backend-node**)
+  - **
+
+Company: ** Fluid.ai (** BACKEND_ENGINEER)
+  - *
+
+Company: ** Fluid.ai (** BACKEND_ENGINEER)
+  - 2.
+
+Company: ** Fluid.ai (** BACKEND_ENGINEER)
+  - ### Hunch
+
+Company: ** Fluid.ai (** BACKEND_ENGINEER)
+  - **What do you think about the candidates?**
+
+Company: ** Fluid.ai (** BACKEND_ENGINEER)
+  - - **What may be the reason for rejections?**
+
+Company: ** Fluid.ai (** BACKEND_ENGINEER)
+  - ---
+
+Company: Cointab** (backend-nodejs**)
+  - *
+
+Company: Cointab** (backend-nodejs**)
+  - 2.
+
+Company: Cointab** (backend-nodejs**)
+  - ### Hunch
+
+Company: Cointab** (backend-nodejs**)
+  - **What do you think about the candidates?**
+
+Company: Cointab** (backend-nodejs**)
+  - - **What may be the reason for rejections?**
+
+Company: Cointab** (backend-nodejs**)
+  - ---
+
+Company: Cointab** (backend-nodejs**)
+  - **Date:**
+
+Company: Cointab** (backend-nodejs**)
+  - **Duration:**
+
+Company: Cointab** (backend-nodejs**)
+  - **Platform:**
+
+Company: Cointab** (backend-nodejs**)
+  - **
+
+Company: ** kriscent (** backend (nodejs))
+  - *
+
+Company: ** kriscent (** backend (nodejs))
+  - Asked about projects and previous Internship the candidate did.
+
+Company: Frontier-Markets** (Backend-node**)
+  - *
+
+Company: Frontier-Markets** (Backend-node**)
+  - Var , let and const (Scope of var)
+
+Company: Frontier-Markets** (Backend-node**)
+  - 5+4+"2"
+
+Company: Frontier-Markets** (Backend-node**)
+  - Closures
+
+Company: Frontier-Markets** (Backend-node**)
+  - Promises
+
+Company: Frontier-Markets** (Backend-node**)
+  - swap a and b without taking third variable
+
+Company: Frontier-Markets** (Backend-node**)
+  - ORM ?
+
+Company: Frontier-Markets** (Backend-node**)
+  - Async and sync
+
+Company: Frontier-Markets** (Backend-node**)
+  - What is indexing in SQL
+
+Company: Frontier-Markets** (Backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Frontier-Markets** (Backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Frontier-Markets** (Backend-node**)
+  - ---
+
+Company: Frontier-Markets** (Backend-node**)
+  - **Date:**
+
+Company: Frontier-Markets** (Backend-node**)
+  - **Duration:1hr**
+
+Company: Frontier-Markets** (Backend-node**)
+  - **Platform:VS-Code**
+
+Company: Frontier-Markets** (Backend-node**)
+  - **
+
+Company: Peoplebox** (backend-node**)
+  - *
+
+Company: Peoplebox** (backend-node**)
+  - A customer wants to facilitate their internal employees in creating short links easily from long links.
+
+Company: Peoplebox** (backend-node**)
+  - Users should be able to paste a long link in the Slack bot.
+
+Company: Peoplebox** (backend-node**)
+  - The bot must respond with a shortened link.
+
+Company: Peoplebox** (backend-node**)
+  - Develop a URL Shortening service hosted on Heroku, capable of converting long URLs to short URLs.
+
+Company: Peoplebox** (backend-node**)
+  - Implement a Slack bot service that connects to this URL shortening service.
+
+Company: Peoplebox** (backend-node**)
+  - **Architecture / Separation of Concerns:**
+
+Company: Peoplebox** (backend-node**)
+  - Implement collision-free URL shortening logic.
+
+Company: Peoplebox** (backend-node**)
+  - **Coding Style:**
+
+Company: Peoplebox** (backend-node**)
+  - Maintain a consistent and clear coding style.
+
+Company: Peoplebox** (backend-node**)
+  - **Test Cases:**
+
+Company: Peoplebox** (backend-node**)
+  - Include comprehensive test cases.
+
+Company: Peoplebox** (backend-node**)
+  - *MUST HAVE:**
+
+Company: Peoplebox** (backend-node**)
+  - URL of the code hosted on GitHub (repository name should be 'slack-url-shortener').
+
+Company: Peoplebox** (backend-node**)
+  - Invitation to the Slack workspace including username and password.
+
+Company: Peoplebox** (backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Peoplebox** (backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Peoplebox** (backend-node**)
+  - ## Type of Round: Technical Discussion-1 (TD-1)
+
+Company: Peoplebox** (backend-node**)
+  - **Date:**
+
+Company: Peoplebox** (backend-node**)
+  - **Duration:1hr/1hr**
+
+Company: Peoplebox** (backend-node**)
+  - **Platform:Miro(draw) notepad(for sql)**
+
+Company: Peoplebox** (backend-node**)
+  - **
+
+Company: Codobux** (backend-node**)
+  - *
+
+Company: Codobux** (backend-node**)
+  - Create a StopWatch for 2 hours (Hours | Minutes | Seconds  --> will decrease accordingly)
+
+Company: Codobux** (backend-node**)
+  - Create a /Time  -->(Route)
+
+Company: Codobux** (backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Codobux** (backend-node**)
+  - **What may be the reason for rejections?**
+
+Company: Codobux** (backend-node**)
+  - He was not able to complete the assignment.
+
+Company: Codobux** (backend-node**)
+  - --
+
+Company: Codobux** (backend-node**)
+  - **Date:**
+
+Company: Codobux** (backend-node**)
+  - **Duration:**
+
+Company: Codobux** (backend-node**)
+  - **Platform:**
+
+Company: Codobux** (backend-node**)
+  - **
+
+Company: GreenMentor** (FullStack-mern**)
+  - *
+
+Company: GreenMentor** (FullStack-mern**)
+  - 2.
+
+Company: GreenMentor** (FullStack-mern**)
+  - ### Hunch
+
+Company: GreenMentor** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: GreenMentor** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: GreenMentor** (FullStack-mern**)
+  - ## Type of Round: Technical Discussion-1 (TD-1)
+
+Company: GreenMentor** (FullStack-mern**)
+  - **Date:**
+
+Company: GreenMentor** (FullStack-mern**)
+  - **Duration:25mins**
+
+Company: GreenMentor** (FullStack-mern**)
+  - **Platform:**
+
+Company: GreenMentor** (FullStack-mern**)
+  - **
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - *
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - 2.
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - ### Hunch
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - ---
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - **Date:**
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - **Duration:**
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - **Platform:**
+
+Company: Dignizant-Technologies** (FullStack-mern**)
+  - **
+
+Company: Fundu-Technologies** (Backend-node**)
+  - *
+
+Company: Fundu-Technologies** (Backend-node**)
+  - 2.
+
+Company: Fundu-Technologies** (Backend-node**)
+  - ### Hunch
+
+Company: Fundu-Technologies** (Backend-node**)
+  - **What do you think about the candidates?**
+
+Company: Fundu-Technologies** (Backend-node**)
+  - - **What may be the reason for rejections?**
+
+Company: Fundu-Technologies** (Backend-node**)
+  - ---
+
+Company: Fundu-Technologies** (Backend-node**)
+  - **Date:**
+
+Company: Fundu-Technologies** (Backend-node**)
+  - **Duration:**
+
+Company: Fundu-Technologies** (Backend-node**)
+  - **Platform:**
+
+Company: Fundu-Technologies** (Backend-node**)
+  - **
+
+Company: Tezminds** (backend**)
+  - *
+
+Company: Tezminds** (backend**)
+  - 2.
+
+Company: Tezminds** (backend**)
+  - ### Hunch
+
+Company: Tezminds** (backend**)
+  - **What do you think about the candidates?**
+
+Company: Tezminds** (backend**)
+  - - **What may be the reason for rejections?**
+
+Company: Tezminds** (backend**)
+  - ---
+
+Company: Tezminds** (backend**)
+  - **Date:**
+
+Company: Tezminds** (backend**)
+  - **Duration:**
+
+Company: Tezminds** (backend**)
+  - **Platform:Google-Form**
+
+Company: Tezminds** (backend**)
+  - **
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - *
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Project Explanation
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Given an object? How to get keys from the object
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Map/ Filter method ? How we use it (Implementation)
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - useState and useEffect (Implementations)
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Counter app ( console only on even values)
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - # Problem Statement for IBO EMART
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Your component should receive a data property in the following format (an object with the correct answer, where the keys are the names of the states and the value of each key is a sweet dish of that state).
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - A button should be displayed for each state and sweet dish.
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Clicking a button should set its background color to blue (#4009Bff).
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Clicking another button should:
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Remove both buttons if a correct state and sweet dish pair has been selected.
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Set the background color of both buttons to red (#ff0000) if a wrong pair has been selected.
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Assuming the previously selected pair was wrong, clicking another button should restore the default background color of the wrong pair and set the background color of the clicked button to blue (as in point 4).
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - When there are no buttons left, display a message: Congratulations.
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Note: The look of the component won't be evaluated; only its specified functionalities will be tested.*
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Can move to the next round. Answer all the questions with some help.
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - **What may be the reason for rejections?**
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - NA
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - --
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - **Date:08/03/2024**
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - **Duration:45/45(g)**
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - **Platform:**
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - **
+
+Company: Pabbly** (FullStack-mern**)
+  - *
+
+Company: Pabbly** (FullStack-mern**)
+  - 2.
+
+Company: Pabbly** (FullStack-mern**)
+  - ### Hunch
+
+Company: Pabbly** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Pabbly** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Pabbly** (FullStack-mern**)
+  - ---
+
+Company: Pabbly** (FullStack-mern**)
+  - **Date:**
+
+Company: Pabbly** (FullStack-mern**)
+  - **Duration:**
+
+Company: Pabbly** (FullStack-mern**)
+  - **Platform:**
+
+Company: Pabbly** (FullStack-mern**)
+  - **
+
+Company: Cloudura.ai** (Backend-python**)
+  - Maths, distances and directions
+
+Company: Cloudura.ai** (Backend-python**)
+  - Blood-relations
+
+Company: Cloudura.ai** (Backend-python**)
+  - Output-based questions,[setTimeout, setinterval]
+
+Company: Cloudura.ai** (Backend-python**)
+  - Data storage
+
+Company: Cloudura.ai** (Backend-python**)
+  - Sql queries
+
+Company: Cloudura.ai** (Backend-python**)
+  - **What do you think about the candidates?**
+
+Company: Cloudura.ai** (Backend-python**)
+  - - **What may be the reason for rejections?**
+
+Company: Cloudura.ai** (Backend-python**)
+  - ---
+
+Company: Cloudura.ai** (Backend-python**)
+  - **Date:**
+
+Company: Cloudura.ai** (Backend-python**)
+  - **Duration:1hr**
+
+Company: Cloudura.ai** (Backend-python**)
+  - **Platform:**
+
+Company: Cloudura.ai** (Backend-python**)
+  - **
+
+Company: ** ContinuServe (** backend (Java))
+  - What is Java?
+
+Company: ** ContinuServe (** backend (Java))
+  - Write the example of encapsulation.
+
+Company: ** ContinuServe (** backend (Java))
+  - What is method overloading and method overriding.
+
+Company: ** ContinuServe (** backend (Java))
+  - Platform: Microsoft Team
+
+Company: ** ContinuServe (** backend (Java))
+  - Duration: 50 minutes (Scheduled 30 minutes)
+
+Company: ** ContinuServe (** backend (Java))
+  - **What do you think about the candidates?**
+
+Company: ** ContinuServe (** backend (Java))
+  - Student is confidence and having sound tech knowledge.
+
+Company: ** ContinuServe (** backend (Java))
+  - **What may be the reason of rejections?**
+
+Company: ** ContinuServe (** backend (Java))
+  - ## Key Learnings
+
+Company: ** ContinuServe (** backend (Java))
+  - ### What Not to do?
+
+Company: ** ContinuServe (** backend (Java))
+  - 
+
+Company: Finkraft** (FullStack-mern**)
+  - *
+
+Company: Finkraft** (FullStack-mern**)
+  - Given a data,  Show in the table format,
+
+Company: Finkraft** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Finkraft** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Finkraft** (FullStack-mern**)
+  - ---
+
+Company: Finkraft** (FullStack-mern**)
+  - **Date:**
+
+Company: Finkraft** (FullStack-mern**)
+  - **Duration:**
+
+Company: Finkraft** (FullStack-mern**)
+  - **Platform:**
+
+Company: Finkraft** (FullStack-mern**)
+  - **
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - *
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - buy and sell stocks question
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - Overview of the company
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - general discussion
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - Introduction
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - Projects
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - types of queues
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - implement double ended queue
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - What is cloud computing
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - primitive AI
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - Balanced Parenthesis
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - basic of python
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - framwork of python.
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - library vs framwork
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - list vs tuple
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - queue vs list
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - What is cloud computing
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - merge sort
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - **What do you think about the candidates?**
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - - **What may be the reason for rejections?**
+
+Company: ** nuvepro (** BACKEND_ENGINEER)
+  - ---
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - *
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - what is closure?
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - what is lexical environment?
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - output based questions (hoisting, let,var and const,scope)
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - what is call stack?
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - assignment: what is sockect.io? what are events present in socket.io?
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - How the 2 ways handshake works?
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - (1,2,3,#,&,"hello") how to convert it in array ?
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - Array constructor use cases.
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - **What do you think about the candidates?**
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - **What may be the reason for rejections?**
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - - **What may be the reason for rejections?**
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - ---
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - **Date of Debrief:** 2024-06-18
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - **Owner of the Debrief:** Adarsh
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - --
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - **Date:**
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - **Duration:** 30 -40 min
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - **Platform:**
+
+Company: ** Abhiman (** BACKEND_ENGINEER)
+  - **
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - *
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - Create a Debouncing Hook
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - Why you have choose this field
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - What you have learned in Masai School
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - SetTimeout
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - useState
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - useEffect
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - Dependency in the useEffect
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - **What do you think about the candidates?**
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - - **What may be the reason for rejections?**
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - ---
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - **Date:2024-04-11****
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - **Duration:43min/45min(G)**
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - **Platform:**
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - **
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - *
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - Interviewer judged on the Communication and debate points
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - No Technical Questions asked in this round.
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - **What do you think about the candidates?**
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - - **What may be the reason for rejections?**
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - ---
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - **Date:12/04/2024**
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - **Duration:2min**
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - **Platform:**
+
+Company: Mind-Aviator-Group** (FullStack-mern**)
+  - **

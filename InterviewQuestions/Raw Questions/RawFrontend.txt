@@ -1,0 +1,1220 @@
+Company: ** techcanopy software labs (** qa engineer)
+  - What are the advantages and disadvantages of Selenium?
+
+Company: ** techcanopy software labs (** qa engineer)
+  - What are the languages selenium supports ?
+
+Company: ** techcanopy software labs (** qa engineer)
+  - What type of testing is done at first in a new build application in the first day ?
+
+Company: ** Cortica Web Solutions Pvt.Ltd (** FULL_STACK_ENGINEER)
+  - What is the Input tag in HTML
+
+Company: ** Cortica Web Solutions Pvt.Ltd (** FULL_STACK_ENGINEER)
+  - What is React, benefits and features of React
+
+Company: ** Cortica Web Solutions Pvt.Ltd (** FULL_STACK_ENGINEER)
+  - React Hooks
+
+Company: ** Cortica Web Solutions Pvt.Ltd (** FULL_STACK_ENGINEER)
+  - What is JSX, and why use it
+
+Company: ** Gocodeo (** FRONTEND_ENGINEER)
+  - Given a react component, implement a custom search functionality
+
+Company: ** Maxpo Exhibitions (** FRONTEND_ENGINEER)
+  - State management and Redux
+
+Company: ** Maxpo Exhibitions (** FRONTEND_ENGINEER)
+  - DOM and VDOM
+
+Company: ** Zocket (** FRONTEND_ENGINEER)
+  - Describe Chakra UI and Tailwind CSS, highlighting the differences between them and how each is used.
+
+Company: ** Zocket (** FRONTEND_ENGINEER)
+  - Explain Redux and why it is used.
+
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - Safety Feature, Login and Security, Encryption, Captcha to Prevent DOS, Breach in Frontend, Github, etc
+
+Company: EnactOn** (Backend-php**)
+  - Setup the database, You would need mysql and workbench for the database. You can get it from here: [https://dev.mysql.com/downloads/installer](https://dev.mysql.com/downloads/installer). To Import data in do refer to this document: [https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html)
+
+Company: EnactOn** (Backend-php**)
+  - Functionality: Does the application meet all specified requirements?
+
+Company: EnactOn** (Backend-php**)
+  - User Experience: Does the application provide a smooth and intuitive user experience?
+
+Company: ** indicorp (** full_stack_(mern))
+  - Explanation of Promises in JavaScript
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - Positions in css
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - React:
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - Hooks in React
+
+Company: Tardid-Technologies** (FullStack-mern**)
+  - What is Virtual Dom
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - What is jsx extension
+
+Company: Haryana-Institute-of-Information-Technology** (FullStack-mern**)
+  - What are components in react
+
+Company: ** schoollog (** full stack (mern))
+  - What is useRef, accessing dom elements using Ref.
+
+Company: ** schoollog (** full stack (mern))
+  - Given a scenario, candidate was asked to design a rough schema to meet the mentioned requirements.
+
+Company: ** schoollog (** full stack (mern))
+  - What is React Portal.
+
+Company: Schoollog** (Full Stack (mern)**)
+  - JavaScript Implementation Based
+
+Company: ** Trigeminal Ai (** FRONTEND_ENGINEER)
+  - Explain React hooks.
+
+Company: ** Trigeminal Ai (** FRONTEND_ENGINEER)
+  - What is the syntax for various hooks?
+
+Company: ** Trigeminal Ai (** FRONTEND_ENGINEER)
+  - Compare Context API and Redux.
+
+Company: ** Trigeminal Ai (** FRONTEND_ENGINEER)
+  - What are closures in JavaScript?
+
+Company: ** Trigeminal Ai (** FRONTEND_ENGINEER)
+  - she was not good with advance react concept
+
+Company: ** eligere technologies (** full stack (mern))
+  - candidate could not solve 1 of the 2 leetcode questions. The interviewer mentioned they are looking for someone who has strong frontend knowledge and some experience working as a team.
+
+Company: Primates-Dev** (Full-Stack-mern**)
+  - How much you comfortable in React
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Discussion on projects, most of the questions were around HTML, CSS, JS, but in good detail and depth.
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Difference between Figure and Image tag in HTML.
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - How to optimize HTML tree.
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Difference betweem absolute and relative positions in CSS.
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Difference betwwen "p" and "span" tags in HTML.
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - CSS selectors specificity and precedence
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Two HTML elements are given the same id, when we style it, what would be the outcome ?
+
+Company: ** greytip (** BACKEND_ENGINEER)
+  - Primarily focused on HTML, CSS, and JavaScript, with in-depth and lot of follow-up questions. Each correct answer was met with further questions until the candidate could no longer continue.
+
+Company: Zealeye.AI-Tech-Solutions** (Frontend-react**)
+  - **Platform:Javascript Compiler**
+
+Company: ** Invennico TechnoLabs (** FULL_STACK_ENGINEER)
+  - redux
+
+Company: ** Invennico TechnoLabs (** FULL_STACK_ENGINEER)
+  - vdom
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - React Hooks
+
+Company: Reva Solutions** (Backend (Node.js)**)
+  - Redux
+
+Company: ** Ungray Technologies (** FRONTEND_ENGINEER)
+  - What are the different hooks that you have used in the assignment.
+
+Company: ** Ungray Technologies (** FRONTEND_ENGINEER)
+  - What is the difference between React and Next.js
+
+Company: ** Circle of Games (** SOFTWARE_ENGINEER)
+  - Html 5 vs html
+
+Company: ** cumulus systems (** FRONTEND_ENGINEER)
+  - JavaScript
+
+Company: ** cumulus systems (** FRONTEND_ENGINEER)
+  - HTML & CSS
+
+Company: ** MindAspire (** Java & React.js)
+  - In a class of 200 students, there are 80 boys and remaining are girls. A student is selected at random, find the probability of selecting a girl from the students?
+
+Company: ** MindAspire (** Java & React.js)
+  - A bag contain 6 white balls and 4 red balls .Three balls are drawn randomly.What is the probability that one ball is red and other 2 are white?
+
+Company: Tracxn** (Full-Stack-mern**)
+  - Aniket -> He was not able to take the input in BufferReader and StringBuilder.
+
+Company: ** talent bee consulting (** full stack (mern))
+  - React (Coding)
+
+Company: ** talent bee consulting (** full stack (mern))
+  - React(Coding) round was not good due to questions of Class-based components
+
+Company: ** Vigo Retail (** FRONTEND_ENGINEER)
+  - React hooks(useState, useEffect, UseContext, UseRef,)
+
+Company: ** Vigo Retail (** FRONTEND_ENGINEER)
+  - how to optimize a react application?
+
+Company: ** Vigo Retail (** FRONTEND_ENGINEER)
+  - implement a stopwatch using react(start,stop and reset)
+
+Company: ** Orchids The International School (** BACKEND_ENGINEER)
+  - Difference between node and Javascript
+
+Company: ** newel technologies (** full stack (mean))
+  - What is the difference between Javascript as a async and Js as a sync languauge.
+
+Company: ** Green Catalysator (** Full-Stack-mern)
+  - Redux
+
+Company: Green Catalysator** (Full-Stack-mern**)
+  - Implement Redux to manage the state and store the data obtained from the API.
+
+Company: Green Catalysator** (Full-Stack-mern**)
+  - Additional Optional Requirements:
+
+Company: ** wunderman thompson (** Associate Quality Analyst)
+  - do you have knowledge of HTML CSS
+
+
+---------------------------------------
+Company: ** Stancebeam (** FRONTEND_ENGINEER)
+  - Explain classes and objects in JavaScript?
+
+Company: ** Stancebeam (** FRONTEND_ENGINEER)
+  - What is component in React?
+
+Company: ** Stancebeam (** FRONTEND_ENGINEER)
+  - Virtual DOM
+
+Company: ** Bitviraj Technology Private Limited (** FULL_STACK_ENGINEER)
+  - what is react
+
+Company: ** Bitviraj Technology Private Limited (** FULL_STACK_ENGINEER)
+  - how to connect api to connect frontend
+
+Company: ** Bitviraj Technology Private Limited (** FULL_STACK_ENGINEER)
+  - what is react compoennt
+
+Company: ** Bitviraj Technology Private Limited (** FULL_STACK_ENGINEER)
+  - What is VDOM
+
+Company: Transelense** (Frontend-react**)
+  - Design the given page using React.js, paying special attention to the server and client components.
+
+Company: Transelense** (Frontend-react**)
+  - Use CSS for styling the components. You may use Tailwind CSS if you prefer.
+
+Company: Transelense** (Frontend-react**)
+  - Implement Redux toolkit for state management.
+
+Company: Transelense** (Frontend-react**)
+  - React.js project with the page design implemented.
+
+Company: Transelense** (Frontend-react**)
+  - Redux Toolkit integrated into the project for state management.
+
+Company: Transelense** (Frontend-react**)
+  - CSS styling for the page, including any necessary customization.
+
+Company: ** OneBigBit (** FULL_STACK_ENGINEER)
+  - What is react
+
+Company: ** OneBigBit (** FULL_STACK_ENGINEER)
+  - flux architecture
+
+Company: ** OneBigBit (** FULL_STACK_ENGINEER)
+  - Redux toolkit
+
+Company: Aphavima** (UI-UX Design**)
+  - How good you are in Frontend and Backend
+
+Company: ** SAS Tech Studio Pvt Ltd (** FRONTEND_ENGINEER)
+  - What is the difference between "defer" and "async" attributes when loading scripts in HTML? Explain each attribute and how they affect the loading and execution of scripts. Provide examples to illustrate their usage and differences in behavior.
+
+Company: ** SAS Tech Studio Pvt Ltd (** FRONTEND_ENGINEER)
+  - What is react Life Cycle? Explain it.
+
+Company: ** opkey (** qa engineer)
+  - what is selenium webdriver
+
+Company: ** Donatekart (** FRONTEND_ENGINEER)
+  - what is DOM and virtual DOM
+
+Company: ** Donatekart (** FRONTEND_ENGINEER)
+  - difference between returning div vs react fragments in react.
+
+Company: ** Donatekart (** FRONTEND_ENGINEER)
+  - showcase your frontend-related project, how to align items using CSS Flex,
+
+Company: ** Donatekart (** FRONTEND_ENGINEER)
+  - why do we need to pass a unique key in map in react list
+
+Company: ** Donatekart (** FRONTEND_ENGINEER)
+  - interview went well but failed to answer the benifits of react fragments
+
+Company: ** Social Sense (** FRONTEND_ENGINEER)
+  - Interview was divided into two part, first 30min was thorough discussion around React concepts, and the next 30min was implementation.
+
+Company: ** Social Sense (** FRONTEND_ENGINEER)
+  - Prop drilling in React.
+
+Company: ** Social Sense (** FRONTEND_ENGINEER)
+  - useMemo and useCallback hooks
+
+Company: ** Social Sense (** FRONTEND_ENGINEER)
+  - Given an API, call the API and render the data in the UI and apply search functionality.
+
+Company: ** kumohq (** frontend (react js))
+  - given an API for register, need to build the frontend, apply validation.
+
+Company: ** kumohq (** frontend (react js))
+  - asked to work on the UI after the interview and send it back via email.
+
+Company: University-of-Waterloo** (Frontend-react**)
+  - What is react
+
+Company: University-of-Waterloo** (Frontend-react**)
+  - How JSx communicates with web browser
+
+Company: University-of-Waterloo** (Frontend-react**)
+  - How react know the component changes
+
+Company: University-of-Waterloo** (Frontend-react**)
+  - How to minimize the no of dom updates
+
+Company: University-of-Waterloo** (Frontend-react**)
+  - Hooks,
+
+Company: ** Just Think Technologies (** FULL_STACK_ENGINEER)
+  - What is React, what are the benefits of using React.
+
+Company: ** Just Think Technologies (** FULL_STACK_ENGINEER)
+  - What are React hooks, explain some of them.
+
+Company: ** Just Think Technologies (** FULL_STACK_ENGINEER)
+  - Explain closures in JavaScript.
+
+Company: ** Just Think Technologies (** FULL_STACK_ENGINEER)
+  - What are prototypes in JavaScript, explain prototypal inheritance.
+
+Company: ** Just Think Technologies (** FULL_STACK_ENGINEER)
+  - Explain constructor functions in Javascript.
+
+Company: ** Just Think Technologies (** FULL_STACK_ENGINEER)
+  - Explain lazy loading in React.
+
+Company: ** Valeo Health ME (** FRONTEND_ENGINEER)
+  - What are your learn in reactjs.
+
+Company: ** Valeo Health ME (** FRONTEND_ENGINEER)
+  - Remove duplicate from array of objects then render this to ui. With react
+
+Company: ** Bynaric Systems (** FULL_STACK_ENGINEER)
+  - create a table using HTML
+
+Company: ** Coredge.io (** SDE_ONE)
+  - useContext API to manage button toggle states, display "Node" and "React" on toggle, and manage the state using contextAPI
+
+Company: ** Coredge.io (** SDE_ONE)
+  - Tic Tac Toe game using React
+
+Company: ** Statxo (** FULL_STACK_ENGINEER)
+  - how will you optimize your react?
+
+Company: ** skilloVilla (** FRONTEND_ENGINEER)
+  - benifit or react
+
+Company: ** skilloVilla (** FRONTEND_ENGINEER)
+  - vdom vs real dom
+
+Company: ** skilloVilla (** FRONTEND_ENGINEER)
+  - hooks you have used
+
+Company: ** skilloVilla (** FRONTEND_ENGINEER)
+  - how to use spread and rest operator in react?
+
+Company: ** AssessPrep (** FRONTEND_ENGINEER)
+  - Set up a Redux store with a reducer that manages a count state. The reducer should handle two actions: INCREMENT and RESET. Write a Counter component that: Displays the current count. Has a button to increment the count. Has a button to reset the count to zero. Ensure to use useSelector to read the state and useDispatch to dispatch actions in your Counter component. Provide the complete code for the Redux store setup and the Counter component.
+
+Company: ** AssessPrep (** FRONTEND_ENGINEER)
+  - Create a Redux-based application to fetch and display data from an API using Axios and Redux Saga: Set up a Redux store with a reducer that manages a data state (an array) and a loading state (a boolean). The reducer should handle three actions: FETCH_DATA_REQUEST, FETCH_DATA_SUCCESS, and FETCH_DATA_FAILURE. Write a Saga to handle the side effect of fetching data from an API (e.g., https://jsonplaceholder.typicode.com/todos) using Axios. The Saga should listen for FETCH_DATA_REQUEST actions, make the API call, and dispatch either FETCH_DATA_SUCCESS or FETCH_DATA_FAILURE based on the outcome. Create a DataFetcher component that: Dispatches a FETCH_DATA_REQUEST action when a button is clicked. Displays a loading message when data is being fetched. Displays the fetched data once it has been successfully retrieved. Provide the complete code for the Redux store setup, Saga, and the DataFetcher component.
+
+Company: ** deltatech gaming limited (** FULL_STACK_ENGINEER)
+  - How to catch any html element by id in JS
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Secure sensitive routes by requiring authentication.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Generate Swagger UI for interactive API documentation.
+
+Company: Pioneer-Labs** (Backend-Engineer**)
+  - Availability of interactive Swagger UI for testing and exploration.
+
+Company: ** kraftshala (** FRONTEND_ENGINEER)
+  - Build a weather app:
+
+Company: ** MyNextdeveloper (** FULL_STACK_ENGINEER)
+  - Redux Flow
+
+Company: ** MyNextdeveloper (** FULL_STACK_ENGINEER)
+  - useReducer, diff with Redux
+
+Company: ** jify (** frontend (react js))
+  - What is Redux, how is it different from Context API ? Why use Redux over Context API ?
+
+Company: ** jify (** frontend (react js))
+  - How can you optimize a react app ?
+
+Company: ** jify (** frontend (react js))
+  - What are keys in react ?
+
+Company: ** jify (** frontend (react js))
+  - Higher Order Components in React ?
+
+Company: ** jify (** frontend (react js))
+  - Fetch an given API and render the data in UI
+
+
+--------------------------------
+
+Company: ** jify (** frontend (react js))
+  - Interivew was divided into two parts, Technical discussion and Live coding. The company is looking for someone who is well-versed in React and capable of writing clean, manageable code for their frontend dashboard project. However, the candidate could not answer questions on lazy loading, throttling, and debouncing, and their communication skills are average as well.
+
+Company: ** respo financial capital (** full stack (mern))
+  - Inquired about the students techstack
+
+Company: ** respo financial capital (** full stack (mern))
+  - What is React and Why React over vanilla HTML/CSS ?
+
+Company: ** K{r}eeda Labs (** FRONTEND_ENGINEER)
+  - Create a number input field in React, and validate it so that it is never more than 4 digits long. (Could not implement well, missed the requirements)
+
+Company: ** K{r}eeda Labs (** FRONTEND_ENGINEER)
+  - Dilnawaz, went well initally, could answer for the most part, but got stuck in the react implementation question.
+
+Company: ** antares tech (** full stack (mern))
+  - Good emphasis on projects, thorough discussion for around 15min, enquiring about the why of things, core responsibilities, how did you contribute as a team etc...
+
+Company: ** antares tech (** full stack (mern))
+  - Virtual DOM vs Real DOM
+
+Company: ** antares tech (** full stack (mern))
+  - React lifecycle methods.
+
+Company: ** antares tech (** full stack (mern))
+  - React hooks - useEffect
+
+Company: Hypergro** (Frontend-react**)
+  - Your app should properly use React components, demonstrating the ability to manage and maintain state and props effectively.
+
+Company: Hypergro** (Frontend-react**)
+  - The app should have a clean, intuitive user interface that makes it easy to browse videos and play them.
+
+Company: Hypergro** (Frontend-react**)
+  - You can use any public API or local data to retrieve videos. Use HTML5 video or a library like react-player for video playback.
+
+Company: Hypergro** (Frontend-react**)
+  - **Platform:Any Javascript Compiler**
+
+Company: Creware-Technologies** (Frontend-react**)
+  - Hooks, All types
+
+Company: Creware-Technologies** (Frontend-react**)
+  - Redux
+
+Company: Creware-Technologies** (Frontend-react**)
+  - Why we use Redux
+
+Company: Creware-Technologies** (Frontend-react**)
+  - Comparision of Redux and other State managemenet
+
+Company: Creware-Technologies** (Frontend-react**)
+  - React
+
+Company: Creware-Technologies** (Frontend-react**)
+  - What is JSX ?
+
+Company: Creware-Technologies** (Backend-node**)
+  - Hooks
+
+Company: ** Rethink Systems (** SDE_ONE)
+  - What are hooks in React
+
+Company: ** Idexcel (** FULL_STACK_ENGINEER)
+  - hooks
+
+Company: Joveo** (Graduate-Engineer-Trainee**)
+  - Wanted React Profile
+
+Company: Joveo** (Graduate-Engineer-Trainee**)
+  - Javascript is single threaded so how we can achieve the async tasks in javascript.
+
+Company: Joveo** (Graduate-Engineer-Trainee**)
+  - CSS
+
+Company: ** Zipteams (** FULL_STACK_ENGINEER)
+  - improvements in terms UI
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Types of css :
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Hooks
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Custom Hooks
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Redux
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Flow of using redux
+
+Company: Chaincode-Consulting-llp** (FullStack-mern**)
+  - Difference between Context api and Redux
+
+Company: Krinay** (Software-Engineer**)
+  - Frontend:
+
+Company: Krinay** (Software-Engineer**)
+  - React
+
+Company: Krinay** (Software-Engineer**)
+  - Material UI
+
+Company: Krinay** (Software-Engineer**)
+  - Redux (bonus)
+
+Company: Krinay** (Software-Engineer**)
+  - Build a TODO application:
+
+Company: Krinay** (Software-Engineer**)
+  - The application should have a simple and clean UI using Material UI.
+
+Company: Krinay** (Software-Engineer**)
+  - You are encouraged to use any additional libraries or tools you deem necessary, but prioritize the core requirements outlined above.
+
+Company: ** Secpod (** SDE_ONE)
+  - What is the difference between JavaScript and React?
+
+Company: ** Secpod (** SDE_ONE)
+  - How do you manage states in React.
+
+Company: ** Secpod (** SDE_ONE)
+  - What is Redux, how is it differenct from ContextAPI
+
+Company: ** Secpod (** SDE_ONE)
+  - How would you implement loading functionality in React.
+
+Company: ** Secpod (** SDE_ONE)
+  - How can you improve security in React.
+
+Company: ** Secpod (** SDE_ONE)
+  - When designing UI, how would you accomadate colorblind people.
+
+Company: ** Secpod (** SDE_ONE)
+  - What is JSX.
+
+Company: ** Secpod (** SDE_ONE)
+  - What is Node.js, how is it different from JavaScript.
+
+Company: ** AGL - Hakuhodo (** FULL_STACK_ENGINEER)
+  - what is HTML, what is JS, React
+
+Company: ** AGL - Hakuhodo (** FULL_STACK_ENGINEER)
+  - what are hooks in React.
+
+Company: ** AGL - Hakuhodo (** FULL_STACK_ENGINEER)
+  - react life cycle method
+
+Company: Openintervue** (Frontend-react**)
+  - How you have optimized the application with redux
+
+Company: Openintervue** (Frontend-react**)
+  - How you worked in Typescript in backend and frontend
+
+Company: Openintervue** (Frontend-react**)
+  - How you have guided  your team members for the project you were working on?
+
+Company: ** Swanirbhar (** FRONTEND_ENGINEER)
+  - signUp page,and more 2 pages need to work on the css and make it beautiful
+
+Company: ** Jify (** FRONTEND_ENGINEER)
+  - Given a backend API, need to fetch the data show it in a grid format on the UI
+
+Company: ** Jify (** FRONTEND_ENGINEER)
+  - asked him to show the code in Github and asked questions around routing, useContext and Redux
+
+Company: ** Jify (** FRONTEND_ENGINEER)
+  - Interview went well, focus was on the frontend site
+
+Company: ** Yellow owl (** FULL_STACK_ENGINEER)
+  - Context API and State management in React
+
+Company: ** Yellow owl (** FULL_STACK_ENGINEER)
+  - Candidates were asked to solve 2 questions on either React / Node in HackerRank platform.
+
+Company: ** Yellow owl (** FULL_STACK_ENGINEER)
+  - Guru disconnect in between the interview, and the interviewer cut it short and did not continue. Sai kiran could not solve one of the hackerank react live coding question well.
+
+Company: ** solarsquare energy (** full stack (mern))
+  - Difference between RealDOM and VirtualDOM.
+
+Company: ** solarsquare energy (** full stack (mern))
+  - Hooks were discussed very much in details
+
+Company: ** solarsquare energy (** full stack (mern))
+  - React lifecycle methods, in terms of Class and Functional components.
+
+Company: ** solarsquare energy (** full stack (mern))
+  - Questions were mostly around core React topics, with good amount of questions on Hooks. Candidate could answer for the most part, had trouble explaining aggregation in MongoDB and lifecycle methods in reference to class and functional components.
+
+Company: ** cleankoding (** frontend_(react_js))
+  - More Focused Towards CSS
+
+Company: ** cleankoding (** frontend_(react_js))
+  - Fetch Data from an API and Show the Data on the UI (15 minutes)
+
+--------------------------------------------------
+Company: ** cleankoding (** frontend_(react_js))
+  - How Many UI Libraries You Know
+
+Company: ** cleankoding (** frontend_(react_js))
+  - More Focused on Tailwind CSS and Material UI
+
+Company: ** cleankoding (** frontend_(react_js))
+  - Techniques Used for Performance Optimization in React
+
+Company: ** cleankoding (** frontend_(react_js))
+  - students was able to answer questions on css
+
+Company: ** Connecting-Points (** Frontend-react)
+  - Redux (Setup)[Implementation]
+
+Company: ** Connecting-Points (** Frontend-react)
+  - Use any Library (Chakra, Material-UI)
+
+Company: ** Magure Inc (** FRONTEND_ENGINEER)
+  - How to optimize your React app
+
+Company: ** Pice (** FRONTEND_ENGINEER)
+  - What are React hooks? Why should we use Hooks in React?
+
+Company: ** Pice (** FRONTEND_ENGINEER)
+  - Given a CodeSandbox React app, debug the app and fix the issue. (There is an input field, but after entering each character, the focus is lost from the input box. How do we correct it?) (couldn't fix)
+
+Company: ** HyperThink Systems (** FRONTEND_ENGINEER)
+  - vDom
+
+Company: ** HyperThink Systems (** FRONTEND_ENGINEER)
+  - Custom components in react
+
+Company: ** Quest Labs (** FRONTEND_ENGINEER)
+  - !important keyword in CSS
+
+Company: ** Quest Labs (** FRONTEND_ENGINEER)
+  - Selectors and specificty in CSS
+
+Company: ** Quest Labs (** FRONTEND_ENGINEER)
+  - What and Why JSX
+
+Company: ** Quest Labs (** FRONTEND_ENGINEER)
+  - VirtualDOM in React.
+
+Company: ** Quest Labs (** FRONTEND_ENGINEER)
+  - Could answer for the most part, missed some questions like the !important keyword in CSS, and specificity of some of the css selector. For rafique, questions were all about project and the assignment rolled out prior.
+
+Company: ** abhiwan technology (** full_stack_(mern))
+  - How to render data from an API and implement search functionality in React?
+
+Company: ** abhiwan technology (** full_stack_(mern))
+  - Events in JavaScript
+
+Company: ** abhiwan technology (** full_stack_(mern))
+  - VDOM (Virtual DOM)
+
+Company: ** abhiwan technology (** full_stack_(mern))
+  - DOM (Document Object Model)
+
+Company: ** abhiwan technology (** full_stack_(mern))
+  - What is React Router?
+
+Company: ** saral - the influencer os (** frontend (react js))
+  - React hooks
+
+Company: ** saral - the influencer os (** frontend (react js))
+  - Strict mode in React.
+
+Company: Finalyca** (Frontend-mern**)
+  - Redux
+
+Company: Finalyca** (Frontend-mern**)
+  - Custom Hooks ?
+
+Company: Deep-LogicTech-India-Pvt** (SDE-One**)
+  - Javascript and Node difference
+
+Company: Deep-LogicTech-India-Pvt** (SDE-One**)
+  - Print Hello World in Javascript
+
+Company: Spontom** (Full-Stack-mern**)
+  - Implement user authentication on the frontend (login and signup forms).
+
+Company: Spontom** (Full-Stack-mern**)
+  - Use state management libraries (e.g., Redux) to manage the application state.
+
+Company: Spontom** (Full-Stack-mern**)
+  - Implement proper validation and sanitization on both the frontend and backend.
+
+Company: Spontom** (Full-Stack-mern**)
+  - Use appropriate error messages to guide the user in case of any issues.
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - Redux Flow
+
+Company: MyNextdeveloper** (FullStack-mern**)
+  - useReducer, diff with Redux
+
+Company: ** (**)
+  - faced challenges in answering question :bearer token handling in frontend,
+
+Company: PropertyShare** (Frontend-react**)
+  - How to import CSS
+
+Company: ** airblack (** full stack (mern))
+  - Hardly no technical questions were asked. Most of the questions were straight up from the resume. Since the candidate also had relevent work experience, the questions where about his responsibilities in the previous organization, the various projects he was invloved with, how the candidate met some of the product requirements. The challenges the candidate faced etc.
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - How do you perform multiple operations in parallel in JavaScript?
+
+Company: Finoli-Technologies-Pvt** (Backend-Engineer**)
+  - What do you think about JavaScript?
+
+Company: Punctuations** (Full-Stack-mern**)
+  - Library uses State management - Redux
+
+Company: Punctuations** (Full-Stack-mern**)
+  - Implementation of Redux
+
+Company: Punctuations** (Full-Stack-mern**)
+  - Event-Loop in Javascript
+
+Company: ** Trademo (** FRONTEND_ENGINEER)
+  - inline css /internal css/external css
+
+Company: ** Trademo (** FRONTEND_ENGINEER)
+  - hooks
+
+Company: Begalilio** (TD-1**)
+  - Create a React application:
+
+Company: Begalilio** (TD-1**)
+  - Virtual DOM of React
+
+Company: Begalilio** (TD-1**)
+  - Anjali A P was not able to complete the assignment (Counter app) but was good in Technical Communication. She was lacking in some basic JavaScript questions.
+
+Company: Begalilio** (TD-1**)
+  - Lacking in basic JavaScript knowledge.
+
+Company: MoneyMul** (Frontend-react**)
+  - Virtual DOM, Why we use Virtual Dom.
+
+Company: MoneyMul** (Frontend-react**)
+  - Why we use Redux
+
+Company: ** moneymul (** sdet)
+  - How to find dynamic element in selenium?
+
+Company: WaysAheadGlobal** (Frontend-react**)
+  - What is Virtual Dom
+
+Company: WaysAheadGlobal** (Frontend-react**)
+  - What is Redux
+
+Company: ** Connection Loops (** FULL_STACK_ENGINEER)
+  - what is html,js,css?
+
+Company: ** Connection Loops (** FULL_STACK_ENGINEER)
+  - explain the html structure
+
+Company: ** Connection Loops (** FULL_STACK_ENGINEER)
+  - what is css position?
+
+Company: ** Connection Loops (** FULL_STACK_ENGINEER)
+  - how to change css using js?
+
+Company: ** Connection Loops (** FULL_STACK_ENGINEER)
+  - redux? when do we use redux? basic explanation?
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - Question on React hooks
+
+Company: ** Red Software (** FULL_STACK_ENGINEER)
+  - What is useState hooks
+
+Company: ** idexcel (** full stack (mern))
+  - How does the `map` function work internally in JavaScript?
+
+Company: ** idexcel (** full stack (mern))
+  - What is the syntax for creating and using Promises in JavaScript?
+
+Company: ** idexcel (** full stack (mern))
+  - How does hoisting work in JavaScript?
+
+Company: ** idexcel (** full stack (mern))
+  - How is state managed in React?
+
+Company: ** idexcel (** full stack (mern))
+  - What are the differences between class components and functional components in React?
+
+Company: ** idexcel (** full stack (mern))
+  - How can you calculate the Least Common Multiple (LCM) in JavaScript?
+
+Company: ** idexcel (** full stack (mern))
+  - What are hooks in React, and can you provide examples?
+
+
+--------------------------------------
+
+Company: ** idexcel (** full stack (mern))
+  - What are semantics in HTML, and why are they important?
+
+Company: ** idexcel (** full stack (mern))
+  - What is an `iframe` in HTML, and how is it used?
+
+Company: ** idexcel (** full stack (mern))
+  - What is the difference between a link (`<link>`) and an anchor (`<a>`) in HTML?
+
+Company: Bigyellofish** (fronend-react**)
+  - Types of Styling in CSS
+
+Company: Sticsoft** (Frontend-react**)
+  - Output based questions - Javascript, React
+
+Company: ** Moneypay (** FULL_STACK_ENGINEER)
+  - What is React?
+
+Company: TopGrep** (Full-Stack-mern**)
+  - What is React
+
+Company: TopGrep** (Full-Stack-mern**)
+  - Why we use React
+
+Company: TopGrep** (Full-Stack-mern**)
+  - Hooks
+
+Company: TopGrep** (Full-Stack-mern**)
+  - React :
+
+Company: TopGrep** (Full-Stack-mern**)
+  - Why we can't use let and var in react (not satisfied with the answer)
+
+Company: Quest-labs** (Full-Stack-mern**)
+  - Judge: React , Javascript
+
+Company: Quest-labs** (Full-Stack-mern**)
+  - Basic React,Javascript Question
+
+Company: Quest-labs** (Full-Stack-mern**)
+  - Advantages of React
+
+Company: ** 50hertz (** sdet)
+  - What is selenium?
+
+Company: ** 50hertz (** sdet)
+  - What is the advantages of selenium?
+
+Company: ** Rejolut- A Web 3.0 Company (** FRONTEND_ENGINEER)
+  - To create a box in CSS, and center it in the page.
+
+Company: ** Rejolut- A Web 3.0 Company (** FRONTEND_ENGINEER)
+  - Lifecycle of Redux
+
+Company: ** Rejolut- A Web 3.0 Company (** FRONTEND_ENGINEER)
+  - Box Modal in CSS
+
+Company: ** Rejolut- A Web 3.0 Company (** FRONTEND_ENGINEER)
+  - Lifecycle methods in React
+
+Company: ** narayana group (** sdet)
+  - Locators in selenium and their purpose.
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - What is React, what are the benefits of using React.
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - Lifecycle methods in React.
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - Create a counter component in React, there should not be any buttons, when the component is mounted, the counter should count from 0 to 10, and when the counter reaches 10, count back from 10 to 0.
+
+Company: ** TestUnity (** FULL_STACK_ENGINEER)
+  - VirtualDOM
+
+Company: ** Amogh Buildtech Private Limited (** FULL_STACK_ENGINEER)
+  - hooks
+
+Company: Samsu-Software-Pvt-ltd** (Frontend-react**)
+  - CSS block model
+
+Company: Samsu-Software-Pvt-ltd** (Frontend-react**)
+  - What are hooks?, examples
+
+Company: Samsu-Software-Pvt-ltd** (Frontend-react**)
+  - React Life cycle methods. Implementation
+
+Company: Samsu-Software-Pvt-ltd** (Frontend-react**)
+  - How to render an array in react
+
+Company: Samsu-Software-Pvt-ltd** (Frontend-react**)
+  - What are the importance of keys in react.
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is React?
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is a component in React?
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is JSX?
+
+Company: ** narayana group (** frontend_(react_js))
+  - Explain components in React.
+
+Company: ** narayana group (** frontend_(react_js))
+  - What are states in React?
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is state management in React?
+
+Company: ** narayana group (** frontend_(react_js))
+  - How is useState used in React?
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is Redux?
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is useContext in React?
+
+Company: ** narayana group (** frontend_(react_js))
+  - What is the event loop in JavaScript?
+
+Company: ** narayana group (** frontend_(react_js))
+  - Explain async vs sync in JavaScript.
+
+Company: ** AgentAnalytics.AI (** FULL_STACK_ENGINEER)
+  - How hooks work
+
+Company: ** AgentAnalytics.AI (** FULL_STACK_ENGINEER)
+  - Redux and redux-toolkit
+
+Company: ** Inspekt Labs (** FRONTEND_ENGINEER)
+  - jsx vs js
+
+Company: ** Inspekt Labs (** FRONTEND_ENGINEER)
+  - vdom
+
+Company: ** Inspekt Labs (** FRONTEND_ENGINEER)
+  - hooks
+
+Company: ** Inspekt Labs (** FRONTEND_ENGINEER)
+  - custom hooks
+
+Company: ** Inspekt Labs (** FRONTEND_ENGINEER)
+  - how to render txt file on as a html
+
+Company: ** Tracxn (** FULL_STACK_ENGINEER)
+  - frontend part okay but interviewer asked him to focus on SQL
+
+Company: ** Fleapo (** SENIOR_SOFTWARE_ENGINEER)
+  - Hooks (use Effect)
+
+Company: ** Friday.AI (** FRONTEND_ENGINEER)
+  - Explain hoisting in JavaScript?
+
+Company: ** Friday.AI (** FRONTEND_ENGINEER)
+  - What is the difference between useMemo and useCallback hooks in React?
+
+Company: ** Friday.AI (** FRONTEND_ENGINEER)
+  - What is Reconciliation in React
+
+Company: Frontier-Markets** (Backend-node**)
+  - Diff javascript and node.js
+
+Company: Peoplebox** (backend-node**)
+  - Preferably built using Rails, but Django is also acceptable.
+
+Company: Peoplebox** (backend-node**)
+  - **Understanding of Slack APIs and Bot Building:**
+
+Company: Peoplebox** (backend-node**)
+  - Successfully integrate with Slack APIs to build a functional bot.
+
+Company: ** Adda (** FULL_STACK_ENGINEER)
+  - Create a basic form using React.
+
+Company: ** Adda (** FULL_STACK_ENGINEER)
+  - Handle its states using useState hooks.
+
+Company: ** Adda (** FULL_STACK_ENGINEER)
+  - What are tags in HTML?
+
+Company: ** Adda (** FULL_STACK_ENGINEER)
+  - What does the justify-content property in CSS do?
+
+Company: ** Adda (** FULL_STACK_ENGINEER)
+  - When the user scrolls outside a form, a message should be rendered in the UI.
+
+Company: ** Adda (** FULL_STACK_ENGINEER)
+  - Implemented most of the tasks but had issues with the hover functionality and missed some of the cross-questions, such as not being able to explain what exactly a tag in HTML is.
+
+Company: Mindrops** (Frontend-angular**)
+  - Redux
+
+Company: ** SchoolLog (** FULL_STACK_ENGINEER)
+  - Given a string which has a sentence, capitalize the first letter of each word using JavaScript.
+
+-------------------------------------------------
+
+Company: ** SchoolLog (** FULL_STACK_ENGINEER)
+  - Explain useEffect hook in React.
+
+Company: ** SchoolLog (** FULL_STACK_ENGINEER)
+  - Array of objects related problem statement which requires traversing an array of objects.
+
+Company: ** Smartshiphub (** FULL_STACK_ENGINEER)
+  - Difference between JavaScript and TypeScript
+
+Company: Eksaq** (Frontend-react**)
+  - Frontend: React
+
+Company: ** Galific (** FRONTEND_ENGINEER)
+  - postions in css
+
+Company: ** Galific (** FRONTEND_ENGINEER)
+  - what is doctype in html
+
+Company: ** Wilyer (** FULL_STACK_ENGINEER)
+  - focus mostly on the frontend and look and fill of the UI
+
+Company: Codobux** (backend-node**)
+  - He was not good with the React implementations , communication-> 4/10
+
+Company: ** IITBombay Nanofabrication facility (** FULL_STACK_ENGINEER)
+  - Safety Feature, Login and Security, Encryption, Captcha to Prevent DOS, Breach in Frontend, Github, etc
+
+Company: ** Narayana group (** FULL_STACK_ENGINEER)
+  - What is Redux
+
+Company: ** Narayana group (** FULL_STACK_ENGINEER)
+  - React hooks
+
+Company: ** RuRuX (** FRONTEND_ENGINEER)
+  - Why React is different from other library
+
+Company: ** RuRuX (** FRONTEND_ENGINEER)
+  - React states
+
+Company: ** RuRuX (** FRONTEND_ENGINEER)
+  - React Hooks
+
+Company: ** RuRuX (** FRONTEND_ENGINEER)
+  - Virtual DOM
+
+Company: ** RuRuX (** FRONTEND_ENGINEER)
+  - React Life Cycle Methods.
+
+Company: ** kumori technologies (** Software Developer)
+  - Given an array of users, implement search functionality in React.
+
+Company: ** gnani (** FRONTEND_ENGINEER)
+  - Live coding interviews, implementation questions around react and data fetching with user functionalities.
+
+Company: ** f22 labs (** full stack (mern))
+  - Build a node js app, use middleware to access ID from query params and check if it -ve or +ve
+
+Company: ** f22 labs (** full stack (mern))
+  - Make an API call and and populate the data in React without using axios.
+
+Company: ** insphere solutions (** frontend (react js))
+  - what is react
+
+Company: ** insphere solutions (** frontend (react js))
+  - Advantage of react
+
+Company: ** 9x Technology L.L.C (** FULL_STACK_ENGINEER)
+  - Familiarity with Node.js and React.js
+
+Company: ** micrology softwares (** frontend_(react_js))
+  - Flattening an Array: Implement the Logic Without Using Inbuilt Methods
+
+Company: ** micrology softwares (** frontend_(react_js))
+  - CSS Problem: Show One Div Positioned at the Bottom Left Using Flex Wrap
+
+Company: ** micrology softwares (** frontend_(react_js))
+  - Which Version of React Are You Using?
+
+Company: ** Franchise India Holdings Limited (** FULL_STACK_ENGINEER)
+  - given a live coding question, where the candidate has to build a homepage of a given design with HTML and css and it has to be responsive
+
+Company: ** Franchise India Holdings Limited (** FULL_STACK_ENGINEER)
+  - Candidate was able to build the layout but he has not make it resonposive
+
+Company: ** Kapiva (** SENIOR_SOFTWARE_ENGINEER)
+  - what is hook in React? How many hook you have used?
+
+Company: ** teqnoid (** frontend_(react_js))
+  - What is Redux?
+
+Company: ** teqnoid (** frontend_(react_js))
+  - What are Slices in Redux?
+
+Company: ** teqnoid (** frontend_(react_js))
+  - What is Flexbox in CSS?
+
+Company: ** teqnoid (** frontend_(react_js))
+  - able to answer question on react and struggle little in redux
+
+Company: Meritto** (Implementation Engineer**)
+  - HTML / CSS
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Have you implemented Redux
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - What is React? Why we use React
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Why React is important
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - How to create React app/ Vite app (Implementations)
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - React Fragments ?
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - Questions on the Boiler plate of React Code line
+
+Company: IBO-Emart-Pvt-Ltd** (FullStack-mern**)
+  - The buttons should be displayed in a random order.
+
+Company: ** Procuzy (** FRONTEND_ENGINEER)
+  - DSA question implementation in Javascript
+
+Company: ** monocept (** frontend (react js))
+  - Anonymous function in react
+
+Company: **  Madrecha Solutions (** FULL_STACK_ENGINEER)
+  - No general conceptual question on js and react
+
+Company: ** Skygoaltech (** FULL_STACK_ENGINEER)
+  - vs code is built on which tech stack
+
+Company: ** Skygoaltech (** FULL_STACK_ENGINEER)
+  - how to react works behind the scene
+
+Company: ** Talkwisely platforms (** FRONTEND_ENGINEER)
+  - in a html file, how many head tags can be given?
+
+Company: ** Talkwisely platforms (** FRONTEND_ENGINEER)
+  - react output-based question
+
+Company: ** Talkwisely platforms (** FRONTEND_ENGINEER)
+  - when the DOM is getting loaded. which event is getting triggered.
+
+Company: ** Talkwisely platforms (** FRONTEND_ENGINEER)
+  - Listen audio and choose best option suit for it ?
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Create a Dice of 5 with HTML CSS
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Creat a React Counter application.
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - What are Hooks
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Used Inbuilt Sorting method in finding the 2nd max element in the array.
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Create a Dice of 5, 4, 3 with HTML CSS
+
+Company: Your-Dost** (Full-Stack-Engineer**)
+  - Hooks
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - How react dom works, how many virtual DOMS.
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - What is Redux Thunk.
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - Output based questions on React and JS.
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - What are semantic tags in HTML ?
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - What are different ways we can add CSS to an HTML ?
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - What are React hooks, list some of the hooks that you have used ?
+
+Company: ** Techolution (** FULL_STACK_ENGINEER)
+  - Implement a react app, which demonstrates state uplifting, i,e passing props from children to parent.
+
+Company: ** indiagold (** FRONTEND_ENGINEER)
+  - Explain useEffect hook in React.
+
+Company: ** indiagold (** FRONTEND_ENGINEER)
+  - What is the difference between Redux and ContextAPI
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - Virtual Dom
+
+Company: IHX-Pvt-ltd** (FullStack-Engineer**)
+  - Custom Hooks
+
+Company: ** Alphablocks (** FRONTEND_ENGINEER)
+  - What is react
+
+Company: ** Alphablocks (** FRONTEND_ENGINEER)
+  - life cycle  method of react
+
+Company: ** Alphablocks (** FRONTEND_ENGINEER)
+  - performance optimization in react how to improve.
+
+Company: Vivahit** (Frontend-react**)
+  - Project api is not working, nothing in UI
+
+Company: Vivahit** (Frontend-react**)
+  - What are Hooks
+
+Company: Vivahit** (Frontend-react**)
+  - If you have 1000 photos, how you will render it on UI. What efficient methods you will use here
+
