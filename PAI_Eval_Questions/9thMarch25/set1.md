@@ -1,3 +1,95 @@
+## JavaScript Problem: Custom Object Filter
+
+### **Objective:**
+
+Create a **custom filter function** that behaves like JavaScript’s `.filter()` — but it should work on an **array of objects**, not just numbers.
+
+---
+
+### **Reference Example (for understanding only):**
+
+```js
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const isEven = (num) => num % 2 === 0;
+
+const result = numbers.filter(isEven);
+console.log(result); // Output: [2, 4, 6]
+```
+
+---
+
+### **Your Task:**
+
+1. Write a function named **`customFilter`** that:
+
+   - Takes two arguments:
+     - An array of **objects**
+     - A **callback function**
+   - Returns a **new array** containing only those objects for which the **callback returns `true`**.
+
+2. - Use arrow functions
+   - Use the spread operator
+   - **Do not use `.filter()`**
+
+3. After completing the code, answer:
+   - Which is the **callback function**?
+   - Which is the **higher-order function**?
+
+---
+
+### **Data to Use:**
+
+```js
+const users = [
+  { name: "Alice", age: 24 },
+  { name: "Bob", age: 17 },
+  { name: "Charlie", age: 30 },
+  { name: "David", age: 16 },
+  { name: "Eve", age: 22 },
+  { name: "Frank", age: 19 },
+  { name: "Grace", age: 15 },
+];
+```
+
+---
+
+### **Expected Usage:**
+
+```js
+// A function that takes a user object and returns true if the user's age is 18 or above
+const isAdult = // you write this!
+
+const adults = customFilter(users, isAdult);
+console.log(adults);
+```
+
+---
+
+### **Expected Output:**
+
+```js
+[
+  { name: "Alice", age: 24 },
+  { name: "Charlie", age: 30 },
+  { name: "Eve", age: 22 },
+  { name: "Frank", age: 19 },
+];
+```
+
+---
+
+### Final Step:
+
+After writing your function, clearly mention:
+
+- 👉 **Callback Function**: ****\_****
+- 👉 **Higher-order Function**: ****\_****
+
+---
+
+## NEM Project
+
 ## Problem Statement: **Recipe Collaboration API**
 
 Design and implement a RESTful API using **Node.js**, **Express**, and **MongoDB (Mongoose)** for a **Recipe Collaboration Platform**. The platform enables users to create, manage, and assign recipes. Each recipe consists of a list of ingredients and is associated with users both as creators and preparers.

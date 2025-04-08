@@ -1,3 +1,86 @@
+## JavaScript Problem: Custom Object Mapper
+
+### **Objective:**
+
+Create a **custom mapper function** that behaves like JavaScript’s `.map()` — but for an array of objects.
+
+---
+
+### **Reference Example (for understanding only):**
+
+```js
+const numbers = [1, 2, 3];
+
+const square = (num) => num * num;
+
+const result = numbers.map(square);
+console.log(result); // Output: [1, 4, 9]
+```
+
+---
+
+### **Your Task:**
+
+1. Write a function named **`customMap`** that:
+
+   - Takes two parameters:
+     - An array of **objects**
+     - A **callback function**
+   - Returns a **new array** with the results of applying the callback to **each object** in the array.
+
+2. - Use arrow functions
+   - Use the spread operator
+   - **Do not use `.map()`**
+
+3. After completing the code, answer:
+   - Which is the **callback function**?
+   - Which is the **higher-order function**?
+
+---
+
+### **Data to Use:**
+
+```js
+const users = [
+  { name: "Alice", age: 24 },
+  { name: "Bob", age: 17 },
+  { name: "Charlie", age: 30 },
+  { name: "Eve", age: 22 },
+];
+```
+
+---
+
+### **Expected Usage:**
+
+```js
+// A function that takes a user object and returns a string in the format: "Name (Age)"
+const getNameTag = // you write this!
+
+const nameTags = customMap(users, getNameTag);
+console.log(nameTags);
+```
+
+---
+
+### **Expected Output:**
+
+```js
+["Alice (24)", "Bob (17)", "Charlie (30)", "Eve (22)"];
+```
+
+---
+
+### Final Step:
+
+After writing your function, clearly mention:
+
+- 👉 **Callback Function**: **\_\_\_**
+- 👉 **Higher-order Function**: **\_\_\_**
+
+---
+
+## NEM Project
 
 ## Problem Statement: **House Repair Management System**
 
@@ -73,6 +156,7 @@ The `House` model should include the following fields:
 
 - **Route:** `GET /repairer/:repairerId/dashboard`
 - **Response:**
+
 ```json
 {
   "repairer": "John Doe",
@@ -129,4 +213,3 @@ To establish a **complete and consistent sense of relationship**, ensure the fol
 - Submit the Masai Repo Link
 
 ---
-

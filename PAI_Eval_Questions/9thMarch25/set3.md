@@ -1,3 +1,90 @@
+## JavaScript Problem: Custom Reducer – Total Age Calculator
+
+### **Objective:**
+
+Create a **custom reducer function** that behaves like JavaScript’s `.reduce()` — to calculate the total of a specific property from an array of objects.
+
+---
+
+### **Reference Example (for understanding only):**
+
+Here’s how `.reduce()` works on simple numbers:
+
+```js
+const numbers = [1, 2, 3, 4];
+
+const add = (acc, num) => acc + num;
+
+const result = numbers.reduce(add, 0);
+console.log(result); // Output: 10
+```
+
+---
+
+### **Your Task:**
+
+1. Write a function named **`customReduce`** that:
+
+   - Takes **three arguments**:
+     - An array of **objects**
+     - A **callback function**
+     - An **initial value**
+   - Returns a **single value** by applying the callback on every object and accumulating the result.
+
+2. - Use arrow functions
+   - Use the spread operator
+   - **Do not use `.reduce()`**
+
+3. After completing the code, answer:
+   - Which is the **callback function**?
+   - Which is the **higher-order function**?
+
+---
+
+### **Data to Use:**
+
+```js
+const users = [
+  { name: "Alice", age: 24 },
+  { name: "Bob", age: 17 },
+  { name: "Charlie", age: 30 },
+  { name: "Eve", age: 22 },
+];
+```
+
+---
+
+### **Expected Usage:**
+
+```js
+// A function that takes an accumulator and a user object, and returns updated accumulator by adding user’s age
+const addAge = // you write this!
+
+const totalAge = customReduce(users, addAge, 0);
+console.log(totalAge);
+```
+
+---
+
+### **Expected Output:**
+
+```js
+93;
+```
+
+---
+
+### ✍️ Final Step:
+
+After writing your function, clearly mention:
+
+- 👉 **Callback Function**: ****\_****
+- 👉 **Higher-order Function**: ****\_****
+
+---
+
+## NEM Project
+
 ## Problem Statement: **Pet Care Management System API**
 
 Design and implement a RESTful API using **Node.js**, **Express**, and **MongoDB (Mongoose)** for a **Pet Care Management Platform**. The platform enables two types of users: **PetParents** and **Veterinarians**. PetParents can register pets, while Veterinarians can manage their availability and handle pet consultations through appointments.
@@ -35,7 +122,7 @@ The `Pet` model should include the following fields:
 
 ---
 
-### 3. **VeterinarianProfile Model**
+### 3. **Veterinarian Profile Model**
 
 The `VeterinarianProfile` model should include the following fields:
 
