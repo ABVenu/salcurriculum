@@ -1,163 +1,169 @@
+### **Problem Statement: Mini Banking System (TypeScript CLI)**
 
-### **Problem Statement: Mini Banking System**
-
-You are developing a **Mini Banking System** that allows users to manage their bank accounts using the command line. The system will be built using **TypeScript** and designed using **Object-Oriented Programming principles** along with relevant **design patterns**.
+You are developing a **Mini Banking System** where users can create accounts and perform transactions through a **command-line interface**. The application will be developed using **TypeScript**, and it must follow **Object-Oriented Programming principles** and use relevant **design patterns**.
 
 ---
 
 ### **Requirements**
 
 #### 1. **Core Functionality**
+
 - Users can create a bank account by providing:
   - Name
-  - Mobile number
-- Each new account should:
-  - Start with ₹2000 balance
-  - Be assigned a unique Account Number and 4-digit PIN
-- After login, users can:
-  - Check balance
-  - Deposit money
-  - Withdraw money
-  - Transfer money to another user
-  - View mini statement (last 5 transactions)
+  - Mobile Number
+- The system will:
+  - Generate a unique **Account Number**
+  - Generate and return a secure **4-digit PIN**
+  - Set initial balance to ₹2000
+- All other operations require:
+  - `Account Number` and `PIN` for authentication
 
 ---
 
-#### 2. **Design Considerations**
-- Follow **OOPS principles** to design classes for users, accounts, and transactions.
-- Use **Singleton Pattern** to ensure:
-  - One central banking system instance
-  - No two accounts with the same mobile number
-- Use **Strategy Pattern** to support banking rules:
-  - Max 5 transactions per day
-  - Max ₹5000 can be transferred per day
-- Maintain session states (login, logout)
-- Add validations for all operations (e.g., insufficient balance, transfer limits, duplicate mobile)
+#### 2. **CLI Command Format**
 
----
-
-#### 3. **System Design Requirements**
-- Build a **CLI application using TypeScript**
-- Ensure the CLI is user-friendly with numbered menu choices
-- Modular folder structure and clean code separation
-- Provide class diagrams as part of system documentation
-
----
-
-### **Expected Inputs and Outputs**
-
-#### 🏁 Account Creation
+All operations are performed using **single CLI commands** in the following format:
 
 ```
-> Welcome to CLI Banking System
-1. Create Account
-2. Login
-> 1
+> commandName <AccountNumber> <Pin> [Other Inputs]
+```
 
-Enter your full name: Ravi Kumar
-Enter your mobile number: 9876543210
+---
 
-✅ Account created successfully!
+#### 3. **Supported Commands and Examples**
+
+##### Create Account
+
+```
+> createAccount RaviKumar 9876543210
+
+Account created successfully!
 Account Number: 100001
-PIN: 4521
-Your starting balance is ₹2000
+PIN: 3852
+Balance: ₹2000
 ```
 
 ---
 
-#### 🔐 Login Flow
+##### Check Balance
 
 ```
-> 2
+> checkBalance 100001 3852
 
-Enter Account Number: 100001
-Enter PIN: 4521
-
-✅ Login successful! Welcome, Ravi Kumar.
-
-1. Check Balance
-2. Deposit Money
-3. Withdraw Money
-4. Transfer Money
-5. Mini Statement
-6. Logout
-> _
+Balance for Account 100001: ₹2000
 ```
 
 ---
 
-#### 💰 Deposit
+##### ➕ Add Money
 
 ```
-> 2
-Enter amount to deposit: 3000
-✅ ₹3000 deposited successfully. Current Balance: ₹5000
-```
+> addMoney 100001 3852 3000
 
----
-
-#### 💸 Withdraw
-
-```
-> 3
-Enter amount to withdraw: 1000
-✅ ₹1000 withdrawn successfully. Current Balance: ₹4000
+₹3000 added successfully.
+Updated Balance: ₹5000
 ```
 
 ---
 
-#### 🔁 Transfer
+##### ➖ Withdraw Money
 
 ```
-> 4
-Enter recipient Account Number: 100002
-Enter amount to transfer: 6000
-❌ Transfer failed. Daily transfer limit of ₹5000 exceeded.
+> withdrawMoney 100001 3852 1000
+
+₹1000 withdrawn successfully.
+Updated Balance: ₹4000
 ```
 
 ---
 
-#### 📜 Mini Statement
+##### Transfer Money
 
 ```
-> 5
+> transferMoney 100001 3852 100002 2000
+
+₹2000 transferred from Account 100001 to Account 100002
+Remaining Balance: ₹2000
+```
+
+Transfer Limit Validation:
+
+```
+> transferMoney 100001 3852 6000
+
+Transfer failed: Daily transfer limit of ₹5000 exceeded.
+```
+
+---
+
+##### Error Cases
+
+**Duplicate Account Creation:**
+
+```
+> createAccount RaviKumar 9876543210
+
+Error: Account already exists with mobile number 9876543210
+```
+
+**Invalid PIN:**
+
+```
+> checkBalance 100001 1234
+
+Error: Invalid PIN for Account 100001
+```
+
+---
+
+### **Design Considerations**
+
+- Use **OOP principles** for entities like `Account`, `Bank`, and `Transaction`
+- Apply the following design patterns:
+  - **Singleton Pattern**: One instance of the banking system; prevents duplicate accounts for same mobile
+  - **Strategy Pattern**: To handle daily transaction limits:
+    - Max 5 transactions/day
+    - Max ₹5000 transfer/day
+- Proper validations and error handling for all operations
+
+---
+
+### **System Design Requirements**
+
+- Build with **TypeScript**
+- CLI interface reads command + arguments, parses, and performs action
+- Include **class diagrams** and basic flow documentation
+
+---
+
+### **Special Feature**
+
+#### Mini Statement
+
+```
+> miniStatement 100001 3852
+
 Last 5 transactions:
 1. Deposited ₹3000
 2. Withdrawn ₹1000
 3. Transferred ₹2000 to 100002
-4. Received ₹1000 from 100002
-5. Withdrawn ₹500
-```
-
----
-
-#### 🚫 Error Case: Duplicate Mobile
-
-```
-> 1
-Enter name: Anjali
-Enter mobile number: 9876543210
-❌ Error: Account with this mobile number already exists.
+4. ...
+5. ...
 ```
 
 ---
 
 ### **Deliverables**
 
-- A **fully functional CLI app** using **TypeScript**
-- Usage of **OOP principles** and **design patterns** (Singleton, Strategy)
-- Clean CLI with input/output prompts and validations
-- **Class diagrams** and brief documentation
-- GitHub repository link containing:
-  - Project source code
-  - ReadMe file with setup instructions and usage
-  - Screenshots of CLI execution
+- Fully working CLI application
+- Use of Singleton and Strategy patterns
+- GitHub repository with:
+  - Source code
+  - README (with usage guide and sample commands)
+  - Class diagrams (UML-style or markdown)
 
 ---
 
 ### **Submission**
 
 Push the code to your Masai GitHub repo and share the link.
-
----
-
