@@ -2,73 +2,24 @@
 
 ### **1. What is the correct way to connect MongoDB using Mongoose in a Node.js application?**
 
-A)
+A) `mongoose.connect("mongodb://localhost:27017/myDB");`
 
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
 
-B)
+B) `mongoose.link("mongodb://localhost:27017/myDB");`
 
-```js
-mongoose.link("mongodb://localhost:27017/myDB");
-```
 
-C)
+C) `mongoose.use("mongodb://localhost:27017/myDB");`
 
-```js
-mongoose.use("mongodb://localhost:27017/myDB");
-```
 
-D)
+D) `mongoose.start("mongodb://localhost:27017/myDB");`
 
-```js
-mongoose.start("mongodb://localhost:27017/myDB");
-```
 
-**Answer:** A)
-
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
+Answer: A)`mongoose.connect("mongodb://localhost:27017/myDB");`
 
 ---
 
-### **2. How do you check if the Mongoose connection is successful?**
 
-A)
-
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
-
-B)
-
-```js
-mongoose.on("connect", () => console.log("Connected to MongoDB"));
-```
-
-C)
-
-```js
-mongoose.success(() => console.log("Connected to MongoDB"));
-```
-
-D)
-
-```js
-mongoose.connectStatus(() => console.log("Connected to MongoDB"));
-```
-
-**Answer:** A)
-
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
-
----
-
-### **3. What is the correct way to insert a new document into a collection using Mongoose?**
+### **2. What is the correct way to insert a new document into a collection using Mongoose?**
 
 A)
 
@@ -95,7 +46,7 @@ D)
 User.put({ name: "Alice", age: 28 });
 ```
 
-**Answer:** A)
+Answer: A)
 
 ```js
 const user = new User({ name: "Alice", age: 28 });

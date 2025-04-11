@@ -1,4 +1,4 @@
-#### Advanced Mongoose Operations
+#### Advanced Mongoose: Complex Schemas, Validations & Queries
 
 ### Learning Objectives
 
