@@ -21,37 +21,22 @@ Answer: A)`mongoose.connect("mongodb://localhost:27017/myDB");`
 
 ### **2. What is the correct way to insert a new document into a collection using Mongoose?**
 
-A)
+A) `const user = UserModel.create({ name: "Alice", age: 28 });`
 
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
 
-B)
 
-```js
-User.insertOne({ name: "Alice", age: 28 });
-```
+B) `User.insertOne({ name: "Alice", age: 28 });`
 
-C)
 
-```js
-User.addNew({ name: "Alice", age: 28 });
-```
+C)  `User.addNew({ name: "Alice", age: 28 });`
 
-D)
 
-```js
-User.put({ name: "Alice", age: 28 });
-```
+D)  `User.put({ name: "Alice", age: 28 });`
 
-Answer: A)
 
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
+Answer: A) `const user = UserModel.create({ name: "Alice", age: 28 });`
 
----
+
+
+
 
