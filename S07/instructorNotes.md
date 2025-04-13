@@ -609,6 +609,3 @@ console.log(courses);
 ```
 
 ---
-
-### **What's Next?**
-In the next session, we will implement a query that supports filtering, sorting, and pagination together to make querying more dynamic and efficient.
