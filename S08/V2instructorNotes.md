@@ -1,4 +1,4 @@
-#### Designing Relationships within Schemas in Mongoose
+#### Advanced Mongoose: Relationships and Its Design
 
 ### Learning Objectives
 
@@ -12,10 +12,9 @@
 
 **1.0** Need of Relationships
 
-- 1.1 - Creation of final route that supports filtering data along with pagination and sorting
-- 1.2 - Understanding of what if the project grows, and the number of nested/embedded entites grows to large numbers
-- 1.3 - Demonstrating by giving examples of A Customer Schema having many Orders, issues of these growing nested documents like querying is tough, main schema is becoming heavy etc
-- 1.4 - Demonstrating need of seprate schemas - collections and link them, so that main Schema is not loaded and also maintaining the those entities is also easy
+- 1.1 - Understanding of what if the project grows, and the number of nested/embedded entites grows to large numbers
+- 1.2 - Demonstrating by giving examples of A Customer Schema having many Orders, issues of these growing nested documents like querying is tough, main schema is becoming heavy etc
+- 1.3 - Demonstrating need of seprate schemas - collections and link them, so that main Schema is not loaded and also maintaining the those entities is also easy
 
 **2.0** Types of Relationships
 
@@ -26,15 +25,15 @@
 
 - 2.5 - Implementing one to Many relationship Schema, as it is general case & Demonstrating Relationship by create respective routes
 
-**3.0** Creating Cascading Effects to Ensure Complete Relationships
+**3.0** Ensuring Data Integrity For Completeness Of Relationships
 
 - 3.1 - Relationship means not only creating schemas; it is completed only when all its associated routes/functionalities are created
 
   - Example: If a course is deleted, its dependent lectures should also be deleted.
 
-- 3.2 - Introduction to Cascading and Pre/Post Hooks in Mongoose
+- 3.2 - Cursor Methods
 
-- 3.3 - Managing Relationships Using Pre/Post Hooks
+- 3.3 - Master Route which supports search by query along with pagination and sorting
 
 ## Pitfalls
 
@@ -275,8 +274,6 @@ Let us take an example of, an `Student` can enroll in multiple `Courses`, and ea
   enrolledStudents: ["stu001", "stu002"]  // References to Student IDs
 }
 ```
-
-Perfect! Let's lock in the **pedagogy for Scene 3.0** — focusing solely on **One-to-Many Relationship** using `Course` and `Lecture` as our ideal schemas. This will be simple, relatable, and fully demonstrable through real code and routes.
 
 ---
 
