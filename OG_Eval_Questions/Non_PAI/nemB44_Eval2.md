@@ -77,10 +77,9 @@ Design and develop a **Task Management App** using **Express.js** where users ca
 5. **Logging & Monitoring**
 
    - Use `morgan` middleware to log all incoming requests with request method, path, and status.
-   - Logs should also include timestamp and user (if authenticated).
 
 6. **Rate Limiting**
-   - Apply a **rate limiter middleware** on all **GET** requests to prevent abuse (e.g., limit to 100 requests per 15 minutes per IP).
+   - Apply a **rate limiter middleware** on all **GET** requests to prevent abuse (e.g., limit to 5 requests per 1 minute per IP).
 
 ---
 
@@ -118,11 +117,12 @@ Use a service like **nodemailer** to send structured emails with:
 ### **Admin Routes** (Protected with JWT and Admin role)
 
 1. View all tasks (admin can see all tasks).
-2. View task count grouped by completion status (admin).
-3. Update a task (admin can update any task).
-4. Delete a task (admin can delete any task).
-5. Create a new user (admin).
-6. View all users (admin).
+2. View task count grouped by userId (admin).
+3. View task count grouped by completion status (admin).
+4. Update a task (admin can update any task).
+5. Delete a task (admin can delete any task).
+6. Create a new user (admin).
+7. View all users (admin).
 
 ---
 
