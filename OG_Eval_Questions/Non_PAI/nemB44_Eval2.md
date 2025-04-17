@@ -108,22 +108,21 @@ Use a service like **nodemailer** to send structured emails with:
 
 ### **User Routes** (Protected with JWT)
 
-1. **POST /tasks** — Create a new task.
-2. **GET /tasks** — View tasks created by the user and tasks assigned to the user.
-3. **PATCH /tasks/:taskId/completed** — Mark a task as completed (only assigned user can do this).
-4. **GET /tasks/grouped-by-user** — View tasks grouped by the assigned user (can only be accessed by the admin).
+1. Create a new task.
+2. View tasks created by the user and tasks assigned to the user.
+3. Assign task to user (only task creator can assign)
+4. Mark a task as completed (only assigned user can do this).
 
 ---
 
 ### **Admin Routes** (Protected with JWT and Admin role)
 
-1. **GET /tasks** — View all tasks (admin can see all tasks).
-2. **GET /tasks/grouped-by-completion** — View task count grouped by completion status (admin).
-3. **PATCH /tasks/:taskId** — Update a task (admin can update any task).
-4. **DELETE /tasks/:taskId** — Delete a task (admin can delete any task).
-5. **POST /users** — Create a new user (admin).
-6. **GET /users** — View all users (admin).
-7. **PATCH /users/:userId/role** — Change user role (admin).
+1. View all tasks (admin can see all tasks).
+2. View task count grouped by completion status (admin).
+3. Update a task (admin can update any task).
+4. Delete a task (admin can delete any task).
+5. Create a new user (admin).
+6. View all users (admin).
 
 ---
 
