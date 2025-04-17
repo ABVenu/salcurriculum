@@ -108,14 +108,17 @@
    - Every Mongoose model has a default `_id` as the primary key.
    - Underline `_id` in the diagram to indicate it's the unique identifier.
 
-- //// Add Typical ER Diagram Here ////
+![One to Many](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/d286045e-dda9-44f1-a523-0945b0cee034/rmuqXh0PtUitQjiS.png)
 
 ##### Method 2 using box and arrows
 
 - Here box is put for a model and all the attributes are listed in the box starting from `_id` and `arrows` are used to connect one box with another which represents relationship
 
 - This method is generally used by developers
-- //// Add Typical ER Diagram Here ////
+
+![Relationship Denotion](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/92d4f443-10fd-436c-a673-483b9127806d/BzvBb2aKCOqtZ2yI.png)
+
+![One To Many Relationship](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/b528c297-9079-4eb0-93a7-1963e2905e75/Kk3PLTBNKzJFtdIq.png)
 
 #### 1.3 **Implementation of typical ER Diagrams**
 
@@ -158,7 +161,7 @@
 - So in conclusion:
   - The `enrollment` schema is a **Junction Schema**
   - It **effectively manages Many-to-Many relationships** by acting as a bridge between the two entities
-- //// Add A Junction Schema Diagram Here ////
+    ![Junction Schema](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/21e78fca-adce-40fb-a473-b532bf5830c1/QryfjRAsdZpqzhDc.png)
 
 #### **2.3 Implementation of junction schema which is effective way to manage many to many relationship**
 
@@ -249,20 +252,20 @@ A **cascading effect** in database management refers to a **change in one docume
 In applications with **related data models**, any action on one entity (delete, update, insert) may require corresponding actions on other entities. This is known as **cascading**.
 
 ---
+The following are Verbal Explaination Only 
+##### **3.2.1 Soft Delete**
 
-#### **3.2.1 Soft Delete**
-
-#### What is it?
+- What is it?
 
 Instead of deleting a document permanently, we **mark it as deleted** using a flag like `isDeleted: true`.
 
-#### Why is it useful?
+- Why is it useful?
 
 - Allows recovery or "undo"
 - Avoids accidental data loss
 - Useful for audit logs or temporary hiding
 
-#### Example:
+- Example:
 
 ```js
 courseSchema.add({ isDeleted: { type: Boolean, default: false } });
@@ -272,19 +275,19 @@ Use `.find({ isDeleted: false })` in queries.
 
 ---
 
-#### **3.2.2 Archiving**
+##### **3.2.2 Archiving**
 
-##### What is it?
+- What is it?
 
 Instead of marking, we **move the document** from the main collection to a separate archival collection (e.g., `ArchivedCourses`).
 
-##### Why is it useful?
+- Why is it useful?
 
 - Keeps production data clean and fast
 - Still allows historical access
 - Helps in compliance or backup scenarios
 
-##### Example:
+- Example:
 
 ```js
 const archivedCourse = new ArchivedCourse(course.toObject());
@@ -294,41 +297,41 @@ await course.deleteOne();
 
 ---
 
-#### **3.2.3 Integrated Delete, Update, Restore from Archive**
+##### **3.2.3 Integrated Delete, Update, Restore from Archive**
 
-##### What is it?
+- What is it?
 
 A **workflow** that performs coordinated actions across related models:
 
 - When a `Course` is archived → move related `Enrollments`
 - On restore → bring back both course and enrollments
 
-##### Why is it useful?
+- Why is it useful?
 
 - Maintains referential consistency
 - Avoids orphan records
 - Automates data transitions
 
-##### Example Workflow:
+- Example Workflow:
 
 - Archive a course → also archive or soft-delete its enrollments
 - Restore the course → restore its enrollments too
 
 ---
 
-#### **3.2.4 Prevention of Duplicate Entries**
+##### **3.2.4 Prevention of Duplicate Entries**
 
-##### What is it?
+- What is it?
 
 Prevent the creation of **redundant records** in many-to-many junction schemas (e.g., same student enrolling in the same course multiple times).
 
-##### Why is it useful?
+- Why is it useful?
 
 - Maintains data accuracy
 - Avoids bloated data and duplicate efforts
 - Enforces true uniqueness in relationships
 
-##### Approaches:
+- Approaches:
 
 **A. Programmatic Check**
 
@@ -402,7 +405,7 @@ userSchema.post("save", function (doc) {
 - **Pre:** Do something before saving, updating, or removing.
 - **Post:** Do something after the action is done.
 
-#### 3.1 Soft Deletion Of Course Using Pre/Post Hooks
+#### 3.1 Soft Deletion Of Course Using Pre/Post Hooks - Verbal Explaination Only 
 
 - We can create cascading stratergies using these hooks, let us save, I want to delete a `course`,So the `course` will set `isDeleted` true, then all the enrollments of this course are no more a value, so I will be marking `isActive` as `false` for all enrollments, where this `course` was present, using `pre` hook
 - Then `course` will be soft deleted
