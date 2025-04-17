@@ -1,60 +1,46 @@
 **Scene 2.1**
 
-### **1. What is the primary role of a schema in Mongoose?**  
-A) To define the structure and validation rules for documents in a MongoDB collection  
-B) To store raw JSON data without any restrictions  
-C) To replace the need for indexes in MongoDB  
-D) To automatically create collections without defining models  
+### 1. **You are modeling a relationship between `Students` and `Courses` where a student can enroll in many courses, and a course can have many students. You choose to implement it using references. Which query would allow you to retrieve a course with its enrolled students' names and emails?**
 
-**Answer:** A) To define the structure and validation rules for documents in a MongoDB collection  
+Given schemas:
 
-### **2. How do you update a document using Mongoose?**  
+```js
+// Student Schema
+const studentSchema = new mongoose.Schema({
+  name: String,
+  email: String
+});
+
+// Course Schema
+const courseSchema = new mongoose.Schema({
+  title: String,
+  enrolledStudents: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Student' }]
+});
+```
+
+**What is the correct query to get the course along with all enrolled student details?**
+
 A)  
 ```js
-await User.updateOne({ name: "John" }, { age: 30 });
-```  
+Course.find().populate('enrolledStudents', 'name email');
+```
+
 B)  
 ```js
-User.change({ name: "John" }, { age: 30 });
-```  
+Student.find().populate('Course', 'title');
+```
+
 C)  
 ```js
-User.modify({ name: "John" }, { age: 30 });
-```  
+Course.find().join('enrolledStudents').select('name email');
+```
+
 D)  
 ```js
-await User.updateData({ name: "John" }, { age: 30 });
-```  
+Course.populate('enrolledStudents').find('name email');
+```
 
-**Answer:** A)  
-```js
-await User.updateOne({ name: "John" }, { age: 30 });
-```  
-
- 
-
-### **3. How do you delete a document using Mongoose?**  
-A)  
-```js
-await User.deleteOne({ name: "John" });
-```  
-B)  
-```js
-User.remove({ name: "John" });
-```  
-C)  
-```js
-User.drop({ name: "John" });
-```  
-D)  
-```js
-await User.erase({ name: "John" });
-```  
-
-**Answer:** A)  
-```js
-await User.deleteOne({ name: "John" });
-```  
+**Correct Answer:** A) `Course.find().populate('enrolledStudents', 'name email');`
 
 ---
 

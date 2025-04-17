@@ -1,106 +1,35 @@
-**Scene 3.0 Mongoose CRUD**
+**Scene 3.0**
 
-### **1. What is the correct way to connect MongoDB using Mongoose in a Node.js application?**
+### **1. What does the `.skip()` method in a Mongoose query do?**
 
-A)
+A) Skips validation  
+B) Skips over the first N documents in the result  
+C) Skips the current schema field  
+D) Skips the middleware functions
 
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
+**Correct Answer:** B) Skips over the first N documents in the result
 
-B)
-
-```js
-mongoose.link("mongodb://localhost:27017/myDB");
-```
-
-C)
+### **2. Which of the following query correctly fetches the **latest 5 users** from the database using Mongoose?**
 
 ```js
-mongoose.use("mongodb://localhost:27017/myDB");
+User.find();
 ```
 
-D)
+A) `.sort({ createdAt: 1 }).limit(5)`
 
-```js
-mongoose.start("mongodb://localhost:27017/myDB");
-```
+B) `.sort({ createdAt: -1 }).limit(5)`
 
-**Answer:** A)
+C) `.limit(5).skip(5)`
 
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
+D) `.find().sort('createdAt')`
 
----
+**Correct Answer:** B) `.sort({ createdAt: -1 }).limit(5)`
 
-### **2. How do you check if the Mongoose connection is successful?**
+### **3. Why is it recommended to store the MongoDB URI and port number in a `.env` file instead of directly in your code?**
 
-A)
+A) To enable auto-scaling  
+B) To make the app look cleaner  
+C) To separate configuration and avoid exposing sensitive data  
+D) To speed up the application runtime
 
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
-
-B)
-
-```js
-mongoose.on("connect", () => console.log("Connected to MongoDB"));
-```
-
-C)
-
-```js
-mongoose.success(() => console.log("Connected to MongoDB"));
-```
-
-D)
-
-```js
-mongoose.connectStatus(() => console.log("Connected to MongoDB"));
-```
-
-**Answer:** A)
-
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
-
----
-
-### **3. What is the correct way to insert a new document into a collection using Mongoose?**
-
-A)
-
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
-
-B)
-
-```js
-User.insertOne({ name: "Alice", age: 28 });
-```
-
-C)
-
-```js
-User.addNew({ name: "Alice", age: 28 });
-```
-
-D)
-
-```js
-User.put({ name: "Alice", age: 28 });
-```
-
-**Answer:** A)
-
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
-
----
-
+**Correct Answer:** C) To separate configuration and avoid exposing sensitive data

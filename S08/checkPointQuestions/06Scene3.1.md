@@ -1,69 +1,32 @@
 **Scene 3.1**
 
-### **1. How do you retrieve all documents from a MongoDB collection using Mongoose?**
-
-A)
+### **1. You're paginating blog posts with 10 posts per page. What does the following code do?**
 
 ```js
-const users = await User.find();
+Post.find().skip(20).limit(10);
 ```
 
-B)
+A) Gets the first 20 posts  
+B) Gets 10 posts starting from the 21st  
+C) Gets posts 1 to 10  
+D) Skips the first 10 and gets 20 posts
 
-```js
-const users = User.getAll();
+**Correct Answer:** B) Gets 10 posts starting from the 21st
+
+### **2. You have a `.env` file with the following line:**
+
+```
+PORT=4000
 ```
 
-C)
+**Which of the following code snippets will correctly use the port in your `index.js` file?**
 
-```js
-const users = User.fetch();
-```
+A) `const PORT = process.port.PORT;`
 
-D)
+B) `const PORT = process.env.port;`
 
-```js
-const users = User.findAll();
-```
+C) `require("dotenv").config(); const PORT = process.env.PORT;`
 
-**Answer:** A)
+D) `const PORT = dotenv.PORT;`
 
-```js
-const users = await User.find();
-```
-
----
-
-### **2. What is the correct way to delete a document using Mongoose?**
-
-A)
-
-```js
-await User.deleteOne({ name: "Alice" });
-```
-
-B)
-
-```js
-User.drop({ name: "Alice" });
-```
-
-C)
-
-```js
-User.removeOne({ name: "Alice" });
-```
-
-D)
-
-```js
-User.erase({ name: "Alice" });
-```
-
-**Answer:** A)
-
-```js
-await User.deleteOne({ name: "Alice" });
-```
-
----
+**Correct Answer:** C)

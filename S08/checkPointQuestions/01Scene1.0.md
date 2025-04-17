@@ -1,47 +1,30 @@
-**Scene 1.0 - Intro to Driver Softwares**
+**Scene 1.0**
 
-### **1. Why do we need database driver software in a Node.js backend?**
+### 1. **Which of the following best describes "Documents by Reference" in MongoDB?**
 
-A) To directly execute JavaScript code inside the database  
-B) To allow Node.js applications to interact with the database using JavaScript-friendly methods  
-C) To replace the need for a database schema  
-D) To store JavaScript files inside the database
+A) Embedding documents directly inside another document  
+B) Linking documents using ObjectIds and storing related data in separate collections  
+C) Converting documents into arrays  
+D) Using a CSV file to link data
 
-**Answer:** B) To allow Node.js applications to interact with the database using JavaScript-friendly methods
+**Correct Answer:** B) Linking documents using ObjectIds and storing related data in separate collections
 
-### **2. Which of the following is an Object-Relational Mapping (ORM) library commonly used in Node.js?**
+---
 
-A) Mongoose  
-B) Sequelize  
-C) MySQL2  
-D) MongoDB Native Driver
+### 2. **What type of relationship is being modeled when a `Book` document stores an array of `ObjectId`s pointing to `Author` documents?**
 
-**Answer:** B) Sequelize
+A) One-to-One (1:1)  
+B) One-to-Many (1:N)  
+C) Many-to-Many (M:N)  
+D) None of the above
 
-### **3. What is the main purpose of an Object-Document Mapper (ODM) in a Node.js application?**
+**Correct Answer:** B) One-to-Many (1:N)
 
-A) To map JavaScript objects to relational database tables  
-B) To enable direct execution of SQL queries inside JavaScript files  
-C) To provide a schema-based approach for working with NoSQL databases like MongoDB  
-D) To store JavaScript code inside the database
+### 3. **Which of the following is a drawback of using references instead of embedding documents in MongoDB?**
 
-**Answer:** C) To provide a schema-based approach for working with NoSQL databases like MongoDB
+A) Slower write operations  
+B) Larger individual documents  
+C) Requires manual joins through application logic or use of `populate`  
+D) Prevents updates to related documents
 
-### **4. Which of the following is true about Mongoose in Node.js?**
-
-A) It is an ODM used to work with MongoDB  
-B) It is an ORM specifically designed for SQL databases  
-C) It replaces the need for MongoDB drivers  
-D) It allows direct SQL queries in MongoDB
-
-**Answer:** A) It is an ODM used to work with MongoDB
-
-### **5. Which of the following is NOT a feature of ORM libraries like Sequelize?**
-
-A) Schema definition and validation  
-B) Direct communication with MongoDB without a driver  
-C) Query building using JavaScript objects  
-D) Migration and model synchronization
-
-**Answer:** B) Direct communication with MongoDB without a driver
-
+**Correct Answer:** C) Requires manual joins through application logic or use of `populate`
