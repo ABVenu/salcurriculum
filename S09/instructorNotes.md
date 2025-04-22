@@ -89,6 +89,9 @@
 | Collaboration challenges   | Acts as a communication tool between devs, PMs, designers         |
 
 #### 1.2 **How to draw ER Diagrams - basic rules**
+#### Activity: Identify the relationship 
+
+![Identify the Relationship](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/a50e879c-ab4f-421e-abc6-e8c7831dd5dd/REVmMPism2dB2efH.png)
 
 ##### Method 1 using shapes
 
@@ -127,6 +130,20 @@
 ---
 
 ### **Scene 2.0 — Effective Design of Many-to-Many Relationships Using a Junction Schema**
+#### Activity A: Analayse Many To Many Schema:
+
+![Analyse MtoM Schema 1.0](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/dca1e834-1d1d-42ba-8fd2-8839fdbefac2/AY2d3oJKrja0i0ZL.png)
+
+![Analyse MtoM 2.0](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/b79ecaeb-1da0-47c0-8a0a-d887ead190f5/fYhoeHxco2mZfpNX.png)
+
+![Analyse MtoM 1.1](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/ed63d71a-1e2e-4d9d-89aa-a6f15182f0c7/nrusMOGvLFrBDfLz.png)
+
+
+![Analyze MtoM 2.1](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/617b1f47-245d-4b0b-aaa4-fa1b301b4723/ZLSWwQbdnJJIcNtm.png)
+
+
+![Ananlyze MtoM 2.2](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/547b2ed3-8614-40b7-bda2-6884947050a5/n1OBrmvE0cIoq1MF.png)
+
 
 #### 2.1 & 2.2
 
