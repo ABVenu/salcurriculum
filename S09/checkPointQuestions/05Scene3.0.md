@@ -1,106 +1,35 @@
-**Scene 3.0 Mongoose CRUD**
+**Scene 3.0 Cascading Startergies**
 
-### **1. What is the correct way to connect MongoDB using Mongoose in a Node.js application?**
+### **1. In MongoDB, what does implementing a Soft Delete usually involve?**
 
-A)
+A) Permanently removing the document from the collection  
+B) Moving the document to a backup collection immediately  
+C) Updating a field like `isDeleted: true` instead of physically deleting the document  
+D) Encrypting the document before deleting it
 
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
-
-B)
-
-```js
-mongoose.link("mongodb://localhost:27017/myDB");
-```
-
-C)
-
-```js
-mongoose.use("mongodb://localhost:27017/myDB");
-```
-
-D)
-
-```js
-mongoose.start("mongodb://localhost:27017/myDB");
-```
-
-**Answer:** A)
-
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
+**Answer:** C) Updating a field like `isDeleted: true` instead of physically deleting the document
 
 ---
 
-### **2. How do you check if the Mongoose connection is successful?**
+### **2. What is the main idea behind Archiving in a MongoDB application?**
 
-A)
+A) To increase the database query speed by creating additional indexes  
+B) To store old or inactive documents separately without losing them permanently  
+C) To delete documents faster using batch operations  
+D) To merge two collections into one for easier access
 
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
-
-B)
-
-```js
-mongoose.on("connect", () => console.log("Connected to MongoDB"));
-```
-
-C)
-
-```js
-mongoose.success(() => console.log("Connected to MongoDB"));
-```
-
-D)
-
-```js
-mongoose.connectStatus(() => console.log("Connected to MongoDB"));
-```
-
-**Answer:** A)
-
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
+**Answer:** B) To store old or inactive documents separately without losing them permanently
 
 ---
 
-### **3. What is the correct way to insert a new document into a collection using Mongoose?**
+### **3. In MongoDB using Mongoose, when would a pre-hook (`pre`) be typically used?**
 
-A)
+A) After the document is saved successfully  
+B) To modify or validate data **before** saving, updating, or deleting a document  
+C) Only during database connection setup  
+D) Only to handle database errors after an operation fails
 
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
-
-B)
-
-```js
-User.insertOne({ name: "Alice", age: 28 });
-```
-
-C)
-
-```js
-User.addNew({ name: "Alice", age: 28 });
-```
-
-D)
-
-```js
-User.put({ name: "Alice", age: 28 });
-```
-
-**Answer:** A)
-
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
+**Answer:** B) To modify or validate data **before** saving, updating, or deleting a document
 
 ---
 

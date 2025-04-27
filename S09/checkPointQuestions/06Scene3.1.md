@@ -1,69 +1,23 @@
-**Scene 3.1**
+**Scene 3.1 Cascading Stratergies**
 
-### **1. How do you retrieve all documents from a MongoDB collection using Mongoose?**
+### **1. When using a Post Hook (`post`) in Mongoose, what typically happens?**
 
-A)
+A) Data is validated before saving to the database  
+B) An action is triggered **after** a document is saved, updated, or deleted  
+C) Indexes are automatically created on referenced fields  
+D) The database connection is closed immediately
 
-```js
-const users = await User.find();
-```
-
-B)
-
-```js
-const users = User.getAll();
-```
-
-C)
-
-```js
-const users = User.fetch();
-```
-
-D)
-
-```js
-const users = User.findAll();
-```
-
-**Answer:** A)
-
-```js
-const users = await User.find();
-```
+**Answer:** B) An action is triggered **after** a document is saved, updated, or deleted
 
 ---
 
-### **2. What is the correct way to delete a document using Mongoose?**
+### **2. In a cascading delete strategy using Soft Delete, what should happen to child documents when a parent document is soft-deleted?**
 
-A)
+A) They should all be immediately hard-deleted  
+B) Their references should also be updated (e.g., setting their `isDeleted` flag to true)  
+C) They should be ignored completely  
+D) They should be moved to an archive collection
 
-```js
-await User.deleteOne({ name: "Alice" });
-```
-
-B)
-
-```js
-User.drop({ name: "Alice" });
-```
-
-C)
-
-```js
-User.removeOne({ name: "Alice" });
-```
-
-D)
-
-```js
-User.erase({ name: "Alice" });
-```
-
-**Answer:** A)
-
-```js
-await User.deleteOne({ name: "Alice" });
-```
+**Answer:** B) Their references should also be updated (e.g., setting their `isDeleted` flag to true)
 
 ---
