@@ -28,6 +28,7 @@
 - **2.1** - Exploring `$group` – aggregate data (e.g., total amount per user)
 - **2.2** - Exploring `$match` – filtering data before/after grouping
 - **2.3** - Exploring `$project` – shaping the output, selecting fields
+  - **2.3.1** - Explaining `"$FieldName"` why `$` and `""` used for FieldName
 
 ---
 
@@ -48,512 +49,597 @@
 
 **2.0**
 
-- Which one to use, 
+- Which method/pipeline to be used.
+- when to use `$` for fieldName, when not to use
 
 **3.0**
 
-- deletion means not actually deleting from Database, cannot imagine soft delete/archiving and other startergies
+- Working with Multi Collection
 
 ## Content/Pedagagoy
 
-### **Scene 1.0 ER Diagrams**
+---
 
-#### 1.1 **Need of Visulization, Documentation of Relationships**
-
-- Relationship design means not only directly refelcting in Schemas, or else we cannot get the type of relationship being implemenated, which field and how it is connected.
-- First schema (Entity) will be decided then fields (attributes) are decided and finally relationship is decided
-- So, to effectively visulize all these things, we need to create an diagram which is helping to see all the schemas that are getting
-- also these diagrams helps to document, which helps is future as well,
-- The following are the benefits of using ER Diagrams
-
-  1.  **Visualize your Data Model**:
-
-      - Makes it easier to understand what collections you have and how they relate.
-      - Shows which fields are embedded vs. referenced.
-
-  2.  **Design before Implementation**:
-
-      - You can plan your schemas and relationships clearly before coding.
-      - Helpful when deciding between **embedding vs. referencing**.
-
-  3.  **Onboarding New Developers**:
-
-      - A clear diagram makes it easy for others to understand your DB design.
-
-  4.  **Debugging and Refactoring**:
-      - Spot unoptimized relationships or circular references early.
-
-  ***
-
-#### **What Problems Do ER Diagrams Solve?**
-
-| Problem                    | How ER Diagrams Helps                                             |
-| -------------------------- | ----------------------------------------------------------------- |
-| Unclear data relationships | Clarify how collections reference or embed one another            |
-| Schema complexity          | Break down large, nested schemas into understandable visual units |
-| Poor database performance  | Helps you rethink data modeling (e.g., when to normalize)         |
-| Collaboration challenges   | Acts as a communication tool between devs, PMs, designers         |
-
-#### 1.2 **How to draw ER Diagrams - basic rules**
-
-#### Activity: Identify the relationship
-
-![Identify the Relationship](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/a50e879c-ab4f-421e-abc6-e8c7831dd5dd/REVmMPism2dB2efH.png)
-
-##### Method 1 using shapes
-
-1. **Entities (Models)**
-
-   - Drawn as rectangles.
-   - Use **singular** names like `User`, `Course`, `Pet`.
-   - Attributes (schema fields) are shown as ovals connected to the entity.
-
-2. **Relationships**
-
-   - Represented by diamonds.
-   - Connect related entities with lines.
-   - Name the relationship with a **verb** (e.g., `has`, `belongsTo`, `enrolled`).
-
-3. **Primary Key**
-   - Every Mongoose model has a default `_id` as the primary key.
-   - Underline `_id` in the diagram to indicate it's the unique identifier.
-
-![One to Many](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/d286045e-dda9-44f1-a523-0945b0cee034/rmuqXh0PtUitQjiS.png)
-
-##### Method 2 using box and arrows
-
-- Here box is put for a model and all the attributes are listed in the box starting from `_id` and `arrows` are used to connect one box with another which represents relationship
-
-- This method is generally used by developers
-
-![Relationship Denotion](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/92d4f443-10fd-436c-a673-483b9127806d/BzvBb2aKCOqtZ2yI.png)
-
-![One To Many Relationship](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/b528c297-9079-4eb0-93a7-1963e2905e75/Kk3PLTBNKzJFtdIq.png)
-
-#### 1.3 **Implementation of typical ER Diagrams**
-
-- Implement Both Method 1 and Method 2 and explain neatly
+# **Scene 1.0 — Introduction to Aggregation**
 
 ---
 
-### **Scene 2.0 — Effective Design of Many-to-Many Relationships Using a Junction Schema**
+### Start with a Problem Statement:
 
-#### Activity A: Analayse Many To Many Schema:
+### Scenario 1:
 
-![Analyse MtoM Schema 1.0](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/dca1e834-1d1d-42ba-8fd2-8839fdbefac2/AY2d3oJKrja0i0ZL.png)
+Imagine you have a **`orders`** collection:
 
-![Analyse MtoM 2.0](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/b79ecaeb-1da0-47c0-8a0a-d887ead190f5/fYhoeHxco2mZfpNX.png)
-
-![Analyse MtoM 1.1](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/ed63d71a-1e2e-4d9d-89aa-a6f15182f0c7/nrusMOGvLFrBDfLz.png)
-
-![Analyze MtoM 2.1](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/617b1f47-245d-4b0b-aaa4-fa1b301b4723/ZLSWwQbdnJJIcNtm.png)
-
-![Ananlyze MtoM 2.2](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/547b2ed3-8614-40b7-bda2-6884947050a5/n1OBrmvE0cIoq1MF.png)
-
-#### 2.1 & 2.2
-
-- In **One-to-One** or **One-to-Many** relationships, we typically store the dependent entity's `id` inside the independent entity’s document to establish the relationship.
-- However, in **Many-to-Many** relationships, this approach can create confusion:
-
-  - Let’s take the example of `courses` and `students`:
-    - A single **course** can have many **students**
-    - A single **student** can enroll in many **courses**
-  - If we store all student IDs inside a course document and all course IDs inside a student document, it might resemble a **One-to-Many** structure from both sides. This blurs the distinction and makes it harder to manage.
-
-- Maintaining Many-to-Many relationships becomes increasingly difficult when IDs are embedded directly within each other’s schema:
-
-  - Data duplication
-  - Update inconsistencies
-  - Complex querying
-
-- To solve this, we introduce a **separate schema** that acts as a **common link** between the two — known as a **Junction Schema** (or **Junction Table** in SQL).
-
-  - In our `courses` and `students` example:
-    - We create a new schema called `enrollment`
-    - This schema stores references (IDs) to both the `student` and the `course`
-    - Now, each enrollment document clearly represents a unique relationship between a student and a course
-
-- **Why use a Junction Schema?**
-
-  - Clearly represents Many-to-Many relationships
-  - Easy to manage and scale
-  - Helps in maintaining normalized data
-  - Simplifies complex queries and analytics
-
-- So in conclusion:
-  - The `enrollment` schema is a **Junction Schema**
-  - It **effectively manages Many-to-Many relationships** by acting as a bridge between the two entities
-    ![Junction Schema](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/21e78fca-adce-40fb-a473-b532bf5830c1/QryfjRAsdZpqzhDc.png)
-
-#### **2.3 Implementation of junction schema which is effective way to manage many to many relationship**
-
-##### **2.3.1 Create Schemas**
-
-```js
-// Course Schema
-const courseSchema = new mongoose.Schema({
-  title: String,
-  description: String,
-});
-const Course = mongoose.model("Course", courseSchema);
-
-// Student Schema
-const studentSchema = new mongoose.Schema({
-  name: String,
-  email: String,
-});
-const Student = mongoose.model("Student", studentSchema);
-
-// Enrollment Schema (Junction Schema)
-const enrollmentSchema = new mongoose.Schema({
-  course: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Course",
-    required: true,
-  },
-  student: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Student",
-    required: true,
-  },
-  enrolledAt: { type: Date, default: Date.now },
-});
-const Enrollment = mongoose.model("Enrollment", enrollmentSchema);
+```json
+[
+  { "item": "apple", "quantity": 5 },
+  { "item": "banana", "quantity": 10 },
+  { "item": "apple", "quantity": 8 },
+  { "item": "orange", "quantity": 15 }
+]
 ```
 
 ---
 
-##### **2.3.2 Create Routes**
+### Problem:
 
-```js
-// Route 1: Create a Course
-app.post("/courses", async (req, res) => {
-  const course = await Course.create(req.body);
-  res.status(201).json(course);
-});
-
-// Route 2: Create a Student
-app.post("/students", async (req, res) => {
-  const student = await Student.create(req.body);
-  res.status(201).json(student);
-});
-
-// Route 3: Create an Enrollment (link Student ↔ Course)
-app.post("/enrollments", async (req, res) => {
-  const enrollment = await Enrollment.create({
-    student: req.body.studentId,
-    course: req.body.courseId,
-  });
-  res.status(201).json(enrollment);
-});
-
-// Route 4: Get all enrollments with student and course details
-app.get("/enrollments", async (req, res) => {
-  const enrollments = await Enrollment.find()
-    .populate("student", "name email") // populate student fields
-    .populate("course", "title description"); // populate course fields
-
-  res.json(enrollments);
-});
-```
-
-- Explain them by demonstrating through `Compass`
+> **Find the total quantity ordered _item-wise_.**
 
 ---
 
-### **Scene 3.0 Cascading Strategies for Data Integrity & Preservation: Ensuring Unbroken Relationships**
+### Can we solve this with Normal Query?
 
-#### **3.1 What is a Cascading Effect?**
+- We can `find` all apples:
+  ```js
+  db.orders.find({ item: "apple" });
+  ```
+- We can manually add `5 + 8 = 13`.
 
-A **cascading effect** in database management refers to a **change in one document (or record)** that automatically triggers **related changes** in other documents. This ensures that dependent data remains consistent and prevents the existence of **orphaned or inconsistent records**.
+But...
 
-#### **3.2 Cascading Strategies**
+- Again, we have to do **manual calculation** for every item.
+- What if there are **100 different items**?
+- What if **items keep changing daily**?
 
-**Goal:** To ensure **data integrity**, **relationship consistency**, and **preservation of critical associations** between related documents in a database.
+### Scenario 2
 
-In applications with **related data models**, any action on one entity (delete, update, insert) may require corresponding actions on other entities. This is known as **cascading**.
-
----
-
-The following are Verbal Explaination Only
-
-##### **3.2.1 Soft Delete**
-
-- What is it?
-
-Instead of deleting a document permanently, we **mark it as deleted** using a flag like `isDeleted: true`.
-
-- Why is it useful?
-
-- Allows recovery or "undo"
-- Avoids accidental data loss
-- Useful for audit logs or temporary hiding
-
-- Example:
-
-```js
-courseSchema.add({ isDeleted: { type: Boolean, default: false } });
-```
-
-Use `.find({ isDeleted: false })` in queries.
+**Write a query to find the count of students _state-wise_.**"
 
 ---
 
-##### **3.2.2 Archiving**
+### Ask the audience:
 
-- What is it?
+- How can we solve this?
+- Should we write **one query for each state**?  
+  (e.g., `find({ state: 'Delhi' }).count()`, `find({ state: 'Maharashtra' }).count()`, and so on?)
 
-Instead of marking, we **move the document** from the main collection to a separate archival collection (e.g., `ArchivedCourses`).
+**That’s 30+ queries** for 30 states!
 
-- Why is it useful?
+- **But wait —** what if we **don't even know** in advance what the states are?  
+  (Maybe the states are dynamic — users can come from anywhere.)
 
-- Keeps production data clean and fast
-- Still allows historical access
-- Helps in compliance or backup scenarios
+- Can normal `find()` queries help us here?
 
-- Example:
-
-```js
-const archivedCourse = new ArchivedCourse(course.toObject());
-await archivedCourse.save();
-await course.deleteOne();
-```
+**No, traditional queries will not solve this efficiently.**
 
 ---
 
-##### **3.2.3 Integrated Delete, Update, Restore from Archive**
+### Then build the realization:
 
-- What is it?
-
-A **workflow** that performs coordinated actions across related models:
-
-- When a `Course` is archived → move related `Enrollments`
-- On restore → bring back both course and enrollments
-
-- Why is it useful?
-
-- Maintains referential consistency
-- Avoids orphan records
-- Automates data transitions
-
-- Example Workflow:
-
-- Archive a course → also archive or soft-delete its enrollments
-- Restore the course → restore its enrollments too
+We **don't just want to find documents** —  
+We want to **analyze, group, and compute** something from the documents.
 
 ---
 
-##### **3.2.4 Prevention of Duplicate Entries**
+### **1.2** Establishing the Need for Something Beyond Simple Queries — **Enter Aggregations**
 
-- What is it?
+- Traditional queries are primarily used to retrieve documents based on known field values. They are effective when you know _what_ you're looking for — for example, fetching a user by their ID or listing all products within a certain price range.
+- However, the kind of data analysis described earlier isn't about retrieving documents — it's about deriving insights _from_ the data. In these cases:
 
-Prevent the creation of **redundant records** in many-to-many junction schemas (e.g., same student enrolling in the same course multiple times).
+  - We don't just need documents; we need processed, summarized, or calculated information.
+  - Often, we don't even know the exact values in advance — we need the database to _analyze_ and _compute_ the results for us.
 
-- Why is it useful?
+- **This is where MongoDB's powerful feature called `Aggregations` comes into play.**
 
-- Maintains data accuracy
-- Avoids bloated data and duplicate efforts
-- Enforces true uniqueness in relationships
-
-- Approaches:
-
-**A. Programmatic Check**
-
-```js
-const existing = await Enrollment.findOne({ student, course });
-if (existing) return res.status(400).json({ message: "Already enrolled" });
-```
-
-**B. Compound Unique Index**
-
-```js
-enrollmentSchema.index({ student: 1, course: 1 }, { unique: true });
-```
-
-Then handle `duplicate key` errors (error code `11000`).
-
-**C. Preventing Accidental Inserts with (upsert: false)**
-
-- When using updateOne or findOneAndUpdate, setting upsert: false ensures that no new document is created if the match is not found.
-- Use it when you only want to update existing records, not insert new ones.
-
-Example:
-
-```js
-await Enrollment.updateOne(
-  { student: studentId, course: courseId },
-  { $set: { enrolledAt: new Date() } },
-  { upsert: false }
-);
-```
-
-If no matching enrollment exists, this will do nothing — preventing accidental insertions.
+- **Aggregation** refers to the process of performing a series of operations on the data to transform and compute results. Think of it as building a data processing pipeline.
 
 ---
 
-#### **3.3 Pre/Post hooks to execute Cascading Stratergies**
+### **1.3** - Difference between standard query vs. aggregation pipeline (use-cases, performance, flexibility)
 
-In Mongoose, **pre** and **post** hooks are functions that run **before** or **after** certain actions like saving or removing a document. They allow you to add extra behavior to your database operations.
+- **Queries** are used for simple document retrieval based on known conditions, whereas **aggregations** are used for **data analysis**.  
+   The analysis can be **simple** or **multi-level** — for example:
+  - First, fetch relevant data,
+  - Then perform calculations or transformations on it,
+  - Then apply further operations on the intermediate results, and so on.  
+    Aggregation allows chaining multiple operations step-by-step to achieve complex analytical outcomes.
 
-### Pre Hooks
+| Aspect          | Standard Query                               | Aggregation Pipeline                                    |
+| --------------- | -------------------------------------------- | ------------------------------------------------------- |
+| **Purpose**     | Retrieve documents based on known conditions | Analyze, transform, and compute over data               |
+| **Use-Cases**   | Find, filter, sort documents                 | Grouping, calculating averages/sums, restructuring data |
+| **Flexibility** | Limited to direct field matching             | Highly flexible with multiple transformation stages     |
+| **Performance** | Fast for simple lookups                      | Slightly heavier, optimized for complex processing      |
+| **Output**      | Full documents or projections                | Custom-structured data (even entirely new fields)       |
 
-- **Run before** the action (e.g., save, update).
-- Use it to modify or validate data **before** it's saved.
+- **Example of Standard Query**:
 
-**Example:**
+  ```js
+  db.orders.find({ status: "delivered" });
+  ```
+
+  → Returns all documents where `status` is `"delivered"`.
+
+- **Example of Aggregation**:
+  ```js
+  db.orders.aggregate([
+    { $match: { status: "delivered" } },
+    { $group: { _id: "$customerId", totalSpent: { $sum: "$amount" } } },
+  ]);
+  ```
+  → Returns total amount spent by each customer who had delivered orders.
+
+---
+
+### **1.4** Introduction to Basic Aggregation & the Concept of **Stages** in a Pipeline
+
+- Aggregation pipelines are made up of **multiple stages**, each responsible for a particular transformation or calculation.
+- Each stage takes in data, processes it, and passes it to the next stage — much like a real-world conveyor belt (refer to the factory assembly line analogy above).
+
+- **Basic Structure**:
+  ```js
+  db.collection.aggregate([
+    { $stage1: {...} },
+    { $stage2: {...} },
+    ...
+  ])
+  ```
+- In MongoDB, these series of data transformations are structured as **pipelines**, where each stage performs a specific operation on the data and passes the results to the next stage.
+
+### **2.0 Typical Aggregations for Single Collection**
+
+When aggregating data from a single MongoDB collection, the following common **aggregation stages** are frequently used:
+
+| Stage          | Purpose                                                                             |
+| :------------- | :---------------------------------------------------------------------------------- |
+| **$match**     | Filters documents based on conditions (works like a query filter).                  |
+| **$group**     | Groups documents by a field and performs calculations (sum, average, count, etc.).  |
+| **$project**   | Selects specific fields or reshapes documents. Can also create new computed fields. |
+| **$sort**      | Sorts documents based on one or more fields.                                        |
+| **$limit**     | Limits the number of documents passed to the next stage.                            |
+| **$skip**      | Skips a specified number of documents (useful for pagination).                      |
+| **$count**     | Quickly counts the number of documents passing through the pipeline.                |
+| **$addFields** | Adds new fields to documents without replacing the original fields.                 |
+| **$unset**     | Removes one or more fields from documents.                                          |
+
+> 🔥 **Note:** Aggregation can be as simple as just filtering, or as complex as multi-level grouping, reshaping, and calculating new fields!
+
+---
+
+# 🗂️ **Collection We'll Use: `orders`**
+
+📦 **Sample Data:**
 
 ```javascript
-userSchema.pre("save", function (next) {
-  if (this.isModified("password")) {
-    this.password = hashPassword(this.password); // Hash password before saving
-  }
-  next(); // Continue to save the document
-});
+[
+  { orderId: 1, customerName: "Alice", amount: 120, status: "delivered" },
+  { orderId: 2, customerName: "Bob", amount: 80, status: "pending" },
+  { orderId: 3, customerName: "Charlie", amount: 200, status: "delivered" },
+  { orderId: 4, customerName: "Alice", amount: 150, status: "cancelled" },
+  { orderId: 5, customerName: "David", amount: 300, status: "delivered" },
+  { orderId: 6, customerName: "Bob", amount: 50, status: "delivered" },
+  { orderId: 7, customerName: "Charlie", amount: 70, status: "pending" },
+  { orderId: 8, customerName: "Eve", amount: 400, status: "delivered" },
+  { orderId: 9, customerName: "David", amount: 90, status: "pending" },
+  { orderId: 10, customerName: "Alice", amount: 60, status: "delivered" },
+  { orderId: 11, customerName: "Frank", amount: 500, status: "delivered" },
+];
 ```
 
-### Post Hooks
+---
 
-- **Run after** the action is completed (e.g., after saving, removing).
-- Use it to perform tasks like logging or notifications **after** the action.
+# ### **2.1 Exploring `$group` – Aggregate Data**
 
-**Example:**
+### 📌 Example 1: Total amount spent by each customer
 
 ```javascript
-userSchema.post("save", function (doc) {
-  console.log("User saved:", doc); // Log after saving the user
-});
-```
-
-### Summary
-
-- **Pre:** Do something before saving, updating, or removing.
-- **Post:** Do something after the action is done.
-
-#### 3.1 Soft Deletion Of Course Using Pre/Post Hooks - Verbal Explaination Only
-
-- We can create cascading stratergies using these hooks, let us save, I want to delete a `course`,So the `course` will set `isDeleted` true, then all the enrollments of this course are no more a value, so I will be marking `isActive` as `false` for all enrollments, where this `course` was present, using `pre` hook
-- Then `course` will be soft deleted
-- Once `course` is deleted, then will add this course as `pastCourses` in the `student` schema for future ref, using `post` hook
-
-##### Updated **Course Schema** (with pre and post hooks)
-
-```js
-const mongoose = require("mongoose");
-const Enrollment = require("./Enrollment"); // Make sure path is correct
-const Student = require("./Student"); // Make sure path is correct
-
-const courseSchema = new mongoose.Schema({
-  title: String,
-  isActive: { type: Boolean, default: true },
-});
-
-// Pre Hook: Mark related enrollments as inactive when the course is soft-deleted
-courseSchema.pre("save", async function (next) {
-  if (!this.isModified("isActive")) return next(); // skip if isActive not changing
-
-  if (this.isActive === false) {
-    console.log(
-      `🧹 Pre Hook: Soft-deleting enrollments for course ${this._id}`
-    );
-
-    // Update related enrollments
-    const enrollments = await Enrollment.find({
-      course: this._id,
-      isActive: true,
-    });
-    const studentIds = enrollments.map((enroll) => enroll.student);
-
-    // Add studentIds to this course for post-hook to use
-    this.enrolledStudentIds = studentIds;
-
-    // Soft delete enrollments
-    await Enrollment.updateMany(
-      { course: this._id },
-      { $set: { isActive: false } }
-    );
-  }
-  next();
-});
-
-// Post Hook: After course is saved (soft-deleted), push the courseId to each student's course list
-courseSchema.post("save", async function () {
-  if (this.isActive === false && this.enrolledStudentIds?.length) {
-    console.log(
-      `📬 Post Hook: Adding soft-deleted course ${this._id} to students' courses`
-    );
-
-    // Find students and add this courseId to their courses array
-    await Student.updateMany(
-      { _id: { $in: this.enrolledStudentIds } },
-      { $addToSet: { pastCourses: this._id } } // Add to set ensures no duplicates
-    );
-  }
-});
-
-const Course = mongoose.model("Course", courseSchema);
-module.exports = Course;
+db.orders.aggregate([
+  {
+    $group: {
+      _id: "$customerName",
+      totalAmount: { $sum: "$amount" },
+    },
+  },
+]);
 ```
 
 ---
 
-##### **Student Schema** (No changes needed here)
+### 📌 Example 2: Total number of orders per customer
 
-```js
-const mongoose = require("mongoose");
-
-const studentSchema = new mongoose.Schema({
-  name: String,
-  pastCourses: [{ type: mongoose.Schema.Types.ObjectId, ref: "Course" }],
-});
-
-const Student = mongoose.model("Student", studentSchema);
-module.exports = Student;
+```javascript
+db.orders.aggregate([
+  {
+    $group: {
+      _id: "$customerName",
+      numberOfOrders: { $sum: 1 },
+    },
+  },
+]);
 ```
 
 ---
 
-##### **Enrollment Schema** (No changes needed)
+# ### **2.2 Exploring `$match` – Filter Data**
 
-```js
-const mongoose = require("mongoose");
+### 📌 Example 1: Find all delivered orders
 
-const enrollmentSchema = new mongoose.Schema({
-  student: { type: mongoose.Schema.Types.ObjectId, ref: "Student" },
-  course: { type: mongoose.Schema.Types.ObjectId, ref: "Course" },
-  enrolledAt: { type: Date, default: Date.now },
-  isActive: { type: Boolean, default: true },
-});
-
-const Enrollment = mongoose.model("Enrollment", enrollmentSchema);
-module.exports = Enrollment;
+```javascript
+db.orders.aggregate([{ $match: { status: "delivered" } }]);
 ```
 
 ---
 
-##### **Soft Delete Route**
+### 📌 Example 2: Find orders with amount greater than 100
 
-```js
-// Soft delete a course and deactivate its enrollments
-app.delete("/courses/:id/", async (req, res) => {
-  const course = await Course.findById(req.params.id);
-  if (!course) return res.status(404).send("Course not found");
-
-  course.isActive = false;
-  await course.save(); // triggers pre and post hooks
-
-  res.send(
-    "✅ Course soft-deleted, enrollments deactivated, students notified"
-  );
-});
+```javascript
+db.orders.aggregate([{ $match: { amount: { $gt: 100 } } }]);
 ```
 
 ---
 
-##### Explanation:
+# ### **2.3 Exploring `$project` – Shaping the Output**
 
-- **Pre Hook:** The course’s related enrollments are marked as inactive before the course itself is saved.
-- **Post Hook:** After the course is saved, the post hook pushes the course ID to the `courses` array in all students who were enrolled in that course.
+### 📌 Example 1: Show only customer name and amount
 
-- The pre hook is executed **before** saving the course, while the post hook is executed **after** the save operation is complete.
+```javascript
+db.orders.aggregate([
+  {
+    $project: {
+      _id: 0,
+      customerName: 1,
+      amount: 1,
+    },
+  },
+]);
+```
 
-- With this setup, when a course is soft-deleted, all the related enrollments are deactivated, and the course ID is tracked in each student’s `courses` array, demonstrating how cascading logic can be implemented with Mongoose hooks.
+---
+
+### 📌 Example 2: Create a new field "isHighValue" based on amount
+
+```javascript
+db.orders.aggregate([
+  {
+    $project: {
+      customerName: 1,
+      amount: 1,
+      isHighValue: { $gt: ["$amount", 200] },
+    },
+  },
+]);
+```
+
+---
+
+# ### **Combining `$match`, `$group`, and `$project`**
+
+### 📌 Example: Find total amount spent by each customer, only for delivered orders, and project output neatly
+
+```javascript
+db.orders.aggregate([
+  { $match: { status: "delivered" } },
+  {
+    $group: {
+      _id: "$customerName",
+      totalSpent: { $sum: "$amount" },
+    },
+  },
+  {
+    $project: {
+      _id: 0,
+      customerName: "$_id",
+      totalSpent: 1,
+    },
+  },
+]);
+```
+
+---
+
+# ### 📌 Example: Using `$$ROOT`
+
+**Scenario:**  
+From above example, we can see, no documents are given as result, What if we want to group all orders by `status`, but instead of creating your own new structure, you want to **keep entire original document** inside the grouping result.
+
+**Query:**
+
+```javascript
+db.orders.aggregate([
+  {
+    $group: {
+      _id: "$status",
+      orders: { $push: "$$ROOT" },
+    },
+  },
+]);
+```
+
+---
+
+# 📖 **Explanation:**
+
+- `$group` normally collects _specific fields_.
+- `$$ROOT` refers to the **entire original document**.
+- Here, for each `status`, we **push the full order documents** into an array called `orders`.
+
+---
+
+# ✨ **Key Points about `$$ROOT`:**
+
+- `$$ROOT` means "**the current full document**" inside the aggregation stage.
+- It is useful when:
+  - You need the _entire document_ inside a `$group`, `$push`, etc.
+  - You want to **clone full documents** into arrays or sub-documents.
+- Without `$$ROOT`, you would have to manually specify every field.
+
+---
+
+---
+
+# 📘 **Why `$` is needed for Field Names?**
+
+When writing aggregation queries, MongoDB needs a way to **know the difference** between a **normal value** (like a string or number) and a **field value** from the document.  
+To do this, we use a `$` symbol before a field name.  
+The `$` tells MongoDB,
+
+> "Hey! Don’t treat this as a simple text — go **fetch the value** from the document's field."
+
+Without the `$`, MongoDB would think you're just giving some plain text and not a dynamic value from your data.  
+So, whenever you want to **use the value of a field** inside stages like `$project`, `$group`, `$match`, etc., you must put a `$` before the field name.
+
+✅ **Remember:** `$fieldName` = value inside the document, `"fieldName"` = just text.
+
+---
+
+#### **Simple Example**
+
+Imagine you have a document like:
+
+```javascript
+{
+  name: "Alice",
+  age: 25
+}
+```
+
+### ❌ Wrong way (No `$`):
+
+```javascript
+$project: {
+  userName: "name"; // MongoDB will just assign the word "name", not Alice.
+}
+```
+
+### ✅ Correct way (With `$`):
+
+```javascript
+$project: {
+  userName: "$name"; // MongoDB picks the value from the 'name' field => "Alice"
+}
+```
+
+---
+
+# ✍️ **Quick Tip**
+
+- **Use `$`** when you want the **value** of the field.
+- **Don't use `$`** if you just want a **plain string**.
+
+---
+
+### **3.0 Typical Aggregations for Multi-Collection**
+
+### 1. `$lookup` — Joining Collections
+
+- **Purpose**: `$lookup` allows you to perform an SQL-like join operation between two collections.
+- **How it Works**: It matches documents from the "local" collection to documents from the "foreign" collection based on a specified field and combines matching documents into an array.
+- **Key Parameters**:
+  - `from`: The collection to join.
+  - `localField`: Field from the local collection.
+  - `foreignField`: Field from the foreign collection.
+  - `as`: Name of the output array field.
+
+### 2. `$unwind` — Flattening Arrays
+
+- **Purpose**: `$unwind` is used to deconstruct an array field from the input documents to output a document for each element.
+- **How it Works**: Each element of the array becomes its own document, allowing you to perform aggregation operations on each item individually.
+- **Use Case**: Useful after `$lookup` when you want to work with individual items instead of arrays.
+
+### 3. Other Useful Stages Overview
+
+- `$facet`: Run multiple aggregation pipelines in parallel and combine the results.
+- `$bucket`: Group documents into ranges based on a field value.
+- `$cond`: Perform conditional operations like if-else logic within the aggregation pipeline.
+
+---
+
+## 🗃️ Insert Sample Data
+
+### 👤 `users` Collection
+
+```js
+db.users.insertMany([
+  { _id: 1, name: "Alice", age: 28 },
+  { _id: 2, name: "Bob", age: 32 },
+  { _id: 3, name: "Charlie", age: 25 },
+]);
+```
+
+### 📦 `orders` Collection
+
+```js
+db.orders.insertMany([
+  { _id: 101, item: "Laptop", price: 1200, userId: 1 },
+  { _id: 102, item: "Mouse", price: 25, userId: 1 },
+  { _id: 103, item: "Keyboard", price: 75, userId: 2 },
+  { _id: 104, item: "Monitor", price: 300, userId: 2 },
+  { _id: 105, item: "USB Cable", price: 10, userId: 3 },
+]);
+```
+
+---
+
+## 🔍 Queries
+
+### 🔗 **1. `$lookup` – Get all orders per user**
+
+```js
+db.users.aggregate([
+  {
+    $lookup: {
+      from: "orders",
+      localField: "_id",
+      foreignField: "userId",
+      as: "orders",
+    },
+  },
+]);
+```
+
+📘 **Result:** Each user now has an `orders` array containing their purchases.
+
+---
+
+### 🔗 **2. `$lookup` with `$project` – Show user name and order count**
+
+```js
+db.users.aggregate([
+  {
+    $lookup: {
+      from: "orders",
+      localField: "_id",
+      foreignField: "userId",
+      as: "orders",
+    },
+  },
+  {
+    $project: {
+      name: 1,
+      totalOrders: { $size: "$orders" },
+    },
+  },
+]);
+```
+
+---
+
+### 🧨 **3. `$unwind` – Flatten orders per user**
+
+```js
+db.users.aggregate([
+  {
+    $lookup: {
+      from: "orders",
+      localField: "_id",
+      foreignField: "userId",
+      as: "orders",
+    },
+  },
+  { $unwind: "$orders" },
+  {
+    $project: {
+      name: 1,
+      itemPurchased: "$orders.item",
+      amount: "$orders.price",
+    },
+  },
+]);
+```
+
+📘 Each user-order becomes its own document.
+
+---
+
+### 🧩 **4. Combined: `$lookup` + `$unwind` + `$group` – Total spend per user**
+
+```js
+db.users.aggregate([
+  {
+    $lookup: {
+      from: "orders",
+      localField: "_id",
+      foreignField: "userId",
+      as: "orders",
+    },
+  },
+  { $unwind: "$orders" },
+  {
+    $group: {
+      _id: "$name",
+      totalSpent: { $sum: "$orders.price" },
+    },
+  },
+]);
+```
+
+📘 Final output: Name and total money spent.
+
+---
+
+## ⚙️ **3.3 Brief Overview of Other Useful Stages**
+
+### 📚 `$facet` – Run multiple pipelines in one go
+
+```js
+db.orders.aggregate([
+  {
+    $facet: {
+      totalOrders: [{ $count: "count" }],
+      highValueOrders: [{ $match: { price: { $gt: 100 } } }],
+    },
+  },
+]);
+```
+
+---
+
+### 🎯 `$bucket` – Group orders by price range
+
+```js
+db.orders.aggregate([
+  {
+    $bucket: {
+      groupBy: "$price",
+      boundaries: [0, 100, 500, 1500],
+      default: "Other",
+      output: {
+        count: { $sum: 1 },
+        items: { $push: "$item" },
+      },
+    },
+  },
+]);
+```
+
+---
+
+### 🔀 `$cond` – Conditional logic (e.g., discount flag)
+
+```js
+db.orders.aggregate([
+  {
+    $project: {
+      item: 1,
+      price: 1,
+      isDiscounted: {
+        $cond: {
+          if: { $lt: ["$price", 50] },
+          then: true,
+          else: false,
+        },
+      },
+    },
+  },
+]);
+```
