@@ -185,6 +185,7 @@ We want to **analyze, group, and compute** something from the documents.
 
 - Aggregation pipelines are made up of **multiple stages**, each responsible for a particular transformation or calculation.
 - Each stage takes in data, processes it, and passes it to the next stage — much like a real-world conveyor belt (refer to the factory assembly line analogy above).
+![Factory Assembly Line](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/f3529d09-e709-45ba-b099-cceb77d53312/ieZwNSoMptaORcAf.png)
 
 - **Basic Structure**:
   ```js
@@ -194,6 +195,8 @@ We want to **analyze, group, and compute** something from the documents.
     ...
   ])
   ```
+  ![Aggregation Pipeline](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/1ab4093e-b142-44a4-a223-eeeae453861e/WntdLOhRzXKjkTkn.png)
+
 - In MongoDB, these series of data transformations are structured as **pipelines**, where each stage performs a specific operation on the data and passes the results to the next stage.
 
 ### **2.0 Typical Aggregations for Single Collection**
