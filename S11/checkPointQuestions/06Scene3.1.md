@@ -1,69 +1,10 @@
 **Scene 3.1**
 
-### **1. How do you retrieve all documents from a MongoDB collection using Mongoose?**
+**1. What is the main purpose of JWT verification in authentication middleware?**
 
-A)
+A) To generate a new password hash
+B) To authenticate the user's identity and extract claims from the token
+C) To send an email to the user
+D) To create a new session in the database
 
-```js
-const users = await User.find();
-```
-
-B)
-
-```js
-const users = User.getAll();
-```
-
-C)
-
-```js
-const users = User.fetch();
-```
-
-D)
-
-```js
-const users = User.findAll();
-```
-
-**Answer:** A)
-
-```js
-const users = await User.find();
-```
-
----
-
-### **2. What is the correct way to delete a document using Mongoose?**
-
-A)
-
-```js
-await User.deleteOne({ name: "Alice" });
-```
-
-B)
-
-```js
-User.drop({ name: "Alice" });
-```
-
-C)
-
-```js
-User.removeOne({ name: "Alice" });
-```
-
-D)
-
-```js
-User.erase({ name: "Alice" });
-```
-
-**Answer:** A)
-
-```js
-await User.deleteOne({ name: "Alice" });
-```
-
----
+**Answer:** B) To authenticate the user's identity and extract claims from the token
