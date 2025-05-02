@@ -56,7 +56,7 @@ Security measures are the cornerstone of any backend system. They protect user d
 - **Ensuring User Privacy**: By applying proper security measures, you ensure that unauthorized users do not gain access to personal or private information.
 
 - **Preventing Attacks**: Security measures prevent common attacks like:
-  - **SQL Injection**: Malicious queries that can access your database.
+  - **Database Injection**: Malicious queries that can access your database.
   - **Cross-Site Scripting (XSS)**: Injecting harmful scripts into your pages.
   - **Man-In-The-Middle (MITM) Attacks**: Intercepting data between client and server.
 
@@ -65,6 +65,7 @@ Without security measures in place, your system is vulnerable to these attacks, 
 ---
 
 #### **1.2 Types of Security Measures Needed**
+![Security in Backend](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/8a18ae05-423c-45e5-a299-5aa8c0299664/WuQPT1PFI1ZNorhi.png)
 
 To maintain the security of a backend system, a range of measures should be implemented:
 
