@@ -1,4 +1,5 @@
 ### **Session Notes: Package Manager, npm, and Express**
+### [Live Coding Notes](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/742a4ba5-f50e-4503-8fe4-4f00a919518f/gadIzswBux3mHWSM.zip)
 
 ### **Learning Objectives**
 
