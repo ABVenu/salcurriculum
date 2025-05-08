@@ -1,6 +1,7 @@
 # **Session Notes: Express Router, Project Structuring (MVC) & Middlewares**
 
 ---
+### [Live Coding Notes](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/e65deb6c-5bb8-4938-878a-1fad1aa4b0da/ouaUKUMNxovUnshN.zip)
 
 ## **Understanding Express Router**
 
