@@ -114,7 +114,9 @@ This leads us to a key usability and security concept: **Third-Party Authenticat
   These third-party providers offer mature, well-tested authentication systems with security features like OAuth, 2FA, session control, and login alerts.
 
 ---
+
 ![OAuth](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/6a828b09-b8f9-46dd-87b1-be4c3e840059/V02qMroHCsVqRZNX.png)
+
 #### What Is Third-Party Authentication?
 
 - Instead of building and managing your own login system, you integrate **authentication APIs** provided by major platforms like:
@@ -133,9 +135,7 @@ This leads us to a key usability and security concept: **Third-Party Authenticat
 
 #### 2.2 How Third Party Auth's works
 
-
-![Third Part App Auth](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/93db453a-758c-49df-80ae-953ea378186d/H03WDtLanJwzH1Yi.png)
-
+![Working Of Third Part App Auth](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/22e3405c-333b-46c0-9f5a-fdbb8c4ea88e/blp3ZlU2FwQyUaGO.png)
 
 - **User clicks "Login with \[Provider]"** (e.g., GitHub, Google) and is redirected to the third-party authentication page.
 - **The auth provider renders its own UI** for login; the user enters credentials, which are **verified by the provider using its own database**.
@@ -195,7 +195,8 @@ This leads us to a key usability and security concept: **Third-Party Authenticat
 - At the **41st minute**, the Refresh Token also expires.
   ➤ The user is prompted to **log in again** for security.
 
-![AccessToken-Refresh Token Mechanism](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/ed50f141-7631-4c44-82e5-67aee20a412c/3RDHfvTQmutiqPtr.png)
+![Access Token - Refresh Token Mechanism](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/a412e494-1e99-4c32-8730-cf479f72eb3d/3RTfQILZdhiaUcjz.png)
+
 #### **3.3: Implementation of Access Token - Refresh Token**
 
 - If time permits, this will be implemented or session conludes at 3.2
