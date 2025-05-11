@@ -2,11 +2,12 @@
 
 ### What is the primary purpose of schema validation in Mongoose?
 
-A) To improve query performance  
-B) To prevent duplicate records  
-C) To ensure data integrity and enforce rules  
-D) To manage database indexes  
-Answer: B) To prevent duplicate records
+A) To improve query performance
+B) To define the structure and constraints of documents
+C) To ensure data integrity and enforce rules
+D) To manage database indexes
+
+**Answer: C) To ensure data integrity and enforce rules**
 
 ### Which of the following is a valid way to make a field required in a Mongoose schema?
 
