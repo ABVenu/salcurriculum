@@ -1,5 +1,6 @@
 **Scene 3.0**
-### **1. Given the following schema:**
+
+### **Given the following schema: where commentSchema is subdocument for postSchema**
 
 ```js
 const commentSchema = new mongoose.Schema({
@@ -24,7 +25,7 @@ Answer: B) `Post.find({ "comments.author": "John" })`
 
 ---
 
-### **2. Given the following schema:**
+### **Given the following schema: where roomSchema is subdocument for houseSchema**
 
 ```js
 const roomSchema = new mongoose.Schema({
@@ -46,30 +47,5 @@ C) `House.find({ "rooms.name": "Living Room" })`
 D) `House.find({ "rooms[0].name": "Living Room" })`
 
 Answer: C) `House.find({ "rooms.name": "Living Room" })`
-
----
-
-### **3. Given the following schema:**
-
-```js
-const voteSchema = new mongoose.Schema({
-  userId: String,
-  score: Number,
-});
-
-const pollSchema = new mongoose.Schema({
-  question: String,
-  votes: [voteSchema],
-});
-```
-
-**Which query will return polls where any vote has a score greater than 3?**
-
-A) `Poll.find({ "votes.score": { $gt: 3 } })`  
-B) `Poll.find({ "votes": { score: { $gt: 3 } } })`  
-C) `Poll.find({ score: { $gt: 3 } })`  
-D) `Poll.find({ "votes[0].score": { $gt: 3 } })`
-
-Answer: A) `Poll.find({ "votes.score": { $gt: 3 } })`
 
 ---

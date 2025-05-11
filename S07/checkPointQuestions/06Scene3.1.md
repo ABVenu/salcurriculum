@@ -1,51 +1,26 @@
 **Scene 3.1**
 
-### **1. Given the following schema:**
+### **Given the following schema: voteSchema is Subdocument for pollSchema**
 
 ```js
-const taskSchema = new mongoose.Schema({
-  description: String,
-  completed: Boolean,
+const voteSchema = new mongoose.Schema({
+  userId: String,
+  score: Number,
 });
 
-const userSchema = new mongoose.Schema({
-  username: String,
-  tasks: [taskSchema],
+const pollSchema = new mongoose.Schema({
+  question: String,
+  votes: [voteSchema],
 });
 ```
 
-**Which query will return all users who have at least one task marked as completed?**
+**Which query will return polls where any vote has a score greater than 3?**
 
-A) `User.find({ "tasks": { completed: true } })`  
-B) `User.find({ "tasks.completed": true })`  
-C) `User.find({ completed: true })`  
-D) `User.find({ "tasks[0].completed": true })`
+A) `Poll.find({ "votes.score": { $gt: 3 } })`  
+B) `Poll.find({ "votes": { score: { $gt: 3 } } })`  
+C) `Poll.find({ score: { $gt: 3 } })`  
+D) `Poll.find({ "votes[0].score": { $gt: 3 } })`
 
-Answer: B) `User.find({ "tasks.completed": true })`
-
----
-
-### **2. Given the following schema:**
-
-```js
-const petSchema = new mongoose.Schema({
-  name: String,
-  type: String,
-});
-
-const ownerSchema = new mongoose.Schema({
-  name: String,
-  pets: [petSchema],
-});
-```
-
-**Which query returns all owners who have a pet named "Bella" and type "Dog"?**
-
-A) `Owner.find({ "pets": { name: "Bella", type: "Dog" } })`  
-B) `Owner.find({ "pets.name": "Bella", "pets.type": "Dog" })`  
-C) `Owner.find({ "pets": { $elemMatch: { name: "Bella", type: "Dog" } } })`  
-D) `Owner.find({ "name": "Bella", "type": "Dog" })`
-
-Answer:C) `Owner.find({ "pets": { $elemMatch: { name: "Bella", type: "Dog" } } })`
+Answer: A) `Poll.find({ "votes.score": { $gt: 3 } })`
 
 ---
