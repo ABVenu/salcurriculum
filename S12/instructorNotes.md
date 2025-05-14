@@ -56,6 +56,8 @@
 - Simplifies permission management by assigning access based on roles, not individuals
 - Scales and maintains easily, especially as the application and team grow
 
+![Role Based Access Control](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/45b52a18-c18a-4b81-89f8-289e43f05946/EJLCd2ecnVeWQ1Bp.png)
+
 #### 1.2 Difference between Authentication & Authorization
 
 - Authentication means, whether User is Associated/Registered with system??
