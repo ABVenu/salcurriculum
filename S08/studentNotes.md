@@ -1,6 +1,8 @@
-# Advanced Mongoose: Relationships and Its Design
-
 ## Student Notes
+
+## Advanced Mongoose: Relationships and Its Design
+
+### [Live Coding Notes](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/726b9a41-fbc3-4fdd-a539-332bd22406f0/syeq3ywB1HSTSsZq.zip)
 
 ---
 
@@ -15,8 +17,6 @@
 ---
 
 ## 1. Need for Relationships
-
-
 
 ### Why Relationships Are Needed
 
@@ -83,7 +83,6 @@ User and Profile:
 ![One to Many Relationship](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/b38d8743-7d93-4a4b-b6c2-36005fa98e74/jYs0pYdHbDjxLAhs.png)
 Customer and Orders:
 
-
 ### **Parent Document: Post**
 
 ```js
@@ -122,12 +121,10 @@ Customer and Orders:
 
 ### Key Idea:
 
-* This is a **One-to-Many (1\:N)** relationship:
+- This is a **One-to-Many (1\:N)** relationship:
 
-  * **One Post** ➝ can have **many Comments**.
-  * Comments hold the foreign key: `postId` pointing to the Post’s `_id`.
-
-
+  - **One Post** ➝ can have **many Comments**.
+  - Comments hold the foreign key: `postId` pointing to the Post’s `_id`.
 
 ---
 
