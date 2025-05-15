@@ -16,62 +16,9 @@
 
 ## 1. Need for Relationships
 
-### 1.1 Master Route with Search, Pagination, and Sorting
 
-You can create one route that supports:
 
-- Searching by keyword
-- Pagination (page & limit)
-- Sorting by any field (asc/desc)
-
-Example code:
-
-```js
-const Course = require("../models/Course");
-
-const getCourses = async (req, res) => {
-  try {
-    const {
-      search = "",
-      page = 1,
-      limit = 10,
-      sortBy = "createdAt",
-      order = "desc",
-    } = req.query;
-
-    const searchFilter = {
-      $or: [
-        { title: { $regex: search, $options: "i" } },
-        { description: { $regex: search, $options: "i" } },
-      ],
-    };
-
-    const skip = (page - 1) * limit;
-    const sortOrder = order === "asc" ? 1 : -1;
-
-    const courses = await Course.find(searchFilter)
-      .sort({ [sortBy]: sortOrder })
-      .skip(skip)
-      .limit(limit);
-
-    const total = await Course.countDocuments(searchFilter);
-
-    res.json({
-      success: true,
-      total,
-      page,
-      totalPages: Math.ceil(total / limit),
-      courses,
-    });
-  } catch (err) {
-    res.status(500).json({ success: false, message: "Server Error" });
-  }
-};
-```
-
----
-
-### 1.2 Why Relationships Are Needed
+### Why Relationships Are Needed
 
 - When your project grows, embedding large numbers of nested documents (like orders inside customers) can make documents too big and slow to query.
 - For example, a customer may have hundreds or thousands of orders. Embedding all orders inside the customer document makes it heavy and hard to maintain.
@@ -93,6 +40,8 @@ You can implement these using **embedding** or **referencing**.
 ---
 
 ### 2.2 One-to-One Example
+
+![One to One Relationship](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/8a4a8d74-636b-4ce2-991c-39870923eda6/FlsAhzAihlapZNry.png)
 
 User and Profile:
 
@@ -131,26 +80,60 @@ User and Profile:
 
 ### 2.3 One-to-Many Example
 
+![One to Many Relationship](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/b38d8743-7d93-4a4b-b6c2-36005fa98e74/jYs0pYdHbDjxLAhs.png)
 Customer and Orders:
 
-```js
-// Customer
-{
-  _id: "cust001",
-  name: "Bob"
-}
 
-// Order
+### **Parent Document: Post**
+
+```js
+// Post
 {
-  _id: "ord001",
-  customerId: "cust001",
-  amount: 250
+  _id: "post001",
+  title: "Understanding JavaScript Closures",
+  content: "Closures are functions that have access to variables from another function’s scope...",
+  author: "Alice"
 }
 ```
 
 ---
 
+### **Child Documents: Comments**
+
+```js
+// Comment 1
+{
+  _id: "comm001",
+  postId: "post001",
+  commenter: "Bob",
+  comment: "Great explanation! Really helped me understand closures."
+}
+
+// Comment 2
+{
+  _id: "comm002",
+  postId: "post001",
+  commenter: "Charlie",
+  comment: "Can you give more examples of practical use cases?"
+}
+```
+
+---
+
+### Key Idea:
+
+* This is a **One-to-Many (1\:N)** relationship:
+
+  * **One Post** ➝ can have **many Comments**.
+  * Comments hold the foreign key: `postId` pointing to the Post’s `_id`.
+
+
+
+---
+
 ### 2.4 Many-to-Many Example
+
+![Many To Many Relationship](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/85a3b9c4-0176-4c1b-951f-9f03fd2af158/QjesjTv3eVpnv3NY.png)
 
 Students and Courses:
 
@@ -352,10 +335,6 @@ router.get("/courses/:courseId/lectures", async (req, res) => {
 ---
 
 This route covers all cursor operations making it easy to retrieve filtered, paginated, and sorted related documents in an efficient and scalable manner.
-
----
-
-Sure! Here are simple, student-friendly notes on **`.env` files and environment variables**:
 
 ---
 
