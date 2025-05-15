@@ -251,10 +251,6 @@ Useful for **pagination**, **filtering**, and **performance optimization**.
 
 ---
 
-Here’s a concise **conclusion** for the session notes in bullet points:
-
----
-
 ### **Conclusion: Key Takeaways**
 
 - **Schema validations** in Mongoose ensure only clean, reliable, and expected data is stored in MongoDB.
