@@ -23,7 +23,7 @@
   * **Man-in-the-middle (MITM) attacks**
 
 ### 🛡️ 1.2 Types of Security Measures
-
+![Security in Backend](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/8a18ae05-423c-45e5-a299-5aa8c0299664/WuQPT1PFI1ZNorhi.png)
 * **Authentication**: Who are you? (e.g., login)
 * **Authorization**: Are you allowed to do this?
 * **Password Hashing**: Hide real passwords using algorithms
