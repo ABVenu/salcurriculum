@@ -167,6 +167,83 @@ async function setCache() {
 TTL means Time To Live, it is time left to expire a data that is stored, you can check TTL through CLI or through the Extension 
 ---
 
+### Scene 2.0: Implementation of Caching with Redis
 
+* step1: create client in configs as similar to Mongo
+```javascript
+// redis.config.js
+const { createClient } = require("redis");
 
+const client = createClient({
+  // Optional: you can specify host/port if not using default (6379)
+  // url: "redis://localhost:6379"
+});
+
+client.on("error", (err) => {
+  console.error("Redis connection error:", err);
+});
+
+async function connectRedis() {
+  if (!client.isOpen) {
+    await client.connect();
+    console.log("Redis connected successfully.");
+  }
+}
+
+module.exports = {
+  client,
+  connectRedis,
+};
+```
+* step 2: Import in server.js as similar to connect to DB
+```javascript
+const express = require("express");
+const { connectRedis } = require("./config/redis.config");
+const { connectMongo } = require("./config/mongodb.config"); // assuming similar export
+
+const app = express();
+
+connectMongo();   // Your Mongo connection
+connectRedis();   // Redis connection
+
+// other setup like routes and middleware
+```
+* step 3: For Get Request, Store Data in Redis 
+```javascript
+const { client } = require("../config/redis.config");
+
+TodoRouter.get("/alltodos", authMiddleware(["user", "admin"]), async (req, res) => {
+  const userId = req.user;
+
+  try {
+    const cachedData = await client.get(`todos:${userId}`);
+    if (cachedData) {
+      return res.status(200).json({
+        message: "Todos List (from cache)",
+        todos: JSON.parse(cachedData),
+      });
+    }
+
+    const todos = await TodoModel.find({ userId });
+    await client.set(`todos:${userId}`, JSON.stringify(todos), { EX: 60 });
+
+    res.status(200).json({ message: "Todos List", todos });
+
+  } catch (err) {
+    res.status(500).json({ message: "Something went wrong" });
+  }
+});
+```
+
+### Scene 3.0: Integration Use Case 
+
+**Implementation of Task Scheduler with Caching that Creates Todos in Bulk and Emails the Report to the User**
+
+* **Problem Statement:** A user uploads a CSV file containing a bulk list of todos. The user should immediately receive a response: *"Task Processing Started, You Will Receive a Report Shortly."*
+* The uploaded data should be stored in Redis.
+* A **cron job** should run at regular intervals, fetching the data from Redis and creating todos in MongoDB.
+* Each task should be tracked for success or failure.
+* Once processing is complete, a **report should be generated** and **emailed to the user**.
+
+- This use case helps students to know backend works using the utility modules, so that they can relate how they gets bills, how payement is processed, how orders are getting tracked etc
 
