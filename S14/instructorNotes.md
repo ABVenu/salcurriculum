@@ -57,6 +57,7 @@ Implementation of Task Scheduler with caching that creates todo in bulk and emai
 * That’s where **caching** comes in.
   **Caching** is the technique of storing frequently accessed data in temporary memory (usually RAM) to avoid hitting the main database repeatedly.
 * Caching can be done at both **frontend** and **backend** levels. In this session, we’ll focus on **backend caching**.
+![Caching Image](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/549f9f0b-858c-48fd-85f0-bad327bb74c1/DAvlUdDIH3moWSYq.png)
 
 ---
 
