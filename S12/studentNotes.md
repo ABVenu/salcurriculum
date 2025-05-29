@@ -1,4 +1,5 @@
 # 🛡️ Authorization
+
 ### [Live Coding Notes](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/2c445356-71dd-4176-902e-09ba9537f18f/XRCkjdymzmnnTlkD.zip)
 
 ## 🔍 Learning Objectives
@@ -12,40 +13,51 @@
 
 ## 🔐 Authentication vs. Authorization
 
-| Aspect           | Authentication                       | Authorization                       |
-| ---------------- | ------------------------------------ | ----------------------------------- |
-| **Purpose**      | Verifies **who** the user is         | Determines **what** the user can do |
-| **Example**      | Login with email/password            | Only admins can create a course     |
-| **Timing**       | Happens **before** authorization     | Happens **after** authentication    |
-| **System Check** | Credentials (email, password, token) | Roles, permissions                  |
+| Feature         | Authentication                 | Authorization                                                                |
+| --------------- | ------------------------------ | ---------------------------------------------------------------------------- |
+| What it does    | Verifies _who_ the user is     | Determines _what_ the user can do                                            |
+| When it happens | First step                     | After authentication                                                         |
+| Example         | Login with username & password | Checking if the user is an admin before allowing access to delete a resource |
 
 ---
 
-## 🎭 Role-Based Access Control (RBAC)
+## 🎭 Why Authorization is Needed
 
-### Why RBAC Is Needed
+Imagine an LMS like Masai:
 
-- In a system like Masai LMS:
+- Everyone is a "user" — but not all users can perform the same actions.
+- **Student Role**: Can attend lectures, submit assignments
+- **Admin Role**: Can create lectures, assign homework, manage users
+- **RBAC** helps define **who can do what** and limits access based on **roles**, not individuals.
 
-  - Students **can view** lectures, but **cannot create** them
-  - Only **Admin or Instructors** can create lectures or assignments
+Benefits of RBAC:
 
-- Even though all are users, their **roles** differ → so must their access
+- 🔐 Enhanced security
+- 🧹 Cleaner permission management
+- ⚖️ Easily scalable for growing systems
 
-### Benefits of RBAC
+### 🔧 Basic RBAC Implementation in Node.js
 
-- 🔒 Enhances **security** by limiting access based on roles
-- 🧩 Simplifies **permission management**
-- 📈 Scales well as the application grows
+**1. Store role information with the user:**
 
-### How RBAC Works
+```js
+// When registering user
+{
+  email: 'user@example.com',
+  password: 'hashed_password',
+  role: 'student' // or 'admin'
+}
+```
 
-- Each user has a `role` field (e.g., `"admin"`, `"student"`)
-- When generating the JWT token at login, include the user’s role in the payload
-- Use middleware to:
+**2. Include role in the JWT token during login:**
 
-  - ✅ Verify the token
-  - ✅ Check if the user's role is allowed to access that route
+```js
+const token = jwt.sign({ userId, role }, process.env.JWT_SECRET, {
+  expiresIn: "20m",
+});
+```
+
+**3. Middleware to authorize roles:**
 
 ```js
 const authorizeRoles = (...roles) => {
@@ -56,99 +68,176 @@ const authorizeRoles = (...roles) => {
     next();
   };
 };
+
+// Usage in routes:
+router.post(
+  "/create-lecture",
+  authenticate,
+  authorizeRoles("admin"),
+  createLectureHandler
+);
 ```
 
 ---
 
-## ⏳ Token Expiry
+## ⏰ Token Expiry (Why and How?)
 
-- JWT supports a built-in `expiresIn` option:
+- **Why expire tokens?**
+  To ensure that if a token is stolen, it can’t be used forever.
+- Used in:
 
-  ```js
-  jwt.sign(payload, secret, { expiresIn: "15m" });
-  ```
+  - Banking apps
+  - Government portals
+  - Secure web services
 
-- Why expire tokens?
+```js
+jwt.sign(payload, secret, { expiresIn: "10m" });
+```
 
-  - 🚫 Prevent long-term misuse (e.g., stolen token)
-  - 🔁 Forces re-authentication to confirm user is still valid
-
-- Example: Online banking apps log you out after inactivity to **increase security**
+🔁 Downside: Repeated login prompts — which leads to the need for **refresh tokens** (covered later if time permits).
 
 ---
 
-## 🔁 Third-Party Authentication (OAuth)
+## 🌐 Third-Party Authentication (OAuth)
+
+![OAuth](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/6a828b09-b8f9-46dd-87b1-be4c3e840059/V02qMroHCsVqRZNX.png)
+
+#### What Is Third-Party Authentication?
+
+- Instead of building and managing your own login system, you integrate **authentication APIs** provided by major platforms like:
+
+  - **Google**
+  - **Facebook**
+  - **GitHub**
+  - **Twitter**, and others
+
+- These companies act as **Identity Providers**.
+
+  - Your system redirects the user to the provider.
+  - The provider authenticates the user.
+  - Upon success, the provider sends your system a token (usually via **OAuth** or **OpenID Connect**) confirming the user's identity.
+  - You then allow access based on that confirmation.
 
 ### Why Use It?
 
-- ✨ **User-Friendly**: No need to remember yet another password
-- 🛡️ **Secure**: Delegates authentication to trusted providers (e.g., Google, GitHub)
-- 💼 **Less Responsibility**: Your app doesn't manage passwords or sensitive login data
-
-### How It Works (Simplified Flow)
-
-1. User clicks **“Login with GitHub”**
-2. Redirected to GitHub → user logs in there
-3. GitHub authenticates and redirects back to your app with an **authorization code**
-4. Your server exchanges this code for an **access token**
-5. Use this token to access the user's profile info and consider the user **logged in**
-
-### Tools: `passport-github`
-
-- A Passport.js strategy for GitHub OAuth
-- Steps:
-
-  1. Create a GitHub OAuth App → get Client ID and Secret
-  2. Use `passport-github` to configure GitHub as a login strategy
-  3. Get user profile info and save or use as needed
-
-📚 Docs: [https://www.passportjs.org/packages/passport-github/](https://www.passportjs.org/packages/passport-github/)
+- 🌟 Better UX — users can sign in using Google, GitHub, Facebook
+- 🔒 Improved security — no password storage in your DB
+- 🧹 Simplified backend — rely on providers like Google/GitHub to verify identity
 
 ---
 
-## 🔁 Access Token vs Refresh Token
+### 💡 How OAuth Works
 
-### Problem:
+![OAuth Flow](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/22e3405c-333b-46c0-9f5a-fdbb8c4ea88e/blp3ZlU2FwQyUaGO.png)
 
-- 🔒 Access tokens should expire quickly to enhance security
-- 🧑‍💻 But logging in repeatedly harms user experience
+**Flow:**
 
-### Solution:
+1. User clicks "Login with GitHub"
+2. Redirected to GitHub login
+3. GitHub verifies credentials
+4. Redirects back to your app with a temporary token
+5. You use that token to:
 
-Use **two tokens**:
-
-- 🔐 **Access Token**: Short-lived (e.g., 10 min), used for API requests
-- 🔁 **Refresh Token**: Longer-lived (e.g., 30–60 min), used to get new Access Tokens silently
-
-### How It Works
-
-1. On login, the server sends:
-
-   - `accessToken` (expires in 10 mins)
-   - `refreshToken` (expires in 40 mins)
-
-2. When `accessToken` expires:
-
-   - The client silently sends the `refreshToken` to get a new `accessToken`
-   - No need to log in again!
-
-3. When `refreshToken` expires:
-
-   - The user is logged out and must log in again
-
-This method balances **security** and **user convenience**.
+   - Get user’s basic profile (name, email)
+   - Create a local session or your own JWT
 
 ---
 
-## 🧠 Common Pitfalls
+### 🛠️ GitHub OAuth Implementation (Using Passport.js)
 
-- ❌ Confusing authentication with authorization
-- ❌ Forgetting to check roles after verifying token
-- ❌ Misusing tokens (e.g., using only one token for long-lived sessions)
+#### Steps:
+
+1. **Install Dependencies**:
+
+```bash
+npm install passport passport-github2 express-session
+```
+
+2. **Register App on GitHub**:
+
+- Go to [GitHub Developer Settings](https://github.com/settings/developers)
+- Get **Client ID** and **Client Secret**
+
+3. **Configure Passport**:
+
+```js
+const GitHubStrategy = require("passport-github2").Strategy;
+
+passport.use(
+  new GitHubStrategy(
+    {
+      clientID: GITHUB_CLIENT_ID,
+      clientSecret: GITHUB_CLIENT_SECRET,
+      callbackURL: "/auth/github/callback",
+    },
+    (accessToken, refreshToken, profile, done) => {
+      // Save or find user in your DB
+      return done(null, profile);
+    }
+  )
+);
+```
+
+4. **Auth Routes**:
+
+```js
+app.get(
+  "/auth/github",
+  passport.authenticate("github", { scope: ["user:email"] })
+);
+app.get(
+  "/auth/github/callback",
+  passport.authenticate("github", { failureRedirect: "/" }),
+  (req, res) => {
+    // Successful login
+    res.redirect("/dashboard");
+  }
+);
+```
 
 ---
 
-## ✅ Conclusion
+## 🔁 Access Token vs Refresh Token (If Covered)
+
+> Used to **keep users logged in** securely without asking them to re-authenticate frequently.
+
+| Token Type    | Validity                | Purpose                                      |
+| ------------- | ----------------------- | -------------------------------------------- |
+| Access Token  | Short (e.g., 10 mins)   | Grants access to protected routes            |
+| Refresh Token | Long (e.g., 30–40 mins) | Used to get a new access token without login |
+
+### 🔄 Example Flow:
+
+1. User logs in
+2. Server sends:
+
+   - Access Token (10 mins)
+   - Refresh Token (40 mins)
+
+3. After 10 mins, frontend silently sends refresh token to get a new access token.
+4. After 40 mins, refresh token expires → login required again.
+
+![Access vs Refresh](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/a412e494-1e99-4c32-8730-cf479f72eb3d/3RTfQILZdhiaUcjz.png)
+
+---
+
+### 🔐 Key Concepts Recap
+
+- **Authentication** = Who are you?
+- **Authorization** = What are you allowed to do?
+- **RBAC** = Manage what users can do based on roles
+- **OAuth** = Login using third-party providers (GitHub, Google)
+- **Access & Refresh Tokens** = Maintain session security while improving user experience
+
+---
+
+## ⚠️ Common Pitfalls
+
+- 🔁 Forgetting that RBAC should come **after** token validation
+- 🔐 Misconfiguring OAuth callback or missing `clientSecret`
+- 🤯 Confusing why we need **two tokens** (Access + Refresh)
+
+## Conclusion
 
 In any secure application:
 
