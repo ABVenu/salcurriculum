@@ -1,12 +1,12 @@
 **Scene 3.1**
 
-### **In a backend system that uses MongoDB, where can blacklisted JWTs be stored for later validation?**
+### **Which of the following is a potential downside of not implementing token blacklisting in a JWT system?**
 
-A) In the client's browser localStorage
-B) In a dedicated collection within MongoDB
-C) Inside the `.env` file
-D) In the JWT payload under a `blacklist` field
+A) User sessions will expire too quickly
+B) Revoked or logged-out tokens can still be used until they expire
+C) Access tokens will need to be refreshed more often
+D) Server load increases due to constant verification
 
-**Answer:** B) In a dedicated collection within MongoDB
+**Answer:** B) Revoked or logged-out tokens can still be used until they expire
 
 ---

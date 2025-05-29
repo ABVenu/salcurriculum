@@ -1,6 +1,5 @@
 **Scene 3.0**
 
-
 ### **What is the main purpose of token blacklisting in a JWT-based authentication system?**
 
 A) To permanently store expired tokens for future reference
@@ -12,25 +11,14 @@ D) To store tokens for offline access
 
 ---
 
-### **Where are blacklisted tokens typically stored in a production-ready application?**
+### **In a backend system that uses MongoDB, where can blacklisted JWTs be stored for later validation?**
 
-A) In the frontend local storage
-B) In a flat file or `.env` file
-C) In a fast-access store like Redis or an in-memory store
-D) Directly inside the JWT payload
+A) In the client's browser localStorage
+B) In a dedicated collection within MongoDB
+C) Inside the `.env` file
+D) In the JWT payload under a `blacklist` field
 
-**Answer:** C) In a fast-access store like Redis or an in-memory store
-
----
-
-### **Which of the following is a potential downside of not implementing token blacklisting in a JWT system?**
-
-A) User sessions will expire too quickly
-B) Revoked or logged-out tokens can still be used until they expire
-C) Access tokens will need to be refreshed more often
-D) Server load increases due to constant verification
-
-**Answer:** B) Revoked or logged-out tokens can still be used until they expire
+**Answer:** B) In a dedicated collection within MongoDB
 
 ---
 
