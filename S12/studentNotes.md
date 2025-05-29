@@ -1,4 +1,5 @@
 # 🛡️ Authorization
+### [Live Coding Notes](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/2c445356-71dd-4176-902e-09ba9537f18f/XRCkjdymzmnnTlkD.zip)
 
 ## 🔍 Learning Objectives
 
