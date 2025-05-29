@@ -1,106 +1,46 @@
-**Scene 3.0 Mongoose CRUD**
+**Scene 3.0**
 
-### **1. What is the correct way to connect MongoDB using Mongoose in a Node.js application?**
 
-A)
+### **What is the main purpose of token blacklisting in a JWT-based authentication system?**
 
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
+A) To permanently store expired tokens for future reference
+B) To allow users to change roles without logging out
+C) To prevent reuse of tokens after logout or manual revocation
+D) To store tokens for offline access
 
-B)
-
-```js
-mongoose.link("mongodb://localhost:27017/myDB");
-```
-
-C)
-
-```js
-mongoose.use("mongodb://localhost:27017/myDB");
-```
-
-D)
-
-```js
-mongoose.start("mongodb://localhost:27017/myDB");
-```
-
-**Answer:** A)
-
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
+**Answer:** C) To prevent reuse of tokens after logout or manual revocation
 
 ---
 
-### **2. How do you check if the Mongoose connection is successful?**
+### **Where are blacklisted tokens typically stored in a production-ready application?**
 
-A)
+A) In the frontend local storage
+B) In a flat file or `.env` file
+C) In a fast-access store like Redis or an in-memory store
+D) Directly inside the JWT payload
 
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
-
-B)
-
-```js
-mongoose.on("connect", () => console.log("Connected to MongoDB"));
-```
-
-C)
-
-```js
-mongoose.success(() => console.log("Connected to MongoDB"));
-```
-
-D)
-
-```js
-mongoose.connectStatus(() => console.log("Connected to MongoDB"));
-```
-
-**Answer:** A)
-
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
+**Answer:** C) In a fast-access store like Redis or an in-memory store
 
 ---
 
-### **3. What is the correct way to insert a new document into a collection using Mongoose?**
+### **Which of the following is a potential downside of not implementing token blacklisting in a JWT system?**
 
-A)
+A) User sessions will expire too quickly
+B) Revoked or logged-out tokens can still be used until they expire
+C) Access tokens will need to be refreshed more often
+D) Server load increases due to constant verification
 
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
-
-B)
-
-```js
-User.insertOne({ name: "Alice", age: 28 });
-```
-
-C)
-
-```js
-User.addNew({ name: "Alice", age: 28 });
-```
-
-D)
-
-```js
-User.put({ name: "Alice", age: 28 });
-```
-
-**Answer:** A)
-
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
+**Answer:** B) Revoked or logged-out tokens can still be used until they expire
 
 ---
 
+### **During logout, how does token blacklisting typically help enhance security?**
+
+A) It resets the user password automatically
+B) It deletes the user from the database
+C) It marks the current token as invalid, preventing further use
+D) It disables all backend API endpoints
+
+**Answer:** C) It marks the current token as invalid, preventing further use
+
+---

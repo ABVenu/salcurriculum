@@ -1,69 +1,12 @@
 **Scene 3.1**
 
-### **1. How do you retrieve all documents from a MongoDB collection using Mongoose?**
+### **In a backend system that uses MongoDB, where can blacklisted JWTs be stored for later validation?**
 
-A)
+A) In the client's browser localStorage
+B) In a dedicated collection within MongoDB
+C) Inside the `.env` file
+D) In the JWT payload under a `blacklist` field
 
-```js
-const users = await User.find();
-```
-
-B)
-
-```js
-const users = User.getAll();
-```
-
-C)
-
-```js
-const users = User.fetch();
-```
-
-D)
-
-```js
-const users = User.findAll();
-```
-
-**Answer:** A)
-
-```js
-const users = await User.find();
-```
-
----
-
-### **2. What is the correct way to delete a document using Mongoose?**
-
-A)
-
-```js
-await User.deleteOne({ name: "Alice" });
-```
-
-B)
-
-```js
-User.drop({ name: "Alice" });
-```
-
-C)
-
-```js
-User.removeOne({ name: "Alice" });
-```
-
-D)
-
-```js
-User.erase({ name: "Alice" });
-```
-
-**Answer:** A)
-
-```js
-await User.deleteOne({ name: "Alice" });
-```
+**Answer:** B) In a dedicated collection within MongoDB
 
 ---
