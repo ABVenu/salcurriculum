@@ -1,4 +1,4 @@
-#### Cron Job & Redis:
+#### Caching with Redis, Cron Jobs & Other Utility Modules
 
 ### Learning Objectives
 
