@@ -151,6 +151,9 @@ auth: {
 
 
 ## Scene2.0: Password Reset Logic 
+
+![Password Reset Logic](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/2cd0065c-2a7f-4519-bca5-23c9ff72cae8/KYi1ckRXILMqenyI.png)
+
 - Best example of Nodemailer is sending the password reset logic
 - Intergrate Frontend for better understanding 
 - Complete Process from signup/login - forget password - send reset password link - & set the new password
