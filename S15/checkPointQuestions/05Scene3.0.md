@@ -1,106 +1,74 @@
-**Scene 3.0 Mongoose CRUD**
+**Scene 3.0**
 
-### **1. What is the correct way to connect MongoDB using Mongoose in a Node.js application?**
+### **What does the following server-side code using `chatArray` do?**
 
-A)
+```javascript
+let chatArray = [];
 
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
+io.on("connection", (socket) => {
+  socket.emit("chatHistory", chatArray);
+});
 ```
 
-B)
+A) Sends the existing chat history to the newly connected client
+B) Clears the chat history every time a new client connects
+C) Sends chat history to all connected clients
+D) Saves new messages into the database
 
-```js
-mongoose.link("mongodb://localhost:27017/myDB");
+**Answer:** A) Sends the existing chat history to the newly connected client
+
+### **What is the purpose of this code inside the Socket.IO server?**
+
+```javascript
+let chatArray = [];
+
+io.on("connection", (socket) => {
+  socket.on("newMessage", (msg) => {
+    chatArray.push(msg);
+    io.emit("newMessage", msg);
+  });
+});
 ```
 
-C)
+A) Stores incoming messages in `chatArray` and broadcasts each to all connected clients
+B) Stores messages but doesn't send them to clients
+C) Sends messages to one random client only
+D) Overwrites `chatArray` with the new message every time
 
-```js
-mongoose.use("mongodb://localhost:27017/myDB");
-```
-
-D)
-
-```js
-mongoose.start("mongodb://localhost:27017/myDB");
-```
-
-**Answer:** A)
-
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
+**Answer:** A) Stores incoming messages in `chatArray` and broadcasts each to all connected clients
 
 ---
 
-### **2. How do you check if the Mongoose connection is successful?**
+### **What does the following combination of server and client code accomplish?**
 
-A)
+**Server:**
 
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
+```javascript
+let chatArray = [];
+
+io.on("connection", (socket) => {
+  socket.emit("chatHistory", chatArray);
+
+  socket.on("message", (msg) => {
+    chatArray.push(msg);
+    io.emit("message", msg);
+  });
+});
 ```
 
-B)
+**Client:**
 
-```js
-mongoose.on("connect", () => console.log("Connected to MongoDB"));
+```javascript
+socket.on("chatHistory", (history) => {
+  history.forEach((msg) => displayMessage(msg));
+});
 ```
 
-C)
+A) When a user joins, they receive past messages and see new ones in real-time
+B) The client only gets new messages, not chat history
+C) Messages are stored per user and not shared
+D) History is broadcasted to all users every time someone joins
 
-```js
-mongoose.success(() => console.log("Connected to MongoDB"));
-```
-
-D)
-
-```js
-mongoose.connectStatus(() => console.log("Connected to MongoDB"));
-```
-
-**Answer:** A)
-
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
+**Answer:** A) When a user joins, they receive past messages and see new ones in real-time
 
 ---
-
-### **3. What is the correct way to insert a new document into a collection using Mongoose?**
-
-A)
-
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
-
-B)
-
-```js
-User.insertOne({ name: "Alice", age: 28 });
-```
-
-C)
-
-```js
-User.addNew({ name: "Alice", age: 28 });
-```
-
-D)
-
-```js
-User.put({ name: "Alice", age: 28 });
-```
-
-**Answer:** A)
-
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
-
----
-

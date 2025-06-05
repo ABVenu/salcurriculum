@@ -1,83 +1,56 @@
-**Scene 2.0 Mongoose**
+**Scene 2.0**
 
-### **1. Why do developers prefer Mongoose over the MongoDB native driver in Node.js applications?**  
-A) Mongoose provides a schema-based approach, while the MongoDB native driver does not  
-B) Mongoose is faster than the MongoDB native driver  
-C) The MongoDB native driver does not support CRUD operations  
-D) Mongoose allows direct SQL queries in MongoDB  
+### \*What is the purpose of this server-side Socket.IO code?\*\*
 
-**Answer:** A) Mongoose provides a schema-based approach, while the MongoDB native driver does not  
+```javascript
+io.on("connection", (socket) => {
+  socket.on("chatMessage", (msg) => {
+    io.emit("chatMessage", msg);
+  });
+});
+```
 
+A) When a client sends a "chatMessage" event, the server broadcasts the message to all connected clients
+B) It disconnects all clients when they send a "chatMessage"
+C) It listens only for system events, not client messages
+D) It stores chat messages in a database
 
-### **2. In Mongoose, what is the difference between a schema and a model?**  
-A) A schema defines the structure of a document, while a model interacts with the database using that schema  
-B) A model defines the structure, while a schema is used only for validation  
-C) A schema stores data, while a model is just a function  
-D) There is no difference; both terms refer to the same concept  
+**Answer:** A) When a client sends a "chatMessage" event, the server broadcasts the message to all connected clients
 
-**Answer:** A) A schema defines the structure of a document, while a model interacts with the database using that schema  
+---
 
- 
+### **What does this code do on the client side?**
 
-### **3. Which of the following correctly creates a Mongoose model in Node.js?**  
-A) `const User = mongoose.model('User', new mongoose.Schema({ name: String, age: Number }));`  
-B) `const User = mongoose.createSchema('User', { name: String, age: Number });`  
-C) `const User = mongoose.useSchema('User', { name: String, age: Number });`  
-D) `const User = new mongoose.Schema('User', { name: String, age: Number });`  
+```javascript
+socket.on("notification", (data) => {
+  alert(`New notification: ${data.text}`);
+});
+```
 
-**Answer:** A) `const User = mongoose.model('User', new mongoose.Schema({ name: String, age: Number }));`  
+A) Sends a notification to the server
+B) Listens for "notification" events from the server and shows an alert with the message text
+C) Emits a notification event to all clients
+D) Connects the client to a notification service
 
- 
+**Answer:** B) Listens for "notification" events from the server and shows an alert with the message text
 
-### **4. What is the correct way to insert a document into a MongoDB collection using Mongoose?**  
-A)  
-```js
-const newUser = new User({ name: "John", age: 25 });
-await newUser.save();
-```  
-B)  
-```js
-User.insert({ name: "John", age: 25 });
-```  
-C)  
-```js
-User.createDocument({ name: "John", age: 25 });
-```  
-D)  
-```js
-User.add({ name: "John", age: 25 });
-```  
+### **What is the difference between `io.on("connection", callback)` and `socket.on("event", callback)` in this Socket.IO server code?**
 
-**Answer:** A)  
-```js
-const newUser = new User({ name: "John", age: 25 });
-await newUser.save();
-```  
+```javascript
+io.on("connection", (socket) => {
+  console.log("A user connected");
 
- 
+  socket.on("message", (msg) => {
+    console.log("Received message:", msg);
+  });
+});
+```
 
-### **5. How do you retrieve all documents from a collection using Mongoose?**  
-A)  
-```js
-const users = await User.find();
-```  
-B)  
-```js
-const users = User.getAll();
-```  
-C)  
-```js
-const users = User.selectAll();
-```  
-D)  
-```js
-const users = await User.findAll();
-```  
+A) `io.on("connection")` listens for new client connections, while `socket.on("message")` listens for messages from a specific connected client
+B) Both listen for messages from all clients
+C) `io.on` listens for client disconnections, `socket.on` listens for connections
+D) `socket.on` listens for new client connections, `io.on` listens for messages
 
-**Answer:** A)  
-```js
-const users = await User.find();
-```  
+**Answer:** A) `io.on("connection")` listens for new client connections, while `socket.on("message")` listens for messages from a specific connected client
 
- 
-
+---

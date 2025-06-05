@@ -1,47 +1,42 @@
-**Scene 1.0 - Intro to Driver Softwares**
+**Scene 1.0**
 
-### **1. Why do we need database driver software in a Node.js backend?**
+### **What is the primary characteristic of an Event-Driven Architecture (EDA)?**
 
-A) To directly execute JavaScript code inside the database  
-B) To allow Node.js applications to interact with the database using JavaScript-friendly methods  
-C) To replace the need for a database schema  
-D) To store JavaScript files inside the database
+A) Functions are called synchronously one after another
+B) All components must respond to all events
+C) Components communicate by emitting and listening to events asynchronously
+D) Data flows strictly from parent to child component
 
-**Answer:** B) To allow Node.js applications to interact with the database using JavaScript-friendly methods
+**Answer:** C) Components communicate by emitting and listening to events asynchronously
 
-### **2. Which of the following is an Object-Relational Mapping (ORM) library commonly used in Node.js?**
+---
 
-A) Mongoose  
-B) Sequelize  
-C) MySQL2  
-D) MongoDB Native Driver
+### **In the context of sockets, which protocol is commonly used for real-time, bidirectional communication between client and server?**
 
-**Answer:** B) Sequelize
+A) HTTP
+B) FTP
+C) WebSocket
+D) SMTP
 
-### **3. What is the main purpose of an Object-Document Mapper (ODM) in a Node.js application?**
+**Answer:** C) WebSocket
 
-A) To map JavaScript objects to relational database tables  
-B) To enable direct execution of SQL queries inside JavaScript files  
-C) To provide a schema-based approach for working with NoSQL databases like MongoDB  
-D) To store JavaScript code inside the database
+---
 
-**Answer:** C) To provide a schema-based approach for working with NoSQL databases like MongoDB
+### **In a typical WebSocket communication model, what role does the `socket.emit('eventName', data)` function play?**
 
-### **4. Which of the following is true about Mongoose in Node.js?**
+A) It listens for data from the server
+B) It establishes the socket connection
+C) It sends a named event with data from client to server (or vice versa)
+D) It terminates the socket connection gracefully
 
-A) It is an ODM used to work with MongoDB  
-B) It is an ORM specifically designed for SQL databases  
-C) It replaces the need for MongoDB drivers  
-D) It allows direct SQL queries in MongoDB
+**Answer:** C) It sends a named event with data from client to server (or vice versa)
 
-**Answer:** A) It is an ODM used to work with MongoDB
+### **What is a key difference between the HTTP `req → res` cycle and socket-based communication?**
 
-### **5. Which of the following is NOT a feature of ORM libraries like Sequelize?**
+A) HTTP allows bidirectional communication, while sockets are only unidirectional
+B) HTTP `req → res` ends after one response, while sockets keep a persistent connection for real-time, bidirectional data exchange
+C) Sockets cannot be used in web browsers
+D) HTTP is only used for frontend logic, while sockets are only for databases
 
-A) Schema definition and validation  
-B) Direct communication with MongoDB without a driver  
-C) Query building using JavaScript objects  
-D) Migration and model synchronization
-
-**Answer:** B) Direct communication with MongoDB without a driver
+**Answer:** B) HTTP `req → res` ends after one response, while sockets keep a persistent connection for real-time, bidirectional data exchange
 
