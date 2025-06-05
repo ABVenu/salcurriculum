@@ -22,4 +22,3 @@ D) To list personal opinions on code style
 
 ---
 
-Let me know if you'd like a version focused on **.env files**, **platforms like Render/Vercel**, or **CI/CD tools like GitHub Actions**.
