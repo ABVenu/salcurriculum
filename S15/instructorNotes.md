@@ -80,6 +80,7 @@ Real-time communication can be broadly classified into three types based on how 
 ---
 
 #### **1.3 Limitations of Request-Response Cycle in Duplex Communication**
+![Req Res Cycle vs Sockets](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/4e42812a-b2ee-4b60-af22-9436ac598fb5/0zDc3zRZdMJLHXPt.png)
 
 The traditional **request-response model** (used in HTTP) follows a strict pattern:
 
@@ -190,7 +191,7 @@ The typical **lifecycle of a WebSocket connection** looks like this:
 - Enables truly **interactive** applications.
 - Reduces latency to near-zero for real-time interactions.
 
--- INSERT AN IMAGE HERE
+![How Socket Works](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/8d94187c-fc22-4b6a-be23-c55de9f788a1/RGLgGQlfGmWcqpRm.png)
 
 #### 2.3 - Terminologies/inbuilt functions used in sockets
 
@@ -285,10 +286,11 @@ Client: on('newMessage', callback) // receieves message
 ```
 
 #### 2.4 Implementation of Basic chat application using socket.io, where chats are stored in simple array locally
-
+![Simple Chat Application](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/49732978-5fad-42f1-b8b9-3e73de96dea8/aECsWm1Es2LrOEQH.png)
 - Here in this section, a basic chat app (group chat) will be implemented, where focus will be on creating events like `register`-> which registers users into the DB, `sendMessage` which sends message to the server and inretun server sends `chatHistory` which is appended in the Frontend
 - Also a simple frontend using HTML will be created where, some events will be listened and some events will be emitted, need to make students to get grip on that and should feel the EDA
 
 ### Scene 3.0: Enhancing Simple Chat Application By Integrating DB Backup
+![Simple Chat Application with Real Time Database Backup](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/628f50f7-cd66-4d73-9e19-1f60c96c8fe2/y00AXZNlYoS3fQxu.png)
 - The same previous chat application will be enhanced with DB Backup support, like All Chats are stored in the Redis, an Cron Job will be running, which pushes the Chat from Redis Into DB regularly
 - With the above feature, we can simulate real life chatting application, which has frequent backup into DB, but real time Chats are stored in the Redis for ready reference.
