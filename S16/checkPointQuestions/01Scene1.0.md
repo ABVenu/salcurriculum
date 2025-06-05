@@ -1,47 +1,35 @@
-**Scene 1.0 - Intro to Driver Softwares**
+**Scene 1.0**
 
-### **1. Why do we need database driver software in a Node.js backend?**
+### **1. What typically causes a CORS (Cross-Origin Resource Sharing) error in a web application?**
 
-A) To directly execute JavaScript code inside the database  
-B) To allow Node.js applications to interact with the database using JavaScript-friendly methods  
-C) To replace the need for a database schema  
-D) To store JavaScript files inside the database
+A) The server is running on the same port as the client
+B) The server has not allowed the client’s origin in its response headers
+C) The client made a request using `POST` instead of `GET`
+D) The MongoDB server is not responding
 
-**Answer:** B) To allow Node.js applications to interact with the database using JavaScript-friendly methods
+**Answer:** B) The server has not allowed the client’s origin in its response headers
 
-### **2. Which of the following is an Object-Relational Mapping (ORM) library commonly used in Node.js?**
+---
 
-A) Mongoose  
-B) Sequelize  
-C) MySQL2  
-D) MongoDB Native Driver
+### **2. Why is a MongoDB Atlas connection string (URI) needed in a backend application?**
 
-**Answer:** B) Sequelize
+A) To define routes for Express server
+B) To allow the app to connect to a remote MongoDB cluster hosted on Atlas
+C) To store frontend static files
+D) To host Docker containers in the cloud
 
-### **3. What is the main purpose of an Object-Document Mapper (ODM) in a Node.js application?**
+**Answer:** B) To allow the app to connect to a remote MongoDB cluster hosted on Atlas
 
-A) To map JavaScript objects to relational database tables  
-B) To enable direct execution of SQL queries inside JavaScript files  
-C) To provide a schema-based approach for working with NoSQL databases like MongoDB  
-D) To store JavaScript code inside the database
+---
 
-**Answer:** C) To provide a schema-based approach for working with NoSQL databases like MongoDB
+### **3. While connecting to MongoDB Atlas, is it necessary to include the database user’s password in the connection string?**
 
-### **4. Which of the following is true about Mongoose in Node.js?**
+A) No, password is optional in Atlas URI
+B) Yes, password is mandatory to authenticate and establish the connection
+C) Only if using Mongoose
+D) Only for localhost connections
 
-A) It is an ODM used to work with MongoDB  
-B) It is an ORM specifically designed for SQL databases  
-C) It replaces the need for MongoDB drivers  
-D) It allows direct SQL queries in MongoDB
+**Answer:** B) Yes, password is mandatory to authenticate and establish the connection
 
-**Answer:** A) It is an ODM used to work with MongoDB
-
-### **5. Which of the following is NOT a feature of ORM libraries like Sequelize?**
-
-A) Schema definition and validation  
-B) Direct communication with MongoDB without a driver  
-C) Query building using JavaScript objects  
-D) Migration and model synchronization
-
-**Answer:** B) Direct communication with MongoDB without a driver
+---
 

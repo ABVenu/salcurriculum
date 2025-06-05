@@ -1,106 +1,25 @@
-**Scene 3.0 Mongoose CRUD**
+**Scene 3.0**
 
-### **1. What is the correct way to connect MongoDB using Mongoose in a Node.js application?**
+### **What is the ideal flow for deploying a full-stack application where the frontend consumes backend APIs?**
 
-A)
+A) Deploy backend → Update frontend API URLs → Deploy frontend
+B) Deploy frontend → Deploy backend → Update frontend
+C) Deploy backend → Deploy frontend → Update backend
+D) Update frontend URLs → Deploy backend → Deploy frontend
 
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
-
-B)
-
-```js
-mongoose.link("mongodb://localhost:27017/myDB");
-```
-
-C)
-
-```js
-mongoose.use("mongodb://localhost:27017/myDB");
-```
-
-D)
-
-```js
-mongoose.start("mongodb://localhost:27017/myDB");
-```
-
-**Answer:** A)
-
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
+**Answer:** A) Deploy backend → Update frontend API URLs → Deploy frontend
 
 ---
 
-### **2. How do you check if the Mongoose connection is successful?**
+### **Why is technical documentation important during deployment or team handover?**
 
-A)
+A) To ensure everyone knows how to design the UI
+B) To keep track of team attendance
+C) To provide clear setup steps, environment variables, and API usage for smooth onboarding and maintenance
+D) To list personal opinions on code style
 
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
-
-B)
-
-```js
-mongoose.on("connect", () => console.log("Connected to MongoDB"));
-```
-
-C)
-
-```js
-mongoose.success(() => console.log("Connected to MongoDB"));
-```
-
-D)
-
-```js
-mongoose.connectStatus(() => console.log("Connected to MongoDB"));
-```
-
-**Answer:** A)
-
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
+**Answer:** C) To provide clear setup steps, environment variables, and API usage for smooth onboarding and maintenance
 
 ---
 
-### **3. What is the correct way to insert a new document into a collection using Mongoose?**
-
-A)
-
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
-
-B)
-
-```js
-User.insertOne({ name: "Alice", age: 28 });
-```
-
-C)
-
-```js
-User.addNew({ name: "Alice", age: 28 });
-```
-
-D)
-
-```js
-User.put({ name: "Alice", age: 28 });
-```
-
-**Answer:** A)
-
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
-
----
-
+Let me know if you'd like a version focused on **.env files**, **platforms like Render/Vercel**, or **CI/CD tools like GitHub Actions**.
