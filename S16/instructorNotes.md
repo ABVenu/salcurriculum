@@ -1,4 +1,4 @@
-#### Mongoose Design Patterns: ER Modeling, Junction Schemas & Cascading Strategies
+#### Full Stack App: Integration & Deployment
 
 ### Learning Objectives
 
