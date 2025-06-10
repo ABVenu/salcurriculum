@@ -1,83 +1,30 @@
-**Scene 2.0 Mongoose**
+**Scene 2.0 Testing APIs**
 
-### **1. Why do developers prefer Mongoose over the MongoDB native driver in Node.js applications?**  
-A) Mongoose provides a schema-based approach, while the MongoDB native driver does not  
-B) Mongoose is faster than the MongoDB native driver  
-C) The MongoDB native driver does not support CRUD operations  
-D) Mongoose allows direct SQL queries in MongoDB  
+### **Which of the following methods is commonly used in Jest to test asynchronous API routes?**
 
-**Answer:** A) Mongoose provides a schema-based approach, while the MongoDB native driver does not  
+A) expectAsync()
+B) testAsync()
+C) await supertest(app).get('/route')
+D) assertRoute()
 
+**Answer:** C) await supertest(app).get('/route')
 
-### **2. In Mongoose, what is the difference between a schema and a model?**  
-A) A schema defines the structure of a document, while a model interacts with the database using that schema  
-B) A model defines the structure, while a schema is used only for validation  
-C) A schema stores data, while a model is just a function  
-D) There is no difference; both terms refer to the same concept  
+### **In Jest, what is the purpose of using `beforeAll()` in API tests?**
 
-**Answer:** A) A schema defines the structure of a document, while a model interacts with the database using that schema  
+A) To restart the Express server before each test
+B) To perform cleanup after all tests
+C) To set up initial conditions like DB connection before test suite runs
+D) To define test cases that must run first
 
- 
+**Answer:** C) To set up initial conditions like DB connection before test suite runs
 
-### **3. Which of the following correctly creates a Mongoose model in Node.js?**  
-A) `const User = mongoose.model('User', new mongoose.Schema({ name: String, age: Number }));`  
-B) `const User = mongoose.createSchema('User', { name: String, age: Number });`  
-C) `const User = mongoose.useSchema('User', { name: String, age: Number });`  
-D) `const User = new mongoose.Schema('User', { name: String, age: Number });`  
+### **Which of the following best describes the role of `supertest` when used with Jest?**
 
-**Answer:** A) `const User = mongoose.model('User', new mongoose.Schema({ name: String, age: Number }));`  
+A) It mocks all Express routes automatically
+B) It allows you to test HTTP endpoints of an Express app without starting the server
+C) It replaces Express with a test framework
+D) It generates random test data for APIs
 
- 
+**Answer:** B) It allows you to test HTTP endpoints of an Express app without starting the server
 
-### **4. What is the correct way to insert a document into a MongoDB collection using Mongoose?**  
-A)  
-```js
-const newUser = new User({ name: "John", age: 25 });
-await newUser.save();
-```  
-B)  
-```js
-User.insert({ name: "John", age: 25 });
-```  
-C)  
-```js
-User.createDocument({ name: "John", age: 25 });
-```  
-D)  
-```js
-User.add({ name: "John", age: 25 });
-```  
-
-**Answer:** A)  
-```js
-const newUser = new User({ name: "John", age: 25 });
-await newUser.save();
-```  
-
- 
-
-### **5. How do you retrieve all documents from a collection using Mongoose?**  
-A)  
-```js
-const users = await User.find();
-```  
-B)  
-```js
-const users = User.getAll();
-```  
-C)  
-```js
-const users = User.selectAll();
-```  
-D)  
-```js
-const users = await User.findAll();
-```  
-
-**Answer:** A)  
-```js
-const users = await User.find();
-```  
-
- 
-
+---

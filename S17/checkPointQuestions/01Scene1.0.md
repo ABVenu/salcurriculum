@@ -1,47 +1,30 @@
-**Scene 1.0 - Intro to Driver Softwares**
+**Scene 1.0**
 
-### **1. Why do we need database driver software in a Node.js backend?**
+### **Which of the following is a primary reason for conducting software testing?**
 
-A) To directly execute JavaScript code inside the database  
-B) To allow Node.js applications to interact with the database using JavaScript-friendly methods  
-C) To replace the need for a database schema  
-D) To store JavaScript files inside the database
+A) To increase the size of the application
+B) To delay the release of the product
+C) To ensure the software meets specified requirements
+D) To reduce the need for documentation
 
-**Answer:** B) To allow Node.js applications to interact with the database using JavaScript-friendly methods
+**Answer:** C) To ensure the software meets specified requirements
 
-### **2. Which of the following is an Object-Relational Mapping (ORM) library commonly used in Node.js?**
+### **In a Node.js Express API, what can happen if proper testing is skipped for the authentication routes?**
 
-A) Mongoose  
-B) Sequelize  
-C) MySQL2  
-D) MongoDB Native Driver
+A) Routes will automatically secure themselves
+B) Unauthorized users might gain access to protected data
+C) The app will use default security provided by Express
+D) Sessions will expire faster
 
-**Answer:** B) Sequelize
+**Answer:** B) Unauthorized users might gain access to protected data
 
-### **3. What is the main purpose of an Object-Document Mapper (ODM) in a Node.js application?**
+### **Why is it important to write integration tests for an Express API’s CRUD endpoints?**
 
-A) To map JavaScript objects to relational database tables  
-B) To enable direct execution of SQL queries inside JavaScript files  
-C) To provide a schema-based approach for working with NoSQL databases like MongoDB  
-D) To store JavaScript code inside the database
+A) To prevent TypeScript errors during compilation
+B) To verify that all middleware is skipped correctly
+C) To ensure routes, database, and business logic work together as expected
+D) To improve front-end rendering performance
 
-**Answer:** C) To provide a schema-based approach for working with NoSQL databases like MongoDB
+**Answer:** C) To ensure routes, database, and business logic work together as expected
 
-### **4. Which of the following is true about Mongoose in Node.js?**
-
-A) It is an ODM used to work with MongoDB  
-B) It is an ORM specifically designed for SQL databases  
-C) It replaces the need for MongoDB drivers  
-D) It allows direct SQL queries in MongoDB
-
-**Answer:** A) It is an ODM used to work with MongoDB
-
-### **5. Which of the following is NOT a feature of ORM libraries like Sequelize?**
-
-A) Schema definition and validation  
-B) Direct communication with MongoDB without a driver  
-C) Query building using JavaScript objects  
-D) Migration and model synchronization
-
-**Answer:** B) Direct communication with MongoDB without a driver
-
+---
