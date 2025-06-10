@@ -1,47 +1,46 @@
 **Scene 1.0 - Intro to Driver Softwares**
 
-### **1. Why do we need database driver software in a Node.js backend?**
+### **What is the primary goal of Artificial Intelligence (AI)?**
 
-A) To directly execute JavaScript code inside the database  
-B) To allow Node.js applications to interact with the database using JavaScript-friendly methods  
-C) To replace the need for a database schema  
-D) To store JavaScript files inside the database
+A) To replace human jobs with machines  
+B) To simulate human learning, comprehension, and decision-making in machines  
+C) To make computers operate faster  
+D) To only create robots that look and act like humans
 
-**Answer:** B) To allow Node.js applications to interact with the database using JavaScript-friendly methods
+**Answer:** B) To simulate human learning, comprehension, and decision-making in machines
 
-### **2. Which of the following is an Object-Relational Mapping (ORM) library commonly used in Node.js?**
+---
 
-A) Mongoose  
-B) Sequelize  
-C) MySQL2  
-D) MongoDB Native Driver
+### **Which of the following best describes Machine Learning (ML)?**
 
-**Answer:** B) Sequelize
+A) A field focused solely on building robots  
+B) A subset of AI that allows systems to learn from data without explicit programming  
+C) A programming language used for web development  
+D) A method for creating computer graphics
 
-### **3. What is the main purpose of an Object-Document Mapper (ODM) in a Node.js application?**
+**Answer:** B) A subset of AI that allows systems to learn from data without explicit programming
 
-A) To map JavaScript objects to relational database tables  
-B) To enable direct execution of SQL queries inside JavaScript files  
-C) To provide a schema-based approach for working with NoSQL databases like MongoDB  
-D) To store JavaScript code inside the database
+---
 
-**Answer:** C) To provide a schema-based approach for working with NoSQL databases like MongoDB
+### **Deep Learning (DL) is a specialized subset of Machine Learning that primarily uses:**
 
-### **4. Which of the following is true about Mongoose in Node.js?**
+A) Simple algorithms with minimal data  
+B) Single-layered neural networks  
+C) Multilayered neural networks (deep neural networks)  
+D) Traditional programming logic with if-else statements
 
-A) It is an ODM used to work with MongoDB  
-B) It is an ORM specifically designed for SQL databases  
-C) It replaces the need for MongoDB drivers  
-D) It allows direct SQL queries in MongoDB
+**Answer:** C) Multilayered neural networks (deep neural networks)
 
-**Answer:** A) It is an ODM used to work with MongoDB
+---
 
-### **5. Which of the following is NOT a feature of ORM libraries like Sequelize?**
+### **What distinguishes Generative AI (GenAI) from other types of AI?**
 
-A) Schema definition and validation  
-B) Direct communication with MongoDB without a driver  
-C) Query building using JavaScript objects  
-D) Migration and model synchronization
+A) Its ability to perform only predictive analysis  
+B) Its focus on understanding human emotions  
+C) Its capability to create new, original content (e.g., text, images, video)  
+D) Its primary use in optimizing logistical supply chains
 
-**Answer:** B) Direct communication with MongoDB without a driver
+**Answer:** C) Its capability to create new, original content (e.g., text, images, video)
+
+---
 

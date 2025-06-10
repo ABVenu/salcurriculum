@@ -1,83 +1,57 @@
-**Scene 2.0 Mongoose**
+**Scene 2.0**
 
-### **1. Why do developers prefer Mongoose over the MongoDB native driver in Node.js applications?**  
-A) Mongoose provides a schema-based approach, while the MongoDB native driver does not  
-B) Mongoose is faster than the MongoDB native driver  
-C) The MongoDB native driver does not support CRUD operations  
-D) Mongoose allows direct SQL queries in MongoDB  
+### **Which component of an LLM is responsible for breaking down input text into smaller units like words or subwords?**
 
-**Answer:** A) Mongoose provides a schema-based approach, while the MongoDB native driver does not  
+A) Embedding layer  
+B) Transformer architecture  
+C) Tokenization  
+D) Output Prediction
 
+**Answer:** C) Tokenization
 
-### **2. In Mongoose, what is the difference between a schema and a model?**  
-A) A schema defines the structure of a document, while a model interacts with the database using that schema  
-B) A model defines the structure, while a schema is used only for validation  
-C) A schema stores data, while a model is just a function  
-D) There is no difference; both terms refer to the same concept  
+---
 
-**Answer:** A) A schema defines the structure of a document, while a model interacts with the database using that schema  
+### **In the context of LLMs, what do "parameters" represent?**
 
- 
+A) The hardware specifications of the computer running the model  
+B) The specific programming language used to build the model  
+C) The knowledge and patterns a model learns during its training phase  
+D) The number of times a model has been used for inference
 
-### **3. Which of the following correctly creates a Mongoose model in Node.js?**  
-A) `const User = mongoose.model('User', new mongoose.Schema({ name: String, age: Number }));`  
-B) `const User = mongoose.createSchema('User', { name: String, age: Number });`  
-C) `const User = mongoose.useSchema('User', { name: String, age: Number });`  
-D) `const User = new mongoose.Schema('User', { name: String, age: Number });`  
+**Answer:** C) The knowledge and patterns a model learns during its training phase
 
-**Answer:** A) `const User = mongoose.model('User', new mongoose.Schema({ name: String, age: Number }));`  
+---
 
- 
+### **What does "Inference" refer to in AI?**
 
-### **4. What is the correct way to insert a document into a MongoDB collection using Mongoose?**  
-A)  
-```js
-const newUser = new User({ name: "John", age: 25 });
-await newUser.save();
-```  
-B)  
-```js
-User.insert({ name: "John", age: 25 });
-```  
-C)  
-```js
-User.createDocument({ name: "John", age: 25 });
-```  
-D)  
-```js
-User.add({ name: "John", age: 25 });
-```  
+A) The process of training an AI model from scratch  
+B) The act of using a trained AI model to make predictions or generate answers  
+C) The initial data collection phase for an AI project  
+D) The method of debugging an AI algorithm
 
-**Answer:** A)  
-```js
-const newUser = new User({ name: "John", age: 25 });
-await newUser.save();
-```  
+**Answer:** B) The act of using a trained AI model to make predictions or generate answers
 
- 
+---
 
-### **5. How do you retrieve all documents from a collection using Mongoose?**  
-A)  
-```js
-const users = await User.find();
-```  
-B)  
-```js
-const users = User.getAll();
-```  
-C)  
-```js
-const users = User.selectAll();
-```  
-D)  
-```js
-const users = await User.findAll();
-```  
+### **If you want an AI model to generate more creative and varied outputs, what setting would you typically increase?**
 
-**Answer:** A)  
-```js
-const users = await User.find();
-```  
+A) Parameters  
+B) Temperature  
+C) Number of hidden layers  
+D) Tokenization limit
 
- 
+**Answer:** B) Temperature
+
+---
+
+### **What is a "hallucination" in the context of AI?**
+
+A) When an AI model generates highly imaginative and artistic content  
+B) When an AI model provides a confident answer that is factually incorrect or made up  
+C) When an AI model struggles to process visual data  
+D) When an AI model experiences a software error
+
+**Answer:** B) When an AI model provides a confident answer that is factually incorrect or made up
+
+---
 

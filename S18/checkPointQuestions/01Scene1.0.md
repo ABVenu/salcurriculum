@@ -1,47 +1,29 @@
-**Scene 1.0 - Intro to Driver Softwares**
+**Scene 1.0**
 
-### **1. Why do we need database driver software in a Node.js backend?**
+### **Which of the following is considered a good standard coding practice in Node.js development?**
 
-A) To directly execute JavaScript code inside the database  
-B) To allow Node.js applications to interact with the database using JavaScript-friendly methods  
-C) To replace the need for a database schema  
-D) To store JavaScript files inside the database
+A) Using global variables to share data across modules
+B) Writing large functions that handle multiple responsibilities
+C) Following consistent naming conventions and modular structure
+D) Skipping error handling to reduce code size
 
-**Answer:** B) To allow Node.js applications to interact with the database using JavaScript-friendly methods
+**Answer:** C) Following consistent naming conventions and modular structure
 
-### **2. Which of the following is an Object-Relational Mapping (ORM) library commonly used in Node.js?**
+### **Which of the following best describes the primary goal of DevOps?**
 
-A) Mongoose  
-B) Sequelize  
-C) MySQL2  
-D) MongoDB Native Driver
+A) To create isolated development teams
+B) To replace developers with automation tools
+C) To bridge the gap between development and operations through automation and collaboration
+D) To delay releases for thorough manual testing
 
-**Answer:** B) Sequelize
+**Answer:** C) To bridge the gap between development and operations through automation and collaboration
 
-### **3. What is the main purpose of an Object-Document Mapper (ODM) in a Node.js application?**
+### **In the DevOps lifecycle, what is the role of CI/CD pipelines?**
 
-A) To map JavaScript objects to relational database tables  
-B) To enable direct execution of SQL queries inside JavaScript files  
-C) To provide a schema-based approach for working with NoSQL databases like MongoDB  
-D) To store JavaScript code inside the database
+A) To design user interfaces
+B) To monitor CPU usage only
+C) To automate the building, testing, and deployment of applications
+D) To document API endpoints
 
-**Answer:** C) To provide a schema-based approach for working with NoSQL databases like MongoDB
-
-### **4. Which of the following is true about Mongoose in Node.js?**
-
-A) It is an ODM used to work with MongoDB  
-B) It is an ORM specifically designed for SQL databases  
-C) It replaces the need for MongoDB drivers  
-D) It allows direct SQL queries in MongoDB
-
-**Answer:** A) It is an ODM used to work with MongoDB
-
-### **5. Which of the following is NOT a feature of ORM libraries like Sequelize?**
-
-A) Schema definition and validation  
-B) Direct communication with MongoDB without a driver  
-C) Query building using JavaScript objects  
-D) Migration and model synchronization
-
-**Answer:** B) Direct communication with MongoDB without a driver
+**Answer:** C) To automate the building, testing, and deployment of applications
 

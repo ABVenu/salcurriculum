@@ -1,106 +1,43 @@
 **Scene 3.0 Mongoose CRUD**
 
-### **1. What is the correct way to connect MongoDB using Mongoose in a Node.js application?**
+### **Why are GPUs (Graphics Processing Units) preferred over CPUs (Central Processing Units) for training large AI models?**
 
-A)
+A) GPUs have fewer cores, making them more precise.  
+B) GPUs specialize in handling general tasks one at a time.  
+C) GPUs are excellent at performing many parallel mathematical computations simultaneously.  
+D) CPUs are simply too expensive for AI tasks.
 
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
-
-B)
-
-```js
-mongoose.link("mongodb://localhost:27017/myDB");
-```
-
-C)
-
-```js
-mongoose.use("mongodb://localhost:27017/myDB");
-```
-
-D)
-
-```js
-mongoose.start("mongodb://localhost:27017/myDB");
-```
-
-**Answer:** A)
-
-```js
-mongoose.connect("mongodb://localhost:27017/myDB");
-```
+**Answer:** C) GPUs are excellent at performing many parallel mathematical computations simultaneously.
 
 ---
 
-### **2. How do you check if the Mongoose connection is successful?**
+### **Which prompting technique involves providing the AI model with one or more examples before asking it to complete a similar task?**
 
-A)
+A) Zero-Shot Prompting  
+B) Role Prompting  
+C) Few-Shot Prompting  
+D) Self-Critique Prompting
 
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
-
-B)
-
-```js
-mongoose.on("connect", () => console.log("Connected to MongoDB"));
-```
-
-C)
-
-```js
-mongoose.success(() => console.log("Connected to MongoDB"));
-```
-
-D)
-
-```js
-mongoose.connectStatus(() => console.log("Connected to MongoDB"));
-```
-
-**Answer:** A)
-
-```js
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
-```
+**Answer:** C) Few-Shot Prompting (Note: One-Shot is a specific case of Few-Shot, but Few-Shot encompasses giving examples)
 
 ---
 
-### **3. What is the correct way to insert a new document into a collection using Mongoose?**
+### **When you assign a specific persona to an AI (e.g., "You are a history teacher"), what prompting technique are you using?**
 
-A)
+A) Chain-of-Thought Prompting  
+B) Zero-Shot Prompting  
+C) Role Prompting  
+D) Self-Critique Prompting
 
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
-
-B)
-
-```js
-User.insertOne({ name: "Alice", age: 28 });
-```
-
-C)
-
-```js
-User.addNew({ name: "Alice", age: 28 });
-```
-
-D)
-
-```js
-User.put({ name: "Alice", age: 28 });
-```
-
-**Answer:** A)
-
-```js
-const user = new User({ name: "Alice", age: 28 });
-await user.save();
-```
+**Answer:** C) Role Prompting
 
 ---
 
+### **What is the main benefit of using Chain-of-Thought Prompting?**
+
+A) It makes the AI's response shorter and more concise.  
+B) It allows the AI to explain its reasoning step by step, improving transparency and accuracy for complex tasks.  
+C) It limits the AI to only factual responses.  
+D) It helps the AI generate more creative stories.
+
+**Answer:** B) It allows the AI to explain its reasoning step by step, improving transparency and accuracy for complex tasks.
