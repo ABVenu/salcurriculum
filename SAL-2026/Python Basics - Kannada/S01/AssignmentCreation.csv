@@ -56,7 +56,7 @@ distance_text = ""15""
 rate_per_km = 2.5
 ```
 
-The programmer wants to multiply the distance by the rate. What should be done first?",,,,,,1,,Convert `distance_text` to a number using `float()` or `int()`,Convert `rate_per_km` to the word `""rate""`,Put both values inside quotation marks before multiplying,Use `type()` to permanently change the value,,,0.5,markdown,"`""15""` is a string because it is inside quotes. It should be converted to a numeric type before arithmetic. `float(""15"")` gives `15.0`, and `int(""15"")` gives `15`.
+The programmer wants to multiply the distance by the rate. What should be done first?",,,,,,1,,Convert `distance_text` to a number using `float()` or `int()`,"Convert `rate_per_km` to the word `""rate""`",Put both values inside quotation marks before multiplying,Use `type()` to permanently change the value,,,0.5,markdown,"`""15""` is a string because it is inside quotes. It should be converted to a numeric type before arithmetic. `float(""15"")` gives `15.0`, and `int(""15"")` gives `15`.
 
 **Why other options are wrong:**
 - B: Changing the rate to text would prevent numeric calculation.
@@ -94,7 +94,7 @@ marks_text = ""85""
 bonus = 5
 ```
 
-Which statements are correct?",,,,,,,,`marks_text` is a string because `85` is written inside quotes,`bonus` is an integer because it is a whole number without quotes,`int(marks_text)` can convert `""85""` into the number `85` for calculation,`int(""hello"")` safely converts the word `""hello""` into a number,"1, 2, 3",,1,markdown,"Quoted values are strings, whole numbers without quotes are integers, and numeric text such as `""85""` can be converted using `int()`.
+Which statements are correct?",,,,,,,,`marks_text` is a string because `85` is written inside quotes,`bonus` is an integer because it is a whole number without quotes,"`int(marks_text)` can convert `""85""` into the number `85` for calculation","`int(""hello"")` safely converts the word `""hello""` into a number","1, 2, 3",,1,markdown,"Quoted values are strings, whole numbers without quotes are integers, and numeric text such as `""85""` can be converted using `int()`.
 
 **Why other options are wrong:**
 - D: `""hello""` is not numeric text, so converting it with `int()` causes a value conversion error."
