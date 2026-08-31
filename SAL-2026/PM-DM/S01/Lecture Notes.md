@@ -220,7 +220,7 @@ You will hear **token** on AI product screens, in “message too long” warning
 - **In Simple Words:** The model does not swallow your paragraph as one human thought. It reads in small bites — the way you tear a roti before eating, not the recipe of how the roti was milled.
 - **Real-Life Example:** Picture `I love masala dosa` as a few small pieces such as `I`, `love`, `masala`, `dosa`. That picture is enough.
 
-![Tokens are small bites of text — a roti torn into pieces next to the sentence I love masala dosa on cards; internals of cutting are out of scope](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/nontech-pm-dm/session01/s01-06-tokens-are-small-bites.png?v=20260828b)
+![Tokens are small bites of text — a masala dosa torn into pieces next to the sentence I love masala dosa on cards; internals of cutting are out of scope](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/nontech-pm-dm/session01/s01-06-tokens-are-small-bites.png?v=20260831)
 
 **Do not worry about how tokenization works inside the model.** You will not study the cutting rules, the software that does the cutting, or the numbers assigned to each piece. That detail is **not our scope**.
 
