@@ -1,0 +1,9 @@
+variable,segment,signups,first_deposits,pct_conversion
+platform,Android,728,343,47.1
+platform,Web,46,20,43.5
+platform,iOS,226,116,51.3
+city_tier,Tier 1,551,272,49.4
+city_tier,Tier 2,319,152,47.6
+city_tier,Tier 3,130,55,42.3
+user_type,Experienced Trader,242,138,57.0
+user_type,New Investor,758,341,45.0

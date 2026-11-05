@@ -1,0 +1,56 @@
+==========================================================================
+MEETING TRANSCRIPT — South Ops Weekly Leadership Review (excerpt: Chennai)
+Friday, 9 Oct 2026 | 16:00 – 16:14 IST (Chennai item only)
+Attendees: Sameer Khan (VP South Ops), Priya Sharma (City Ops Lead,
+Chennai), Rohit Agarwal (Finance BP), Manoj Pillai (Pricing PM)
+TEACHING NOTE: Fictional classroom material.
+==========================================================================
+
+[16:00] Sameer Khan: Chennai. Priya, where are we on monsoon?
+
+[16:00] Priya Sharma: Mostly closed. Rain fee is ₹20 for non-members,
+waived for One members, live Thursday 15th after the cart change. DP
+incentive ₹30 per order, and the daily bonus at 10-plus orders. Routing
+avoid-list for 11 underpasses goes live Tuesday.
+
+[16:01] Sameer Khan: Wait — why ₹20? I thought we said ₹25. I thumbs-upped
+₹25.
+
+[16:01] Rohit Agarwal: Sameer, that came from Ravi's pricing review last
+week — stay below competitor rain fee in Chennai. And One members can't be
+charged, it's in their terms.
+
+[16:02] Sameer Khan: Okay. Fine. But — let me be clear — my thumbs-up on
+Slack is "I've seen it", it's not an approval. Please don't treat emojis as
+sign-off. Ever.
+
+[16:02] Manoj Pillai: [laughs] Noted. Lesson learned.
+
+[16:03] Sameer Khan: What's the risk?
+
+[16:03] Priya Sharma: Two. One, if rain starts before the 15th — IMD says
+14 to 16 — we'll have a day or two of incentive with no fee. Rohit's okay
+with that.
+
+[16:04] Rohit Agarwal: It's maybe ₹15 lakh. Fine.
+
+[16:04] Priya Sharma: Two, the manual override for flooded underpasses is
+not ready till end of month. So if a new underpass floods, we can't block
+it in routing — the city team will have to call partners.
+
+[16:05] Sameer Khan: That's not acceptable for safety. Lakshmi's team?
+
+[16:05] Priya Sharma: Yes.
+
+[16:05] Sameer Khan: I'll talk to Lakshmi's manager — I want the override
+before the 20th. Priya, send me a note with the exact ask.
+
+[16:06] Priya Sharma: Will do, tonight.
+
+[16:06] Sameer Khan: And the incentive comms to partners — who's on it?
+
+[16:06] Priya Sharma: Priya's team — sorry, Priya Ramesh, partner comms.
+Drafts Monday, sent before 14th.
+
+[16:07] Sameer Khan: Good. Next city.
+==========================================================================

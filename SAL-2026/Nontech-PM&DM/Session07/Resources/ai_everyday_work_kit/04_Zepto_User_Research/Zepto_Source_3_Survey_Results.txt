@@ -1,0 +1,31 @@
+==========================================================================
+ZEPTO LATE-NIGHT STUDY — IN-APP SURVEY RESULTS
+Field dates: 20 – 27 Sep 2026  (NOTE: after the small cart fee removal)
+Total responses: n = 212   |   Shown to users active in the last 7 days
+TEACHING NOTE: FICTIONAL classroom dataset.
+==========================================================================
+
+Q-A. Have you ordered on Zepto between 11 PM and 3 AM in the last 30 days?
+     Yes: 41 (19%)     No: 171 (81%)
+
+Q-B. [Asked ONLY to the 41 who said Yes]
+     What is the MAIN reason you didn't complete a late-night order?
+     (single choice)
+     - Item out of stock / poor substitutes ........ 17  (41%)
+     - Total price too high / fees ................. 11  (27%)
+     - Delivery time longer than expected ..........  7  (17%)
+     - Payment / app issue .........................  4  (10%)
+     - Other .......................................  2  ( 5%)
+                                                     ---  -----
+                                                      41  100%
+
+Q-C. [Asked ONLY to the 41] Would you order late-night more often if...
+     (multi-select)
+     - More items in stock at night ................ 30  (73%)
+     - Lower / no late-night fee ................... 19  (46%)
+     - Clearer total price before checkout ......... 16  (39%)
+     - Faster delivery (under 10 min) ..............  5  (12%)
+
+Q-D. [All 212] Are you a Zepto Pass member?
+     Yes: 148 (70%)    No: 64 (30%)
+==========================================================================

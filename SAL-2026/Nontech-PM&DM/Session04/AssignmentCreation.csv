@@ -1,0 +1,203 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,"A table of weekly lab bookings shows only this:
+
+| Week | Bookings |
+|------|----------|
+| 1 | 80 |
+| 2 | 82 |
+| 3 | 79 |
+| 4 | 81 |
+
+Which reply is a complete summary of this table?",,,,,,1,,"Bookings sit near 80 every week, the pattern is flat, and no week breaks that band.","Bookings fell all month, so the lab should close on Fridays even though no weekday column exists.","The average is 100, because four weeks of bookings always round up to the next hundred.","Week 2 caused the other weeks to stay flat, so the lab should add seats next Monday.",,6ab765fc667c44a47cc4aa44,0,markdown,"A complete summary reports overall performance, the macro pattern, and any anomaly. Here the four weeks add to 322, so the average is 80.5 — near 80. The line is flat (79 to 82). No week breaks that band, so there is no anomaly to flag. That is the whole summary this table can support.
+
+**Why other options are wrong:**
+- B: The numbers are not falling, and the table has no weekday column, so a Friday closure is invented.
+- C: 322 ÷ 4 = 80.5, not 100. A fluent round-up is still a wrong number.
+- D: Nothing in the table shows that Week 2 caused the other weeks. A cause that was never measured does not belong in the summary."
+mcsc,markdown,Which of these is a targeted analytical query?,,,,,,3,,"What do you see in this data, and what should the team feel about the business this month?",Any trends here? Give me insights and a full story of the business.,Rank these five routes by on-time rate and state the gap between the best and the worst.,Analyze this sheet and tell me whatever stands out as interesting.,,6ab765fc667c44a47cc4aa44,0,markdown,"A targeted query asks for one comparison and a number you can check. Ranking five routes and stating the gap between best and worst is that kind of question. The other three ask for a vague essay (""what do you see"", ""any trends"", ""analyze this"") and do not name the comparison.
+
+**Why other options are wrong:**
+- A: ""What do you see"" plus a request for a feeling is open-ended. It does not name a metric or a gap.
+- B: ""Any trends"" and ""a full story"" invite a broad reply instead of one scoped comparison.
+- D: ""Whatever stands out"" lets the tool choose the question. That is not a targeted query."
+mcsc,markdown,"A chat tool is told: 36 complaints came from 900 tickets. It replies, ""the complaint rate is about 36%.""
+
+What should you do?",,,,,,2,,"Repeat 36% in the report, because the reply used the number 36 that appears in the table.","Recompute 36 ÷ 900 yourself. That is 4%, so do not forward 36% as the complaint rate.",Round the stated 36% up to 40% so the written report sounds more serious to a manager.,"Delete the metric entirely, because a chat tool must never be asked for a percentage at all.",,6ab765fc667c44a47cc4aa44,0,markdown,"36 ÷ 900 = 0.04, which is 4%, not 36%. The reply treated the count 36 as if it were already a percentage. Recompute the ratio before you repeat it. A wrong rate would send a team chasing a problem about nine times larger than the table shows.
+
+**Why other options are wrong:**
+- A: The digit 36 is in the table, but 36 complaints out of 900 tickets is not a 36% rate.
+- C: Rounding a wrong percentage upward makes the error larger. Serious tone is not a substitute for arithmetic.
+- D: Asking for a percentage is fine. The failure is forwarding the percentage without checking the division."
+mcsc,markdown,"You want the average Wednesday canteen bill. The source file has 14,000 raw bills, one row per bill.
+
+What should you hand the chat tool?",,,,,,4,,"All 14,000 raw rows, plus the prompt ""summarize this"", with Wednesday never named.","A prompt about why students dislike Wednesday food, even though no dislike column exists yet.","Only the file name, plus a prompt that asks the tool to invent a typical canteen bill.","A small Wednesday table grouped to that question, then a prompt that asks for the average.",,6ab765fc667c44a47cc4aa44,0,markdown,"Shrink the data to the question before you ask. The question is the Wednesday average, so the useful input is a small table of Wednesday bills, followed by a prompt that asks for that average. A summary is only as good as the table behind it. Dumping every raw row with ""summarize this"" skips that step.
+
+**Why other options are wrong:**
+- A: Fourteen thousand unsorted rows, with Wednesday never named, is the opposite of shrinking the data to the question.
+- B: Dislike is not in the file. A prompt cannot ask for a cause the columns do not contain.
+- C: A file name is not the data, and inventing a typical bill is not a summary of these bills."
+mcsc,markdown,"A clinic table shows show-up rate by how the visit was booked:
+
+| Group | n | Show-up rate |
+|-------|---|--------------|
+| Booked by phone | 240 | 70% |
+| Booked in the app | 260 | 72% |
+
+People who booked in the app also live closer to the clinic, on average, than people who booked by phone.
+
+Which sentence is the careful one?",,,,,,1,,App booking is associated with a similar show-up rate. This table does not prove the app caused patients to attend.,"The app caused patients to show up, so the clinic should close phone booking before next week.",A 2-point gap on these two large groups is wide enough to treat the app as the reason people attend.,"Living closer cannot be part of the story, so the 2-point gap proves that the app itself works.",,6ab765fc667c44a47cc4aa44,0.5,markdown,"70% and 72% are nearly the same, on large groups (240 and 260). That is a flat spread, not a headline gap. The honest sentence is association, not causation: app bookers show up at a similar rate. The table also cannot prove the app caused attendance, because those patients live closer, and distance was not held constant.
+
+**Why other options are wrong:**
+- B: ""Caused"" is stronger than the table. Closing the phone line is a decision this 2-point gap does not support.
+- C: Two points is a narrow spread. A narrow spread on large groups is a finding that the booking method is not the driver.
+- D: Distance is a plausible other explanation. Ignoring it and calling the gap proof is the causation mistake."
+mcsc,markdown,"Two findings from a bus-pass desk:
+
+- Finding 1: The morning counter converts 58% of 40 enquiries. The evening counter converts 80% of 35 enquiries.
+- Finding 2: Student passes convert at 41% of 520 forms. Staff passes convert at 44% of 480 forms.
+
+Which action fits these two findings?",,,,,,3,,"Act on Finding 1 only. A higher percentage is always the better decision, and a group of about 40 is already a large sample.",Act on Finding 2 only. A 3-point gap between two groups of about 500 is wide enough to redesign the pass desk.,"Act on neither yet. Finding 1 rests on about 40 enquiries, and Finding 2 is only a 3-point gap on large groups.",Act on both this week. Any gap between two percentages is enough to change how the desk works.,,6ab765fc667c44a47cc4aa44,0.5,markdown,"Finding 1 looks dramatic (58% vs 80%) but each counter has only about 35–40 enquiries. A percentage on a small *n* can swing by chance, so it is not ready to act on. Finding 2 sits on large groups, but 41% versus 44% is a flat spread of about 3 points. A flat spread is a real result — that split is not the driver — and it is not a reason to redesign the desk. Set both aside for now.
+
+**Why other options are wrong:**
+- A: About 40 enquiries is a thin sample. A bigger percentage on a thin sample is not automatically the decision.
+- B: Three points on large groups is a narrow spread, not a wide one. Narrow is useful, and it does not justify a redesign.
+- D: Not every gap is actionable. Small samples and flat spreads are both reasons to wait."
+mcmc,markdown,"You paste a small dashboard export as a table. The colours, tile sizes, and on-screen positions are gone.
+
+Which of the following are correct?",,,,,,,,"Name the headline tile and the breakdown in the prompt, because the pasted table no longer shows size or colour.",Skip naming the rows. A pasted table is always labelled the same way a person would label the dashboard.,"Paste fits this small aggregated table. Upload fits a raw file of many thousands of rows, when the tool supports files.","Once the summary sounds fluent, you can skip checking it against the source table.","1, 3",6ab765fc667c44a47cc4aa44,0.5,markdown,"A dashboard exported as a table loses colour, size, and position, so the prompt has to name the headline tile and the breakdown. Paste is the right method for a small table that is already grouped. Upload is the right method for a large raw file, when the tool can read files. Fluency is not a check. Every claim still has to match the source.
+
+**Why other options are wrong:**
+- B: You should not assume the tool will label rows the way you would. The words in the prompt have to carry the meaning the layout used to carry.
+- D: A fluent summary can still invent a cause, round badly, or add a trend the table never showed. Check it before you forward it."
+mcmc,markdown,"The only data given is this:
+
+| Day | Orders |
+|-----|--------|
+| Monday | 22 |
+| Tuesday | 24 |
+| Wednesday | 21 |
+| Thursday | 23 |
+| Friday | 22 |
+
+The reply says: ""Orders are collapsing, and Wednesday's dip happened because the kitchen closed early, so cancel Wednesday service.""
+
+Which judgements are correct?",,,,,,,,The five days sit in a tight band from 21 to 24. This table does not show a collapse.,"""The kitchen closed early"" is a cause this table does not contain.","Wednesday at 21 should lead the report, because the smallest number on a page is always the anomaly.",The call to cancel Wednesday service goes beyond what this five-day table can support.,"1, 2, 4",6ab765fc667c44a47cc4aa44,0.5,markdown,"Overall performance is about 22 orders a day. The macro pattern is flat: every day is between 21 and 24. Wednesday is the low end of that same band, which is ordinary day-to-day noise, not a break in the pattern. The kitchen closure is not in the table, so it is an invented cause. Cancelling a service is a decision this table cannot justify.
+
+**Why other options are wrong:**
+- C: Being the smallest value is not enough. An anomaly has to break the pattern. 21 sits inside 21–24, so it should not be written up as a spike or a collapse."
+mcmc,markdown,A table lists weekly book issues by genre for 10 weeks. Which of the following are sound steps in a prompt chain?,,,,,,,,"Next, ignore whatever the tool just answered, and ask it to invent five new genres with prices.","First ask this scoped question: across all 10 weeks, are total book issues flat, rising, or falling?","Open with ""Analyze this data"" and stop after that one reply, because a chain means a single long prompt.","After Fiction is called the largest, ask if any one Fiction week sits far from its other weeks.","2, 4",6ab765fc667c44a47cc4aa44,1,markdown,"A prompt chain is a sequence of connected questions. Each one uses the previous answer. Start with the shape over time (flat, rising, or falling). If Fiction comes back as the largest genre, the next question stays on Fiction and asks whether one week is unusual against Fiction's own weeks. That is the trend step, then a follow-up the answer made relevant.
+
+**Why other options are wrong:**
+- A: New genres and prices are not in the table. A later prompt should narrow the last answer, not abandon the data.
+- C: One open prompt is the vague request a chain is meant to replace. A chain is several prompts, each built on the reply before it."
+mcmc,markdown,Which statements about a decision-ready memo are correct?,,,,,,,,"The headline is one finding you have already checked, and every number in the memo can be traced to the source.","""Improve the experience"" is a complete recommendation, because a memo should stay broad so the team can interpret it later without naming a metric.","If two things move together, the memo should say one caused the other, so the reader has a clear villain.","The recommendation names one change to run next, and the proposed check names the metric that will show whether it worked.","1, 4",6ab765fc667c44a47cc4aa44,1,markdown,"A decision-ready memo is built only from claims that have already been checked. The headline is one verified finding, and every number points back to a row you were given or recomputed. The recommendation is one specific change a team can run next, not a slogan. The proposed check says how you will know it worked, including which metric you will compare.
+
+**Why other options are wrong:**
+- B: ""Improve the experience"" does not say what to build or run. A recommendation has to be specific and testable.
+- C: Two things moving together is correlation. The memo should say ""associated with"" unless there is real evidence of causation. Naming a villain the table did not prove is an invented cause."
+subjective,markdown,"**What should the group repeat next month?**
+
+A mixed group of students is running a free weekend session. Classmates from any course can join. The subject of the session does not matter.
+
+They invited people in four ordinary ways. Some people showed up. Some of those came back the next weekend. The group meets on Monday and must choose **one** change for next month. They do not have a budget table, and they do not know why a person stayed home.
+
+A classmate pasted the tables into a chat tool and wants the group to adopt the reply below. You will check that reply against the tables, then write the note the group should actually use.
+
+You may use a chat tool to draft. Every percentage in your note must be worked out by you. Use only the tables and the timing note.
+
+### Table 1 — Who was invited, and who showed up
+
+| How they heard | Invited | Showed up |
+|----------------|---------|-----------|
+| A teacher mentioned it in class | 400 | 280 |
+| A poster near the gate | 50 | 10 |
+| A message in the class group | 250 | 100 |
+| A friend asked them in person | 300 | 210 |
+
+Show-up rate = showed up ÷ invited.
+
+### Table 2 — Of the people who showed up, who came back the next weekend
+
+| How they heard | Showed up (count) | Came back next weekend |
+|----------------|-------------------|------------------------|
+| A teacher mentioned it in class | 280 | 84 |
+| A poster near the gate | 10 | 4 |
+| A message in the class group | 100 | 50 |
+| A friend asked them in person | 210 | 63 |
+
+Come-back rate = came back ÷ showed up.
+
+### Table 3 — Class-group invites, week by week
+
+| Week | People invited in the class group |
+|------|------------------------------------|
+| 1 | 40 |
+| 2 | 42 |
+| 3 | 44 |
+| 4 | 80 |
+| 5 | 44 |
+
+These five weeks are the same 250 class-group invites as in Table 1.
+
+### Timing note
+
+The poster is put up at the gate on Friday at 6 pm, after classes have ended. Most students have already left. Nobody is asked to redesign the poster.
+
+### The reply your classmate wants the group to adopt
+
+> The class-group message is the best way to invite people: 100 showed up out of 250, so the show-up rate is 100%. The poster failed, at 10%, because the poster looks dull — stop using posters. People from the class group came back more, which proves the class group causes people to return, so invite everyone only through the class group. Week 4 had 80 class-group invites, so invites doubled this month. Improve attendance.
+
+### What to submit
+
+Write one note in plain language. A classmate who has not seen these tables should be able to follow it. Use these four parts.
+
+1. **Corrected rates.** For each of the four ways of inviting people, write the show-up rate and the come-back rate you calculated. Then write the two rates in the chat reply that are wrong, and the rates you got instead.
+2. **What you would not do.** Name the actions in the reply you would not let the group take. For each one, say the plain reason: the count is too small, the gap is too narrow to matter, it is one unusual week, the reply invents a reason, or two things happened together but one has not been shown to cause the other.
+3. **The one change to try.** One specific change for next month. It must be something the group can actually do. Do not write only ""improve attendance."" Do not choose a change the tables cannot support.
+4. **How you will know.** What you will compare, for how long, and which number will tell the group whether the change worked.
+
+### Submission instruction
+
+- Type the answer in the answer box.",,,,,,,,,,,,,6ab765fc667c44a47cc4aa44,0.5,markdown,"### Rates
+
+Show-up (Table 1):
+
+- Teacher in class: 280 ÷ 400 = 70%
+- Poster near the gate: 10 ÷ 50 = 20%, not 10%
+- Class-group message: 100 ÷ 250 = 40%, not 100%
+- Friend in person: 210 ÷ 300 = 70%
+- Overall: (280 + 10 + 100 + 210) ÷ (400 + 50 + 250 + 300) = 600 ÷ 1,000 = 60%
+
+Come-back (Table 2):
+
+- Teacher: 84 ÷ 280 = 30%
+- Poster: 4 ÷ 10 = 40%, on only 10 people
+- Class group: 50 ÷ 100 = 50%
+- Friend: 63 ÷ 210 = 30%
+
+Weeks (Table 3): 40, 42, 44, 80, 44. They sum to 250. Four weeks sit between 40 and 44. Week 4 is one high week. The month did not double.
+
+### Solution
+
+**Corrected rates.** Teacher and friend both show up at 70%, on 400 and 300 invites. Those two are close. The class group shows up at 40% on 250 invites, a wide gap against the 70% ways. The poster shows up at 20% on only 50 invites. Come-back is 50% for the class group (50 of 100), against 30% for the teacher (84 of 280) and 30% for a friend (63 of 210).
+
+The reply's 100% and 10% are both wrong. 100 ÷ 250 = 40%. 10 ÷ 50 = 20%. The counts 100, 250, 10, and 50 are real. The percentages made from them are not. ""Week 4 had 80"" is a real count used to claim the month doubled, which the other four weeks do not support.
+
+**What not to do.**
+
+- Do not stop the posters because they ""look dull."" That reason is not in the tables. The poster goes up at 6 pm after classes, which is a timing fact, not a design fact. Fifty invites and ten arrivals are also too small a count to ban the method.
+- Do not drop the teacher mention or the friend invite. Both show up at 70% on large counts.
+- Do not say the class group causes people to come back. Coming back more often (50% versus 30%) only shows the two things happened together.
+- Do not treat Week 4 as a new normal, and do not staff or scale the class group because of that one week.
+- ""Improve attendance"" is not a change.
+
+**The one change to try.** For the next four weekends, send one reminder on Saturday morning to people who were invited in the class group and have not shown up yet. Leave the teacher mention and the friend invite in place. Leave the poster in place until there is a larger count.
+
+Other specific tests are acceptable if they aim at the class group's 40% show-up, name what the group will do, and do not ban a small poster count or call come-back a proven cause.
+
+**How you will know.** Compare the class-group show-up rate over those four weekends with the current 40%. Also watch the come-back rate, so a higher show-up is not only people who never return.
+
+### Alternative approaches
+
+- Work out the eight rates on paper first. Ask a chat tool to turn only those checked rates into sentences, then delete any sentence you cannot point to in the tables.
+- Or underline the classmate's reply first: true count, wrong rate, made-up reason, one unusual week, ""this caused that."" Write the Monday note only after that pass."

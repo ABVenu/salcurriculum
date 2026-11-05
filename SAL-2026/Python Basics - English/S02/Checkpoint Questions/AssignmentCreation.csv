@@ -1,0 +1,55 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,**What is an operator in Python?**,,,,,,2,,A variable name used to store text values,A special symbol that performs an operation on one or more values (operands),A comment line starting with the `#` symbol,A function that displays output on the screen,,6ada07d286571c571fe95588,0,markdown,"Operators are symbols like `+`, `*`, and `/` that tell Python to calculate, compare, or combine values — turning stored data into useful results."
+mcsc,markdown,**What is the result of `17 // 5` in Python?**,,,,,,2,,`3.4`,`3`,`2`,`12`,,6ada07d286571c571fe95588,0,markdown,"Floor division (`//`) divides two numbers and keeps only the whole-number quotient — 5 fits into 17 exactly three times, so the answer is `3`."
+mcsc,markdown,**What is the result of `17 % 5` in Python?**,,,,,,3,,`3`,`3.4`,`2`,`0`,,6ada07d286571c571fe95588,0,markdown,The modulus operator (`%`) gives the remainder after division — 17 ÷ 5 leaves a remainder of `2`.
+mcsc,markdown,**What is the result of `5 ** 2` in Python?**,,,,,,2,,`10`,`25`,`7`,`52`,,6ada07d286571c571fe95588,0,markdown,"The `**` operator performs exponentiation — `5 ** 2` means 5 raised to the power of 2 (5 × 5), which equals `25`. It is used for squaring sides when calculating area."
+mcsc,markdown,**A customer buys 3 kg of rice at ₹55/kg and 1 kg of dal at ₹90/kg. What is the total bill?**,,,,,,2,,`₹165`,`₹255`,`₹345`,`₹90`,,6ada07d286571c571fe95588,0,markdown,"Rice cost is `3 × 55 = 165`, dal cost is `1 × 90 = 90`, and adding both gives `165 + 90 = 255`."
+mcsc,markdown,**What is the value of `10 + 2 * 3` in Python?**,,,,,,2,,`36`,`16`,`20`,`30`,,6ada07e38290112a2f020340,0,markdown,"Python follows operator precedence — multiplication (`*`) runs before addition (`+`), so `2 * 3 = 6` first, then `10 + 6 = 16`."
+mcsc,markdown,**What is the value of `(10 + 2) * 3` in Python?**,,,,,,3,,`16`,`26`,`36`,`6`,,6ada07e38290112a2f020340,0,markdown,"Parentheses `()` force the addition inside brackets to run first — `10 + 2 = 12`, then `12 * 3 = 36`."
+mcsc,markdown,"**A student scored 42 in Physics, 38 in Chemistry, and 45 in Biology. What is the total marks?**",,,,,,3,,`115`,`120`,`125`,`41.66`,,6ada07e38290112a2f020340,0,markdown,Add all three subject marks using the `+` operator — `42 + 38 + 45 = 125`. The average (`125 / 3`) would be a separate calculation using division.
+mcsc,markdown,**Why do programs need conditional statements?**,,,,,,2,,To store values in variables without using operators,To run different blocks of code based on whether a condition is True or False,To convert integers into strings automatically,To make Python ignore indentation errors,,6ada07edaa43527160218e99,0,markdown,"Conditionals let a program decide — for example, whether a student passes or fails, or whether a person is old enough to vote — instead of doing the same thing every time."
+mcsc,markdown,"**What will this program print when `marks = 28`?**
+
+```python
+if marks >= 35:
+    print(""Congratulations! You have passed."")
+print(""Result processing complete."")
+```",,,,,,2,,`Congratulations! You have passed.` only,`Result processing complete.` only,"Both lines, one after the other",Nothing — the program stops with an error,,6ada07edaa43527160218e99,0,markdown,"`28 >= 35` is False, so the indented line inside `if` is skipped. The last `print()` is outside the `if` block and always runs."
+mcsc,markdown,"**What will this program print when `marks = 42`?**
+
+```python
+if marks >= 35:
+    print(""Pass"")
+else:
+    print(""Fail"")
+```",,,,,,1,,`Pass`,`Fail`,Both `Pass` and `Fail`,Nothing,,6ada07edaa43527160218e99,0,markdown,"`42 >= 35` is True, so the `if` block runs and `else` is skipped. Exactly one of the two blocks runs — never both."
+mcsc,markdown,"**A student has `marks = 78`. Using the grade bands below, which grade is printed?**
+
+```python
+if marks >= 90:
+    print(""Grade: A"")
+elif marks >= 75:
+    print(""Grade: B"")
+elif marks >= 60:
+    print(""Grade: C"")
+else:
+    print(""Grade: F — Fail"")
+```",,,,,,2,,`Grade: A`,`Grade: B`,`Grade: C`,`Grade: F — Fail`,,6ada07edaa43527160218e99,0,markdown,"Python checks conditions from top to bottom and stops at the first True match. `78 >= 90` is False, but `78 >= 75` is True — so Grade B is printed."
+mcsc,markdown,**Which statement correctly describes `=` and `==` in Python?**,,,,,,2,,Both `=` and `==` are used to compare two values for equality,`=` assigns a value to a variable; `==` checks whether two values are equal,`==` assigns a value; `=` checks equality inside an `if` condition,Neither symbol can be used inside conditional statements,,6ada07edaa43527160218e99,0,markdown,"`age = 18` stores 18 in `age`, while `age == 18` asks ""is age equal to 18?"" and gives True or False — using `=` inside `if` causes a SyntaxError."
+mcsc,markdown,**What role does indentation play in Python conditional statements?**,,,,,,2,,It is optional decoration that does not affect which code runs,"It defines which lines belong inside an `if`, `elif`, or `else` block",It converts strings into numbers before a condition is checked,It replaces the need for a colon `:` at the end of an `if` line,,6ada07f733d4473915c0d2f2,0,markdown,Python uses leading spaces (usually 4 per level) instead of curly braces — indented lines run only when their condition is True; lines with less indentation are outside the block.
+mcsc,markdown,"**What will this program print when `number = 17`?**
+
+```python
+if number % 2 == 0:
+    print(number, ""is even."")
+else:
+    print(number, ""is odd."")
+```",,,,,,2,,`17 is even.`,`17 is odd.`,Both messages,An error because `%` cannot be used in a condition,,6ada07f733d4473915c0d2f2,0,markdown,"`17 % 2` gives remainder `1`, and `1 == 0` is False — so the `else` block runs and prints that 17 is odd."
+mcsc,markdown,"**What will this program print when `marks = 33` and `passing_marks = 35`?**
+
+```python
+if marks >= passing_marks:
+    print(""Result: PASS"")
+else:
+    print(""Result: FAIL"")
+```",,,,,,2,,`Result: PASS`,`Result: FAIL`,Both messages,Nothing,,6ada07f733d4473915c0d2f2,0,markdown,"`33 >= 35` is False, so the `else` block runs. Storing `passing_marks` in a variable makes the pass rule easy to update without changing the comparison logic."

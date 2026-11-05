@@ -1,0 +1,143 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,"A growth lead pastes the **same 120-word email paragraph** into a Google search headline field, a LinkedIn post, and a WhatsApp broadcast.
+
+What mistake is this?",,,,,,2,,The paragraph is too long for any digital channel.,"The team skipped **multichannel architecture**—same words, but each channel needs different structure, length, and behaviour fit.",AI cannot rewrite copy once an email draft exists.,"Search ads must always use video, so text paste is invalid.",,6ae051913a5e1b67a8a7a608,0,markdown,"**Ctrl+C marketing** ignores that LinkedIn is casual scroll, search is high intent, and WhatsApp is intimate and low tolerance. One proposition can stay; the **communication architecture** must change per channel.
+
+**Why other options are wrong:**
+- A: Length alone is not the core error—the same long block is wrong even where length limits differ.
+- C: Humans and AI can adapt copy; the failure is strategic paste, not tool limits.
+- D: Search text ads are standard; video is not required."
+mcsc,markdown,"You are briefing AI for a **WhatsApp** replenishment nudge to opted-in buyers.
+
+Which guardrail set matches how the channel works?",,,,,,3,,"Open with “Dear Valued Customer,” use two CTAs, and aim for 200 words.","Lead with a three-paragraph company history, then the offer.","Stay near **50 words**, **one CTA**, and **no formal salutation**.",Use the same hook as a LinkedIn thought-leadership post without changes.,,6ae051913a5e1b67a8a7a608,0,markdown,"WhatsApp is high attention but low tolerance: short, contextual, actionable—or users block you. Class guardrails: ~50 words, one CTA, no “Dear Valued Customer” openings.
+
+**Why other options are wrong:**
+- A: Formal tone and dual CTAs fight the channel norms taught in notes.
+- B: Company history first violates customer-out and channel brevity.
+- D: LinkedIn scroll behaviour differs from WhatsApp intimacy."
+mcsc,markdown,"Someone is **casually scrolling** the LinkedIn feed between meetings.
+
+What is the **first job** of the opening line?",,,,,,4,,List every product feature in bullet form.,Paste the full pricing table so finance can compare vendors.,Ask them to book a 60-minute demo in the first sentence.,**Capture attention** before they flick past the post.,,6ae051913a5e1b67a8a7a608,0,markdown,"On LinkedIn feed, the reader is in social scroll mode. Copy must earn a pause—insight or tension—not an immediate hard close or spec sheet.
+
+**Why other options are wrong:**
+- A: Feature dumps read like ads and lose scrollers.
+- B: Pricing tables belong later in journey, not as feed hook.
+- C: Hard demo asks before relevance fail the “why should I stop scrolling?” test."
+mcsc,markdown,"You receive an AI draft that reads smoothly and uses impressive adjectives. Before you tweak wording for “professional” tone, what should you check **first** in the editing hierarchy?",,,,,,1,,Whether every factual claim is **true** and verifiable.,Whether the font matches the brand slide template.,Whether each paragraph has exactly three sentences for symmetry.,Whether the CTA button colour is on-brand.,,6ae051913a5e1b67a8a7a608,0,markdown,"Edit order taught: **True** (fact) → Right (strategy) → Relevant → Logical → Clear → On-brand. Polishing tone before facts risks shipping invented stats or wrong product details.
+
+**Why other options are wrong:**
+- B, D: Visual design is not the first editorial gate for copy truth.
+- C: Symmetrical paragraphs are an “AI smell” pattern, not a primary QA step."
+mcsc,markdown,"An SDR’s LinkedIn InMail opens: *“Hi Rahul, we provide industry-leading digital transformation solutions.”*
+
+Why will this underperform compared with a stronger InMail?",,,,,,2,,InMail cannot include the recipient’s first name.,It leads with **vendor credentials** instead of **why this person** and a concrete pain tied to their context.,LinkedIn blocks messages longer than 12 words.,IT buyers never read InMail on mobile devices.,,6ae051913a5e1b67a8a7a608,0,markdown,"Strong InMail answers “why **me**?” with observed context (e.g., multi-location expansion) and a real pain—not generic “industry-leading” self-description.
+
+**Why other options are wrong:**
+- A: Personalisation can include name; the flaw is shallow personalisation.
+- C: No such universal 12-word block exists in the lesson.
+- D: Device habit is not the lesson’s diagnosis for this weak opener."
+mcsc,markdown,"A nurture series sends five emails. Each email’s only message is **“Book a demo.”**
+
+What best describes the series?",,,,,,2,,"A full nurture arc covering problem, education, differentiation, proof, and action.","**Persistence**, not nurture—readers never get story progression.",Optimal WhatsApp strategy for cold audiences who never opted in.,The required structure for every B2C abandoned-cart flow.,,6ae051913a5e1b67a8a7a608,0,markdown,"Nurture is a **story**: problem relevance → education → differentiation → proof → action. Five identical demo asks skip the middle and feel brochure-like.
+
+**Why other options are wrong:**
+- A: That arc is what is missing, not what was built.
+- C: WhatsApp needs opt-in and different guardrails; this describes email misuse.
+- D: Abandoned-cart and nurture have different jobs; repeated demo CTAs alone are not “required.”"
+mcmc,markdown,"You are writing a **goal-driven prompt** for a problem-aware outbound email to IT heads at companies with 500+ employees, promoting unified workforce security.
+
+Which elements should appear in the prompt?
+
+Select all that apply.",,,,,,,,"**Role**, **audience**, **proposition**, **journey stage**, **channel**, and **constraints** (banned phrases, no fake offers).",A single line: “Write an email about cybersecurity.”,Instruction to open with the **customer’s situation** rather than company history.,"A **low-friction CTA** (e.g., checklist or short read), not a hard multi-year contract ask.","1, 3, 4",6ae051913a5e1b67a8a7a608,0.5,markdown,"Strong prompts carry marketing context (WHO–DON’T style fields), customer-out framing, and channel-appropriate CTAs. Vague one-liners produce generic, risky drafts.
+
+**Why other options are wrong:**
+- B: Vagueness is the anti-pattern explicitly contrasted with the reference outbound email prompt."
+mcmc,markdown,"A teammate says an AI paragraph “sounds fine.” You are scanning for **AI smell**.
+
+Which flags should you treat as real problems?
+
+Select all that apply.",,,,,,,,Opening with *“In today’s rapidly evolving digital landscape…”* and a neat three-bullet symmetry every time.,Repeated adjectives such as *“seamless seamless platform.”*,"A specific, sourced product limit copied from approved documentation.",A confident statistic (*“99% of IT leaders agree…”*) with **no source** in the draft.,"1, 2, 4",6ae051913a5e1b67a8a7a608,0.5,markdown,"AI smell includes formulaic intros, repetition, buzzword stacks, and **invented or unsupported facts**. Verified documentation-backed limits are what you want to keep.
+
+**Why other options are wrong:**
+- C: Sourced, approved product detail is evidence—not a smell flag."
+mcmc,markdown,"You adapt one core proposition for **search**, **WhatsApp**, and **sales calls**.
+
+Which structural instructions are **aligned** with the channel architectures from class?
+
+Select all that apply.",,,,,,,,**Search ad concept:** map **searcher intent → benefit → action**.,"**WhatsApp:** **context → value → action**, staying short with one CTA.",**Call opening:** a word-for-word monologue the rep must read without pausing for discovery.,"**Call framework:** earn seconds after hello, then include **discovery questions**—not a theatre script.","1, 2, 4",6ae051913a5e1b67a8a7a608,1,markdown,"Channel structure is architecture: search respects intent; WhatsApp is contextual and tight; calls use permission, discovery, value, next step—not recited monologues.
+
+**Why other options are wrong:**
+- C: Class explicitly warns against monologue scripts; discovery is required."
+mcmc,markdown,"Before external publish, you run a **structured fact-check** on an AI-written landing page.
+
+Which practices match the taught workflow?
+
+Select all that apply.",,,,,,,,Use **source hierarchy**: approved product docs and official site before trusting confident model tone.,"Treat **“fastest,” “only,” or uptime guarantees** as claims that need verification or deletion.",Assume a citation URL is valid if the model formatted it like a real link—**open and check** each link.,Skip number checks if the tone sounds professional and the grammar is clean.,"1, 2, 3",6ae051913a5e1b67a8a7a608,1,markdown,"Fact-check layers cover numbers, superlatives, product features, dates, and links. Hierarchy and human verification beat fluency. Tone and grammar do not replace evidence.
+
+**Why other options are wrong:**
+- D: “Sounds professional” is exactly how invented facts ship; numbers and superlatives still need a ledger pass."
+subjective,markdown,"**Multichannel copy sprint for FitFataak (AI-assisted, human-edited)**
+
+### Context
+
+**FitFataak** is a protein-rich snack positioned as **evening hunger solved without giving up taste or piling on empty calories**, with a distinctive **protein bhujia** flavour. You are **not** redoing positioning or GTM from earlier sessions—you are producing **usable channel assets** from the spine below.
+
+**Spine (use consistently):**  
+*Evening hunger solved without compromising taste or piling on empty calories.*
+
+**Audience for this sprint:** urban professionals **25–40** who already know snack brands but have **not** bought FitFataak; they are **problem-aware** (4 p.m. hunger, guilt about fried namkeen) but **brand-unaware**.
+
+Use any AI chat tool you already have access to. Show your prompts and paste outputs (or redacted excerpts). You own **truth, tone, and publishability**.
+
+### What you must produce (in one Google Doc)
+
+1. **WHO–DON’T brief (your words):** Fill **WHO, WHY, WHAT, WHERE, WHEN, DO, DON’T** for **one** asset: a **cart-abandonment email** (user added FitFataak to cart, left without paying). Keep DON’T concrete (banned words, no unverified health claims, no competitor names).
+
+2. **Two-channel generation:** Using your brief plus the spine, prompt AI for **(a)** that email (≤120 words, customer-out opening, one primary CTA) and **(b)** one **WhatsApp** message to the same segment (respect ~50 words, one CTA, no formal salutation). After each draft, add **one sentence** explaining what you changed because of the **channel** (not just word count).
+
+3. **Iteration loop on LinkedIn:** Prompt for **five** LinkedIn feed hooks on the evening-snack tension. Mark your **top two**. Run a **directed** second prompt (not “make it better”) that rewrites those two for this audience with a stated constraint (e.g., no fear-based guilt, max 14 words). Then run a **sceptical reader** prompt on the rewritten pair and keep **only one** hook you would actually post—with one line on why.
+
+4. **Remove AI smell:** Paste this AI paragraph into your doc unchanged, then use a structured edit (your words or an adapted “remove AI smell” style prompt) and show the **after** version in **two sentences max** plus a **three-item** list of the most important edits (e.g., buzzword removed, invented stat flagged, customer-out restored):
+
+   > In today’s rapidly evolving wellness landscape, FitFataak is thrilled to announce a revolutionary, best-in-class protein snack that seamlessly unlocks unprecedented health outcomes. Trust us—99% of professionals already made the switch. The future of snacking starts now.
+
+5. **Mini fact-check ledger:** From your **email draft in part 2**, list every **number, superlative, or health-style claim** in a small table with columns **Claim | Verified / Unverifiable / Delete** and one line on what source tier you would use (docs, site, or delete). Add **one** human nuance sentence (Gurgaon–Goa-style specificity) that AI did not invent but you would add before send.
+
+### Submission instruction
+
+1. Open a new browser tab. In the address bar type **`doc.new`** and press **Enter**. A blank Google Doc opens in your Google account.
+2. Complete all five parts in that doc. Include screenshots of AI chats where helpful (redact personal data).
+3. Click the blue **Share** button (top right).
+4. Under **General access**, open the dropdown and select **Anyone with the link**. Keep the role as **Viewer**.
+
+<img src=""https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/nontech-pm-dm/session07/s07-assignment-share-anyone-with-link.png?v=20261017"" width=""300"" alt=""Google Doc share dialog with General access set to Anyone with the link"" />
+
+5. Click **Share** again if needed, then click **Copy link**.
+
+<img src=""https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/nontech-pm-dm/session07/s07-assignment-copy-link.png?v=20261017"" width=""300"" alt=""Google Doc share dialog highlighting the Copy link button"" />
+
+6. Paste that link into the **answer text box** on the learning platform and submit.",,,,,,,,,,,,,6ae051913a5e1b67a8a7a608,0.5,markdown,"### Ideal walkthrough
+
+1. **WHO–DON’T:** WHO = urban pros 25–40, cart abandoners, problem-aware / brand-unaware. WHY = 4 p.m. hunger vs fried default. WHAT = protein bhujia, taste without empty calories. WHERE = email. WHEN = post-abandon, same day or next day. DO = low-friction return to cart or short read. DON’T = “best-in-class,” unverified “high protein %,” competitor shots, fake urgency discounts.
+
+2. **Two-channel:** Email structure should follow subject/hook/value/proof/CTA pattern at appropriate length; WhatsApp must be **context → value → action**, ~50 words, one CTA, no “Dear Customer.” Channel explanation sentences must cite **behaviour** (inbox intent vs intimate chat), not only “shorter.”
+
+3. **Iteration:** First prompt produces variety; second prompt names **which options** and **diagnosis** (generic, guilt, product-heavy). Sceptical-reader step should call out distrust triggers; final single hook should be believable and on-brand for FitFataak.
+
+4. **AI smell edit:** After text should drop thrilled/revolutionary/unlock/99% trust line; replace with concrete evening-snack situation. Ledger should flag **99%** and **best-in-class / unprecedented** as delete or unverifiable unless sourced.
+
+5. **Fact-check:** Any “protein per serving” or “healthiest” line from the model without pack label → Unverifiable or Delete. Human nuance example: specific desk scenario (“metro ride home at 7 p.m.”) without fake stats.
+
+### Alternative approaches
+
+- Students may use ChatGPT, Claude, Gemini, or similar; tool choice does not matter if prompts and outputs are visible.
+- Part 2 may include a **marketplace listing** instead of WhatsApp only if the student swaps part (b) to listing and explains title/bullets/CTA architecture—but default rubric expects WhatsApp as specified.
+
+### What fails the task
+
+- Same paragraph pasted for email and WhatsApp with no structural adaptation.
+- WhatsApp over 50 words, formal salutation, or multiple CTAs.
+- Part 3 stops at “make it punchier” with no sceptical-reader step.
+- Part 4 leaves invented **99%** stat in the “after” copy.
+- Part 5 empty or marks all claims Verified without source reasoning.
+- Doc link not set to **Anyone with the link** can view."

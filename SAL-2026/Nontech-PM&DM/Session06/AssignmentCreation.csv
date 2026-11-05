@@ -1,0 +1,115 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,"Someone types ""high protein snacks online"". A snack brand pays to appear at the top of that search.
+
+Which job is this?",,,,,,2,,"Generate demand. The person was only scrolling, so the brand had to create the want before any search box opened, and a paid search result cannot do that job.","Capture demand. The person was already searching, and the brand paid to appear on that search.",Retention. A search means they already bought the snack and are coming back to reorder.,"Account-based marketing. One search is one company, so the message must change for that account's buying stage.",,6acca1c23a62462d15f0e2ea,0,markdown,"Capture demand means showing up where people are already looking. This person typed a product search. Paying to stand at the top of that keyword is capture. Generate demand is for people who are not searching yet. Retention is a later purchase by someone who already bought. Account-based marketing changes the message for each target company. One snack search is none of those.
+
+**Why other options are wrong:**  
+- A: The person typed a query. They were not only scrolling. Creating a want in someone who is not looking is generate demand.
+- C: A search does not prove a past purchase. Reorder journeys are retention.
+- D: Account-based marketing is a company-by-company plan for a high-value sale, not a keyword bid."
+mcsc,markdown,"A team’s first line in the plan is: ""Let us run ads on Meta.""
+
+They have not yet said who the buyer is, or where that buyer already spends time.
+
+What should they do?",,,,,,4,,"Start on Meta. The logo is famous, and a famous logo is the right first choice for every buyer.","Start on Meta, because one login covers Instagram, Facebook, WhatsApp, and Threads, so every kind of attention is already chosen.","Start on LinkedIn if the buyers are 14 to 18, because LinkedIn is where teenagers spend the working day.","Ask who the customer is and where they already pay attention during a normal day, then pick the channel.",,6acca1c23a62462d15f0e2ea,0,markdown,"The channel comes after the customer. First ask who they are and where they already give attention. Then pick the place that matches that behaviour. A famous logo is not a strategy. Meta is a family of products, not one behaviour. LinkedIn is a poor room for 14-to-18-year-olds, because that room is full of working professionals.
+
+**Why other options are wrong:**  
+- A: Fame of a platform does not tell you whether the buyer is there.
+- B: Instagram, Facebook, WhatsApp, and Threads are different behaviours. One company login does not choose them all.
+- C: Teen buyers are not the LinkedIn audience. That channel fails the audience test for ages 14 to 18."
+mcsc,markdown,"The product is a pair of headphones priced at ₹500. A teammate wants callers to phone every possible buyer.
+
+What is the right call?",,,,,,1,,"No. Value and scale fail: one sale is ₹500, and a caller cannot reach the crowd you would need.","Yes. Call every possible buyer. A human conversation is the right motion at every price, including ₹500, because qualification matters more than the value of one sale and more than how many calls a person can make in a day.","Yes, but only on a dating app, because people there are already in a buying mood for headphones.","No. Headphones need a long essay, so the only test that fails is complexity.",,6acca1c23a62462d15f0e2ea,0,markdown,"Value is what one conversion is worth. Scale is how many conversations you need, and how many a person can actually make. A ₹500 headphone cannot pay for a call to every buyer. The product is simple, so complexity is not the reason to drop calling. A dating app is the wrong behaviour for this purchase. The same call can make sense for a ₹30 lakh security contract, where one conversation is worth a lot and the list of buyers is short.
+
+**Why other options are wrong:**  
+- B: A human call is expensive. It does not fit a cheap product that needs a very large number of buyers.
+- C: People open a dating app for a specific purpose and skip ads. That is not headphone intent.
+- D: A ₹500 headphone is easy to understand. Calling fails on value and scale, not because the product is hard to explain."
+mcsc,markdown,"A security buyer has never heard of the brand and has not felt the problem yet.
+
+Which line fits this stage?",,,,,,3,,Book a demo today.,"Compare deployment time, coverage, and the commercial impact, then sign.",Name the problem: most breaches begin with a compromised user.,"Open the pricing page, read the FAQ, and talk to sales before you decide.",,6acca1c23a62462d15f0e2ea,0,markdown,"This person is at awareness. The question in their mind is ""Why care?"" The message should name the problem and ask them to engage, not to buy. ""Most breaches begin with a compromised user"" does that. A demo, a pricing page, a comparison of deployment time, and a sales conversation belong at the decision stage, when the question is ""Why now, and why with you?""
+
+**Why other options are wrong:**  
+- A: ""Book a demo"" skips the problem. It is a decision ask sent to someone who is not ready.
+- B: Comparing deployment time, coverage, and money is a decision message.
+- D: Pricing, an FAQ, and a sales talk remove risk for someone who is already close to buying."
+mcsc,markdown,"Two campaigns:
+
+- Campaign A: cost to acquire one customer is ₹500. It brought 10,000 customers. 70% never buy again.
+- Campaign B: cost to acquire one customer is ₹700. It brought 8,000 customers. 60% buy again.
+
+Which reading is right?",,,,,,2,,"Pick A. The cost is ₹500 instead of ₹700, and 10,000 customers is more than 8,000, so A is the better business even if most of those customers never buy again.",You cannot pick from the first-sale cost alone. Repeat purchase and the money a customer pays over time can make B the better business.,"Pick A, because 70% is a bigger number than 60%, so A keeps more people.","They are equal. Both campaigns acquired thousands of people, so later purchases do not change the choice.",,6acca1c23a62462d15f0e2ea,0.5,markdown,"The first-sale cost is only the door. Campaign A looks cheaper and bigger, but 70% of those customers never return. Campaign B costs more per first sale and starts with fewer people, yet 60% buy again. Over time, repeat purchases and lifetime value can make B worth more. A bigger percentage is not automatically a better retention rate: 70% here is the share who leave, not the share who stay.
+
+**Why other options are wrong:**  
+- A: A lower first-sale cost and a higher headcount ignore the customers who never come back.
+- C: 70% is the share who never buy again. It is not a retention rate, and it is worse than B’s repeat rate.
+- D: Later purchases are the point of lifetime value. The two campaigns are not equal just because both acquired thousands."
+mcsc,markdown,"A team turns on LinkedIn, Google, email, and sales on Monday. The landing page is not built, and tracking is not on.
+
+What is the main risk?",,,,,,4,,"There is no risk. A launch is supposed to turn every channel on together on day one, and a missing page can be added after the traffic arrives.","Ad platforms will permanently ban the brand for changing campaign settings later, so the Monday launch can never be edited.","The cost to acquire a customer can never fall after the first week, so waiting is the only way to protect that number.","Wait. If the page and the tracking are not ready, the first demand arrives before you can measure it or hand it to anyone.",,6acca1c23a62462d15f0e2ea,0.5,markdown,"A launch is a sequence, and the first phase is the foundation: the page, tracking, and a place for the lead to go. If those pipes are missing, people can arrive and you still learn nothing and close nothing. Platforms do not permanently ban a brand for changing settings later. The cost to acquire a customer can still be improved after week one.
+
+**Why other options are wrong:**  
+- A: Turning every channel on before the page and the tracking exist wastes the first demand.
+- B: Changing settings later is normal optimisation. It is not a permanent ban.
+- C: Acquisition cost is not frozen after week one. Message tests and budget shifts are how you improve it."
+mcmc,markdown,"A one-page go-to-market snapshot is worth reopening.
+
+Which items belong on that page?
+
+Select all that apply.",,,,,,,,"The segment you are already pursuing, and the specific pain that this segment feels each afternoon.","A shopping list of every channel you can name, including ones the customer never uses, so the plan cannot miss a logo.","The job of each chosen channel, plus the one number you will use to judge progress.","A new positioning line written on the spot, replacing the line you already locked.","1, 3",6acca1c23a62462d15f0e2ea,0.5,markdown,"The page records the segment, the problem, and the positioning you already have. It then adds where you will show up, the job of each channel, the activities, and one primary measure of progress. A list of every possible logo is a shopping list, not a plan. This page does not invent a new positioning line.
+
+**Why other options are wrong:**  
+- B: More channels are not automatically better. A channel has to match the buyer’s behaviour.
+- D: Positioning is an input you already locked. The snapshot uses it. It does not replace it."
+mcmc,markdown,"A manager says, ""We got 2 million impressions."" The team wants a number that shows where the plan is leaking.
+
+Which readings do that?
+
+Select all that apply.",,,,,,,,"Two million impressions, and nothing else.","Many people saw the ad, and almost nobody clicked.","Reach went up in week one, which by itself proves the whole business is healthy.","The first sale looks cheap, and most of those buyers never come back.","2, 4",6acca1c23a62462d15f0e2ea,0.5,markdown,"A diagnostic number tells you where the system leaks. High impressions and low clicks point to a message or an audience mismatch. Cheap acquisition and poor retention point to the product or the promise after the first sale. Impressions alone, or a rise in reach alone, can be large and still explain nothing. Those are vanity numbers.
+
+**Why other options are wrong:**  
+- A: A crowd size with no next step does not say whether the message, the page, the leads, or the product failed.
+- C: More reach is an awareness signal. It does not prove consideration, sales, or retention."
+mcmc,markdown,"Which statements match how price changes the path to a purchase?
+
+Select all that apply.",,,,,,,,"Above roughly ₹5,000 to ₹10,000, people rarely buy from the first ad alone. They search, read, or talk to someone.","A ₹60 snack can be bought straight from the ad, because the amount of money at risk is small.","Take the same buy-now creative that sold the ₹60 snack and run it, with no other channel, as the full plan for a ₹30 lakh cybersecurity contract, because a low price and a high price share one motion.",People who are not searching can still be shown a problem and an offer. That work is generate demand.,"1, 2, 4",6acca1c23a62462d15f0e2ea,1,markdown,"A higher-priced decision usually moves from an ad into search, reviews, or a sales conversation before anyone pays. A ₹60 snack can break that pattern because the risk is small. Generate demand is exactly the work of reaching people who are not searching and helping them notice a problem and an offer. A ₹30 lakh security sale needs a different mix, often LinkedIn, account-level messages, email, and calls. The snack’s buy-now ad is not that plan.
+
+**Why other options are wrong:**  
+- C: As price and explanation go up, a human usually has to enter the path. One snack ad does not close a ₹30 lakh contract."
+mcmc,markdown,"Which statements are right?
+
+Select all that apply.",,,,,,,,"Keep awareness running after search starts. A warm pool of about 20 lakh people still needs a larger unaware pool, on the order of 80 lakh, so it does not dry up.","Give the whole sale to the last channel that touched the buyer, and ignore LinkedIn, the page, and the emails that came earlier, because only the closing channel did any work.",A lookalike audience is a list of strangers who do not resemble the people who already bought.,"A customer who pays about ₹500 a month is worth about ₹6,000 if they stay a year, and about ₹15,000 if they stay three years.","1, 4",6acca1c23a62462d15f0e2ea,1,markdown,"Starting search does not mean pausing awareness. The warm pool has to keep being refilled, so a much larger unaware audience can still be required. Lifetime value is the stack of bills if the customer stays: about ₹500 a month is about ₹6,000 a year and about ₹15,000 over three years. Credit for a sale is shared across the channels that created interest, explained the offer, and closed it. A lookalike audience is the opposite of option C: the platform looks for new people who resemble buyers who already converted.
+
+**Why other options are wrong:**  
+- B: The last click is not the whole win. Earlier channels can be the reason the person ever searched.
+- C: A lookalike audience is built from people who already converted, then expanded to similar people."
+subjective,markdown,"**Six short lines for DeskBite**
+
+DeskBite is a baked snack sold online for **₹60**.
+
+The buyers are office workers aged **25–40**. At 4 p.m. they eat fried namkeen. Most of them are **not searching** for DeskBite.
+
+Write six short answers. One or two sentences each is enough.
+
+1. Is the first job **capture** or **generate**? Say why in one sentence.
+2. Name **one channel** to generate demand and **one channel** to capture it.
+3. Write **one awareness line**. Mention the 4 p.m. problem only. Do not add a buy link.
+4. Name **one metric** for awareness and **one metric** for retention.
+5. Campaign A costs **₹500** to acquire a customer, brings **10,000** customers, and **70%** never buy again. Campaign B costs **₹700**, brings **8,000** customers, and **60%** buy again. Which one would you rather scale? One sentence on why.
+6. Write the five words in the channel test **A-I-C-V-S**.
+
+### Submission instruction
+
+- Type the answer in the answer box.",,,,,,,,,,,,,6acca1c23a62462d15f0e2ea,0,markdown,"### A complete answer
+
+1. **Generate.** Most of these workers are not searching for DeskBite, so the first job is to create the want. Capture comes later, when some of them look.
+2. **Generate:** Instagram, or a short creator video of the 4 p.m. snack moment. **Capture:** Google Search, or a marketplace, for people who then look for a high-protein snack.
+3. Any one line that names the 4 p.m. hunger and does not ask for a checkout. Example: ""4 p.m. hunger hits, and the fried snack is already on the desk.""
+4. **Awareness:** reach, or brand search, or video completion. **Retention:** repeat purchase, or churn, or lifetime value. One of each is enough.
+5. **Campaign B.** A is cheaper on the first sale, but most of those customers never return. B’s repeat buyers can be worth more over time.
+6. **Audience, Intent, Complexity, Value, Scale.**
+
+### Alternative approaches
+
+- For line 2, email or WhatsApp can be named as a later reorder channel. They are a weak first choice for people who have never heard of DeskBite.
+- For line 5, ""I need lifetime value before I choose"" is also acceptable, as long as the answer does not pick A only because ₹500 is lower."

@@ -1,0 +1,201 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,"At a **tiffin centre**, a customer orders 4 plates of idli at ₹15 per plate. A Python program must find the cost of the idli order.
+
+Which operator should be used?",,,,,,1,,`*` (multiplication),`+` (addition),`/` (division),`%` (modulus),,,0,markdown,"When quantity and rate are known, the item cost is found by multiplying them. `4 * 15` gives `60`.
+
+**Why other options are wrong:**
+- B: Addition combines amounts; it does not calculate quantity × rate.
+- C: Division splits a total; it is not used to find cost from quantity and rate.
+- D: Modulus gives remainder; it is not used for this bill line item."
+mcsc,markdown,"A community hall has **25 chairs** and arranges **6 chairs per row**. A program needs to find how many **complete rows** can be formed.
+
+Which operator gives the correct answer?",,,,,,1,,`//` (floor division),`/` (regular division),`+` (addition),`**` (exponentiation),,,0,markdown,"Floor division keeps only the whole-number part of division. `25 // 6` is `4`, meaning four complete rows can be formed.
+
+**Why other options are wrong:**
+- B: Regular division gives `4.166...`, not a whole row count.
+- C: Addition does not divide chairs into equal rows.
+- D: Exponentiation raises a number to a power; it does not count complete groups."
+mcsc,markdown,"A parking token machine accepts only **₹50 notes**. A driver has **₹230** and wants to know how much money will be **left over** after paying with the largest possible number of ₹50 notes.
+
+Which operator helps find the leftover amount?",,,,,,1,,`%` (modulus),`//` (floor division),`/` (division),`-` (subtraction),,,0,markdown,"Modulus (`%`) returns the remainder after division. `230 % 50` is `30`, which is the amount left after using four ₹50 notes.
+
+**Why other options are wrong:**
+- B: Floor division tells how many full ₹50 notes fit (`4`), not the leftover cash.
+- C: Regular division gives a decimal quotient, not the remainder.
+- D: Subtraction alone does not directly answer ""leftover after grouping by 50"" in one step."
+mcsc,markdown,"A **movie ticket** program must charge a child ticket when age is **below 12**.
+
+Which comparison operator fits this check?",,,,,,1,,`<`,`=`,`>=`,`==`,,,0,markdown,"`<` checks whether the left value is less than the right value. `age < 12` correctly identifies child ticket eligibility.
+
+**Why other options are wrong:**
+- B: A single `=` stores a value; it does not compare values.
+- C: `>=` checks ""12 or above,"" which is the opposite of ""below 12.""
+- D: `==` checks exact equality with 12, not all ages below 12."
+mcsc,markdown,"What is the value of `result` after this line runs?
+
+```python
+result = 24 - 6 * 2
+```",,,,,,1,,`12`,`36`,`18`,`24`,,,0.5,markdown,"Multiplication has higher precedence than subtraction. Python calculates `6 * 2 = 12` first, then `24 - 12 = 12`.
+
+**Why other options are wrong:**
+- B: This would require adding instead of subtracting after multiplication.
+- C: This treats the expression as `24 - 6 = 18` and ignores the remaining `* 2`.
+- D: This ignores the `- 6 * 2` part completely."
+mcsc,markdown,"A bank balance alert program uses this code:
+
+```python
+balance = 420
+
+if balance < 500:
+    print(""Warning: Low balance!"")
+else:
+    print(""Balance is healthy."")
+```
+
+What is printed on the screen?",,,,,,1,,`Warning: Low balance!`,`Balance is healthy.`,Both messages,Nothing is printed,,,0.5,markdown,"The condition `balance < 500` checks whether 420 is below 500. That is **True**, so the `if` block runs and prints the warning.
+
+**Why other options are wrong:**
+- B: The healthy message runs only when balance is 500 or above.
+- C: Only one block runs in an if-else structure.
+- D: The `if` block executes because the condition is true."
+mcmc,markdown,"A beginner is reviewing Python **arithmetic operators**.
+
+Which of the following are arithmetic operators?",,,,,,,,`+`,`==`,`//`,`**`,"1, 3, 4",,0.5,markdown,"`+` is addition, `//` is floor division, and `**` is exponentiation. All three perform calculations on numeric values.
+
+**Why other options are wrong:**
+- B: `==` is a comparison operator that checks equality; it does not perform arithmetic."
+mcmc,markdown,Which statements about **if-else** statements are correct?,,,,,,,,The `if` block runs only when its condition is **True**.,The `else` block runs when the `if` condition is **False**.,Both the `if` and `else` blocks always run every time.,Exactly one of the `if` or `else` blocks runs in a simple if-else structure.,"1, 2, 4",,0.5,markdown,"In a basic if-else, Python checks the condition once. If it is true, the `if` block runs; otherwise, the `else` block runs. Only one path is taken.
+
+**Why other options are wrong:**
+- C: The blocks are alternatives; they do not both execute in the same run."
+mcmc,markdown,"A learner runs these two lines:
+
+```python
+print(16 / 2 * 2)
+print(16 / (2 * 2))
+```
+
+Which statements about the output are correct?",,,,,,,,The first `print()` displays `16.0`.,The second `print()` displays `4.0`.,The first `print()` displays `4.0`.,Parentheses change the order of calculation in the second line.,"1, 2, 4",,1,markdown,"At the same precedence level, operators run left to right. In the first line: `16 / 2 = 8.0`, then `8.0 * 2 = 16.0`. In the second line, parentheses run first: `2 * 2 = 4`, then `16 / 4 = 4.0`.
+
+**Why other options are wrong:**
+- C: `4.0` is the result of the second line, not the first."
+mcmc,markdown,"A shop discount program uses this structure:
+
+```python
+if purchase_amount >= 5000:
+    print(""You get 20% discount!"")
+elif purchase_amount >= 2000:
+    print(""You get 10% discount!"")
+elif purchase_amount >= 1000:
+    print(""You get 5% discount!"")
+else:
+    print(""No discount on this purchase."")
+```
+
+Which statements are correct?",,,,,,,,"With `purchase_amount = 2500`, the program prints `You get 10% discount!`.",Python checks conditions from top to bottom and stops at the first match.,"With `purchase_amount = 2500`, the program prints `You get 5% discount!`.",Putting `elif purchase_amount >= 1000` before `elif purchase_amount >= 2000` would still give 10% discount correctly to a ₹2500 bill.,"1, 2",,1,markdown,"For `purchase_amount = 2500`, the first check (`>= 5000`) fails, the second check (`>= 2000`) passes, and the program prints the 10% message. Python runs only the first matching block.
+
+**Why other options are wrong:**
+- C: 2500 qualifies for the 10% tier, not the 5% tier.
+- D: Lower thresholds placed before higher ones would wrongly give 5% to many customers who should get 10% or 20%."
+subjective,markdown,"**Karthik** manages overdue books at a college library. He wants a Python program that calculates each student's library fine and displays an appropriate reminder message based on how high the fine is.
+
+### Problem Statement
+
+Write a Python program that:
+
+1. Stores the student name as text.
+2. Stores the number of days the book is late as a whole number.
+3. Stores the fine per late day as a whole number.
+4. Calculates the **total fine** by multiplying days late by fine per day.
+5. Prints the student name, days late, and total fine clearly.
+6. Uses **if-elif-else** to print a reminder message based on the total fine:
+   - `""Account blocked until fine is paid.""` when total fine is **100 or above**
+   - `""Urgent: Pay fine within 2 days.""` when total fine is **50 or above but below 100**
+   - `""Fine can be paid at the library counter.""` when total fine is **below 50**
+7. Adds at least two comments explaining important steps.
+8. Uses meaningful variable names throughout.
+
+Use these fixed values in your program:
+
+- Student name: `""Karthik""`
+- Days late: `7`
+- Fine per day: `12`
+
+### Expected Output
+
+Your exact wording can be slightly different, but the output must clearly show:
+
+```text
+Student: Karthik
+Days Late: 7
+Total Fine: 84
+Urgent: Pay fine within 2 days.
+```
+
+### Constraints
+
+- Use a single Python file.
+- Use meaningful variable names.
+- Use `print()` to display the output.
+- Use arithmetic operators for the fine calculation; do not hard-code the total fine directly.
+- Use comparison operators inside your conditional statements.
+- Apply correct **indentation** (4 spaces) for all blocks inside `if`, `elif`, and `else`.
+- Check higher fine ranges before lower ones in the **if-elif-else** chain.
+- Do not use `input()` because the values are fixed for this task.
+- Write your complete program in [OneCompiler Python](https://onecompiler.com/python).
+
+### Submission Instruction
+
+1. Open [https://onecompiler.com/python](https://onecompiler.com/python) and create a new Python file.
+2. Write your complete program in the editor, then click **Run** and verify the output.
+3. Click the **Save** button at the top right.
+4. Enter your **assignment name**, set visibility to **Public**, and save.
+5. Click the **Share** button, copy the link, and submit that link in the answer box on the LMS.
+
+![Step - 1](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/5b930478-03c2-4255-a724-d0990da5e4f4/C0AFXttOJJhW3o1S.png)
+
+![Step-2](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/c817d308-66ca-4b5a-8579-db26951ad1a2/PGcKY2hqUQgysgPo.png)",,,,,,,,,,,,,,0.5,markdown,"### Step-by-step Walkthrough
+
+1. Store the student name, days late, and fine per day in variables.
+2. Multiply days late by fine per day to get the total fine.
+3. Print the student name, days late, and total fine.
+4. Use an if-elif-else chain to choose the correct reminder message, checking the highest fine range first.
+
+### Reference Solution
+
+```python
+# Store library fine details
+student_name = ""Karthik""
+days_late = 7
+fine_per_day = 12
+
+# Calculate total fine using multiplication
+total_fine = days_late * fine_per_day
+
+# Display fine summary
+print(""Student:"", student_name)
+print(""Days Late:"", days_late)
+print(""Total Fine:"", total_fine)
+
+# Choose reminder message based on fine amount
+if total_fine >= 100:
+    print(""Account blocked until fine is paid."")
+elif total_fine >= 50:
+    print(""Urgent: Pay fine within 2 days."")
+else:
+    print(""Fine can be paid at the library counter."")
+```
+
+### Sample Verification
+
+For the given values:
+
+- Total fine: `7 * 12 = 84`
+- `84 >= 100` is **False**
+- `84 >= 50` is **True** → prints **Urgent: Pay fine within 2 days.**
+
+### Alternative Approaches
+
+- The total fine can be stored in a variable named `fine_amount` or `library_fine` as long as the calculation is clear.
+- The reminder messages can be reworded slightly, but the same three fine ranges must be handled correctly.
+- An additional `print()` line for currency formatting is optional as long as the required values remain clear."

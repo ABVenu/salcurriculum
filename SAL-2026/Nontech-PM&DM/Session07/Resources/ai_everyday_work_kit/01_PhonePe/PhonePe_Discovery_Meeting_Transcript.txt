@@ -1,0 +1,329 @@
+==========================================================================
+PHONEPE — PRODUCT DISCOVERY SYNC
+Initiative: "PhonePe Family" — delegated UPI payments for parents & dependants
+Meeting type: Discovery kick-off (recorded, auto-transcribed by Teams)
+Date: Tuesday, 6 October 2026 | 11:00 – 12:04 IST | Bengaluru HQ + remote
+==========================================================================
+
+TEACHING NOTE: This is a FICTIONAL classroom transcript. All people, numbers
+and internal decisions are invented for training. The PhonePe brand and the
+NPCI "UPI Circle" feature are used only for realism.
+
+ATTENDEES
+- Neha Kulkarni ........ Senior Product Manager, Payments (meeting owner)
+- Rahul Menon .......... Engineering Manager, UPI Core
+- Fatima Sheikh ........ Lead Product Designer
+- Vikram Iyer .......... Legal & Compliance
+- Deepa Raghavan ....... Head of Risk & Fraud (joined 11:14)
+- Rahul Bhatia ......... Fraud Analyst, Risk team (joined with Deepa)
+- Karan Malhotra ....... Growth Marketing
+- Sunita Reddy ......... Customer Support Operations
+- Aditya Joshi ......... Product Analyst
+
+[Auto-transcription. Speaker labels may be imperfect. "[inaudible]" and
+"[crosstalk]" marks are from the transcription tool.]
+
+--------------------------------------------------------------------------
+
+[00:00:04] Neha Kulkarni: Okay, I think we have most people. Deepa's team
+is joining a bit late, they're in the quarterly fraud review. Let's start
+and I'll recap for them. So, quick context — this is the first discovery
+session for what we're calling, working title, PhonePe Family. The idea is
+built on top of NPCI's UPI Circle. A primary user — say me — can delegate
+payment ability to a secondary user, like my father in Indore, or, you
+know, a domestic helper, a teenager, whoever. Two modes: full delegation
+with a monthly cap, or partial delegation where every payment needs my
+approval.
+
+[00:00:41] Neha Kulkarni: What I want out of today is not a solution. I
+want problem clarity, top risks, and who's doing what for the next two
+weeks of discovery. Okay?
+
+[00:00:52] Karan Malhotra: Can I just say, from a growth lens this is
+massive. Like, the number of people who send money to parents every month
+and then get a call saying "beta, the payment failed, what is OTP" —
+
+[00:01:03] Neha Kulkarni: [laughs] Yes, which is literally why my mom
+called me twice yesterday.
+
+[00:01:08] Karan Malhotra: Exactly. So I think the segments are clear.
+Parents, teens, and household staff. Teens especially — Gen Z
+first-wallet, that's a huge acquisition story.
+
+[00:01:19] Neha Kulkarni: Okay, let's note teens as a segment for now.
+Aditya, do we have any sizing?
+
+[00:01:24] Aditya Joshi: Yeah, rough cut. I looked at users who do
+recurring P2P transfers to the same person at least three months in a row,
+where the receiver is a lower-activity user. That's about 2.3 crore —
+sorry, sorry, 23 lakh. Twenty-three lakh primary users. I said crore, it's
+lakh. The 2.3 crore is total recurring P2P pairs, all types, which is a
+different cut.
+
+[00:01:49] Neha Kulkarni: Okay, 23 lakh is the relevant one. Can you put
+that in the doc with the query?
+
+[00:01:53] Aditya Joshi: Yep. One caveat — I can't tell from the data if
+the receiver is a parent or a, like, a sibling or a tenant. So it's a
+proxy. Don't put it on a slide as "parents".
+
+[00:02:04] Neha Kulkarni: Noted. Fatima?
+
+[00:02:07] Fatima Sheikh: So from design, the biggest unknown for me is
+the secondary user. We always design for the primary. But the secondary
+here might be 68 years old, using a ₹7,000 phone, Hindi or Marathi UI,
+maybe shared phone. I don't want us to assume they'll even see a push
+notification.
+
+[00:02:26] Rahul Menon: On that — notifications on low-end Android are
+unreliable anyway. Battery optimisers kill us. Xiaomi, Vivo, the older
+ones. So if approval flows depend on push, partial delegation will feel
+broken.
+
+[00:02:39] Neha Kulkarni: So partial delegation has a latency problem.
+
+[00:02:42] Rahul Menon: Latency and a timeout problem. NPCI has a
+collect-request expiry. If the primary doesn't approve in time, the
+payment fails at the merchant counter. Imagine Papa standing at the
+chemist with the payment just... spinning.
+
+[00:02:55] Fatima Sheikh: That's the nightmare scenario. That's the
+research question for me.
+
+[00:03:00] Neha Kulkarni: Good. Let's keep moving. Sunita, support angle?
+
+[00:03:04] Sunita Reddy: Yeah, so I pulled some stuff from last quarter
+just to have a base. Not directly about delegation, but related. Uh, one
+thing — we get a lot of AutoPay tickets, the mandate stuff. And when we
+tagged them, about 31% of the AutoPay "unauthorised debit" complaints were
+from users 60-plus, and in most of those the user had set up the mandate
+themselves — or a family member had set it up on their phone — and they
+just didn't know a mandate existed.
+
+[00:03:33] Neha Kulkarni: Hm.
+
+[00:03:34] Sunita Reddy: So they think it's fraud. It's not fraud. It's
+just — invisible. Anyway, I'll share the sheet, it's a side point.
+
+[00:03:41] Karan Malhotra: That's actually not a side point, that's —
+
+[00:03:43] Neha Kulkarni: [crosstalk] — let's, let's hold that. Sunita
+can you also bring the top five ticket themes to the next session?
+
+[00:03:49] Sunita Reddy: Sure.
+
+[00:03:51] Neha Kulkarni: Okay. Vikram, compliance. Anything we should
+know before we get too excited?
+
+[00:03:57] Vikram Iyer: Broadly the Circle framework is NPCI-blessed, so
+we're not inventing a rail. My questions are more about our
+implementation. Consent logging, how we show the cap, dispute
+responsibility — who's liable when the secondary pays the wrong person.
+I'll need to go through the circular properly. Give me till Friday.
+
+[00:04:18] Neha Kulkarni: This Friday, the 9th?
+
+[00:04:20] Vikram Iyer: Yes. Friday.
+
+[00:04:22] Neha Kulkarni: Perfect.
+
+[00:04:24] Karan Malhotra: And honestly if Vikram clears it, we could
+just ship a pilot in, like, two weeks, right? Rahul?
+
+[00:04:29] Rahul Menon: [laughs] Sure, Karan, and we'll also launch it
+on the moon. Two weeks. Okay.
+
+[00:04:34] Karan Malhotra: I'm serious, Diwali is the moment —
+
+[00:04:36] Rahul Menon: Diwali is the moment for the marketing campaign.
+For the product, we haven't even decided what we're building. Let's not.
+
+[00:04:42] Neha Kulkarni: Yeah — Karan, I hear you on Diwali, but there's
+no launch date coming out of this meeting. We're in discovery.
+
+[00:04:48] Karan Malhotra: Fine, fine. Noted.
+
+[00:04:51] Neha Kulkarni: Okay so let me start collecting research
+questions. Fatima, you own the secondary-user interviews?
+
+[00:04:57] Fatima Sheikh: Yes. I want, like, twelve interviews. Half
+Tier-1, half Tier-2/3. And I want them in-home, not in a lab, because the
+phone setup matters.
+
+[00:05:06] Neha Kulkarni: Twelve in-home in two weeks?
+
+[00:05:09] Fatima Sheikh: Eight in-home, four remote. Realistic.
+
+[00:05:12] Neha Kulkarni: Okay — eight in-home, four remote. Done.
+
+[...]
+
+[00:13:50] [Deepa Raghavan and Rahul Bhatia join]
+
+[00:13:52] Deepa Raghavan: Sorry, sorry. Fraud review overran. What did
+we miss?
+
+[00:13:56] Neha Kulkarni: Quick recap — discovery for PhonePe Family on
+top of UPI Circle. Segments so far are parents, teens, household staff.
+Fatima's running secondary-user interviews, Vikram's reading the circular
+by Friday, Aditya has a 23-lakh proxy sizing. And Rahul flagged that push
+notifications are unreliable on low-end phones so partial delegation could
+time out at the counter.
+
+[00:14:20] Deepa Raghavan: Okay. Which Rahul?
+
+[00:14:22] Neha Kulkarni: [laughs] Rahul Menon. Now we have two Rahuls.
+Okay, from now on — Rahul M is engineering, Rahul B is risk.
+
+[00:14:29] Rahul Bhatia: Works.
+
+[00:14:31] Deepa Raghavan: So, my headline: delegation is the single
+biggest social-engineering surface we'll have created this year. Every
+"I'm calling from the bank, add me to your family" scam — this is the
+dream product for them. The fraudster convinces the elderly person —
+actually no, reverse — the fraudster convinces the PRIMARY to add the
+fraudster as a SECONDARY. Then they have a monthly cap to drain.
+
+[00:14:58] Fatima Sheikh: Oh god. Yeah.
+
+[00:15:00] Deepa Raghavan: So I need a cooling period, and I need to know
+how the add-member flow verifies the relationship. Is there an in-person
+element, a video KYC, a contact-list check, anything.
+
+[00:15:12] Neha Kulkarni: Okay — so a cooling-off period is now a
+requirement, not a nice-to-have.
+
+[00:15:16] Deepa Raghavan: Requirement. And I'd want the first 7 days at
+a low cap. Something like ₹2,000 max, regardless of what the primary
+sets.
+
+[00:15:24] Rahul Menon: Seven days at two thousand. That's doable from our
+side, it's just a rule.
+
+[00:15:28] Neha Kulkarni: Can someone from risk pull the scam patterns
+from the last six months that would map to this? The add-a-payee type
+scams.
+
+[00:15:35] Deepa Raghavan: Rahul will do it.
+
+[00:15:37] Rahul Menon: Me?
+
+[00:15:38] Deepa Raghavan: No — [laughs] — my Rahul. Rahul B.
+
+[00:15:41] Rahul Bhatia: Yes, I'll do it. I can have it by next
+Wednesday.
+
+[00:15:44] Neha Kulkarni: Wednesday the 14th. Great.
+
+[...]
+
+[00:24:10] Karan Malhotra: Can we talk about the teen thing again,
+because I think that's the growth story —
+
+[00:24:14] Vikram Iyer: Actually, I wanted to come back to that. I didn't
+want to say it before I'd checked, but I just pinged our banking-regulation
+counsel on chat. For minors, it's not a product decision, it's a
+guardianship-and-KYC decision. The bank account holder for a minor is
+operated under guardian rules. Mixing that with a delegation product is,
+honestly, a separate approval track. Months, not weeks.
+
+[00:24:41] Karan Malhotra: So — no teens?
+
+[00:24:43] Vikram Iyer: Not in this phase. I'd strongly recommend we
+descope under-18 entirely for discovery. If we interview teens, we also
+need parental consent for the research itself.
+
+[00:24:53] Neha Kulkarni: Okay. That's a decision. Teens are OUT of scope
+for this phase. Parents and household staff only. Karan, sorry.
+
+[00:25:00] Karan Malhotra: No, no, it's fine. Parking-lot it for v2.
+
+[00:25:03] Neha Kulkarni: Teens go to the parking lot. Fatima, that
+means your twelve interviews — no minors.
+
+[00:25:08] Fatima Sheikh: Yes, fine. Actually that simplifies recruiting.
+
+[...]
+
+[00:33:40] Neha Kulkarni: Sunita, going back to your AutoPay thing. I
+actually think that's the most important thing anyone has said today. If
+31 percent of senior "fraud" complaints are actually invisible mandates,
+then the core problem might not be "parents can't pay". It's "parents
+can't SEE what's happening on their own account". That's a visibility
+problem, not a payments problem.
+
+[00:34:02] Deepa Raghavan: That matches what we see, honestly. A lot of
+our elderly-user reports are confusion, not fraud.
+
+[00:34:07] Fatima Sheikh: So maybe the secondary-user experience should
+lead with a "what's happening on my account" view, not a pay button.
+
+[00:34:13] Neha Kulkarni: Exactly. Okay — I want this as a second
+hypothesis. H1: secondary users need to pay without depending on the
+primary. H2: secondary users mainly need visibility and reassurance, and
+paying is secondary. Fatima, interviews need to test both.
+
+[00:34:30] Fatima Sheikh: Got it. I'll update the discussion guide.
+
+[00:34:33] Sunita Reddy: I'll send the ticket sheet today then, with the
+tagging logic so people don't misread it.
+
+[00:34:38] Neha Kulkarni: Thank you.
+
+[...]
+
+[00:41:15] Vikram Iyer: One thing on my timeline, sorry. Given the minor
+question and that I now need counsel to look at dispute liability too,
+Friday is not realistic. Make it next Friday.
+
+[00:41:24] Neha Kulkarni: The 16th?
+
+[00:41:25] Vikram Iyer: The 16th. And I'll send a one-pager, not a full
+memo.
+
+[00:41:29] Neha Kulkarni: Fine. That still works since interviews run
+till the 20th.
+
+[...]
+
+[00:48:02] Rahul Menon: On the technical spike — I'll take it. Two things:
+one, how bad the collect-request timeout is on the Circle partial mode,
+and two, whether we can use SMS fallback for approval when push fails.
+
+[00:48:15] Neha Kulkarni: When?
+
+[00:48:16] Rahul Menon: I can give a spike readout in the sync on the
+15th. But SMS fallback — I need someone from the notifications platform
+team. I don't own that.
+
+[00:48:25] Neha Kulkarni: I'll ask Arjun's team. Actually — no — Rahul,
+can you just ask him directly, you know him better.
+
+[00:48:30] Rahul Menon: [inaudible] ...okay fine, I'll ping Arjun.
+
+[...]
+
+[00:55:30] Karan Malhotra: Last thing from me — competitive. Google Pay
+has had Circle live for a while, right? Shouldn't someone do a teardown?
+
+[00:55:37] Neha Kulkarni: Yes. Good point. Someone should.
+
+[00:55:40] [crosstalk]
+
+[00:55:44] Neha Kulkarni: Okay — let's not solve it now, we're over.
+
+[...]
+
+[01:02:10] Neha Kulkarni: Okay, wrapping up. I'll send notes. Thanks all.
+Big thanks to Sunita, honestly, that AutoPay stat might change the whole
+direction.
+
+[01:02:18] Sunita Reddy: [laughs] It was meant to be a side point.
+
+[01:02:21] Neha Kulkarni: The best ones usually are. Bye all.
+
+[01:02:24] [Recording stopped]
+
+==========================================================================
+END OF TRANSCRIPT
+==========================================================================

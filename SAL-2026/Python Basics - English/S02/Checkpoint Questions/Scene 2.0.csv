@@ -1,0 +1,30 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,**Why do programs need conditional statements?**,,,,,,2,,To store values in variables without using operators,To run different blocks of code based on whether a condition is True or False,To convert integers into strings automatically,To make Python ignore indentation errors,,6ada07edaa43527160218e99,0,markdown,"Conditionals let a program decide — for example, whether a student passes or fails, or whether a person is old enough to vote — instead of doing the same thing every time."
+mcsc,markdown,"**What will this program print when `marks = 28`?**
+
+```python
+if marks >= 35:
+    print(""Congratulations! You have passed."")
+print(""Result processing complete."")
+```",,,,,,2,,`Congratulations! You have passed.` only,`Result processing complete.` only,"Both lines, one after the other",Nothing — the program stops with an error,,6ada07edaa43527160218e99,0,markdown,"`28 >= 35` is False, so the indented line inside `if` is skipped. The last `print()` is outside the `if` block and always runs."
+mcsc,markdown,"**What will this program print when `marks = 42`?**
+
+```python
+if marks >= 35:
+    print(""Pass"")
+else:
+    print(""Fail"")
+```",,,,,,1,,`Pass`,`Fail`,Both `Pass` and `Fail`,Nothing,,6ada07edaa43527160218e99,0,markdown,"`42 >= 35` is True, so the `if` block runs and `else` is skipped. Exactly one of the two blocks runs — never both."
+mcsc,markdown,"**A student has `marks = 78`. Using the grade bands below, which grade is printed?**
+
+```python
+if marks >= 90:
+    print(""Grade: A"")
+elif marks >= 75:
+    print(""Grade: B"")
+elif marks >= 60:
+    print(""Grade: C"")
+else:
+    print(""Grade: F — Fail"")
+```",,,,,,2,,`Grade: A`,`Grade: B`,`Grade: C`,`Grade: F — Fail`,,6ada07edaa43527160218e99,0,markdown,"Python checks conditions from top to bottom and stops at the first True match. `78 >= 90` is False, but `78 >= 75` is True — so Grade B is printed."
+mcsc,markdown,**Which statement correctly describes `=` and `==` in Python?**,,,,,,2,,Both `=` and `==` are used to compare two values for equality,`=` assigns a value to a variable; `==` checks whether two values are equal,`==` assigns a value; `=` checks equality inside an `if` condition,Neither symbol can be used inside conditional statements,,6ada07edaa43527160218e99,0,markdown,"`age = 18` stores 18 in `age`, while `age == 18` asks ""is age equal to 18?"" and gives True or False — using `=` inside `if` causes a SyntaxError."

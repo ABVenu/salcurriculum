@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Basics | Presentation</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="presenter">
+    <div class="slide-viewport" id="deck"></div>
+    <span class="slide-counter" id="counter"></span>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script src="js/slides.js"></script>
+  <script src="js/presenter.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: "dark",
+      themeVariables: {
+        primaryColor: "#4f46e5",
+        primaryTextColor: "#f8fafc",
+        primaryBorderColor: "#818cf8",
+        lineColor: "#2dd4bf",
+        secondaryColor: "#1e293b",
+        tertiaryColor: "#0f172a",
+        fontSize: "16px",
+      },
+      flowchart: { curve: "basis", padding: 16 },
+      mindmap: { padding: 12 },
+    });
+
+    const deck = document.getElementById("deck");
+    buildDeck(deck, SLIDES);
+    initPresenter({ container: deck, counterEl: document.getElementById("counter"), mode: "single" });
+  </script>
+</body>
+</html>

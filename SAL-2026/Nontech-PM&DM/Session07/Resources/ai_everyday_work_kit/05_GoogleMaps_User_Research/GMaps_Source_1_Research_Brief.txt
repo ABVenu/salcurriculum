@@ -1,0 +1,45 @@
+==========================================================================
+GOOGLE MAPS (INDIA) — USER DISCOVERY BRIEF
+Study: "Two-wheeler riders: why they abandon navigation mid-trip"
+Owner: Meera Iyer, Product Manager, Maps India   |   UXR: Tanvi Bose
+Brief written: 28 Aug 2026   |   Last updated: 30 Sep 2026
+TEACHING NOTE: FICTIONAL classroom dataset. Not real Google research. All
+participants, numbers and internal decisions are invented for training.
+The Google Maps brand is used only for realism.
+==========================================================================
+
+1. BACKGROUND
+Two-wheeler (2W) mode in India has ~2x the mid-trip navigation abandonment
+of car mode (rider exits navigation before reaching destination).
+PM hypothesis (Meera): "Battery drain is the main reason riders quit
+navigation. A low-power rider mode will lift trip completion."
+
+2. IMPORTANT CONTEXT CHANGE (added 30 Sep 2026)
+>> LANDMARK VOICE PROMPTS ("Turn left after the Indian Oil petrol pump")
+   with a louder, helmet-optimised audio profile were RELEASED to all 2W
+   users in Bengaluru on 15 Sep 2026.
+>> Any research findings about "can't understand / hear turn
+   instructions" were collected BEFORE this release and are historical
+   context only — do not base new recommendations on them without
+   re-testing.
+
+3. METHOD
+- 6 in-depth interviews (45 min, remote), 2 – 12 Sep 2026
+- Recruitment: users who left a Play Store review of Google Maps in the
+  last 7 days and opted in to research
+- Location: all participants from Bengaluru (HSR Layout, Koramangala,
+  BTM, Whitefield) — chosen for speed of recruitment
+- Follow-up in-app survey: 20 – 27 Sep 2026, n = 212 responses
+  (2W mode users in Bengaluru)
+
+4. DISCUSSION GUIDE (excerpt)
+Q1. Walk me through the last time you used navigation on your two-wheeler.
+Q2. How annoying is it when Google Maps drains your battery?
+Q3. What would make you trust navigation for the whole trip?
+Q4. Have you ever stopped navigation mid-trip? What happened?
+Q5. Do you use any other app or method for directions?
+
+5. CONSENT
+Participants consented to recording. PII (phone numbers, full names) must
+NOT appear in any shared deliverable. Use participant IDs (P1–P6) only.
+==========================================================================

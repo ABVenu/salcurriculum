@@ -1,0 +1,6 @@
+metric,value
+KYC Document Uploaded -> KYC Approved: mean hours,48.2
+KYC Document Uploaded -> KYC Approved: median hours,48.9
+KYC Document Uploaded (total users),675.0
+KYC Rejected (total users),25.0
+KYC rejection rate of those who uploaded (%),3.7

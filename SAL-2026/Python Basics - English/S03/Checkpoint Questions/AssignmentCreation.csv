@@ -1,0 +1,56 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,**Why do programs need loops?**,,,,,,4,,To store several different data types inside one variable,To convert text input into numeric values for calculations,To print the final output only once at the very end,To avoid copying the same block of code many times,,6ada0889aa4352716021902e,0,markdown,"Loops automate repetition — one instruction can handle 50 students, 50 bills, or 50 plates instead of writing separate code for each case."
+mcsc,markdown,**What does `countdown = countdown - 1` do inside a loop?**,,,,,,2,,Adds 1 to the value stored in `countdown`,Subtracts 1 from the value stored in `countdown`,Resets `countdown` back to zero on every round,Tests whether `countdown` is exactly equal to the number 1,,6ada0889aa4352716021902e,0,markdown,This is **decrementing** — the value goes down by 1 each round. A rocket countdown from 5 to 1 uses this pattern before the loop stops.
+mcsc,markdown,**Which line correctly starts a `while` loop in Python?**,,,,,,1,,`while count <= 5:`,`while (count <= 5)`,`for count <= 5:`,`while count = 5:`,,6ada0889aa4352716021902e,0,markdown,"A `while` loop needs the keyword `while`, a **condition**, and a **colon** at the end. Single `=` assigns a value; it does not check a condition."
+mcsc,markdown,**A `while` loop prints `1` forever and never stops. What is the most likely bug?**,,,,,,3,,The `while` test uses `>` instead of `>=`,`print()` was placed outside the indented block,`count = count + 1` was never added inside the loop,The counter variable was initialized to zero before the loop began,,6ada0889aa4352716021902e,0,markdown,"Without an update, the counter never changes — the condition stays `True` forever. This is a common **infinite loop** mistake."
+mcsc,markdown,**Which pair names the two main loop types taught in Python?**,,,,,,4,,`if` and `else`,`print` and `input`,`True` and `False`,`while` and `for`,,6ada0889aa4352716021902e,0,markdown,Python's two primary loops are **`while`** (repeat until a condition changes) and **`for`** (repeat for each number in a `range()`). Choosing the right one depends on the problem.
+mcsc,markdown,"**What is the output of this code?**
+
+```python
+count = 1
+while count <= 3:
+    print(count)
+    count = count + 1
+```",,,,,,2,,`1`,`1 2 3`,`1 2`,`2 3 4`,,6ada0892aa43527160219055,0,markdown,"This shows **start** (`count = 1`), **stop** (`count <= 3`), and **update** (`count = count + 1`) working together. Each round prints the current `count`, then adds 1 until the condition becomes `False`."
+mcsc,markdown,**A student saves ₹500 every month starting from ₹0. The loop runs `while balance < 1000` and adds ₹500 each time. How many times does the loop body run?**,,,,,,1,,2,1,3,4,,6ada0892aa43527160219055,0,markdown,"After month 1, balance is 500 (`500 < 1000` is still `True`). After month 2, balance is 1000 (`1000 < 1000` is `False`). The loop runs **twice**."
+mcsc,markdown,"**What happens when this code is run?**
+
+```python
+countdown = 5
+while countdown > 0:
+    print(countdown)
+    countdown = countdown + 1
+```",,,,,,4,,"Prints `5`, then `4`, then `3`, then `2`, then `1`, and the loop ends cleanly",Shows `5` only one time and then stops,Raises a syntax error before any output appears,Keeps running because `countdown` never reaches zero,,6ada0892aa43527160219055,0,markdown,"The condition expects `countdown` to **decrease** toward 0, but `+ 1` makes it grow — 6, 7, 8… so `countdown > 0` stays `True` forever."
+mcsc,markdown,**When is a `for` loop with `range()` usually the better choice?**,,,,,,2,,When savings must grow each month until a balance goal is reached,When the repeat count is known in advance,When user input must pass a check before the loop can end,When the `while` test might never become `False`,,6ada089e33d4473915c0d4f8,0,markdown,**`for`** with `range()` is ideal for a fixed count. **`while`** fits problems where repetition depends on a condition changing over time.
+mcsc,markdown,"**What numbers does `range(1, 5)` generate?**",,,,,,4,,"`0, 1, 2, 3, 4`","`1, 2, 3, 4, 5`","`5, 4, 3, 2, 1`","`1, 2, 3, 4`",,6ada089e33d4473915c0d4f8,0,markdown,"`range(start, stop)` begins at `start` and stops **before** `stop`. So `range(1, 5)` includes 1 through 4, but not 5."
+mcsc,markdown,**Which `range()` call counts down from 10 to 1?**,,,,,,3,,"`range(1, 10)`","`range(10, 1)`","`range(10, 0, -1)`","`range(0, 10, -1)`",,6ada089e33d4473915c0d4f8,0,markdown,"A **negative step** makes `range()` count backwards. `range(10, 0, -1)` gives 10, 9, 8, …, 1 and stops before 0."
+mcsc,markdown,"**How many times does the loop body run?**
+
+```python
+for num in range(1, 4):
+    print(num)
+```",,,,,,2,,4 times,3 times,5 times,1 time,,6ada089e33d4473915c0d4f8,0,markdown,"`range(1, 4)` produces 1, 2, and 3 — three values. The number 4 is not included because `range()` stops before the stop value."
+mcsc,markdown,"**What numbers does `range(0, 10, 2)` generate?**",,,,,,3,,"`0, 1, 2, 3, 4, 5, 6, 7, 8, 9`","`1, 3, 5, 7, 9`","`0, 2, 4, 6, 8`","`2, 4, 6, 8, 10`",,6ada089e33d4473915c0d4f8,0,markdown,"The third argument in `range(start, stop, step)` is the **step**. Here it jumps by 2 from 0 up to (but not including) 10 — giving even numbers 0 through 8."
+mcsc,markdown,"**What is the output of this code?**
+
+```python
+total = 0
+for num in range(1, 6):
+    total = total + num
+print(total)
+```",,,,,,3,,`10`,`21`,`15`,`5`,,6ada08a933d4473915c0d524,0,markdown,"The loop adds 1 + 2 + 3 + 4 + 5. `range(1, 6)` includes 5 because it stops before 6. The accumulator `total` ends at **15**."
+mcsc,markdown,"**What is the last number printed by this code?**
+
+```python
+for num in range(5, 51, 5):
+    print(num)
+```",,,,,,1,,`50`,`45`,`5`,`55`,,6ada08a933d4473915c0d524,0,markdown,"`range(5, 51, 5)` jumps by 5: 5, 10, 15, …, 50. It stops before 51, so **50** is the last value printed."
+mcsc,markdown,"**What is the output of this code?**
+
+```python
+n = 4
+result = 1
+for i in range(1, n + 1):
+    result = result * i
+print(result)
+```",,,,,,4,,`10`,`4`,`120`,`24`,,6ada08a933d4473915c0d524,0,markdown,"This calculates `4!` = 1 × 2 × 3 × 4 = **24**. `range(1, n + 1)` gives multipliers 1 through 4 when `n` is 4."

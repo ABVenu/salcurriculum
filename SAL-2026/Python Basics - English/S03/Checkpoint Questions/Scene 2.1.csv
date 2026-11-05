@@ -1,0 +1,24 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,"**What is the output of this code?**
+
+```python
+total = 0
+for num in range(1, 6):
+    total = total + num
+print(total)
+```",,,,,,3,,`10`,`21`,`15`,`5`,,6ada08a933d4473915c0d524,0,markdown,"The loop adds 1 + 2 + 3 + 4 + 5. `range(1, 6)` includes 5 because it stops before 6. The accumulator `total` ends at **15**."
+mcsc,markdown,"**What is the last number printed by this code?**
+
+```python
+for num in range(5, 51, 5):
+    print(num)
+```",,,,,,1,,`50`,`45`,`5`,`55`,,6ada08a933d4473915c0d524,0,markdown,"`range(5, 51, 5)` jumps by 5: 5, 10, 15, …, 50. It stops before 51, so **50** is the last value printed."
+mcsc,markdown,"**What is the output of this code?**
+
+```python
+n = 4
+result = 1
+for i in range(1, n + 1):
+    result = result * i
+print(result)
+```",,,,,,4,,`10`,`4`,`120`,`24`,,6ada08a933d4473915c0d524,0,markdown,"This calculates `4!` = 1 × 2 × 3 × 4 = **24**. `range(1, n + 1)` gives multipliers 1 through 4 when `n` is 4."

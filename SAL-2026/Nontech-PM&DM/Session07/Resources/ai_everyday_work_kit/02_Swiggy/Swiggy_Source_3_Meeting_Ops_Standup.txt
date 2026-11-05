@@ -1,0 +1,60 @@
+==========================================================================
+MEETING TRANSCRIPT — Chennai Monsoon Ops Standup
+Wednesday, 7 Oct 2026 | 09:30 – 09:52 IST | Google Meet (auto-transcript)
+Attendees: Priya Sharma (City Ops Lead), Karthik Subramanian (DP Ops),
+Divya N (DP Ops Associate), Manoj Pillai (Pricing PM),
+Lakshmi V (Routing / Maps Eng)
+TEACHING NOTE: Fictional classroom material.
+==========================================================================
+
+[09:30] Priya Sharma: Okay quick one. Three things: rain fee, DP incentive,
+and Divya's underpass point. Manoj, fee?
+
+[09:31] Manoj Pillai: Config is in staging. ₹25 flat. Target Monday the
+12th. Waiting on legal, they said Thursday.
+
+[09:31] Priya Sharma: And finance?
+
+[09:32] Manoj Pillai: Rohit hasn't replied yet, I think. Should be today.
+
+[09:32] Priya Sharma: Okay. Don't push anything to prod till both close.
+Karthik?
+
+[09:33] Karthik Subramanian: Sent costing to Rohit Monday. ₹30 per order,
+₹200 at 8-plus. About 2.4 crore. Waiting.
+
+[09:34] Priya Sharma: Fine. Divya, underpasses.
+
+[09:34] Divya N: Yes so — 11 underpasses that flooded last year. Velachery,
+Duraisamy, Madley, Ganesapuram, a few more. Two partners got stuck.
+Proposal: when rain-mode is ON, routing avoids all 11.
+
+[09:35] Lakshmi V: We can do it as a geo-fence avoid-list. Not hard. But
+I don't want it permanent — some of these are main roads. Only when
+rain-mode is ON and only if the zone has rain above a threshold.
+
+[09:36] Priya Sharma: Agreed. Lakshmi, can you own that?
+
+[09:36] Lakshmi V: Yes. I'll need Divya's list in GeoJSON, not Excel.
+
+[09:36] Divya N: I'll convert it today.
+
+[09:37] Lakshmi V: Then I can have it on staging Friday, prod Tuesday 13th.
+
+[09:37] Priya Sharma: Good. And Divya — also a manual override, so the
+city team can add an underpass in real time if it floods. Lakshmi?
+
+[09:38] Lakshmi V: Override via the ops dashboard, yes, but that's a
+second ticket. Not by Tuesday. Maybe end of month.
+
+[09:38] Priya Sharma: Okay, fine, avoid-list first, override later.
+
+[09:39] Karthik Subramanian: One more — Priya, DP comms. Who sends the
+incentive message to partners? Last year it went out late.
+
+[09:40] Priya Sharma: I'll figure it out. Probably partner comms team.
+
+[09:40] Karthik Subramanian: Okay.
+
+[09:41] Priya Sharma: That's it. Thanks.
+==========================================================================

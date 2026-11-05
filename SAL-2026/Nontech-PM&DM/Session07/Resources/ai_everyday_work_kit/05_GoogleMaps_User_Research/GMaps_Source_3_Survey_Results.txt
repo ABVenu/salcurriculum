@@ -1,0 +1,33 @@
+==========================================================================
+GOOGLE MAPS 2W STUDY — IN-APP SURVEY RESULTS
+Field dates: 20 – 27 Sep 2026  (NOTE: after the 15 Sep landmark voice
+release)
+Total responses: n = 212   |   Bengaluru users of 2W mode
+TEACHING NOTE: FICTIONAL classroom dataset.
+==========================================================================
+
+Q-A. In the last 30 days, have you stopped navigation before reaching
+     your destination while riding?
+     Yes: 58 (27%)     No: 154 (73%)
+
+Q-B. [Asked ONLY to the 58 who said Yes]
+     What was the MAIN reason you stopped navigation? (single choice)
+     - Route unsuitable (narrow lane, one-way, closed,
+       flooded, unsafe at night) ...................... 22  (38%)
+     - Couldn't hear / see instructions while riding .. 15  (26%)
+     - Battery drain / phone died ..................... 10  (17%)
+     - Lost GPS / mobile data ..........................  7  (12%)
+     - Other ...........................................  4  ( 7%)
+                                                          ---  -----
+                                                           58  100%
+
+Q-C. [Asked ONLY to the 58] I would use navigation for the full trip if...
+     (multi-select)
+     - Routes avoided roads unsuitable for 2W ......... 41  (71%)
+     - Louder / clearer / landmark instructions ....... 26  (45%)
+     - Lower battery use .............................. 18  (31%)
+     - Better offline maps ............................ 11  (19%)
+
+Q-D. [All 212] Do you use a phone mount on your two-wheeler?
+     Yes: 148 (70%)    No: 64 (30%)
+==========================================================================

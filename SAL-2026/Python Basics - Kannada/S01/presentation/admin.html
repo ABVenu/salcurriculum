@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Basics — Admin | Export PDF</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="admin-mode">
+  <header class="admin-header no-print">
+    <h1>Python Basics — Presentation Admin</h1>
+    <div class="admin-actions">
+      <a href="index.html" class="btn btn-secondary">Open Presenter</a>
+      <button class="btn btn-primary" id="printPdf">Print to PDF</button>
+    </div>
+  </header>
+
+  <main class="admin-deck" id="deck"></main>
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script src="js/slides.js"></script>
+  <script src="js/presenter.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: "dark",
+      themeVariables: {
+        primaryColor: "#4f46e5",
+        primaryTextColor: "#f8fafc",
+        lineColor: "#2dd4bf",
+        fontSize: "14px",
+      },
+    });
+
+    const deck = document.getElementById("deck");
+    buildDeck(deck, SLIDES);
+    const presenter = initPresenter({ container: deck, mode: "all" });
+
+    const printBtn = document.getElementById("printPdf");
+    printBtn.addEventListener("click", async () => {
+      const original = printBtn.textContent;
+      printBtn.disabled = true;
+      printBtn.textContent = "Preparing… loading images";
+      try {
+        await presenter.ready();
+      } catch (e) {
+        console.warn("Preparing print:", e);
+      }
+      printBtn.textContent = original;
+      printBtn.disabled = false;
+      window.print();
+    });
+  </script>
+</body>
+</html>

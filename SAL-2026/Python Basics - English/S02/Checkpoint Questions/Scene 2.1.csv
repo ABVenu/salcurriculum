@@ -1,0 +1,18 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,**What role does indentation play in Python conditional statements?**,,,,,,2,,It is optional decoration that does not affect which code runs,"It defines which lines belong inside an `if`, `elif`, or `else` block",It converts strings into numbers before a condition is checked,It replaces the need for a colon `:` at the end of an `if` line,,6ada07f733d4473915c0d2f2,0,markdown,Python uses leading spaces (usually 4 per level) instead of curly braces — indented lines run only when their condition is True; lines with less indentation are outside the block.
+mcsc,markdown,"**What will this program print when `number = 17`?**
+
+```python
+if number % 2 == 0:
+    print(number, ""is even."")
+else:
+    print(number, ""is odd."")
+```",,,,,,2,,`17 is even.`,`17 is odd.`,Both messages,An error because `%` cannot be used in a condition,,6ada07f733d4473915c0d2f2,0,markdown,"`17 % 2` gives remainder `1`, and `1 == 0` is False — so the `else` block runs and prints that 17 is odd."
+mcsc,markdown,"**What will this program print when `marks = 33` and `passing_marks = 35`?**
+
+```python
+if marks >= passing_marks:
+    print(""Result: PASS"")
+else:
+    print(""Result: FAIL"")
+```",,,,,,2,,`Result: PASS`,`Result: FAIL`,Both messages,Nothing,,6ada07f733d4473915c0d2f2,0,markdown,"`33 >= 35` is False, so the `else` block runs. Storing `passing_marks` in a variable makes the pass rule easy to update without changing the comparison logic."

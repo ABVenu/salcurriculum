@@ -1,5 +1,5 @@
 # Python Basics — Introduction to Programming, Python, Variables & Data Types
-###### [Live PPT](https://coding-platform.s3.amazonaws.com/dev/lms/tickets/e1a19bdf-b863-43d0-8c69-5cda6a040e32/sFtSeZEYsN1MmSez.pdf)
+
 
 ## What You Will Learn in This Lesson
 

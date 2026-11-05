@@ -554,6 +554,107 @@ for num in range(1, 10, 2):  # Start 1, stop before 10, jump by 2
 - `step = 2` skips every alternate number — useful for even/odd patterns.
 - **Common mistake:** Using `range(1, 10, 2)` when you want all numbers 1 to 10 — the step changes which numbers appear.
 
+### Default Values of `range()`
+
+Each form of `range()` fills in arguments you do not write:
+
+| Form | What you write | Defaults |
+|------|----------------|----------|
+| `range(stop)` | One number | **start = 0**, **step = 1** |
+| `range(start, stop)` | Two numbers | **step = 1** |
+| `range(start, stop, step)` | Three numbers | Nothing — all three are specified |
+
+Remember: the **stop** value is always **excluded** — the sequence ends one step before `stop`.
+
+```python
+# range(5) → 0 through 4 (start defaults to 0, step defaults to 1)
+for n in range(5):
+    print(n)  # Prints 0, 1, 2, 3, 4
+
+# range(2, 6) → 2 through 5 (step defaults to 1)
+for n in range(2, 6):
+    print(n)  # Prints 2, 3, 4, 5
+
+# range(1, 10, 2) → odd numbers from 1 up to 9
+for n in range(1, 10, 2):
+    print(n)  # Prints 1, 3, 5, 7, 9
+```
+
+**How the code works:**
+
+- You do not need to pass `0` or `1` for start/step when the defaults match what you want — that is why `for i in range(5):` starts at 0.
+- In a `for` loop, `range()` hands out **one integer at a time**; you print each value as the loop runs. (Later courses introduce **lists**; for now, think of `range()` as a counting helper for loops, not something you turn into a collection.)
+
+### Important Edge Cases
+
+| Case | Example | Numbers produced |
+|------|---------|-------------------|
+| Start equals stop | `range(5, 5)` | **None** — loop body never runs |
+| Start greater than stop, positive step | `range(5, 1)` | **None** — cannot count up from 5 toward 1 with step +1 |
+| Negative start | `range(-3, 2)` | −3, −2, −1, 0, 1 |
+| Negative step (count down) | `range(5, 0, -1)` | 5, 4, 3, 2, 1 |
+| Step is zero | `range(1, 5, 0)` | **`ValueError`** — Python refuses to run |
+| Step skips past stop | `range(1, 6, 2)` | 1, 3, 5 (next would be 7, which is past stop 6) |
+| Non-integer arguments | `range(1.5, 5)` | **`TypeError`** — `range()` needs integers |
+
+### Special Cases Explained
+
+**Case 1 — Negative step but start is already below stop**
+
+```python
+# range(1, 6, -1) tries to go DOWN from 1 toward 6 — impossible direction
+for n in range(1, 6, -1):
+    print(n)  # This line never runs — no output from the loop
+print("Finished")  # Only this prints
+```
+
+- **Why?** A **negative step** moves **backwards**. Here start (`1`) is **smaller** than stop (`6`), so the sequence cannot move toward the stop. You get an **empty** range — valid Python, zero repetitions.
+
+**Case 2 — Stop is excluded**
+
+```python
+for n in range(1, 5):
+    print(n)  # Prints 1, 2, 3, 4 — not 5
+```
+
+- The number **5** is the stop boundary; `range()` never includes it.
+
+**Case 3 — Step cannot be zero**
+
+```python
+# WARNING — raises an error when Python builds the range
+for n in range(1, 5, 0):
+    print(n)
+```
+
+- **Output:** `ValueError: range() arg 3 must not be zero`
+- A step of **0** would never advance to the next number, so Python blocks it immediately.
+
+**Case 4 — Step jumps over the stop**
+
+```python
+for n in range(2, 10, 3):
+    print(n)  # Prints 2, 5, 8
+```
+
+- After **8**, the next value would be **11**, which is **beyond** stop **10**, so the loop stops. The stop is not “rounded down” to fit — numbers must land **before** `stop` along the step.
+
+### Quick Rules to Remember
+
+- **Positive step:** start should usually be **less than** stop (count **up**).
+- **Negative step:** start should usually be **greater than** stop (count **down**).
+- **Zero step:** always raises **`ValueError`**.
+- **Float arguments:** not allowed — use integers only (`1.5` in `range()` causes **`TypeError`**).
+- **Empty range:** legal — the `for` loop simply runs **zero times** (no error).
+
+```mermaid
+flowchart TB
+    Q{"  Which step?  "}
+    Q -->|"  step > 0  "| UP["  start < stop to get numbers  "]
+    Q -->|"  step < 0  "| DN["  start > stop to count down  "]
+    Q -->|"  step = 0  "| ERR["  ValueError  "]
+```
+
 ### Reversed Loops — Counting Backwards
 
 Sometimes you need to count **down** instead of up — a countdown or printing numbers from high to low.

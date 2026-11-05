@@ -1,0 +1,141 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,"Meera manages a Google Sheet of new course enquiries. Each morning she finds rows marked **pending**, types the same acknowledgement email by hand, then changes the status to **sent**. What does **automation** mean for this work?",,,,,,3,,Asking a large language model to invent a new product name for every row,Replacing the sheet with a handwritten notebook so nothing is missed,"Setting a clear trigger, rule, and action so the same follow-up runs without repeating the manual loop every time",Publishing a blog post once and hoping students reply on their own,,6ae8472a86178989a34dccca,0,markdown,"Automation is a predefined process: a **trigger**, a **rule**, and a **tool/action** produce a consistent outcome without repeated human effort for every case. Meera's pending → email → update status loop is exactly that pattern.
+
+**Why other options are wrong:**
+- A: Generating new names is creative writing, not automating the acknowledgement loop.
+- B: A notebook increases manual work; it does not remove the copy-paste loop.
+- D: A one-time blog post is marketing, not a triggered multi-step workflow."
+mcsc,markdown,"BrightPath Learning wants a workflow that starts the moment a visitor submits an n8n Form titled ""Course Enquiry."" Which trigger type fits best?",,,,,,1,,On form submission,On a monthly schedule only,"Manual execute only, with no form at all",A Switch node used as the first step with no trigger,,6ae8472a86178989a34dccca,0,markdown,"A **form trigger** starts the workflow when someone submits the form — the right doorbell for an enquiry logger.
+
+**Why other options are wrong:**
+- B: A schedule starts on time, not when a person submits the form.
+- C: Manual execute is useful while learning, but it does not listen for form submits.
+- D: Switch is a branching action node, not a trigger that starts the run."
+mcsc,markdown,"On the n8n home screen, Kabir wants to see which past runs succeeded or failed and which node broke. Where should he look first?",,,,,,4,,Sticky notes on the canvas,The Credentials list only,The Tidy up button,Executions history for that workflow,,6ae8472a86178989a34dccca,0,markdown,"**Executions** store run history: success, failure, timestamps, and which node failed — that is the observability view taught for debugging.
+
+**Why other options are wrong:**
+- A: Sticky notes are human labels; they do not record run outcomes.
+- B: Credentials store saved logins, not run results.
+- C: Tidy up only rearranges node layout."
+mcsc,markdown,"A teammate says: ""n8n, Make, and Dify are identical, so pick any tool for every job."" Which statement best corrects that claim?",,,,,,2,,"All three only export workflows as Python scripts, so shape never matters","Capability overlaps, but the **shape** of building differs — n8n suits broad app-to-app canvases, Make feels scenario/module-linear, Dify shines for knowledge upload and RAG citation checks",Dify is the only tool that can send email,Make cannot connect to Slack under any plan,,6ae8472a86178989a34dccca,0,markdown,"The notes compare tools by **shape**: n8n for node-canvas app workflows and self-host/JSON export; Make for visual scenarios; Dify when you need knowledge-base / RAG testing. Overlap exists; one tool is not best for every need.
+
+**Why other options are wrong:**
+- A: n8n workflows are JSON-based canvases, not ""Python only.""
+- C: Email is not unique to Dify; Gmail-style actions appear in n8n builds.
+- D: Make can notify Slack; the Momowala-style demo used that pattern."
+mcsc,markdown,"Priya built Form → Gmail. The Form node shows green success, but no email arrives. The Gmail node was never connected to the Form node. What is the most likely cause?",,,,,,1,,"The nodes are disconnected, so form data never reaches the Gmail action",JSON cannot carry email addresses between nodes under any condition,Credentials must be deleted before every test run,Publish is required even for a one-click Execute step on a manual test,,6ae8472a86178989a34dccca,0.5,markdown,"Nodes must be **connected**. If Form and Gmail are disconnected, the form can succeed while mail never sends.
+
+**Why other options are wrong:**
+- B: JSON is exactly how structured fields move between nodes.
+- C: Deleting credentials is not a normal test step and would block sending.
+- D: Execute step / Execute workflow is used for learning tests; Publish is for keeping schedules or production triggers live."
+mcsc,markdown,"An operations sheet has many order statuses: `placed`, `packed`, `delivered`, and `preparation in progress`. You want each value to follow a different path on the same field. Which node fits best?",,,,,,3,,If node with only one true/false outcome for all four values,Loop Over Items with no routing rules at all,Switch node with renamed routes for each status value,Sticky note that lists the four statuses,,6ae8472a86178989a34dccca,0.5,markdown,"**Switch** is for one field with many values. Rename outputs (`placed`, `delivered`, …) instead of leaving default `0,1,2,3`.
+
+**Why other options are wrong:**
+- A: If is for one main true/false decision, not four peer routes on the same field.
+- B: Loop walks items one by one; it does not replace multi-value routing.
+- D: Sticky notes document intent; they do not route executions."
+mcmc,markdown,"Which statements correctly describe good first candidates for no-code automation?
+
+Select all that apply.",,,,,,,,Copying the same form fields into a sheet every day,Sending the same style of acknowledgement email after a clear trigger,One-off judgement calls with no stable rule or fields,Updating status from `pending` to `sent` after an email goes out,"1, 2, 4",6ae8472a86178989a34dccca,0.5,markdown,"Stable fields, repeatable actions, and clear triggers (form/sheet/status updates) are good candidates. One-off judgement with no rule is a poor first candidate.
+
+**Why other options are wrong:**
+- C: Processes without a clear rule should be redesigned before automation."
+mcmc,markdown,"In n8n, which statements about **data items**, **parameters**, and **JSON** are correct?
+
+Select all that apply.",,,,,,,,A data item is one unit of data (for example one form reply) moving from node to node,"Parameters are the configurable fields on a node such as To, Subject, Message, or sheet tab",JSON is a labelled key–value text format used to store and move structured data between nodes,You must type every JSON path by hand on day one; drag-and-drop mapping is never used,"1, 2, 3",6ae8472a86178989a34dccca,0.5,markdown,"Data items are packets on the conveyor belt (A). Parameters are the dials on each node (B). JSON is the structured format between nodes and for workflow export (C). Beginners usually **drag** fields; they do not type every path by hand.
+
+**Why other options are wrong:**
+- D: Class practice emphasises drag-and-drop expressions; glancing at JSON helps when a mapping turns red."
+mcmc,markdown,"You are designing a sheet-driven follow-up: get rows where email status is `pending`, process them one by one, send Gmail, then update that row's status. Which design choices match the patterns taught?
+
+Select all that apply.",,,,,,,,Use Get rows with a filter such as Email status = pending so only pending rows return,Use Loop Over Items (often batch size 1) so each row can trigger its own send/update steps,Match the Sheets update on a repeated non-unique date column so many rows share one key,Prefer Manual Trigger or Execute while learning so a published schedule does not burn free credits overnight,"1, 2, 4",6ae8472a86178989a34dccca,1,markdown,"Filter pending rows (A), loop one item at a time (B), and keep learning runs manual/execute to avoid quiet credit burn (D). The match column for updates must be **unique** (for example Order ID), not a repeated date.
+
+**Why other options are wrong:**
+- C: Matching on a non-unique column confuses which row to update."
+mcmc,markdown,"Neha maps form fields into Gmail. Some mappings show green; one Subject expression shows red. Which statements are correct for fixing and verifying the live build?
+
+Select all that apply.",,,,,,,,A red expression usually means a broken JSON mapping — re-drag the field from Input,"After a full test, confirm success in the inbox, in the sheet (if append is used), and in Executions",Leaving Form and Gmail disconnected is fine as long as both nodes are configured,"Required Gmail parameters such as To, Subject, and Message must be filled or the node warns and the send fails","1, 2, 4",6ae8472a86178989a34dccca,1,markdown,"Red expressions need remapping (A). End-to-end verification covers apps plus Executions (B). Subject/Message/To are mandatory on send (D). Disconnected nodes break the chain even if each node looks configured (C is wrong).
+
+**Why other options are wrong:**
+- C: Connection is required for data to flow from Form into Gmail."
+subjective,markdown,"**BrightPath Course Enquiry Logger (Form → Email → Google Sheets)**
+
+### Context
+
+**BrightPath Learning** is a fictional online-learning company. Enquiries currently sit in inboxes and get copied into a sheet by hand. Your job is to build a first live n8n workflow so that when someone submits a course enquiry form, BrightPath:
+
+1. Sends an acknowledgement email with the enquirer's name filled in dynamically
+2. Appends one new row to a Google Sheet with Name, Email ID, and Phone Number
+
+Use **your own test email** for every send. Do not message real customers or random addresses.
+
+### What you must build in n8n
+
+1. **Create and rename** a workflow (example name: `BrightPath Course Enquiry Logger`).
+2. **Form trigger** — *On new form submitted* with at least three fields:
+   - What is your name? (text)
+   - What is your email ID? (email type)
+   - What is your phone number? (number)
+3. **Gmail → Send a message** connected after the Form:
+   - Use a renamed Gmail credential
+   - First prove a **fixed** send to your own inbox works
+   - Then switch **To / Subject / Message** to **dynamic** mappings from the form input (name must appear in the subject or body)
+4. **Google Sheets → Append a row** after Gmail:
+   - Sheet tab with headers: **Name**, **Email ID**, **Phone Number**
+   - Map form fields into those columns
+5. Run **one full end-to-end test** with a new sample person (invented data is fine). Confirm: form green → email received with dynamic name → one new sheet row → Executions shows success.
+
+### What you must write in the Google Doc
+
+In the same doc, after the screenshots, answer these short applied prompts in your own words (about 40–80 words each):
+
+1. **Trigger vs workflow:** For this BrightPath logger, what is the trigger, and what is the full workflow result?
+2. **Fixed vs expression:** Why was a hard-coded To/Subject unsafe or incomplete for a real enquiry logger, and what did expressions change?
+3. **Tool shape:** In one paragraph, when would you pick **n8n** vs **Dify** for a BrightPath follow-up (app-to-app logger vs chat over an HR/policy PDF)?
+4. **Next building block:** On paper (or as a short bullet list), design the next version that emails only sheet rows where **Email status = pending**, using Get rows → Loop → If/send → update status. Name the nodes in order and state which match column should be unique.
+
+### Screenshots required in the doc
+
+- Canvas showing Form → Gmail → Sheets connected
+- One successful **Executions** entry (or node success greens)
+- The received acknowledgement email (blur/redact anything sensitive)
+- The Google Sheet row that matches the test submission
+
+### Submission instruction
+
+1. Open a new browser tab. In the address bar type **`doc.new`** and press **Enter**. A blank Google Doc opens in your Google account.
+2. Complete the build evidence (screenshots) and all four short answers in that doc.
+3. Click the blue **Share** button (top right).
+4. Under **General access**, open the dropdown and select **Anyone with the link**. Keep the role as **Viewer**.
+5. Click **Copy link**.
+6. Paste that link into the **answer text box** on the learning platform and submit.
+
+Make sure sharing is **Anyone with the link** can view. Private links cannot be graded.",,,,,,,,,,,,,6ae8472a86178989a34dccca,0.5,markdown,"### Build walkthrough
+
+1. Create workflow → rename clearly.
+2. Add **n8n Form** → On new form submitted → auth None for practice → add name (text), email (email), phone (number) → Execute step once to produce sample JSON.
+3. Connect **Gmail → Send a message** → renamed credential → test fixed To/Subject/Message to your inbox → then drag form fields into To/Subject/Message (Expression mode for multi-line body).
+4. Prepare sheet headers → **Google Sheets → Append a row** → map Name / Email ID / Phone Number → Execute.
+5. Full workflow execute with a new sample → verify inbox + one sheet row + Executions success.
+
+### Short-answer ideal points
+
+1. **Trigger** = form submitted. **Workflow** = connected sequence that yields acknowledgement email + sheet row (business result).
+2. Fixed values only talk to one address/text; **expressions** pull each submitter's email and name at runtime so the logger scales.
+3. **n8n** for Form/Gmail/Sheets app-to-app canvas; **Dify** when the need is knowledge upload + retrieval/citations over a PDF (RAG), not a simple enquiry logger.
+4. Node order: Manual Trigger → Get rows (filter pending) → Loop (batch 1) → Gmail send → Sheets update status; match on a **unique** key such as Enquiry ID / Order ID, not a repeated date.
+
+### Alternative approaches
+
+- Slack ""send message"" may replace or follow Gmail if Slack credentials are ready; the doc must still show dynamic name mapping and a sheet append.
+- n8n Cloud trial or instructor-hosted instance are both acceptable; localhost self-host is fine if the student can keep the machine on during the test.
+
+### What fails the task
+
+- Form green but Gmail/Sheets never connected.
+- Only fixed email text with no dynamic name/email mapping.
+- Multiple sheet rows created for one submission because of incorrect append setup.
+- No Executions / inbox / sheet evidence.
+- Part 4 designs a Switch on four unrelated columns or matches updates on a non-unique date.
+- Google Doc link not set to **Anyone with the link** can view."

@@ -1,0 +1,73 @@
+==========================================================================
+ZEPTO LATE-NIGHT STUDY — RAW INTERVIEW NOTES (verbatim excerpts)
+Interviewer: Tanvi Bose   |   Notes cleaned only for filler words
+TEACHING NOTE: FICTIONAL classroom dataset.
+==========================================================================
+
+--------------------------------------------------------------------------
+P1 | Interview date: 2 Sep 2026 | 24, F, software engineer, HSR Layout
+     Zepto Pass member: YES | Orders/week: 5–6
+     [Recruiter sheet: Riya Malhotra, +91 98450 XXXXX]
+--------------------------------------------------------------------------
+Q1: "Mostly after 12, after a release or when I'm on-call. Maggi, Coke,
+    sometimes ice cream. It's always small — like ₹120, ₹150."
+Q2: "Honestly the late-night fee I don't even notice, it's fifteen bucks.
+    What kills me is the small cart thing — ₹35 on a ₹120 order? That's
+    like 30%. I'll add random chips just to cross ₹199."
+Q4: "Yeah, many times. I see the ₹35, I close the app."
+Q5: "Blinkit sometimes, but same problem there."
+
+--------------------------------------------------------------------------
+P2 | Interview date: 3 Sep 2026 | 29, M, startup founder, Koramangala
+     Zepto Pass member: YES | Orders/week: 8+
+--------------------------------------------------------------------------
+Q1: "Last night, 1:30 AM, team was working, ordered for six people."
+Q2: "Fee doesn't matter. Speed matters. If it's 10 minutes I'll pay
+    anything within reason."
+Q3: "Honestly, more stuff in stock at night. Half the time the thing I
+    want is 'out of stock' after midnight. That's the actual problem."
+Q4: "I abandon when the item I want is out of stock and the substitute
+    is weird."
+
+--------------------------------------------------------------------------
+P3 | Interview date: 4 Sep 2026 | 22, M, MBA student, BTM Layout
+     Zepto Pass member: NO | Orders/week: 2
+--------------------------------------------------------------------------
+Q2: "Oh, I just LOVE paying ₹35 extra at 1 AM for a packet of chips.
+    Best part of my night." [laughs, sarcastic]
+Q3: "Make it cheaper. I'm a student. Every rupee."
+Q4: "All the time. I check the total, I go to the kirana in the morning."
+Q5: "Swiggy Instamart if they have a coupon."
+
+--------------------------------------------------------------------------
+P4 | Interview date: 8 Sep 2026 | 34, F, product designer, Indiranagar
+     Zepto Pass member: YES | Orders/week: 4
+--------------------------------------------------------------------------
+Q1: "Usually baby stuff — diapers, formula — when we run out at night."
+Q2: "The fee is fine. I'd never pay MORE for faster though — 10 minutes is
+    already fast. Don't upsell me a 5-minute thing, that feels
+    exploitative at 2 AM with a crying baby."
+Q3: "Reliability. I need to KNOW formula is in stock before I open the
+    app. Show it on the home screen."
+Q4: "Once, when formula showed in stock but then got cancelled after
+    payment. Refund took 3 days. I almost switched."
+
+--------------------------------------------------------------------------
+P5 | Interview date: 10 Sep 2026 | 27, M, consultant, Koramangala
+     Zepto Pass member: YES | Orders/week: 3
+--------------------------------------------------------------------------
+Q2: "The fees together add up. Late-night plus small cart plus handling.
+    I don't know what each one is for."
+Q3: "Just show one total upfront. I hate surprises at checkout."
+Q4: "Yes, when the total jumps at the last screen."
+
+--------------------------------------------------------------------------
+P6 | Interview date: 12 Sep 2026 | 31, F, doctor (night shifts), HSR
+     Zepto Pass member: YES | Orders/week: 6
+--------------------------------------------------------------------------
+Q1: "After shifts, 2 or 3 AM. Ready-to-eat stuff, fruit."
+Q2: "I don't think about fees. It's a convenience I'm happy to pay for."
+Q3: "Better fresh food at night. The fruit at 3 AM is sad."
+Q4: "Rarely. Maybe when fruit is out of stock."
+Q5: "No, only Zepto."
+==========================================================================

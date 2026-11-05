@@ -1,0 +1,96 @@
+==========================================================================
+GMAIL THREAD EXPORT
+Subject: RE: RE: Chennai monsoon — rain fee + DP incentive costing
+TEACHING NOTE: Fictional classroom material.
+==========================================================================
+
+--------------------------------------------------------------------------
+From:    Karthik Subramanian <karthik.s@swiggy.example>
+To:      Rohit Agarwal <rohit.agarwal@swiggy.example>
+Cc:      Priya Sharma <priya.sharma@swiggy.example>
+Date:    Mon, 5 Oct 2026, 4:52 PM
+Subject: Chennai monsoon — rain fee + DP incentive costing
+
+Hi Rohit,
+
+Sharing the costing for the Chennai rain incentive as discussed on Slack.
+
+Proposal:
+- ₹30 per order rain bonus to DPs in rain-mode zones
+- ₹200 bonus for 8+ rain-mode orders in a day
+- Assumption: 6 heavy-rain days in Oct–Nov, ~1.1 lakh rain-mode orders/day
+
+Estimated cost: ~₹2.4 Cr for the season (sheet attached).
+Offset: ₹25 rain fee on ~1.1 lakh orders/day x 6 days = ~₹1.65 Cr.
+
+Thanks,
+Karthik
+
+--------------------------------------------------------------------------
+From:    Rohit Agarwal <rohit.agarwal@swiggy.example>
+To:      Karthik Subramanian
+Cc:      Priya Sharma, Manoj Pillai, Ananya Desai
+Date:    Wed, 7 Oct 2026, 11:30 AM
+Subject: RE: Chennai monsoon — rain fee + DP incentive costing
+
+Hi all,
+
+Reviewed. Two changes from finance:
+
+1. DP incentive: approved at ₹30/order. The ₹200 daily bonus is approved
+   only at 10+ orders (not 8+) — at 8+ the cost goes to ~₹2.9 Cr, over
+   budget. With 10+ we land at ~₹2.2 Cr.
+
+2. Rain fee: we cannot charge ₹25 flat to everyone. Swiggy One members
+   have "no surge fee" in their benefit terms. So:
+     - Non-members: ₹20 (not ₹25 — leadership asked to stay below
+       Zomato's rain fee for Chennai this season)
+     - Swiggy One members: ₹0 (waived)
+   This also means the fee offset is lower — roughly ₹0.9 Cr, not ₹1.65 Cr.
+
+Also small correction on Karthik's sheet — rain-mode orders are ~1.1 lakh
+per DAY CITY-WIDE, but only ~40% of zones go into rain-mode at once, so
+the orders affected are ~44k/day. I've used that.
+
+Rohit
+Finance BP, South
+
+--------------------------------------------------------------------------
+From:    Ananya Desai <ananya.desai@swiggy.example>
+To:      Rohit Agarwal, Karthik Subramanian
+Cc:      Priya Sharma, Manoj Pillai, Priya Ramesh
+Date:    Thu, 8 Oct 2026, 3:15 PM
+Subject: RE: RE: Chennai monsoon — rain fee + DP incentive costing
+
+Hi all,
+
+Legal sign-off on the rain fee, with conditions:
+
+a) The fee must be visible on the restaurant/store listing and the cart
+   BEFORE checkout, with a "Rain fee ₹20" label. Not first shown on the
+   payment page.
+b) Cannot be called "Convenience fee" — must say "Rain fee".
+c) In-app banner explaining it, in English + Tamil.
+
+Because the cart UI change needs a release, earliest go-live is
+Thursday 15 Oct, not Monday 12 Oct.
+
+Also looping Priya Ramesh (Partner Communications) — Priya R, your team
+will need to send the DP incentive comms in Tamil + English via the
+partner app and WhatsApp before 14 Oct. Please own the DP comms.
+
+Thanks,
+Ananya
+
+--------------------------------------------------------------------------
+From:    Priya Ramesh <priya.ramesh@swiggy.example>
+To:      Ananya Desai
+Cc:      all
+Date:    Thu, 8 Oct 2026, 5:40 PM
+Subject: RE: RE: RE: Chennai monsoon — rain fee + DP incentive costing
+
+Got it — my team will own DP comms (Tamil + English, partner app +
+WhatsApp). Will share draft copy by Mon 12 Oct for Karthik to review.
+
+Priya R
+==========================================================================

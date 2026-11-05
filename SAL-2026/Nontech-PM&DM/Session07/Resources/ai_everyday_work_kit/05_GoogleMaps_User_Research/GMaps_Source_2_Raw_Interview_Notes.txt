@@ -1,0 +1,81 @@
+==========================================================================
+GOOGLE MAPS 2W STUDY — RAW INTERVIEW NOTES (verbatim excerpts)
+Interviewer: Tanvi Bose   |   Notes cleaned only for filler words
+TEACHING NOTE: FICTIONAL classroom dataset.
+==========================================================================
+
+--------------------------------------------------------------------------
+P1 | Interview date: 2 Sep 2026 | 24, F, software engineer, HSR Layout
+     Rides: Activa, daily office commute | Phone mount: YES, handlebar
+     [Recruiter sheet: Riya Malhotra, +91 98450 XXXXX]
+--------------------------------------------------------------------------
+Q1: "Office to home, 7 PM, Outer Ring Road. I know the route, I only use
+    it for traffic."
+Q2: "Battery is fine — I have a USB charger on the scooter. What kills me
+    is with the helmet on I can't hear anything. 'In 200 metres turn
+    left' — which left? There are three lefts."
+Q4: "Yeah, I stop it and just follow the traffic. Then I'm lost near
+    Agara."
+Q5: "Sometimes I ask a petrol pump guy."
+
+--------------------------------------------------------------------------
+P2 | Interview date: 3 Sep 2026 | 29, M, delivery partner (food apps),
+     Koramangala | Rides: Splendor, 10–12 hrs/day | Phone mount: YES
+--------------------------------------------------------------------------
+Q1: "Whole day. Every order I put navigation."
+Q2: "Battery yes, it drains, but I carry a power bank. That's not the
+    problem."
+Q3: "Problem is it sends me into gullies where a bike can't even turn, or
+    one-way roads. Twice I got a fine for one-way. Then I don't trust it.
+    I switch it off and go by my own memory."
+Q4: "Daily. When it shows a road I know is closed for metro work."
+
+--------------------------------------------------------------------------
+P3 | Interview date: 4 Sep 2026 | 21, M, college student, BTM Layout
+     Rides: second-hand Pulsar | Phone mount: NO, phone in pocket
+--------------------------------------------------------------------------
+Q2: "Battery, haan, my phone is old, it dies by evening."
+Q3: "Oh yes, I just LOVE when it sends me down a one-way into oncoming
+    BMTC buses. Very exciting. Best part of my day." [laughs, sarcastic]
+Q4: "Yes, when the phone dies, obviously. Then I call my friend."
+Q5: "Sometimes Ola Maps because my friend says it's better for bikes. Not
+    sure."
+
+--------------------------------------------------------------------------
+P4 | Interview date: 8 Sep 2026 | 38, F, school teacher, Whitefield
+     Rides: Jupiter, school + tuition drop | Phone mount: YES
+--------------------------------------------------------------------------
+Q1: "Morning I drop my son, then school. I use it when there's a new
+    route because of flooding or diversion."
+Q2: "Battery doesn't bother me, it's a short ride."
+Q3: "Show me if the road is waterlogged BEFORE I go into it. Last
+    monsoon I went into a flooded underpass because Maps said fastest.
+    With my son on the back. Never again."
+Q4: "That day I switched it off and never used it for that route again."
+    Interviewer: Would you pay for a premium version with that?
+    "If you ever make me pay for maps, I'll go back to asking the
+    chai-wallah. It should just work."
+
+--------------------------------------------------------------------------
+P5 | Interview date: 10 Sep 2026 | 27, M, consultant, Koramangala
+     Rides: Royal Enfield, weekends + office | Phone mount: YES
+--------------------------------------------------------------------------
+Q2: "Battery plus heat — in summer the phone overheats on the mount and
+    the screen dims. Then I can't see anything."
+Q3: "Just tell me the landmark. 'After the Cafe Coffee Day, left.' That's
+    how Bengaluru gives directions."
+Q4: "Yes, when the screen goes dim and I miss two turns."
+
+--------------------------------------------------------------------------
+P6 | Interview date: 12 Sep 2026 | 31, F, doctor (night shifts), HSR
+     Rides: Ather, hospital commute at 2–3 AM | Phone mount: YES
+--------------------------------------------------------------------------
+Q1: "After shifts, 2 or 3 AM. I want well-lit main roads, not the
+    shortest one."
+Q2: "Battery? It's an EV, I charge everything in the scooter."
+Q3: "A 'safe route' option. At night it sends me through dark empty
+    lanes to save one minute. I'd rather take 5 minutes more."
+Q4: "Yes, when it turns into a dark lane I just ignore it and stay on the
+    main road. It keeps recalculating, so I turn it off."
+Q5: "No, only Google Maps."
+==========================================================================

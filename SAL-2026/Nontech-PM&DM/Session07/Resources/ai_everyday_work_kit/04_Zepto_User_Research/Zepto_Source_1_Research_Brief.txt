@@ -1,0 +1,39 @@
+==========================================================================
+ZEPTO — USER DISCOVERY BRIEF
+Study: "Late-night ordering (11 PM – 3 AM): drivers and barriers"
+Owner: Meera Iyer, Product Manager, Growth   |   UXR: Tanvi Bose
+Brief written: 28 Aug 2026   |   Last updated: 30 Sep 2026
+TEACHING NOTE: FICTIONAL classroom dataset. Not real Zepto research. All
+participants, numbers and internal decisions are invented for training.
+==========================================================================
+
+1. BACKGROUND
+Late-night orders are ~9% of volume but have 2x the cart-abandonment rate
+of daytime. PM hypothesis (Meera): "Late-night fees are the main reason
+users abandon. Removing or reducing them will lift late-night conversion."
+
+2. IMPORTANT CONTEXT CHANGE (added 30 Sep 2026)
+>> The SMALL CART FEE (₹35 on carts below ₹199) was REMOVED for all users
+   on 15 Sep 2026, as part of the festive-season pricing change.
+>> The LATE-NIGHT FEE (₹15, 11 PM – 5 AM) still applies.
+Any research findings about the small cart fee are now historical context
+only — do not base new recommendations on it.
+
+3. METHOD
+- 6 in-depth interviews (45 min, remote), 2 – 12 Sep 2026
+- Recruitment: in-app banner shown to users active in the last 7 days
+- Location: all participants from Bengaluru (HSR Layout, Koramangala,
+  Indiranagar, BTM) — chosen for speed of recruitment
+- Follow-up in-app survey: 20 – 27 Sep 2026, n = 212 responses
+
+4. DISCUSSION GUIDE (excerpt)
+Q1. Walk me through the last time you ordered after 11 PM.
+Q2. How frustrating do you find the late-night fee?
+Q3. What would make you order late-night more often?
+Q4. Have you ever abandoned a cart late at night? What happened?
+Q5. Do you use other apps for late-night orders?
+
+5. CONSENT
+Participants consented to recording. PII (phone numbers, full names) must
+NOT appear in any shared deliverable. Use participant IDs (P1–P6) only.
+==========================================================================

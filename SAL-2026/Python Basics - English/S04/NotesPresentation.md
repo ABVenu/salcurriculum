@@ -1,15 +1,248 @@
-# Understanding break, continue, and Nested Loops
+<style>
+/* Fenced code: light panel, dark text */
+pre[class*="language-"],
+.markdown-body pre,
+pre {
+  background: #f1f5f9 !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  color: #0f172a !important;
+}
 
-## What You Will Learn
+pre code,
+.markdown-body pre code {
+  background: transparent !important;
+  color: #1e293b !important;
+  opacity: 1 !important;
+}
+
+/* Syntax highlighting on light background (hljs / Prism / pygments) */
+
+pre code .hljs-keyword,
+pre code .hljs-selector-tag,
+pre code .hljs-selector-class,
+pre code .hljs-section { color: #5b21b6 !important; }
+
+pre code .hljs-string,
+pre code .hljs-regexp,
+pre code .hljs-addition { color: #0f766e !important; }
+
+pre code .hljs-number,
+pre code .hljs-literal { color: #b45309 !important; }
+
+pre code .hljs-built_in,
+pre code .hljs-title.function_,
+pre code .hljs-title.class_,
+pre code .hljs-function,
+pre code .hljs-title { color: #1d4ed8 !important; }
+
+pre code .hljs-variable,
+pre code .hljs-template-variable,
+pre code .hljs-attr,
+pre code .hljs-name,
+pre code .hljs-params { color: #0f172a !important; }
+
+pre code .hljs-type { color: #0369a1 !important; }
+
+pre code .hljs-meta,
+pre code .hljs-doctag { color: #475569 !important; }
+
+pre code .token.keyword { color: #5b21b6 !important; }
+pre code .token.string { color: #0f766e !important; }
+pre code .token.number { color: #b45309 !important; }
+pre code .token.function { color: #1d4ed8 !important; }
+pre code .token.operator,
+pre code .token.punctuation { color: #334155 !important; }
+pre code .token.parameter,
+pre code .token.property { color: #0f172a !important; }
+
+/* F-strings / template literals: `{var}` must stay dark (fixes white/lost contrast on light bg) */
+pre code .hljs-subst,
+pre code .hljs-template-variable,
+.markdown-body pre code .hljs-subst,
+.markdown-body pre code .hljs-template-variable {
+  color: #0f172a !important;
+}
+
+pre code .hljs-string .hljs-subst,
+pre code .hljs-string .hljs-subst *,
+pre code .hljs-string .hljs-variable,
+pre code .hljs-string .hljs-built_in,
+pre code .hljs-string .hljs-keyword,
+.markdown-body pre code .hljs-string .hljs-subst,
+.markdown-body pre code .hljs-string .hljs-subst * {
+  color: #0f172a !important;
+}
+
+/* Prism-style interpolation */
+pre code .token.interpolation,
+pre code .token.interpolation-punctuation,
+pre code .token.string .token.punctuation,
+pre code .language-python .token.string .token,
+pre code .token.string .token.builtin {
+  color: #0f172a !important;
+}
+
+/* VS Code TextMate-style meta.embedded / source inside string */
+pre code span[class*="embedded"],
+pre code span[class*="interp"] {
+  color: #0f172a !important;
+}
+
+/* Pygments: String.Interpol (f-string `{…}` regions) */
+pre code .si {
+  color: #0f172a !important;
+}
+
+/* Comments (all common highlighters) */
+.hljs-comment,
+.hljs-quote,
+span[class*="hljs-comment"],
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata,
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cp,
+.highlight .cs,
+.markdown-body pre code span.line > span[class*="block-comment"],
+.markdown-body pre code span.line > span[class*="line-comment"] {
+  color: #334155 !important;
+  opacity: 1 !important;
+}
+
+/* Inline backticks in body text */
+:not(pre) > code,
+.markdown-body :not(pre) > code {
+  color: #0f172a !important;
+  background: rgba(30, 41, 59, 0.08) !important;
+  opacity: 1 !important;
+}
+
+/* Mermaid edge labels (True / False): stop the text being clipped */
+.edgeLabel,
+span.edgeLabel,
+.edgeLabel p,
+foreignObject,
+svg .label {
+  overflow: visible !important;
+}
+
+span.edgeLabel,
+.edgeLabel p {
+  display: inline-block !important;
+  box-sizing: content-box !important;
+  padding: 6px 12px !important;
+  line-height: 1.45 !important;
+  background: #ffffff !important;
+  border-radius: 4px;
+  font-size: 20px !important;
+}
+
+/* Presentation type scale */
+body,
+.markdown-body,
+div[markdown] {
+  font-size: 24px !important;
+  line-height: 1.55 !important;
+}
+
+h1,
+.markdown-body h1 {
+  font-size: 44px !important;
+  line-height: 1.2 !important;
+}
+
+h2,
+.markdown-body h2 {
+  font-size: 34px !important;
+  line-height: 1.25 !important;
+}
+
+h3,
+.markdown-body h3,
+h4,
+.markdown-body h4 {
+  font-size: 28px !important;
+  line-height: 1.3 !important;
+}
+
+p,
+li,
+td,
+th,
+.markdown-body p,
+.markdown-body li,
+.markdown-body td,
+.markdown-body th,
+div[markdown] p,
+div[markdown] li,
+div[markdown] td,
+div[markdown] th {
+  font-size: 24px !important;
+  line-height: 1.55 !important;
+}
+
+pre,
+pre code,
+.markdown-body pre,
+.markdown-body pre code {
+  font-size: 20px !important;
+  line-height: 1.5 !important;
+}
+
+:not(pre) > code,
+.markdown-body :not(pre) > code {
+  font-size: 22px !important;
+}
+
+svg text,
+.mermaid text,
+.edgeLabel,
+span.edgeLabel,
+.edgeLabel p {
+  font-size: 20px !important;
+}
+</style>
+
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #1e40af; background: linear-gradient(135deg, #f4f7fb 0%, #eef2f8 100%); padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+# **Understanding break, continue, and Nested Loops**
+
+Instructor notes. Brief points to teach from. Diagrams and images stay at original size. About two code snippets per concept.
+
+</div>
+
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #475569; background: #f8fafc; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Session 3 Quick Recap — Loops and `range()`**
+
+*Mastering Control Flow: Conditional and Loop in Python*
+
+- **Loops** repeat a block without copy-paste — **`while`** until a condition fails; **`for`** over a known count
+- **`while`:** start value, stop condition, **update** each round — missing update → infinite loop
+- **`for`** + **`range()`** when you know how many times; `range()` stops **before** `stop`
+- **`range(start, stop, step)`** — negative step counts down; accumulator pattern for sums and factorial
+- **Today:** finer control inside loops — **`break`**, **`continue`**, **nested loops**
+
+</div>
+
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #2563eb; background: #eff6ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **What You Will Learn**
 
 - Already know: `while`, `for`, `range()`, start / stop / update
 - Next: finer control — **`break`**, **`continue`**, **nested loops**
 - Exit early, skip one round, outer + inner cycles
 - Alarm-clock timing and **field-and-seed** planting
 
----
+</div>
 
-## Why loops need early control
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #7c3aed; background: #f5f3ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Why loops need early control**
 
 - Full bus route visits every stop — real life often stops early or skips one item
 - Keys in bag 2 → **stop** searching remaining bags
@@ -26,33 +259,38 @@
 - **Simple:** `break` = stop now; `continue` = skip this round; nested = for each outer, finish all inner
 
 ```mermaid
+%%{init: {"flowchart": {"htmlLabels": false, "curve": "basis", "padding": 24, "nodeSpacing": 80, "rankSpacing": 90, "diagramPadding": 48}}}%%
 flowchart TB
-    A[Loop starts] --> B{Special case?}
-    B -->|Found target| C[break — exit loop]
-    B -->|Skip this item| D[continue — next round]
-    B -->|Normal work| E[Run loop body]
-    E --> F[Next iteration or end]
+    A["  Loop starts  "] --> B{"  Special case?  "}
+    B -->|"  Found target  "| C["  break — exit loop  "]
+    B -->|"  Skip this item  "| D["  continue — next round  "]
+    B -->|"  Normal work  "| E["  Run loop body  "]
+    E --> F["  Next iteration or end  "]
     D --> F
-    C --> G[Code after the loop]
+    C --> G["  Code after the loop  "]
 ```
 
-<hr style="height: 2px; background-color: #1976d2; border: none;">
+</div>
 
-## Purpose of `break`
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #0d9488; background: #f0fdfa; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Purpose of `break`**
 
 - Goal already met → remaining rounds waste time / print junk
 - **Official:** terminate the **innermost** loop; continue after that loop
 - **Simple:** emergency exit door of the loop
 - **Example:** find the oil brand on the shelf → stop scanning other bottles
 
-<img src="https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-01-break-early-exit.png?v=20260920" alt="break as early-exit bus lane" width="500" height="500" />
+![break as early-exit bus lane](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-01-break-early-exit.png?v=20260920)
 
 - Search and stop; abort countdown on safety fail; clearer than one giant condition
 - Write `break`, not `break()` — does **not** end the whole program
 
-<hr style="height: 2px; background-color: #1976d2; border: none;">
+</div>
 
-## Demonstrate `break`
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #b45309; background: #fffbeb; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Demonstrate `break`**
 
 ```python
 for num in range(1, 11):
@@ -80,13 +318,14 @@ print("Loop finished. Program continues here.")
 - Numbers 8–14 never visited
 
 ```mermaid
+%%{init: {"flowchart": {"htmlLabels": false, "curve": "basis", "padding": 24, "nodeSpacing": 80, "rankSpacing": 90, "diagramPadding": 48}}}%%
 flowchart TB
-    S[num = 1] --> P[print Checking num]
-    P --> C{num == 7?}
-    C -->|No| N[Next num]
+    S["  num = 1  "] --> P["  print Checking num  "]
+    P --> C{"  num == 7?  "}
+    C -->|"  No  "| N["  Next num  "]
     N --> P
-    C -->|Yes| B[break]
-    B --> A[print Loop finished]
+    C -->|"  Yes  "| B["  break  "]
+    B --> A["  print Loop finished  "]
 ```
 
 **First multiple of 13** — search-and-stop (without `break`, later multiples overwrite)
@@ -100,9 +339,11 @@ for num in range(1, 101):
 print("First multiple of 13 is:", found)   # 13
 ```
 
-<hr style="height: 2px; background-color: #1976d2; border: none;">
+</div>
 
-## `break` with `while` and `if`
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #c2410c; background: #fff7ed; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **`break` with `while` and `if`**
 
 - Plan up to 12 months; **real** stop = goal ₹2000 — clearer with `if` + `break`
 
@@ -124,16 +365,18 @@ print("Final balance: Rs.", balance)
 
 - After month 5, balance = 2000 → `break`; months 6–12 never run
 
-<hr style="height: 2px; background-color: #1976d2; border: none;">
+</div>
 
-## Purpose of `continue`
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #be123c; background: linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%); padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Purpose of `continue`**
 
 - Ignore **one** round; loop keeps going
 - **Official:** skip rest of **current** iteration; go to next
 - **Simple:** skip this item, move to the next
 - **Example:** blank answer sheet → skip for now, check the rest
 
-<img src="https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-02-continue-skip-iteration.png?v=20260920" alt="continue skipping one biscuit packet" width="500" height="500" />
+![continue skipping one biscuit packet](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-02-continue-skip-iteration.png?v=20260920)
 
 | Statement | Effect |
 |-----------|--------|
@@ -144,9 +387,11 @@ print("Final balance: Rs.", balance)
 - Code **below** `continue` is skipped that round
 - **`while` trap:** update **after** `continue` → infinite loop
 
-<hr style="height: 2px; background-color: #1976d2; border: none;">
+</div>
 
-## Apply `continue` (and vs `break`)
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #047857; background: #ecfdf5; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Apply `continue` (and vs `break`)**
 
 **Odds only**
 
@@ -168,18 +413,19 @@ while count < 8:
     print("Value:", count)   # 1 2 4 5 7 8
 ```
 
-<img src="https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-05-while-continue-update-first.png?v=20260920" alt="while + continue — update counter first" width="500" height="500" />
+![while + continue — update counter first](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-05-while-continue-update-first.png?v=20260920)
 
 ```mermaid
+%%{init: {"flowchart": {"htmlLabels": false, "curve": "basis", "padding": 24, "nodeSpacing": 80, "rankSpacing": 90, "diagramPadding": 48}}}%%
 flowchart TB
-    S[count = 0] --> U[count = count + 1]
-    U --> C{count % 3 == 0?}
-    C -->|Yes| K[continue]
-    K --> T{count < 8?}
-    C -->|No| P[print Value]
+    S["  count = 0  "] --> U["  count = count + 1  "]
+    U --> C{"  count % 3 == 0?  "}
+    C -->|"  Yes  "| K["  continue  "]
+    K --> T{"  count < 8?  "}
+    C -->|"  No  "| P["  print Value  "]
     P --> T
-    T -->|Yes| U
-    T -->|No| E[Loop ends]
+    T -->|"  Yes  "| U
+    T -->|"  No  "| E["  Loop ends  "]
 ```
 
 **Skip multiples of 4 when printing squares**
@@ -217,24 +463,27 @@ for num in range(1, 8):
     print(num)   # 1 2 3 4 6 7
 ```
 
-<img src="https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-03-break-vs-continue.png?v=20260920" alt="break vs continue gate and skip" width="500" height="500" />
+![break vs continue gate and skip](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-03-break-vs-continue.png?v=20260920)
 
 ```mermaid
+%%{init: {"flowchart": {"htmlLabels": false, "curve": "basis", "padding": 24, "nodeSpacing": 80, "rankSpacing": 90, "diagramPadding": 48}}}%%
 flowchart LR
-    subgraph breakPath["break"]
-        B1[Hit condition] --> B2[Leave loop]
+    subgraph breakPath["  break  "]
+        B1["  Hit condition  "] --> B2["  Leave loop  "]
     end
-    subgraph continuePath["continue"]
-        C1[Hit condition] --> C2[Skip body]
-        C2 --> C3[Next iteration]
+    subgraph continuePath["  continue  "]
+        C1["  Hit condition  "] --> C2["  Skip body  "]
+        C2 --> C3["  Next iteration  "]
     end
 ```
 
 **Predict:** `break` at 3 → `1 2`; `continue` at 3 → `1 2 4 5`
 
-<hr style="height: 8px; background-color: #d32f2f; border: none; border-radius: 2px;">
+</div>
 
-## Why nested loops — alarm clock
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #1d4ed8; background: #eff6ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Why nested loops — alarm clock**
 
 - Two levels: each outer step needs a full **inner** cycle
 - **Official:** inner loop completes once per outer iteration
@@ -251,21 +500,24 @@ flowchart LR
 - Total iterations ≈ outer × inner (3 × 4 = 12)
 - Hour 0 → minutes; hour 1 → minutes again; hour 2 → again
 
-<img src="https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-06-nested-loops-alarm-clock.png?v=20260920" alt="Nested loops as alarm clock hours and minutes" width="500" height="500" />
+![Nested loops as alarm clock hours and minutes](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-06-nested-loops-alarm-clock.png?v=20260920)
 
 ```mermaid
+%%{init: {"flowchart": {"htmlLabels": false, "curve": "basis", "padding": 24, "nodeSpacing": 80, "rankSpacing": 90, "diagramPadding": 48}}}%%
 flowchart TB
-    O[Outer: hour = 0] --> I[Inner: all minutes]
-    I --> O2[Outer: hour = 1]
-    O2 --> I2[Inner: all minutes again]
-    I2 --> O3[Outer: hour = 2]
-    O3 --> I3[Inner: all minutes again]
-    I3 --> E[Done]
+    O["  Outer: hour = 0  "] --> I["  Inner: all minutes  "]
+    I --> O2["  Outer: hour = 1  "]
+    O2 --> I2["  Inner: all minutes again  "]
+    I2 --> O3["  Outer: hour = 2  "]
+    O3 --> I3["  Inner: all minutes again  "]
+    I3 --> E["  Done  "]
 ```
 
-<hr style="height: 2px; background-color: #1976d2; border: none;">
+</div>
 
-## Nested loop syntax — outer and inner
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #a21caf; background: #faf5ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Nested loop syntax — outer and inner**
 
 - Inner indented **one level deeper** than outer
 - Inner **restarts from the beginning** for every new outer value
@@ -292,9 +544,11 @@ for row in range(1, 4):
         print("Row", row, "Seat", seat)   # 3 × 4 = 12
 ```
 
-<hr style="height: 2px; background-color: #1976d2; border: none;">
+</div>
 
-## Nested `range` — start, stop, step
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #4f46e5; background: #eef2ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Nested `range` — start, stop, step**
 
 - Outer = major cycles; inner = sub-steps; steps can differ
 
@@ -324,9 +578,11 @@ for hour in range(1, 3):
         print("Time", hour, ":", minute)   # 4 lines
 ```
 
-<hr style="height: 2px; background-color: #1976d2; border: none;">
+</div>
 
-## Multiple ranges — grids and pairs
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #0f766e; background: #f0fdfa; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Multiple ranges — grids and pairs**
 
 **Multiplication grid**
 
@@ -358,13 +614,15 @@ for group in range(1, 4):
 
 - `total = 0` outside both loops → totals keep growing — common bug
 
-<hr style="height: 2px; background-color: #1976d2; border: none;">
+</div>
 
-## Field and seed planting
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #0d9488; background: #f0fdfa; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Field and seed planting**
 
 - Outer = walk to next **row**; inner = plant each **seed** in that row
 
-<img src="https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-04-nested-loops-field.png?v=20260920" alt="Nested loops as field rows and seeds" width="500" height="500" />
+![Nested loops as field rows and seeds](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s04/s04-04-nested-loops-field.png?v=20260920)
 
 ```python
 field_rows = 3
@@ -379,13 +637,14 @@ for row in range(1, field_rows + 1):
 ```
 
 ```mermaid
+%%{init: {"flowchart": {"htmlLabels": false, "curve": "basis", "padding": 24, "nodeSpacing": 80, "rankSpacing": 90, "diagramPadding": 48}}}%%
 flowchart TB
-    R1[Row 1] --> S1[Seeds 1 to 5]
-    S1 --> R2[Row 2]
-    R2 --> S2[Seeds 1 to 5]
-    S2 --> R3[Row 3]
-    R3 --> S3[Seeds 1 to 5]
-    S3 --> D[Field planting done]
+    R1["  Row 1  "] --> S1["  Seeds 1 to 5  "]
+    S1 --> R2["  Row 2  "]
+    R2 --> S2["  Seeds 1 to 5  "]
+    S2 --> R3["  Row 3  "]
+    R3 --> S3["  Seeds 1 to 5  "]
+    S3 --> D["  Field planting done  "]
 ```
 
 **Step instead of continue** — odd positions only
@@ -436,9 +695,11 @@ for outer in range(1, 3):
 
 **Trace:** `(1,1)(1,3)(2,1)(2,3)` when `continue` on `b == 2`
 
-<hr style="height: 8px; background-color: #d32f2f; border: none; border-radius: 2px;">
+</div>
 
-## Key Takeaways
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #1e40af; background: linear-gradient(135deg, #f4f7fb 0%, #eef2f8 100%); padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Key Takeaways**
 
 - **`break`** — exit innermost loop now (search-and-stop, early goals)
 - **`continue`** — skip one round; in `while`, update **before** `continue`
@@ -446,7 +707,7 @@ for outer in range(1, 3):
 - **`range(start, stop, step)`** still controls each nesting level
 - `break` / `continue` do **not** stop an outer loop by themselves
 
-## Quick Reference
+### Quick Reference
 
 | Term | What it does |
 |------|----------------|
@@ -457,3 +718,5 @@ for outer in range(1, 3):
 | `range(start, stop, step)` | Independent counting per level |
 | Innermost rule | `break`/`continue` affect only the loop that contains them |
 | Combination / pair iteration | Visit all pairs from two ranges |
+
+</div>

@@ -1,0 +1,83 @@
+==========================================================================
+SLACK EXPORT — #chennai-monsoon-ops  (Swiggy Food + Instamart, Chennai)
+Exported: 9 Oct 2026
+TEACHING NOTE: Fictional classroom material. All people, numbers and
+decisions are invented for training. Swiggy brand used for realism only.
+==========================================================================
+
+--- Monday, 5 Oct 2026 ---
+
+[10:02 AM] Priya Sharma (City Ops Lead, Chennai)
+  morning all 🌧️ IMD outlook says NE monsoon onset likely around 14–16 Oct
+  for Chennai. last year we lost ~18% of dinner-slot orders on the first 3
+  heavy-rain days. want a plan locked by end of this week.
+  three workstreams:
+  1) rain surge fee for customers
+  2) delivery partner (DP) rain incentive
+  3) zone safety / routing
+  thread 👇
+
+[10:05 AM] Manoj Pillai (Pricing PM)
+  for (1) — proposal: flat ₹25 rain fee on Food + Instamart when
+  rain-mode is ON for a zone. same as Bengaluru setup.
+
+[10:07 AM] Priya Sharma
+  ₹25 works for me.
+
+[10:07 AM] Sameer Khan (VP, South Ops)
+  👍
+
+[10:11 AM] Manoj Pillai
+  cool so ₹25 approved 🙌 will start config
+
+[10:14 AM] Ananya Desai (Legal)
+  @Manoj Pillai please hold — not approved from our side yet. after the
+  CCPA dark-patterns guidelines, any new fee has to be shown upfront on the
+  menu/cart, not added at checkout (drip pricing). need to review the copy
+  + where it shows. give me till Thursday.
+
+[10:16 AM] Manoj Pillai
+  ah ok. ₹25 approved *subject to legal* then 😅
+
+[10:31 AM] Karthik Subramanian (DP Ops, Chennai)
+  for (2) DP incentive — last year we did ₹15/order rain bonus. honestly
+  not enough, partners logged off in Velachery & Tambaram. suggesting ₹30/
+  order + ₹200 bonus if 8+ orders in rain-mode.
+
+[10:40 AM] Priya Sharma
+  @Karthik Subramanian can you model cost? we need finance on this.
+
+[10:41 AM] Karthik Subramanian
+  yes will send to Rohit in finance today
+
+--- Tuesday, 6 Oct 2026 ---
+
+[09:12 AM] Divya N (Associate, DP Ops)
+  small thing, not sure if this is the right thread 🙈 — last year 2 DPs
+  got stuck in waterlogged underpasses (Velachery subway + Duraisamy
+  subway) because the routing still sent them through. one bike fully
+  submerged. can we block these in routing when rain-mode is ON? I have the
+  list of 11 underpasses from last year's incident reports.
+
+[09:20 AM] Karthik Subramanian
+  +1 this is important
+
+[09:21 AM] Priya Sharma
+  yes pls add to tomorrow's standup. @Divya N share the list
+
+[09:22 AM] Divya N
+  done — "Chennai_waterlogging_underpasses_2025.xlsx" in the channel files
+
+--- Wednesday, 7 Oct 2026 ---
+
+[06:48 PM] Manoj Pillai
+  fyi config for rain fee is ready in staging. ₹25 flat. launching Mon 12
+  Oct as discussed
+
+[07:02 PM] Priya Sharma
+  👀 did finance + legal close? see email thread
+
+[07:05 PM] Manoj Pillai
+  checking
+
+==========================================================================

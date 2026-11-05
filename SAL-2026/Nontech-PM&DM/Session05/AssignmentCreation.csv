@@ -1,0 +1,200 @@
+questionType,contentType,contentBody,intAnswer,prepTime(in_seconds),floatAnswer.max,floatAnswer.min,fitbAnswer,mcscAnswer,subjectiveAnswer,option.1,option.2,option.3,option.4,mcmcAnswer,tagRelationships,difficultyLevel,answerExplanationType,answerExplanation
+mcsc,markdown,"A lunch-tiffin team writes two descriptions.
+
+- Line 1: ""Office workers, aged 25–40, in Pune, who eat lunch at their desk.""
+- Line 2: ""Kavya, 29, Kothrud. Goal: a hot lunch without leaving the building. Pain: the canteen shuts at 2 p.m. and she has a 2:30 review. Objection: “₹120 is more than the canteen.” Trigger: a 2:30 review appears on her morning calendar.""
+
+Which statement is right?",,,,,,2,,"Both lines are positioning statements, because each one names a product category and a benefit the buyer is meant to remember.","Line 1 is a target audience, the group. Line 2 is a buyer persona: one named person with a goal, a pain, an objection, and a trigger.","Line 1 is the buyer persona, because an age band and a city are enough, and the goal, pain, objection, and trigger can be added after the ads are written.","Delete Kavya’s name, the 2:30 review, and the price objection, and keep only the age band, because a useful customer picture stays broad.",,6ac35c82f857ae82a80bc927,0,markdown,"A target audience is still a group: office workers, 25–40, in Pune, who eat lunch at a desk. A buyer persona is one person you can write to. Kavya has a name, a situation, a goal (hot lunch without leaving), a pain (canteen already shut), an objection (₹120 versus the canteen), and a trigger (the 2:30 review on the calendar). Those last four fields are what tell the team what to say and when to show up. Age and city alone do not.
+
+**Why other options are wrong:**
+- A: Neither line says what the product is, what category it sits in, or the key benefit in a positioning shape. A description of people is not a positioning statement.
+- C: The age-and-city line is the group, not the persona. Goal, pain, objection, and trigger are the persona, not optional notes for later.
+- D: Removing the name, the trigger, and the objection throws away the part that makes the message writable. ""Office workers aged 25–40"" is the audience, and it is not yet a person."
+mcsc,markdown,"A phone-case seller says the customer is ""everyone who owns a phone.""
+
+Which move is segmentation, then targeting, then positioning?",,,,,,4,,"Ship a new logo and ten case features this week, and leave the customer stated as everyone who owns a phone.","Write a clever public line first, then hunt for any group that might like the words, and treat that hunt as the strategy.","Keep one message for every phone owner, because the largest possible crowd is already a finished segment and needs no cut, no choice, and no single idea.","Split owners into groups with different needs, choose one group, and lock the one idea that group should attach to this case.",,6ac35c82f857ae82a80bc927,0,markdown,"Segmentation cuts a market into groups with different needs. Targeting chooses which group to serve. Positioning locks the one idea that group should hold about the brand. ""Everyone who owns a phone"" skips the cut, so the first useful move is to split, choose, and then own one idea. A logo, a feature list, or a clever line written before that choice does not do those three jobs.
+
+**Why other options are wrong:**
+- A: A logo and a feature list do not divide the market, choose a group, or name the idea that group should remember.
+- B: A public line comes after the group and the idea are chosen. Starting from a clever line and then searching for fans reverses the order.
+- C: A crowd of all phone owners is not a segment. A segment has to be meaningfully different from the next group, and ""everyone"" is the choice this seller has not made."
+mcsc,markdown,"Riya and Meera are both 26, live in Jaipur, and earn about the same.
+
+- Riya pays more for a shoe repair because she wants people at work to see that the shoes look new.
+- Meera books a repair about twice a month, whenever a sole splits, and she wants that same fix each time.
+
+Which reading is right?",,,,,,1,,"Riya’s wish to be seen in new-looking shoes is psychographic. Meera’s twice-a-month sole repair is behavioural. Shared age, city, and income are not one buyer.","Both reasons are geographic, because Jaipur is the place they share, and place is the only cut that can change a message.","Riya is a demographic segment and Meera is a geographic segment, because the card already lists age and city and those two labels cover both stories.","One message fits both women, because matching age, city, and income already completes the choice of customer, so neither the wish to be seen nor the twice-a-month habit should change a single word.",,6ac35c82f857ae82a80bc927,0,markdown,"Demographic facts say who someone is on paper: age, city, income. Riya and Meera share that card and still buy for different reasons. Riya is buying a status outcome — people at work should notice the shoes — which is psychographic (how she wants to be seen). Meera’s twice-a-month sole repair is behavioural (frequency, and the benefit she seeks each time). One census row is not one customer, so one message will not fit both.
+
+**Why other options are wrong:**
+- B: City did not change between them. A geographic cut groups people by place when place changes the need. Here the place is the same and the reasons are not.
+- C: Age is demographic and city is geographic, but those labels describe the shared card, not the two reasons. Riya’s reason is not ""she is 26,"" and Meera’s reason is not ""she lives in Jaipur.""
+- D: Matching age, city, and income is the census row. The status wish and the twice-a-month habit would change the message, so the card is not a finished choice of customer."
+mcsc,markdown,"A banana seller describes a possible segment as: ""Commuters who exit only from Platform 4 at Dadar, buy exactly one banana, and board the 8:17 fast local.""
+
+Which judgment is the fair one?",,,,,,3,,"This fails measurable, because people leaving a platform can never be counted, so the group is only a feeling.","This fails reachable, because a seller can never stand on a platform or talk to commuters, so the group cannot be found at all.","This picture is vivid, and the group is almost certainly too small to build a business on, so it fails substantial.","This fails differentiable, because Platform 4 and Platform 5 always need different products, whatever those commuters buy.",,6ac35c82f857ae82a80bc927,0,markdown,"A useful segment is measurable, substantial, reachable, differentiable, and actionable. Substantial means big enough to build a business on. A handful of people defined by one platform, one banana, and one train is a vivid picture and almost certainly too small. The goal of a cut is a group you can serve, not a surgical description of one queue.
+
+**Why other options are wrong:**
+- A: Platform exits can be estimated. ""Can never be counted"" is not true, so this is not a measurable failure of the kind ""we have only a feeling and no count.""
+- B: The failure here is size, not access. A seller can stand near a platform and watch that queue, so ""cannot be found at all"" is not true.
+- D: Nothing in the description shows that Platform 5 needs a different product. Differentiable fails when two groups need the same message. That has not been shown."
+mcsc,markdown,"InkDrop refills a printer cartridge at the customer’s door for ₹90. Two candidate groups are scored like this:
+
+| Filter | First-years who print rarely | Designers with a client deck due tonight |
+|--------|------------------------------|------------------------------------------|
+| Market size | High | Medium |
+| Problem strength | Low — they want a cheap page, not a visit | High — a dead cartridge before a review |
+| Willingness to pay ₹90 | Low | Higher |
+| Reachability | High | High |
+| Crowding | High — many campus print shops | Medium |
+| Brand fit for a same-day doorstep refill | Low | High |
+
+Which reading of this scorecard is sound?",,,,,,2,,"Choose the first-years. Market size is High, and a High size overrides a weak problem, low willingness to pay, and low brand fit.","Choose the designers: a stronger problem, more willingness to pay ₹90, and a visit that fits a deadline. A large group with a weak problem is a trap.","Choose the first-years. Crowding is High, so the lasting move is to undercut campus print shops on price, and that lower price will keep winning after every rival copies it.","Serve both. Reachability is High in both columns, so problem strength, willingness to pay, crowding, and brand fit do not change the decision.",,6ac35c82f857ae82a80bc927,0.5,markdown,"Targeting scores each group on size, problem strength, willingness to pay, reachability, crowding, and brand fit. The first-year column is large, and the problem is weak, willingness to pay ₹90 is low, and a same-day doorstep visit fits them poorly. A huge group with a weak problem is a trap. The designer column is smaller, and the problem is strong, they are more willing to pay, crowding is lower, and the visit matches a real deadline. That is the sound choice.
+
+**Why other options are wrong:**
+- A: Size is one filter, not the only one. High size does not cancel a weak problem, low willingness to pay, or poor brand fit.
+- C: In a crowded campus-print market, price is the lever everyone can copy. A lower launch price does not stay an advantage once rivals match it.
+- D: Both columns are easy to reach. Reachability does not wipe out the other five rows. Those rows point to different decisions."
+mcsc,markdown,"A bike-taxi app must let a rider book, pay, and see the bike on a map. Riders already expect those three. A newer app does the same three, and also promises a bike within 4 minutes in three office districts. Riders there have been missing morning meetings. This company already has the bikes to hit 4 minutes on a normal weekday. A rival would need a much larger fleet in those districts to match it, and none has done that.
+
+Which reading is right?",,,,,,4,,"The live map is the point of difference, because the feature drawn first on the screen is what wins the booking, and a faster bike cannot matter once that map is already visible on the rider’s phone.","Booking, payment, the map, and the 4-minute promise are all points of difference, because a must-have cannot also be parity with other apps.","Drop booking and payment. Once any new promise exists, category must-haves are optional and can leave the product.","Booking, payment, and the map are points of parity. The 4-minute promise is the difference: riders care, this firm can deliver it on a normal weekday, and a rival needs a new fleet to match it.",,6ac35c82f857ae82a80bc927,0.5,markdown,"A point of parity is a must-have that keeps you in the category. Riders already expect to book, pay, and see the bike, so those three stop the app from being eliminated. They do not win the choice. A point of difference is the specific reason to choose this app. The 4-minute promise passes the three checks: riders care (they miss meetings), the company can deliver it on a normal weekday, and a rival cannot copy it tomorrow without a larger fleet. Parity keeps the app in the race. The 4 minutes can win it.
+
+**Why other options are wrong:**
+- A: The map is expected. A feature riders already get from other apps is parity, even if it is drawn first on the phone. A faster bike can still be the reason to switch. Seeing the map does not make speed irrelevant.
+- B: Must-haves are parity by definition. Calling all four items differences erases the line between ""we qualify"" and ""we win.""
+- C: Missing a must-have can lose the booking even when a difference is strong. Booking and payment stay. They are not optional extras."
+mcmc,markdown,"A steel bottle is described in three lines.
+
+- ""Double-wall steel.""
+- ""Stays cold through a three-hour lab.""
+- ""You skip the second cold drink after lab.""
+
+Which statements are correct?",,,,,,,,"""Double-wall steel"" is a feature. ""Stays cold through a three-hour lab"" is a benefit: what that fact lets the student do.","""Double-wall steel"" is already the value, because the wording on the spec sheet is the line the customer buys.","""So what?"" should keep going while the line is still a spec. ""You skip the second cold drink after lab"" is value: why the afternoon is better.","Value means stacking more technical numbers, such as millimetres of steel, grams of weight, a model code, and a lab certificate, until the spec block is the longest text on the box.","1, 3",6ac35c82f857ae82a80bc927,0.5,markdown,"A feature is a product fact (double-wall steel). A benefit is what that fact lets someone do (stay cold through a three-hour lab). Value is why life is better (no second cold drink after lab). The ""So what?"" test moves a spec toward that outcome. Stop when the line is about the person’s afternoon, not when the spec block is longer.
+
+**Why other options are wrong:**
+- B: The spec is the feature layer. Customers buy the outcome, not the words ""double-wall steel"" by themselves.
+- D: More millimetres, grams, and model codes are still features. Adding specs does not turn a feature into value."
+mcmc,markdown,"SoleRun, a same-day shoe repair, has three draft lines.
+
+- Line P: ""For office workers whose sole splits the morning of a client visit, SoleRun is a same-day shoe repair that returns the shoes before the meeting.""
+- Line Q: ""Shoes ready before the meeting.""
+- Line R: ""Redefining everyday craft.""
+
+Which statements are correct?",,,,,,,,"Line P and Line Q should be published as the same sentence, because internal positioning and the public tagline are one line that must do both jobs in the ad and on the page.","Line P is a positioning statement. It names the target, the need, the product, the category, and the benefit that should win the choice for that office worker.","Line R is a strong landing-page headline, because a first screen should stay abstract and should not mention shoes, a meeting, or a repair.","Line Q can be a short memory line. A landing-page headline must say what is sold, who it is for, and why it differs, which Line R never does.","2, 4",6ac35c82f857ae82a80bc927,0.5,markdown,"Line P follows the positioning shape: For office workers (target) whose sole splits the morning of a client visit (need), SoleRun (product) is a same-day shoe repair (category) that returns the shoes before the meeting (key benefit). That sentence is internal strategy. Line Q is a short public line. It can be remembered, and it does not have to repeat the full positioning sentence. A landing-page headline must say what you sell, who it is for, and why it is different. Line R says none of those.
+
+**Why other options are wrong:**
+- A: Positioning and the tagline are different jobs. The strategy sentence that names the category is not required to be the public line, and the public line is not the strategy document.
+- C: A headline that never says what is sold, who it is for, or what is different fails the first screen. ""Redefining everyday craft"" is that weak headline, not a strong one."
+mcmc,markdown,"A founder prompts: ""My target audience for a lunch tiffin. Write a tagline.""
+
+The model replies: ""Fuel your journey. Not just food, but a lifestyle.""
+
+Which judgments are correct?",,,,,,,,"The prompt is thin. It gives no price, no city type, and no job to be done, so the reply can slide toward a line that would fit almost anyone.","A fluent, confident reply is already a validated customer. Interviews, comments, and real orders are optional once the sentence sounds finished.","Before the line ships, judge tone, clarity, and resonance for one specific buyer. A smooth sentence is not yet a decision to publish.","""Fuel your journey"" and ""not just food, but a lifestyle"" are generic. A useful brief would tie the words to a person, a problem, and a proof.","1, 3, 4",6ac35c82f857ae82a80bc927,1,markdown,"A strong prompt gives product facts, place, price, and the job to be done, and it refuses ""everyone"" as a segment. ""My target audience for a lunch tiffin. Write a tagline."" does none of that, so a generic cheer is a likely result. ""Fuel your journey"" could sell almost anything. ""Not just food, but a lifestyle"" is a vague contrast with no proof. Even a fluent line is raw material: score tone (does it sound like this brand), clarity (understood in one read), and resonance (does it mirror that buyer’s afternoon). A model persona is a hypothesis. Real orders and conversations outrank it.
+
+**Why other options are wrong:**
+- B: Fluency is not evidence. If the people who actually buy do not match the implied person, the orders win. Treat the reply as a draft to test, not as a finished customer."
+mcmc,markdown,A team already has a positioning line and wants words for a first screen. Which statements are correct?,,,,,,,,"Ship the first fluent draft. Human judgment is only for the logo, after the sentence is public.","A brief that names the audience, the problem, the promise, the proof, the tone, and the action constrains the writer in a way a one-line wish does not.","Hide the brand name and read the line again. If it could advertise a bank or a hospital, it is not yet specific to this product’s category.","Clarity and resonance are the same test, so a bare spec such as ""USB-C, 8 watts"" automatically steps into the buyer’s afternoon and mirrors that situation with no further rewrite.","2, 3",6ac35c82f857ae82a80bc927,1,markdown,"Copy gets its job from a brief: who it is for, what problem they have, what outcome you promise, what proof you can say, what tone fits, and what single action you want. A wish such as ""write a tagline"" does not carry those six inputs. After drafting, hide the brand. If a bank or a hospital could run the same line, it is not category-specific, so rewrite it. The first draft is raw material. A person still has to judge it against the buyer and the positioning before it ships.
+
+**Why other options are wrong:**
+- A: Generate, then evaluate, then refine, then humanise. Shipping the first fluent draft skips the judgement. The logo is not a substitute for that pass.
+- D: Clarity and resonance are different. ""USB-C, 8 watts"" can be clear and still cold. Resonance mirrors the buyer’s situation. A spec does not do that by itself."
+subjective,markdown,"**One lamp, one person, one line**
+
+FoldLite is a study lamp sold online for **₹899**, delivered in Indian metro cities. It does four things you may use as proof:
+
+- A shade keeps the beam on one desk, so the next bed stays dark.
+- The light dims by itself after **50 minutes**.
+- It folds flat, about the size of a notebook, for a hostel shelf.
+- There is no app and no subscription.
+
+Buyers compare it with a phone torch (free, harsh after an hour), the hostel ceiling tube (lights the whole room), a **₹300** lamp that is bright and spills, and a **₹2,500** lamp that needs an app.
+
+Two founders disagree about who it is for. Use only the scorecard below.
+
+| Filter | Hostel students in shared rooms, studying after 10 p.m. | Families buying a lamp for a child who already has a private study table |
+|--------|----------------------------------------------------------|---------------------------------------------------------------------------|
+| Market size | High | High |
+| Problem strength | High — the ceiling light wakes the roommate; a phone torch strains after a while | Low — most already have a ceiling light or a study lamp |
+| Willingness to pay ₹899 | Medium | Medium |
+| Reachability | High — hostel groups and student social accounts | Medium |
+| Crowding | Medium — many cheap lamps, few that keep light off the next bed | High — stationery and electronics shops already sell study lamps |
+| Brand fit | High — fold-flat and a limited beam match a shared room | Low — spill and shelf size matter less in a private room |
+
+Their current positioning draft is:
+
+> For everyone who wants better light, FoldLite is a revolutionary lifestyle platform that empowers modern living.
+
+A sceptical reader sent these notes, and only these:
+
+1. ""Everyone"" is not a target.
+2. ""Lifestyle platform"" does not say this is a lamp.
+3. Nothing in the line is unique to a shared hostel room at night.
+4. ""Empowers modern living"" has no proof. The only proofs you may keep are the shade, the 50-minute dim, the fold-flat body, and ₹899.
+5. Do not turn FoldLite into another kind of product. Replace ""everyone"" with the one group this scorecard actually supports.
+
+The same draft also produced two public lines. The tone you want is calm and practical: a senior who has shared a room, not a meme page and not a coach.
+
+- Line A: ""Empowering tomorrow through next-gen illumination for modern living.""
+- Line B: ""Your roommate can sleep. Your chapter does not have to.""
+
+You may use a chat tool to draft. Every choice you submit has to follow the scorecard, the proofs, and the sceptic’s notes. Do not invent a new product feature.
+
+### What to submit
+
+Write one note in plain language, in five parts.
+
+1. **Who, and who not.** Choose one column. Name the primary pain in one sentence. Name the column you will not primarily sell to, and at least one filter that makes it the weaker target. Market size is High in both columns, so size alone cannot be your reason. ""Everyone who needs light"" does not count as a choice.
+2. **One persona.** Six lines for the winner: name, city, trigger time, goal, pain, objection. The objection must be something this buyer would actually say about ₹899 or about a lamp they already have.
+3. **Two strategy lines.** Write a value line in this shape, and only this shape: For [target audience] who [problem], [product] provides [benefit] because [reason to believe]. Then write a positioning line in this shape, and only this shape: For [target market] who [need], [product] is a [category] that [key benefit]. Under them, name one point of parity (a must-have that keeps FoldLite in the lamp category but does not win the choice) and one point of difference (the specific reason to choose it over the phone torch, the ceiling tube, and the ₹300 lamp). The positioning line must match the column you chose in part 1. Use only the proofs listed above. Do not call FoldLite a platform, and do not aim it at everyone.
+4. **The brief.** Six fields, one line each: audience, problem, promise, proof, tone, action. The action must be a try or a buy, not ""learn more"" and not ""explore.""
+5. **Judge, then rewrite.** For Line A and Line B, one sentence each on tone, clarity, and resonance. Then rewrite only the weaker line. The rewrite must be understandable in one breath, name the late-night occasion, include one proof from the list, and end with try or buy. Hide the brand and read it again: if it could advertise a bank, rewrite until it cannot. Do not use ""fuel your life,"" ""reimagining,"" or ""next-gen.""
+
+### Submission instruction
+
+- Type the answer in the answer box.",,,,,,,,,,,,,6ac35c82f857ae82a80bc927,0.5,markdown,"### A complete note
+
+**Who, and who not.** Sell to hostel students who study after 10 p.m. in a shared room. The primary pain is that the ceiling light wakes the roommate, and a phone torch is a poor substitute after a while. Do not primarily sell to families who already have a private study table. Market size is High in both columns, and willingness to pay is Medium in both, so size and price do not separate them. Problem strength is Low for those families, and brand fit is Low, because fold-flat and a limited beam solve a shared-room problem they do not have. A large group with a weak problem is a weak target. Crowding in stationery shops makes a price fight a poor backup.
+
+**One persona.** Any name and any metro city are fine if the other fields match this buyer.
+
+- Name: Neel
+- City: Pune
+- Trigger time: 11:30 p.m., the night before a unit test
+- Goal: finish one chapter without leaving the hostel room
+- Pain: the ceiling tube wakes the person in the next bed
+- Objection: ""₹899 is a lot next to a ₹300 lamp""
+
+**Two strategy lines.**
+
+Value line: For hostel students who study after 10 p.m. in a shared room and wake the next bed, FoldLite provides a desk beam that stays on one bunk because the shade limits spill and the light dims after 50 minutes.
+
+Positioning line: For hostel students in metro cities who need to study late without waking a roommate, FoldLite is a foldable study lamp that lights one desk and keeps the next bed dark.
+
+Point of parity: it lights a desk, which a buyer already expects from a lamp. The ₹300 lamp does that too. Missing it would drop FoldLite out of the category. It does not win the choice. The phone torch and the ceiling tube are substitutes, and they are not desk lamps, so ""it is a desk lamp"" only gets FoldLite onto the shortlist.
+
+Point of difference: the shade keeps the beam off the next bed. The student cares (the roommate is asleep). FoldLite can deliver it (that is what the shade does). A rival’s ""bright LED"" claim can be copied tomorrow and still spills, so brightness alone is not the difference. The 50-minute dim or the fold-flat body can be named as a supporting proof. The difference that matches the pain is the limited beam.
+
+The founders’ draft fails all five sceptic notes: ""everyone,"" ""lifestyle platform,"" no hostel night, no proof, and no lamp category. The lines above keep the hostel target and only the given proofs.
+
+**The brief.**
+
+- Audience: hostel students in shared rooms
+- Problem: late study lights the whole room and wakes the next bed
+- Promise: one chapter of light that stays on the desk
+- Proof: spill-limiting shade, 50-minute dim, folds flat, ₹899, no app
+- Tone: calm and practical
+- Action: Try FoldLite
+
+**Judge, then rewrite.**
+
+Line A fails tone (a slogan, not a calm roommate), clarity (no lamp, no hostel, no night), and resonance (nobody’s evening appears). It could sit on a bank or a hospital. It also uses ""next-gen,"" which the brief should have banned.
+
+Line B is closer. Tone is human. Clarity is decent on one read. Resonance is stronger, because a roommate and a chapter are in the line. It still has no proof and no next action, so it is not finished. It is the stronger of the two, so Line A is the one to rewrite.
+
+Rewrite: ""Study at 11 p.m. The shade keeps the next bed dark. Try FoldLite.""
+
+That is one breath. The occasion is 11 p.m. The proof is the shade. The action is try. With the name hidden, ""Study at 11 p.m. The shade keeps the next bed dark,"" a bank cannot run it.
+
+### Alternative approaches
+
+- Fill the six-field brief before writing the public line, then check the line against the brief. If the shade or the 50-minute dim never appears, the proof field was ignored.
+- Or repair the positioning line first, using only the five sceptic notes, and only then judge Line A and Line B. A public line that fights the positioning is not ready."
