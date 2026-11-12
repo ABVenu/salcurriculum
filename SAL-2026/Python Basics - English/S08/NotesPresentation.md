@@ -270,7 +270,7 @@ inspect("demo", 10, 20, city="Mumbai", note="ok")
 ## **Part 2 — Built-in Functions for Collections**
 
 - **Built-in:** ready-made tool Python already provides
-- You already used `len`, `append`, `add` — today the fuller toolkit
+- You already used `len`, `append`, `pop()` (last item), `add` — today the fuller toolkit (`insert`, `extend`, `remove`, revisit `pop`)
 
 </div>
 

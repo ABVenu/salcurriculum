@@ -204,7 +204,7 @@ Part 1 made your own functions flexible. This part uses tools Python already att
 - **In Simple Words:** You call a ready-made name instead of writing the same loop again.
 - **Real-Life Example:** Spreadsheet apps already offer **SUM** and **SORT**. Python lists and strings have similar ready helpers.
 
-You already used basic tools such as `len()`, `append()`, and `add()`. This part adds the helpers that were held back earlier.
+You already used basic tools such as `len()`, `append()`, `pop()` (last item), and `add()`. This part adds more helpers — including `insert`, `extend`, `remove`, and `pop(index)` — and revisits `pop()` inside that fuller toolkit.
 
 ### List Tools
 

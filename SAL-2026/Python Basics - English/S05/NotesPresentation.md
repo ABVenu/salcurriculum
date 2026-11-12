@@ -147,6 +147,8 @@ span.edgeLabel,
 
 Instructor notes. Brief points to teach from. Diagrams and images stay at original size. About two code snippets per concept.
 
+**Teach lists in this order:** create → index → `len()` → change (`append` / `pop` / replace) → loop.
+
 </div>
 
 <div markdown="1" style="color: #0f172a; border-left: 5px solid #475569; background: #f8fafc; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
@@ -164,9 +166,13 @@ Instructor notes. Brief points to teach from. Diagrams and images stay at origin
 
 ## **What You Will Learn**
 
-- **List:** ordered row, mixed types, index / negative index, loop, `len()`, `append()`
-- **String:** characters in order, index, slice, loop, immutability, concatenation + `len()`
-- **Part 1 — Lists** · **Part 2 — Strings**
+| Part | Build-up order |
+|------|----------------|
+| **Lists** | Create → index → `len()` → `append()` / `pop()` / replace → loop |
+| **Strings** | Index → slice → immutability + join → loop |
+
+- Mixed types in one list; negative index for the last item
+- Strings cannot be edited in place — build a **new** string with `+`
 
 </div>
 
@@ -201,11 +207,19 @@ Ordered bag you can change later.
 - **Simple:** numbered row of boxes; add at the end; read by number
 - **Example:** vegetable list — tomato, onion, potato; add coriander
 
+**Teaching path today**
+
+1. Create the list  
+2. Read one box with indexing  
+3. Measure with `len()`  
+4. Change with `append()` / `pop()` / replace  
+5. Visit every item with a loop  
+
 </div>
 
 <div markdown="1" style="color: #0f172a; border-left: 5px solid #0d9488; background: #f0fdfa; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
 
-## **Create a List · Mixed Types · `len()`**
+## **Step 1 — Create a List**
 
 ```python
 snacks = ["biscuit", "samosa", "tea", "cake"]
@@ -215,20 +229,25 @@ print(type(snacks))
 
 - `[]` + commas; one name holds many values
 - Without a list: `snack1`, `snack2`… hard to grow
+- Order is kept — first written item sits at the left
+
+**Mixed types are allowed**
 
 ```python
 student = ["Ananya", 18, True, 87.5]
 print(student)
-print(len(student))   # 4 items — not letters in the name
 ```
 
-- Mixed types OK; **`len(list)`** counts **elements**
+- String, int, boolean, float can share one list
+- Still one container — four separate boxes
 
 </div>
 
 <div markdown="1" style="color: #0f172a; border-left: 5px solid #b45309; background: #fffbeb; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
 
-## **Indexing and Negative Indexing**
+## **Step 2 — Indexing (Read One Item)**
+
+Python numbers positions from the **left**, starting at **`0`**.
 
 | Index | 0 | 1 | 2 | 3 |
 |-------|---|---|---|---|
@@ -238,55 +257,56 @@ print(len(student))   # 4 items — not letters in the name
 
 ```python
 snacks = ["biscuit", "samosa", "tea", "cake"]
-print(snacks[0])    # biscuit
-print(snacks[2])    # tea
-print(snacks[-1])   # cake
-print(snacks[-2])   # tea
+print(snacks[0])    # biscuit — first
+print(snacks[2])    # tea — third
+print(snacks[3])    # cake — last by positive index
 ```
 
-- Last index = `len(list) - 1`; `snacks[4]` → **IndexError**
-- `-1` = last; negative counts from the right
+- `snacks[0]` is always the first element
+- Valid indexes for 4 items: `0`, `1`, `2`, `3`
+- `snacks[4]` → **IndexError**
 
 </div>
 
-<div markdown="1" style="color: #0f172a; border-left: 5px solid #c2410c; background: #fff7ed; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #0369a1; background: #f0f9ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
 
-## **Iterate Through a List**
+## **Step 3 — Length with `len()`**
+
+```python
+student = ["Ananya", 18, True, 87.5]
+print(len(student))   # 4
+```
+
+- **`len(list)`** counts **elements** (boxes), not letters inside a string item
+- Last valid index = **`len(list) - 1`**
+- Common doubt: `len(student)` is `4`, not the letter count of `"Ananya"`
+
+**Negative indexing — count from the right**
+
+| Negative index | -4 | -3 | -2 | -1 |
+|----------------|----|----|----|----|
+| Value | biscuit | samosa | tea | cake |
 
 ```python
 snacks = ["biscuit", "samosa", "tea", "cake"]
-index = 0
-for item in snacks:
-    print("Index", index, "→", item)
-    index = index + 1
+print(snacks[-1])   # cake — last
+print(snacks[-2])   # tea — second-last
 ```
 
-```python
-snacks = ["biscuit", "samosa", "tea", "cake"]
-i = 0
-while i < len(snacks):
-    print(snacks[i])
-    i = i + 1
-```
-
-- `for item in list` — value each round
-- `for i in range(len(list)):` when position matters
-- Forget `i = i + 1` in `while` → infinite loop
-
-**Reverse walk**
-
-```python
-for i in range(len(snacks) - 1, -1, -1):
-    print(snacks[i])   # cake → … → biscuit
-```
+- `-1` is always the last item — useful after you know `len()`
+- Teach after length so students see why `-1` and `len - 1` point to the same box
 
 </div>
 
 <div markdown="1" style="color: #0f172a; border-left: 5px solid #047857; background: #ecfdf5; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
 
-## **`append()` — Add One at the End**
+## **Step 4 — Change the List (`append()`, `pop()`, Replace)**
+
+Lists are **mutable** — you can change them after creation.
 
 ![append adds one item at the end — rice, dal, and oil stay in place while sugar is attached as the new last box](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s05/s05-04-list-append.png?v=20261028)
+
+**`append()` — add one item at the end**
 
 ```python
 basket = ["rice", "dal"]
@@ -296,21 +316,109 @@ print(len(basket))  # 3
 print(basket[-1])   # oil
 ```
 
+- Older indexes stay the same; new item becomes the last box
+- `len()` grows by one
+
+**Start from an empty list**
+
 ```python
 plate = []
+print(len(plate))      # 0
 plate.append("dosa")
-print(plate)   # ['dosa']
+print(plate)           # ['dosa']
+print(len(plate))      # 1
 ```
 
-- Lists are **mutable**; older indexes stay the same
-- `insert` / `extend` wait for a later lesson — today **`append()`** only
+**`pop()` — remove the last item (returns it)**
+
+```python
+basket = ["rice", "dal", "oil"]
+removed = basket.pop()
+print(removed)      # oil
+print(basket)       # ['rice', 'dal']
+print(len(basket))  # 2
+```
+
+- Reverse of `append()` — shrinks from the end
+- Empty list + `pop()` → **IndexError**
+- `insert` / `extend` / `remove` / `pop(index)` return in a later built-ins lesson
 
 **Replace one box** (length unchanged)
 
 ```python
 order = ["tea", "samosa", "idli"]
 order[1] = "vada"
-print(order)   # ['tea', 'vada', 'idli']
+print(order)       # ['tea', 'vada', 'idli']
+print(len(order))  # still 3
+```
+
+| Action | What changes | Length |
+|--------|--------------|--------|
+| `append(x)` | Adds a **new** box at the end | Grows by 1 |
+| `pop()` | Removes and returns the **last** box | Shrinks by 1 |
+| `items[i] = value` | Overwrites one **existing** box | Same |
+
+</div>
+
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #c2410c; background: #fff7ed; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Step 5 — Loop Through a List**
+
+Now that you can create, index, measure, and change — visit **every** item.
+
+**`for item in list` — values only**
+
+```python
+snacks = ["biscuit", "samosa", "tea", "cake"]
+index = 0
+for item in snacks:
+    print("Index", index, "→", item)
+    index = index + 1
+```
+
+**`for i in range(len(list))` — when position matters**
+
+```python
+snacks = ["biscuit", "samosa", "tea", "cake"]
+for i in range(len(snacks)):
+    print("Index", i, "→", snacks[i])
+```
+
+**`while` — stop check written out**
+
+```python
+snacks = ["biscuit", "samosa", "tea", "cake"]
+i = 0
+while i < len(snacks):
+    print(snacks[i])
+    i = i + 1
+```
+
+- Forget `i = i + 1` → infinite loop
+- Use `for item in list` when you only need values; use `range(len(...))` when you need indexes
+
+**Reverse walk**
+
+```python
+for i in range(len(snacks) - 1, -1, -1):
+    print(snacks[i])   # cake → tea → samosa → biscuit
+```
+
+**Useful pattern — sum values in a list**
+
+```python
+marks = [78, 85, 92]
+total = 0
+for mark in marks:
+    total = total + mark
+print(total)       # 255
+print(len(marks))  # 3 — len counts items, not the sum
+```
+
+```mermaid
+flowchart LR
+    A[List of values] --> B[Loop visits each item]
+    B --> C[Update a total or print a line]
 ```
 
 </div>
@@ -319,17 +427,22 @@ print(order)   # ['tea', 'vada', 'idli']
 
 ## **Activity — Weekend Plan List**
 
+Uses the full path: create → index → append → `len()` → `pop()` → loop.
+
 ```python
 weekend = ["market", "temple", "movie"]
 print(weekend[0])
 print(weekend[-1])
 weekend.append("park")
-print(len(weekend))   # 4
+print(len(weekend))      # 4
+removed = weekend.pop()
+print(removed)           # park
+print(weekend)           # ['market', 'temple', 'movie']
 for plan in weekend:
     print(plan)
 ```
 
-- First / last before append; length 4 after; loop prints all four
+- First / last **before** append; grow then shrink; loop prints remaining three
 
 </div>
 
@@ -345,11 +458,20 @@ Text as a sequence — like a list of characters, with special rules.
 
 ![Python string indexing and slicing — a Mumbai station board with indexes 0 to 5, a highlighted slice of the first three letters, and Good Morning built by joining words](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s05/s05-02-string-indexing-slicing.png?v=20261028)
 
+**Teaching path today**
+
+1. Index + `len()`  
+2. Slice a part  
+3. Immutability + concatenation  
+4. Loop through characters  
+
 </div>
 
 <div markdown="1" style="color: #0f172a; border-left: 5px solid #a21caf; background: #faf5ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
 
-## **String Index · Even Positions · Loop**
+## **Step 1 — String Indexing and `len()`**
+
+Same index idea as lists — one **character** per position.
 
 ```python
 city = "Mumbai"
@@ -359,51 +481,15 @@ print(city[-1])    # i
 print(len(city))   # 6
 ```
 
-```python
-word = "RAINBOW"
-for i in range(0, len(word), 2):
-    print("Index", i, "→", word[i])   # R I B W
-
-for ch in word:
-    print(ch)   # every character
-```
-
-- Same index rules as lists; `city[6]` → **IndexError**
-- Spaces count in `len()`
-
-</div>
-
-<div markdown="1" style="color: #0f172a; border-left: 5px solid #4f46e5; background: #eef2ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
-
-## **Immutability and Concatenation**
-
-![Strings are locked — editing one letter in place fails, while joining R and ama builds a new string Rama](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s05/s05-05-string-immutable.png?v=20261028)
-
-- **Official:** immutable = cannot alter after creation
-- **Simple:** cannot edit one letter like a list item
-- **Example:** wrong seat on a printed ticket → issue a **new** ticket
-
-```python
-name = "rama"
-# name[0] = "R"   # TypeError — leave commented
-name = "R" + name[1:]
-print(name)   # Rama
-
-first = "Good"
-second = "Morning"
-greeting = first + " " + second
-print(greeting)        # Good Morning
-print(len(greeting))   # 12
-```
-
-- `+` builds a **new** string; assigning back replaces the variable
-- String methods (`upper`, …) wait for a later lesson
+- Indexes start at `0`; `-1` is the last character
+- Spaces and punctuation count in `len()` if present
+- `city[6]` → **IndexError** (valid indexes are `0` to `5`)
 
 </div>
 
 <div markdown="1" style="color: #0f172a; border-left: 5px solid #0f766e; background: #f0fdfa; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
 
-## **String Slicing**
+## **Step 2 — String Slicing**
 
 - `start` included; **`stop` excluded** (like `range`)
 - Optional `step`
@@ -420,6 +506,119 @@ print(phrase[::-1])   # reverse
 
 - Slice = **new** string; original unchanged
 - Out-of-range edges soft — unlike a single bad index
+- Teach slice **before** “changing” text so students can use `name[1:]` cleanly next
+
+</div>
+
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #4f46e5; background: #eef2ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Step 3 — Immutability and Concatenation**
+
+![Strings are locked — editing one letter in place fails, while joining R and ama builds a new string Rama](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s05/s05-05-string-immutable.png?v=20261028)
+
+- **Official:** immutable = cannot alter after creation
+- **Simple:** cannot edit one letter like a list item
+- **Example:** wrong seat on a printed ticket → issue a **new** ticket
+
+```python
+name = "rama"
+# name[0] = "R"   # TypeError — leave commented
+name = "R" + name[1:]
+print(name)   # Rama
+```
+
+```python
+first = "Good"
+second = "Morning"
+greeting = first + " " + second
+print(greeting)        # Good Morning
+print(len(greeting))   # 12
+```
+
+- `+` builds a **new** string; assigning back replaces the variable
+- Must join the space on purpose, or words stick together
+- String methods (`upper`, …) wait for a later lesson
+
+</div>
+
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #c2410c; background: #fff7ed; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Step 4 — Loop Through a String**
+
+**Every character**
+
+```python
+word = "RAINBOW"
+for ch in word:
+    print(ch)
+```
+
+**Even indexes only** (`0, 2, 4, …`)
+
+```python
+word = "RAINBOW"
+for i in range(0, len(word), 2):
+    print("Index", i, "→", word[i])   # R I B W
+```
+
+- `for ch in word` when you only need each character
+- Index form when the **position** matters
+- Loop comes last — after index, slice, and join are clear
+
+</div>
+
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #1d4ed8; background: #eff6ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Activity — Clean a Name Badge**
+
+```python
+full = "ananya rao"
+for i in range(0, len(full), 2):
+    print("Index", i, "→", full[i])
+print(full[0:6])                 # ananya
+line = "Hello" + " " + full
+print(line)                      # Hello ananya rao
+print(len(line))                 # 16
+print(full)                      # original unchanged
+```
+
+- Even indexes → slice → join → `len()` — original string stays locked
+
+</div>
+
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #7c3aed; background: #f5f3ff; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Lists and Strings Side by Side**
+
+| Question | List | String |
+|----------|------|--------|
+| One element? | Any stored value | One character |
+| Read a position? | `items[index]` | `text[index]` |
+| Last item? | `items[-1]` | `text[-1]` |
+| Measure? | `len(items)` → elements | `len(text)` → characters |
+| Visit each? | `for item in items` | `for ch in text` |
+| Replace one position? | Yes (`append` / `pop` / assign) | No — build a new string with `+` |
+| Take a part? | Read one index | Slice `[start:stop:step]` |
+
+</div>
+
+<div markdown="1" style="color: #0f172a; border-left: 5px solid #475569; background: #f8fafc; padding: 14px 18px; margin: 18px 0; border-radius: 0 10px 10px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
+
+## **Predict Before You Run**
+
+```python
+items = ["tea", "milk"]
+items.append("water")
+print(items[0])
+print(items[-1])
+print(len(items))
+label = "Bus" + " " + "Stop"
+print(label)
+print(len(label))
+print(label[0:3])
+```
+
+**Expected:** `tea` · `water` · `3` · `Bus Stop` · `8` · `Bus`
 
 </div>
 
@@ -427,10 +626,10 @@ print(phrase[::-1])   # reverse
 
 ## **Key Takeaways · Quick Reference**
 
-- **Lists:** ordered, grow with `append()`, index / negative index / loops / `len()`
-- **Strings:** immutable text — index, slice, loop, concatenate
+- **Lists:** create → index → `len()` → `append()` / `pop()` / replace → loop
+- **Strings:** index → slice → join (immutable) → loop
 - Slice stop is excluded; step `-1` reverses
-- Upcoming: other containers + more ready-made tools
+- Upcoming: other containers; a later lesson revisits more list tools (`insert`, `extend`, `pop(index)`, …)
 
 | Term | What it does |
 |------|----------------|
@@ -438,9 +637,10 @@ print(phrase[::-1])   # reverse
 | Index / negative index | From left (`0`) / from right (`-1`) |
 | `len(list)` / `len(string)` | Elements / characters |
 | `append(x)` | Add one item at end |
+| `pop()` | Remove and return last item |
+| Item assignment | `items[i] = value` replaces one box |
 | String | Immutable character sequence |
 | Slice `[start:stop:step]` | Copy a portion; stop excluded |
 | Concatenation `+` | Join into a new string |
 
 </div>
-

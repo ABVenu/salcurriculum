@@ -11,7 +11,7 @@ By the end, you will be able to:
 - Create a **list**, store mixed types in it, and measure it with **`len()`**
 - Access list items with **indexing** and **negative indexing**
 - Iterate through every list item with a loop, including a reverse walk
-- Add one item at the end of a list with **`append()`**
+- Add one item at the end with **`append()`**, and remove the last item with **`pop()`**
 - Index and slice a **string**, and loop through its characters
 - Explain why a string cannot be changed in place, and build a new string with **concatenation**
 
@@ -187,9 +187,9 @@ for i in range(len(snacks) - 1, -1, -1):  # Start at last index, stop before -1,
 - The reverse loop prints cake, tea, samosa, then biscuit.
 - **Why negative indexing helps:** You often need "the last bill item" or "the latest score" without knowing the list length by heart.
 
-### Changing Lists — `append()`
+### Changing Lists — `append()` and `pop()`
 
-Lists are **mutable** — you can change them after creation. The basic change in this lesson is **`append()`**, which adds one item at the end.
+Lists are **mutable** — you can change them after creation. In this lesson you grow a list with **`append()`** and shrink it from the end with **`pop()`**.
 
 ![append adds one item at the end — rice, dal, and oil stay in place while sugar is attached as the new last box](https://s13n-curr-images-bucket.s3.ap-south-1.amazonaws.com/sal-2026/python-basics-english/s05/s05-04-list-append.png?v=20261028)
 
@@ -207,7 +207,6 @@ print(basket[-1])  # The new last item is oil
 - `append` grows the list by **one** item.
 - `"rice"` stays at index `0`, and `"dal"` stays at index `1`. `"oil"` becomes index `2`.
 - `len()` grows by one because one element was added.
-- More ways to insert, remove, or reorder a list come in a later lesson. Today, adding means `append()`.
 
 You can also start from an empty list. The first `append()` places the item at index `0`.
 
@@ -225,9 +224,36 @@ print(len(plate))  # 1
 - `[]` is a real list. It is empty, not a missing name.
 - After one `append()`, the length is `1` and the only index is `0`.
 
+### `pop()` — Remove the Last Item
+
+**`pop()`** removes the **last** item and **returns** it. The list shrinks by one. Think of it as the reverse of `append()`.
+
+```python
+# Remove the last item from the basket
+basket = ["rice", "dal", "oil"]  # Three items
+removed = basket.pop()  # Take off the last item
+print(removed)      # oil — the value that was removed
+print(basket)       # ['rice', 'dal']
+print(len(basket))  # 2
+print(basket[-1])   # dal — new last item
+```
+
+**How the code works:**
+
+- `basket.pop()` deletes the last box and gives that value back.
+- You can store the returned value in a variable, or ignore it if you only need to shrink the list.
+- After `pop()`, indexes of the remaining items stay the same from the left.
+- **Common error:** Calling `pop()` on an **empty** list raises **IndexError**.
+- More list tools (`insert`, `extend`, `remove`, and `pop(index)`) come again in the built-in functions lesson. Today, end-of-list change means **`append()`** and **`pop()`**.
+
+| Action | What it does | Length |
+|--------|--------------|--------|
+| `append(x)` | Adds `x` at the end | Grows by 1 |
+| `pop()` | Removes and returns the last item | Shrinks by 1 |
+
 ### Replacing One Item in a List
 
-Besides adding at the end, you can **replace** the value at a known index. The list length stays the same.
+Besides adding or removing at the end, you can **replace** the value at a known index. The list length stays the same.
 
 ```python
 # Change one dish on the order slip
@@ -241,7 +267,7 @@ print(len(order))  # Still 3 — no new box was added
 **How the code works:**
 
 - `order[1] = "vada"` overwrites index `1`. Index `0` and index `2` stay as they were.
-- **`append()`** adds a new box. **Index assignment** edits a box that already exists.
+- **`append()`** adds a new box. **`pop()`** removes the last box. **Index assignment** edits a box that already exists.
 - **Common doubt:** Can a list hold the old and new value together at index `1`? No — the new value replaces the old one.
 
 ### Summing Values Stored in a List
@@ -274,9 +300,9 @@ flowchart LR
 
 1. Create a list called `weekend` with three plans (for example: `"market"`, `"temple"`, `"movie"`).
 2. Print the first and last plans using indexes (`0` and `-1`).
-3. Use `append()` to add one more plan.
-4. Print `len(weekend)`.
-5. Loop to print every plan from first to last.
+3. Use `append()` to add one more plan, then print `len(weekend)`.
+4. Use `pop()` once, print the removed plan, then print the list again.
+5. Loop to print every remaining plan from first to last.
 
 One worked version:
 
@@ -287,7 +313,10 @@ print(weekend[0])  # First plan
 print(weekend[-1])  # Last plan before the new one
 weekend.append("park")  # Add one plan at the end
 print(len(weekend))  # 4
-for plan in weekend:  # Visit every plan
+removed = weekend.pop()  # Remove the last plan
+print(removed)  # park
+print(weekend)  # ['market', 'temple', 'movie']
+for plan in weekend:  # Visit every remaining plan
     print(plan)
 ```
 
@@ -296,10 +325,11 @@ for plan in weekend:  # Visit every plan
 - `market`
 - `movie`
 - `4`
+- `park`
+- `['market', 'temple', 'movie']`
 - `market`
 - `temple`
 - `movie`
-- `park`
 
 ---
 
@@ -469,7 +499,7 @@ Both are ordered, and both start numbering at `0`. The difference is what you ar
 | How do you read the last item? | `items[-1]` | `text[-1]` |
 | How do you measure it? | `len(items)` counts elements | `len(text)` counts characters |
 | How do you visit each part? | `for item in items` | `for ch in text` |
-| Can you replace one position? | The list can grow with `append()` | No. Build a new string with `+` |
+| Can you replace one position? | Yes — `append()` / `pop()` / assign | No. Build a new string with `+` |
 | How do you take a part? | Read one index | Slice with `start:stop` or `start:stop:step` |
 
 Use a list when the row may grow, such as a basket that gains one more item. Use a string when the value is text you want to read, slice, or join.
@@ -519,12 +549,13 @@ print(label[0:3])  # First three characters
 | `while` loop never ends | Index not increased | Put `i = i + 1` inside the loop |
 | Two words stuck together | The space was not concatenated | Write `first + " " + second` |
 | Length of a list looks like a letter count | `len(list)` counts items | `len(student)` is `4`, not the letters in `"Ananya"` |
+| `IndexError` on `pop()` | The list is empty | Only call `pop()` when `len(list)` is greater than `0` |
 
 ---
 
 ## Key Takeaways
 
-- **Lists** store ordered collections you can grow — use indexing, negative indexing, loops, `len()`, and `append()` to add one item at the end.
+- **Lists** store ordered collections you can grow and shrink — use indexing, negative indexing, loops, `len()`, **`append()`** to add at the end, and **`pop()`** to remove the last item.
 - A `for` loop or a `while` loop can visit every list item. A reverse `range` walks the same list from the last index back to the first.
 - **Strings** are immutable text sequences — use indexing, even-position access, concatenation, and slicing. You cannot replace one character inside the existing string.
 - Slicing uses `start:stop:step`. The stop index is excluded. A step of `-1` reverses the text into a new string.
@@ -543,6 +574,7 @@ print(label[0:3])  # First three characters
 | **`len(list)`** | Number of elements in a list |
 | **`len(string)`** | Number of characters in a string, including spaces |
 | **`append(x)`** | Add one item at the end of a list |
+| **`pop()`** | Remove and return the last item of a list |
 | **Item assignment on a list** | `items[i] = value` replaces one element without changing length |
 | **`for item in list`** | Visit each list element from left to right |
 | **`for ch in string`** | Visit each character from left to right |

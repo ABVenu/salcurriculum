@@ -4,7 +4,7 @@ Part 1: Lists
 LO1: Explain why a list stores many values in order, including mixed data types.
 LO2: Demonstrate how to access list items with indexing and negative indexing.
 LO3: Demonstrate how to iterate through every item in a list using a loop.
-LO4: Implement a list by creating it, finding its length with len(), and adding one item with append().
+LO4: Implement a list by creating it, finding its length with len(), adding one item with append(), and removing the last item with pop().
 
 Part 2: Strings
 LO1: Explain a string as an ordered sequence of characters that cannot be changed in place.
